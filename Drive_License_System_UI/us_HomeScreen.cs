@@ -24,6 +24,60 @@ namespace Drive_License_System_UI
         {
             InitializeComponent();
         }
+
+        private void sercle_License_Overview(int Active, int Pending, int Expired)
+        {
+            var pieChart = new LiveCharts.Wpf.PieChart();
+            ehDonut.Child = pieChart;
+            var pie = (LiveCharts.Wpf.PieChart)ehDonut.Child;
+
+            pie.InnerRadius = 70;
+
+            pie.Series = new SeriesCollection
+    {
+        new LiveCharts.Wpf.PieSeries
+        {
+            Title = "Active",
+            Values = new ChartValues<int> { Active },
+            Fill = new SolidColorBrush(
+                System.Windows.Media.Color.FromRgb(88, 86, 214)),
+            Stroke = System.Windows.Media.Brushes.Transparent,
+            StrokeThickness = 0
+        },
+        new LiveCharts.Wpf.PieSeries
+        {
+            Title = "Pending",
+            Values = new ChartValues<int> { Pending },
+            Fill = new SolidColorBrush(
+                System.Windows.Media.Color.FromRgb(168, 85, 247)),
+            Stroke = System.Windows.Media.Brushes.Transparent,
+            StrokeThickness = 0
+        },
+        new LiveCharts.Wpf.PieSeries
+        {
+            Title = "Expired",
+            Values = new ChartValues<int> { Expired },
+            Fill = new SolidColorBrush(
+                System.Windows.Media.Color.FromRgb(34, 211, 238)),
+            Stroke = System.Windows.Media.Brushes.Transparent,
+            StrokeThickness = 0
+        }
+    };
+
+            pie.LegendLocation = LegendLocation.None;
+            pie.Hoverable = true;
+            pie.DataTooltip = new LiveCharts.Wpf.DefaultTooltip();
+
+            // بعد تحميل الدائرة
+            lblDonutTotal.Left = ehDonut.Left + (ehDonut.Width / 2) - (lblDonutTotal.Width / 2);
+            lblDonutTotal.Top = ehDonut.Top + (ehDonut.Height / 2) - (lblDonutTotal.Height / 2);
+            lblDonutTotal.BringToFront();
+
+            lblDonutLabel.Left = ehDonut.Left + (ehDonut.Width / 2) - (lblDonutLabel.Width / 2);
+            lblDonutLabel.Top = ehDonut.Top + (ehDonut.Height / 2) - (lblDonutLabel.Height / 2) - 20;
+            lblDonutLabel.BringToFront();
+
+        }
         private void ArrangeStatCards()
         {
             int totalWidth = flpStats.Width - 40;
@@ -55,6 +109,9 @@ namespace Drive_License_System_UI
         private void Us_welcom_s_Load(object sender, EventArgs e)
         {
             ArrangeStatCards();
+            sercle_License_Overview(45, 25, 30);
+
+
         }
 
         private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)

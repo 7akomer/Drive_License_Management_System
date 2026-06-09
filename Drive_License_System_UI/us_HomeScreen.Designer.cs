@@ -157,8 +157,11 @@
             this.LabelLine7ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelLine7licenseNo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelLine7Name = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.pnlLicenseOverview = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.ehDonut = new System.Windows.Forms.Integration.ElementHost();
+            this.lblDonutTotal = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblDonutLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlWelcome_s.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.pnlQuickActionCollectP.SuspendLayout();
@@ -213,7 +216,7 @@
             this.pnlLine7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLinePhoto7)).BeginInit();
             this.PanelLine7DaysOverdue.SuspendLayout();
-            this.guna2GradientPanel2.SuspendLayout();
+            this.pnlLicenseOverview.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlWelcome_s
@@ -236,7 +239,7 @@
             // 
             this.guna2GradientPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.White;
+            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.DarkViolet;
             this.guna2GradientPanel1.BorderRadius = 14;
             this.guna2GradientPanel1.BorderThickness = 1;
             this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionCollectP);
@@ -556,7 +559,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(21, 12);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(61, 12);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(134, 30);
             this.guna2HtmlLabel1.TabIndex = 10;
@@ -565,6 +568,7 @@
             // pnlExpiredLicenses
             // 
             this.pnlExpiredLicenses.BackColor = System.Drawing.Color.Transparent;
+            this.pnlExpiredLicenses.BorderColor = System.Drawing.Color.Black;
             this.pnlExpiredLicenses.BorderRadius = 14;
             this.pnlExpiredLicenses.Controls.Add(this.pnlLine7);
             this.pnlExpiredLicenses.Controls.Add(this.pnlLine6);
@@ -1550,7 +1554,7 @@
             // 
             // pnltableAndQuick
             // 
-            this.pnltableAndQuick.Controls.Add(this.guna2GradientPanel2);
+            this.pnltableAndQuick.Controls.Add(this.pnlLicenseOverview);
             this.pnltableAndQuick.Controls.Add(this.guna2GradientPanel1);
             this.pnltableAndQuick.Controls.Add(this.pnlExpiredLicenses);
             this.pnltableAndQuick.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1859,21 +1863,24 @@
             this.LabelLine7Name.TabIndex = 9;
             this.LabelLine7Name.Text = "Abdelhak Mer";
             // 
-            // guna2GradientPanel2
+            // pnlLicenseOverview
             // 
-            this.guna2GradientPanel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2GradientPanel2.AutoSize = true;
-            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.White;
-            this.guna2GradientPanel2.BorderRadius = 14;
-            this.guna2GradientPanel2.BorderThickness = 1;
-            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(21)))), ((int)(((byte)(53)))));
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(760, 8);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(8, 20, 8, 8);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(358, 580);
-            this.guna2GradientPanel2.TabIndex = 4;
+            this.pnlLicenseOverview.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pnlLicenseOverview.AutoSize = true;
+            this.pnlLicenseOverview.BorderColor = System.Drawing.Color.DarkViolet;
+            this.pnlLicenseOverview.BorderRadius = 14;
+            this.pnlLicenseOverview.BorderThickness = 1;
+            this.pnlLicenseOverview.Controls.Add(this.lblDonutLabel);
+            this.pnlLicenseOverview.Controls.Add(this.lblDonutTotal);
+            this.pnlLicenseOverview.Controls.Add(this.ehDonut);
+            this.pnlLicenseOverview.Controls.Add(this.guna2HtmlLabel2);
+            this.pnlLicenseOverview.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(21)))), ((int)(((byte)(53)))));
+            this.pnlLicenseOverview.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
+            this.pnlLicenseOverview.Location = new System.Drawing.Point(760, 8);
+            this.pnlLicenseOverview.Margin = new System.Windows.Forms.Padding(8, 20, 8, 8);
+            this.pnlLicenseOverview.Name = "pnlLicenseOverview";
+            this.pnlLicenseOverview.Size = new System.Drawing.Size(358, 580);
+            this.pnlLicenseOverview.TabIndex = 4;
             // 
             // guna2HtmlLabel2
             // 
@@ -1885,6 +1892,37 @@
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(167, 30);
             this.guna2HtmlLabel2.TabIndex = 13;
             this.guna2HtmlLabel2.Text = "License Overview";
+            // 
+            // ehDonut
+            // 
+            this.ehDonut.BackColor = System.Drawing.Color.Transparent;
+            this.ehDonut.Location = new System.Drawing.Point(40, 72);
+            this.ehDonut.Name = "ehDonut";
+            this.ehDonut.Size = new System.Drawing.Size(280, 280);
+            this.ehDonut.TabIndex = 14;
+            this.ehDonut.Child = null;
+            // 
+            // lblDonutTotal
+            // 
+            this.lblDonutTotal.BackColor = System.Drawing.Color.Transparent;
+            this.lblDonutTotal.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDonutTotal.ForeColor = System.Drawing.Color.White;
+            this.lblDonutTotal.Location = new System.Drawing.Point(140, 192);
+            this.lblDonutTotal.Name = "lblDonutTotal";
+            this.lblDonutTotal.Size = new System.Drawing.Size(68, 33);
+            this.lblDonutTotal.TabIndex = 15;
+            this.lblDonutTotal.Text = "21045";
+            // 
+            // lblDonutLabel
+            // 
+            this.lblDonutLabel.BackColor = System.Drawing.Color.Transparent;
+            this.lblDonutLabel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDonutLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
+            this.lblDonutLabel.Location = new System.Drawing.Point(152, 145);
+            this.lblDonutLabel.Name = "lblDonutLabel";
+            this.lblDonutLabel.Size = new System.Drawing.Size(44, 25);
+            this.lblDonutLabel.TabIndex = 16;
+            this.lblDonutLabel.Text = "Total";
             // 
             // Us_welcom_s
             // 
@@ -1976,8 +2014,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLinePhoto7)).EndInit();
             this.PanelLine7DaysOverdue.ResumeLayout(false);
             this.PanelLine7DaysOverdue.PerformLayout();
-            this.guna2GradientPanel2.ResumeLayout(false);
-            this.guna2GradientPanel2.PerformLayout();
+            this.pnlLicenseOverview.ResumeLayout(false);
+            this.pnlLicenseOverview.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2113,7 +2151,10 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine7ExpiryDate;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine7licenseNo;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine7Name;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
+        private Guna.UI2.WinForms.Guna2GradientPanel pnlLicenseOverview;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private System.Windows.Forms.Integration.ElementHost ehDonut;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblDonutTotal;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblDonutLabel;
     }
 }
