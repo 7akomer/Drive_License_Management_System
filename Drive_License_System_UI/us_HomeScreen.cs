@@ -24,6 +24,18 @@ namespace Drive_License_System_UI
         {
             InitializeComponent();
         }
+        private void ArrangeStatCards()
+        {
+            int totalWidth = flpStats.Width - 40;
+            int cardCount = 4;
+            int spacing = 10;
+            int cardWidth = (totalWidth - (spacing * (cardCount - 1))) / cardCount;
+
+            foreach (Control card in flpStats.Controls)
+            {
+                card.Width = cardWidth;
+            }
+        }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -42,7 +54,7 @@ namespace Drive_License_System_UI
 
         private void Us_welcom_s_Load(object sender, EventArgs e)
         {
-           
+            ArrangeStatCards();
         }
 
         private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)
@@ -122,6 +134,11 @@ namespace Drive_License_System_UI
         {
             pnlQuickActionCollectP.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
 
+        }
+
+        private void Us_welcom_s_Resize(object sender, EventArgs e)
+        {
+            ArrangeStatCards();
         }
     }
 }
