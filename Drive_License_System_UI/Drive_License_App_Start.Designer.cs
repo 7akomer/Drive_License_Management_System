@@ -552,7 +552,7 @@
             this.pnltop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnltop.Location = new System.Drawing.Point(275, 0);
             this.pnltop.Name = "pnltop";
-            this.pnltop.Size = new System.Drawing.Size(1145, 67);
+            this.pnltop.Size = new System.Drawing.Size(1561, 67);
             this.pnltop.TabIndex = 5;
             // 
             // pnluserInfo
@@ -562,7 +562,7 @@
             this.pnluserInfo.Controls.Add(this.lblUserName);
             this.pnluserInfo.Controls.Add(this.lblUserRole);
             this.pnluserInfo.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnluserInfo.Location = new System.Drawing.Point(856, 0);
+            this.pnluserInfo.Location = new System.Drawing.Point(1272, 0);
             this.pnluserInfo.Name = "pnluserInfo";
             this.pnluserInfo.Size = new System.Drawing.Size(289, 67);
             this.pnluserInfo.TabIndex = 6;
@@ -619,8 +619,9 @@
             this.pnlMainContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMainContent.Location = new System.Drawing.Point(275, 67);
             this.pnlMainContent.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlMainContent.MinimumSize = new System.Drawing.Size(1561, 885);
             this.pnlMainContent.Name = "pnlMainContent";
-            this.pnlMainContent.Size = new System.Drawing.Size(1145, 885);
+            this.pnlMainContent.Size = new System.Drawing.Size(1561, 885);
             this.pnlMainContent.TabIndex = 6;
             this.pnlMainContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMainContent_Paint);
             // 
@@ -681,7 +682,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1420, 952);
+            this.ClientSize = new System.Drawing.Size(1836, 952);
             this.Controls.Add(this.pnlMainContent);
             this.Controls.Add(this.pnltop);
             this.Controls.Add(this.pnlSiderbar);

@@ -63,7 +63,7 @@
             this.PanelLine4DaysOverdue = new Guna.UI2.WinForms.Guna2Panel();
             this.LabelLine4DaysOverdue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelLine4ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine4licenseNo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelLine4Name = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlLine3 = new Guna.UI2.WinForms.Guna2Panel();
             this.picLinePhoto3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -71,7 +71,7 @@
             this.PanelLine3DaysOverdue = new Guna.UI2.WinForms.Guna2Panel();
             this.LabelLine3DaysOverdue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelLine3ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine3licenseNo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelLine3Name = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlLine2 = new Guna.UI2.WinForms.Guna2Panel();
             this.picLinePhoto2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -79,7 +79,7 @@
             this.PanelLine2DaysOverdue = new Guna.UI2.WinForms.Guna2Panel();
             this.LabelLine2DaysOverdue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelLine2ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine2licenseNo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelLine2Name = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.picLinePhoto1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pnlLine1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -133,30 +133,32 @@
             this.welcomLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.flpStats = new System.Windows.Forms.FlowLayoutPanel();
             this.pnltableAndQuick = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlLine5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.picLinePhoto5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.ButtonLine5Action = new Guna.UI2.WinForms.Guna2Button();
+            this.PanelLine5DaysOverdue = new Guna.UI2.WinForms.Guna2Panel();
+            this.LabelLine5DaysOverdue = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine5ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine5licenseNo = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine5Name = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pnlLine6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.picLinePhoto6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.ButtonLine6Action = new Guna.UI2.WinForms.Guna2Button();
+            this.PanelLine6DaysOverdue = new Guna.UI2.WinForms.Guna2Panel();
+            this.LabelLine6DaysOverdue = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine6ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine6licenseNo = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine6Name = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pnlLine7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.picLinePhoto7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.ButtonLine7Action = new Guna.UI2.WinForms.Guna2Button();
+            this.PanelLine7DaysOverdue = new Guna.UI2.WinForms.Guna2Panel();
+            this.LabelLine7DaysOverdue = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine7ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine7licenseNo = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LabelLine7Name = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlWelcome_s.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.pnlQuickActionCollectP.SuspendLayout();
@@ -202,15 +204,16 @@
             this.lblWelcome.SuspendLayout();
             this.flpStats.SuspendLayout();
             this.pnltableAndQuick.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            this.guna2Panel2.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
-            this.guna2Panel4.SuspendLayout();
-            this.guna2Panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
-            this.guna2Panel6.SuspendLayout();
+            this.pnlLine5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLinePhoto5)).BeginInit();
+            this.PanelLine5DaysOverdue.SuspendLayout();
+            this.pnlLine6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLinePhoto6)).BeginInit();
+            this.PanelLine6DaysOverdue.SuspendLayout();
+            this.pnlLine7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLinePhoto7)).BeginInit();
+            this.PanelLine7DaysOverdue.SuspendLayout();
+            this.guna2GradientPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlWelcome_s
@@ -233,7 +236,9 @@
             // 
             this.guna2GradientPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.White;
             this.guna2GradientPanel1.BorderRadius = 14;
+            this.guna2GradientPanel1.BorderThickness = 1;
             this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionCollectP);
             this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionScheduleEx);
             this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionIssueL);
@@ -561,9 +566,9 @@
             // 
             this.pnlExpiredLicenses.BackColor = System.Drawing.Color.Transparent;
             this.pnlExpiredLicenses.BorderRadius = 14;
-            this.pnlExpiredLicenses.Controls.Add(this.guna2Panel5);
-            this.pnlExpiredLicenses.Controls.Add(this.guna2Panel3);
-            this.pnlExpiredLicenses.Controls.Add(this.guna2Panel1);
+            this.pnlExpiredLicenses.Controls.Add(this.pnlLine7);
+            this.pnlExpiredLicenses.Controls.Add(this.pnlLine6);
+            this.pnlExpiredLicenses.Controls.Add(this.pnlLine5);
             this.pnlExpiredLicenses.Controls.Add(this.guna2GradientButton1);
             this.pnlExpiredLicenses.Controls.Add(this.pnlLine4);
             this.pnlExpiredLicenses.Controls.Add(this.pnlLine3);
@@ -577,7 +582,7 @@
             this.pnlExpiredLicenses.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
             this.pnlExpiredLicenses.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.pnlExpiredLicenses.Location = new System.Drawing.Point(25, 8);
-            this.pnlExpiredLicenses.Margin = new System.Windows.Forms.Padding(20, 20, 8, 8);
+            this.pnlExpiredLicenses.Margin = new System.Windows.Forms.Padding(20, 20, 20, 8);
             this.pnlExpiredLicenses.Name = "pnlExpiredLicenses";
             this.pnlExpiredLicenses.ShadowDecoration.Depth = 2;
             this.pnlExpiredLicenses.ShadowDecoration.Enabled = true;
@@ -612,7 +617,7 @@
             this.pnlLine4.Controls.Add(this.ButtonLine4Action);
             this.pnlLine4.Controls.Add(this.PanelLine4DaysOverdue);
             this.pnlLine4.Controls.Add(this.LabelLine4ExpiryDate);
-            this.pnlLine4.Controls.Add(this.guna2HtmlLabel11);
+            this.pnlLine4.Controls.Add(this.LabelLine4licenseNo);
             this.pnlLine4.Controls.Add(this.LabelLine4Name);
             this.pnlLine4.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLine4.Location = new System.Drawing.Point(0, 295);
@@ -683,16 +688,16 @@
             this.LabelLine4ExpiryDate.TabIndex = 11;
             this.LabelLine4ExpiryDate.Text = "Jun 10,2025";
             // 
-            // guna2HtmlLabel11
+            // LabelLine4licenseNo
             // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(214, 18);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(90, 25);
-            this.guna2HtmlLabel11.TabIndex = 10;
-            this.guna2HtmlLabel11.Text = "DL-2012-45";
+            this.LabelLine4licenseNo.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine4licenseNo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine4licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine4licenseNo.Location = new System.Drawing.Point(214, 18);
+            this.LabelLine4licenseNo.Name = "LabelLine4licenseNo";
+            this.LabelLine4licenseNo.Size = new System.Drawing.Size(90, 25);
+            this.LabelLine4licenseNo.TabIndex = 10;
+            this.LabelLine4licenseNo.Text = "DL-2012-45";
             // 
             // LabelLine4Name
             // 
@@ -711,7 +716,7 @@
             this.pnlLine3.Controls.Add(this.ButtonLine3Action);
             this.pnlLine3.Controls.Add(this.PanelLine3DaysOverdue);
             this.pnlLine3.Controls.Add(this.LabelLine3ExpiryDate);
-            this.pnlLine3.Controls.Add(this.guna2HtmlLabel7);
+            this.pnlLine3.Controls.Add(this.LabelLine3licenseNo);
             this.pnlLine3.Controls.Add(this.LabelLine3Name);
             this.pnlLine3.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLine3.Location = new System.Drawing.Point(0, 237);
@@ -782,16 +787,16 @@
             this.LabelLine3ExpiryDate.TabIndex = 11;
             this.LabelLine3ExpiryDate.Text = "Jun 10,2025";
             // 
-            // guna2HtmlLabel7
+            // LabelLine3licenseNo
             // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(214, 18);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(90, 25);
-            this.guna2HtmlLabel7.TabIndex = 10;
-            this.guna2HtmlLabel7.Text = "DL-2012-45";
+            this.LabelLine3licenseNo.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine3licenseNo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine3licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine3licenseNo.Location = new System.Drawing.Point(214, 18);
+            this.LabelLine3licenseNo.Name = "LabelLine3licenseNo";
+            this.LabelLine3licenseNo.Size = new System.Drawing.Size(90, 25);
+            this.LabelLine3licenseNo.TabIndex = 10;
+            this.LabelLine3licenseNo.Text = "DL-2012-45";
             // 
             // LabelLine3Name
             // 
@@ -811,7 +816,7 @@
             this.pnlLine2.Controls.Add(this.ButtonLine2Action);
             this.pnlLine2.Controls.Add(this.PanelLine2DaysOverdue);
             this.pnlLine2.Controls.Add(this.LabelLine2ExpiryDate);
-            this.pnlLine2.Controls.Add(this.guna2HtmlLabel3);
+            this.pnlLine2.Controls.Add(this.LabelLine2licenseNo);
             this.pnlLine2.Controls.Add(this.LabelLine2Name);
             this.pnlLine2.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLine2.Location = new System.Drawing.Point(0, 180);
@@ -882,16 +887,16 @@
             this.LabelLine2ExpiryDate.TabIndex = 11;
             this.LabelLine2ExpiryDate.Text = "Jun 10,2025";
             // 
-            // guna2HtmlLabel3
+            // LabelLine2licenseNo
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(214, 18);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(90, 25);
-            this.guna2HtmlLabel3.TabIndex = 10;
-            this.guna2HtmlLabel3.Text = "DL-2012-45";
+            this.LabelLine2licenseNo.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine2licenseNo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine2licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine2licenseNo.Location = new System.Drawing.Point(214, 18);
+            this.LabelLine2licenseNo.Name = "LabelLine2licenseNo";
+            this.LabelLine2licenseNo.Size = new System.Drawing.Size(90, 25);
+            this.LabelLine2licenseNo.TabIndex = 10;
+            this.LabelLine2licenseNo.Text = "DL-2012-45";
             // 
             // LabelLine2Name
             // 
@@ -1147,6 +1152,7 @@
             this.pnlCardLicenses.Controls.Add(this.lblValueLicenses);
             this.pnlCardLicenses.Controls.Add(this.lblTitleLicenses);
             this.pnlCardLicenses.Controls.Add(this.lblIconLicenses);
+            this.pnlCardLicenses.Cursor = System.Windows.Forms.Cursors.Default;
             this.pnlCardLicenses.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(22)))), ((int)(((byte)(90)))));
             this.pnlCardLicenses.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
             this.pnlCardLicenses.Location = new System.Drawing.Point(335, 10);
@@ -1235,6 +1241,7 @@
             this.pnlCardPending.Controls.Add(this.lblValuePending);
             this.pnlCardPending.Controls.Add(this.lblTitlePending);
             this.pnlCardPending.Controls.Add(this.pnlIconPending);
+            this.pnlCardPending.Cursor = System.Windows.Forms.Cursors.Default;
             this.pnlCardPending.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(25)))), ((int)(((byte)(80)))));
             this.pnlCardPending.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(16)))), ((int)(((byte)(70)))));
             this.pnlCardPending.Location = new System.Drawing.Point(645, 10);
@@ -1320,6 +1327,7 @@
             this.pnlTotalCash.Controls.Add(this.lblTodayRevenue_Value);
             this.pnlTotalCash.Controls.Add(this.lblTodayRevenue);
             this.pnlTotalCash.Controls.Add(this.pnlIconCash);
+            this.pnlTotalCash.Cursor = System.Windows.Forms.Cursors.Default;
             this.pnlTotalCash.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(55)))), ((int)(((byte)(85)))));
             this.pnlTotalCash.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(17)))), ((int)(((byte)(79)))));
             this.pnlTotalCash.Location = new System.Drawing.Point(955, 10);
@@ -1406,6 +1414,7 @@
             this.pnlCardApplications.Controls.Add(this.lblValueApplications);
             this.pnlCardApplications.Controls.Add(this.lblTitleApplications);
             this.pnlCardApplications.Controls.Add(this.pnlIconApplications);
+            this.pnlCardApplications.Cursor = System.Windows.Forms.Cursors.Default;
             this.pnlCardApplications.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(35)))), ((int)(((byte)(95)))));
             this.pnlCardApplications.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
             this.pnlCardApplications.Location = new System.Drawing.Point(25, 10);
@@ -1541,6 +1550,7 @@
             // 
             // pnltableAndQuick
             // 
+            this.pnltableAndQuick.Controls.Add(this.guna2GradientPanel2);
             this.pnltableAndQuick.Controls.Add(this.guna2GradientPanel1);
             this.pnltableAndQuick.Controls.Add(this.pnlExpiredLicenses);
             this.pnltableAndQuick.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1549,305 +1559,332 @@
             this.pnltableAndQuick.Size = new System.Drawing.Size(1561, 599);
             this.pnltableAndQuick.TabIndex = 5;
             // 
-            // guna2Panel1
+            // pnlLine5
             // 
-            this.guna2Panel1.BorderColor = System.Drawing.Color.White;
-            this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Controls.Add(this.guna2Panel2);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel5);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel6);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 356);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(724, 61);
-            this.guna2Panel1.TabIndex = 17;
+            this.pnlLine5.BorderColor = System.Drawing.Color.White;
+            this.pnlLine5.Controls.Add(this.picLinePhoto5);
+            this.pnlLine5.Controls.Add(this.ButtonLine5Action);
+            this.pnlLine5.Controls.Add(this.PanelLine5DaysOverdue);
+            this.pnlLine5.Controls.Add(this.LabelLine5ExpiryDate);
+            this.pnlLine5.Controls.Add(this.LabelLine5licenseNo);
+            this.pnlLine5.Controls.Add(this.LabelLine5Name);
+            this.pnlLine5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlLine5.Location = new System.Drawing.Point(0, 356);
+            this.pnlLine5.Name = "pnlLine5";
+            this.pnlLine5.Size = new System.Drawing.Size(724, 61);
+            this.pnlLine5.TabIndex = 17;
             // 
-            // guna2CirclePictureBox1
+            // picLinePhoto5
             // 
-            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(86)))), ((int)(((byte)(214)))));
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(12, 8);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(45, 45);
-            this.guna2CirclePictureBox1.TabIndex = 16;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.picLinePhoto5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(86)))), ((int)(((byte)(214)))));
+            this.picLinePhoto5.ImageRotate = 0F;
+            this.picLinePhoto5.Location = new System.Drawing.Point(12, 8);
+            this.picLinePhoto5.Name = "picLinePhoto5";
+            this.picLinePhoto5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picLinePhoto5.Size = new System.Drawing.Size(45, 45);
+            this.picLinePhoto5.TabIndex = 16;
+            this.picLinePhoto5.TabStop = false;
             // 
-            // guna2Button1
+            // ButtonLine5Action
             // 
-            this.guna2Button1.BorderRadius = 8;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(25, 15);
-            this.guna2Button1.Location = new System.Drawing.Point(640, 8);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(40, 37);
-            this.guna2Button1.TabIndex = 6;
+            this.ButtonLine5Action.BorderRadius = 8;
+            this.ButtonLine5Action.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine5Action.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ButtonLine5Action.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ButtonLine5Action.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ButtonLine5Action.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ButtonLine5Action.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
+            this.ButtonLine5Action.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ButtonLine5Action.ForeColor = System.Drawing.Color.White;
+            this.ButtonLine5Action.Image = global::Drive_License_System_UI.Properties.Resources._201;
+            this.ButtonLine5Action.ImageSize = new System.Drawing.Size(25, 15);
+            this.ButtonLine5Action.Location = new System.Drawing.Point(640, 8);
+            this.ButtonLine5Action.Name = "ButtonLine5Action";
+            this.ButtonLine5Action.Size = new System.Drawing.Size(40, 37);
+            this.ButtonLine5Action.TabIndex = 6;
             // 
-            // guna2Panel2
+            // PanelLine5DaysOverdue
             // 
-            this.guna2Panel2.BorderRadius = 8;
-            this.guna2Panel2.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(30)))), ((int)(((byte)(50)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(500, 12);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(79, 31);
-            this.guna2Panel2.TabIndex = 4;
+            this.PanelLine5DaysOverdue.BorderRadius = 8;
+            this.PanelLine5DaysOverdue.Controls.Add(this.LabelLine5DaysOverdue);
+            this.PanelLine5DaysOverdue.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(30)))), ((int)(((byte)(50)))));
+            this.PanelLine5DaysOverdue.Location = new System.Drawing.Point(500, 12);
+            this.PanelLine5DaysOverdue.Name = "PanelLine5DaysOverdue";
+            this.PanelLine5DaysOverdue.Size = new System.Drawing.Size(79, 31);
+            this.PanelLine5DaysOverdue.TabIndex = 4;
+            // 
+            // LabelLine5DaysOverdue
+            // 
+            this.LabelLine5DaysOverdue.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LabelLine5DaysOverdue.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine5DaysOverdue.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine5DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.LabelLine5DaysOverdue.Location = new System.Drawing.Point(13, 5);
+            this.LabelLine5DaysOverdue.Name = "LabelLine5DaysOverdue";
+            this.LabelLine5DaysOverdue.Size = new System.Drawing.Size(54, 22);
+            this.LabelLine5DaysOverdue.TabIndex = 9;
+            this.LabelLine5DaysOverdue.Text = "22 deys";
+            this.LabelLine5DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LabelLine5ExpiryDate
+            // 
+            this.LabelLine5ExpiryDate.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine5ExpiryDate.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine5ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine5ExpiryDate.Location = new System.Drawing.Point(371, 18);
+            this.LabelLine5ExpiryDate.Name = "LabelLine5ExpiryDate";
+            this.LabelLine5ExpiryDate.Size = new System.Drawing.Size(91, 25);
+            this.LabelLine5ExpiryDate.TabIndex = 11;
+            this.LabelLine5ExpiryDate.Text = "Jun 10,2025";
+            // 
+            // LabelLine5licenseNo
+            // 
+            this.LabelLine5licenseNo.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine5licenseNo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine5licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine5licenseNo.Location = new System.Drawing.Point(214, 18);
+            this.LabelLine5licenseNo.Name = "LabelLine5licenseNo";
+            this.LabelLine5licenseNo.Size = new System.Drawing.Size(90, 25);
+            this.LabelLine5licenseNo.TabIndex = 10;
+            this.LabelLine5licenseNo.Text = "DL-2012-45";
+            // 
+            // LabelLine5Name
+            // 
+            this.LabelLine5Name.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine5Name.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine5Name.ForeColor = System.Drawing.Color.White;
+            this.LabelLine5Name.Location = new System.Drawing.Point(61, 18);
+            this.LabelLine5Name.Name = "LabelLine5Name";
+            this.LabelLine5Name.Size = new System.Drawing.Size(111, 25);
+            this.LabelLine5Name.TabIndex = 9;
+            this.LabelLine5Name.Text = "Abdelhak Mer";
+            // 
+            // pnlLine6
+            // 
+            this.pnlLine6.BorderColor = System.Drawing.Color.White;
+            this.pnlLine6.Controls.Add(this.picLinePhoto6);
+            this.pnlLine6.Controls.Add(this.ButtonLine6Action);
+            this.pnlLine6.Controls.Add(this.PanelLine6DaysOverdue);
+            this.pnlLine6.Controls.Add(this.LabelLine6ExpiryDate);
+            this.pnlLine6.Controls.Add(this.LabelLine6licenseNo);
+            this.pnlLine6.Controls.Add(this.LabelLine6Name);
+            this.pnlLine6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlLine6.Location = new System.Drawing.Point(0, 417);
+            this.pnlLine6.Name = "pnlLine6";
+            this.pnlLine6.Size = new System.Drawing.Size(724, 61);
+            this.pnlLine6.TabIndex = 18;
+            // 
+            // picLinePhoto6
+            // 
+            this.picLinePhoto6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(86)))), ((int)(((byte)(214)))));
+            this.picLinePhoto6.ImageRotate = 0F;
+            this.picLinePhoto6.Location = new System.Drawing.Point(12, 8);
+            this.picLinePhoto6.Name = "picLinePhoto6";
+            this.picLinePhoto6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picLinePhoto6.Size = new System.Drawing.Size(45, 45);
+            this.picLinePhoto6.TabIndex = 16;
+            this.picLinePhoto6.TabStop = false;
+            // 
+            // ButtonLine6Action
+            // 
+            this.ButtonLine6Action.BorderRadius = 8;
+            this.ButtonLine6Action.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine6Action.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ButtonLine6Action.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ButtonLine6Action.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ButtonLine6Action.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ButtonLine6Action.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
+            this.ButtonLine6Action.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ButtonLine6Action.ForeColor = System.Drawing.Color.White;
+            this.ButtonLine6Action.Image = global::Drive_License_System_UI.Properties.Resources._201;
+            this.ButtonLine6Action.ImageSize = new System.Drawing.Size(25, 15);
+            this.ButtonLine6Action.Location = new System.Drawing.Point(640, 8);
+            this.ButtonLine6Action.Name = "ButtonLine6Action";
+            this.ButtonLine6Action.Size = new System.Drawing.Size(40, 37);
+            this.ButtonLine6Action.TabIndex = 6;
+            // 
+            // PanelLine6DaysOverdue
+            // 
+            this.PanelLine6DaysOverdue.BorderRadius = 8;
+            this.PanelLine6DaysOverdue.Controls.Add(this.LabelLine6DaysOverdue);
+            this.PanelLine6DaysOverdue.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(30)))), ((int)(((byte)(50)))));
+            this.PanelLine6DaysOverdue.Location = new System.Drawing.Point(500, 12);
+            this.PanelLine6DaysOverdue.Name = "PanelLine6DaysOverdue";
+            this.PanelLine6DaysOverdue.Size = new System.Drawing.Size(79, 31);
+            this.PanelLine6DaysOverdue.TabIndex = 4;
+            // 
+            // LabelLine6DaysOverdue
+            // 
+            this.LabelLine6DaysOverdue.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LabelLine6DaysOverdue.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine6DaysOverdue.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine6DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.LabelLine6DaysOverdue.Location = new System.Drawing.Point(13, 5);
+            this.LabelLine6DaysOverdue.Name = "LabelLine6DaysOverdue";
+            this.LabelLine6DaysOverdue.Size = new System.Drawing.Size(54, 22);
+            this.LabelLine6DaysOverdue.TabIndex = 9;
+            this.LabelLine6DaysOverdue.Text = "22 deys";
+            this.LabelLine6DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LabelLine6ExpiryDate
+            // 
+            this.LabelLine6ExpiryDate.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine6ExpiryDate.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine6ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine6ExpiryDate.Location = new System.Drawing.Point(371, 18);
+            this.LabelLine6ExpiryDate.Name = "LabelLine6ExpiryDate";
+            this.LabelLine6ExpiryDate.Size = new System.Drawing.Size(91, 25);
+            this.LabelLine6ExpiryDate.TabIndex = 11;
+            this.LabelLine6ExpiryDate.Text = "Jun 10,2025";
+            // 
+            // LabelLine6licenseNo
+            // 
+            this.LabelLine6licenseNo.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine6licenseNo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine6licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine6licenseNo.Location = new System.Drawing.Point(214, 18);
+            this.LabelLine6licenseNo.Name = "LabelLine6licenseNo";
+            this.LabelLine6licenseNo.Size = new System.Drawing.Size(90, 25);
+            this.LabelLine6licenseNo.TabIndex = 10;
+            this.LabelLine6licenseNo.Text = "DL-2012-45";
+            // 
+            // LabelLine6Name
+            // 
+            this.LabelLine6Name.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine6Name.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine6Name.ForeColor = System.Drawing.Color.White;
+            this.LabelLine6Name.Location = new System.Drawing.Point(61, 18);
+            this.LabelLine6Name.Name = "LabelLine6Name";
+            this.LabelLine6Name.Size = new System.Drawing.Size(111, 25);
+            this.LabelLine6Name.TabIndex = 9;
+            this.LabelLine6Name.Text = "Abdelhak Mer";
+            // 
+            // pnlLine7
+            // 
+            this.pnlLine7.BorderColor = System.Drawing.Color.White;
+            this.pnlLine7.Controls.Add(this.picLinePhoto7);
+            this.pnlLine7.Controls.Add(this.ButtonLine7Action);
+            this.pnlLine7.Controls.Add(this.PanelLine7DaysOverdue);
+            this.pnlLine7.Controls.Add(this.LabelLine7ExpiryDate);
+            this.pnlLine7.Controls.Add(this.LabelLine7licenseNo);
+            this.pnlLine7.Controls.Add(this.LabelLine7Name);
+            this.pnlLine7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlLine7.Location = new System.Drawing.Point(0, 478);
+            this.pnlLine7.Name = "pnlLine7";
+            this.pnlLine7.Size = new System.Drawing.Size(724, 61);
+            this.pnlLine7.TabIndex = 19;
+            // 
+            // picLinePhoto7
+            // 
+            this.picLinePhoto7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(86)))), ((int)(((byte)(214)))));
+            this.picLinePhoto7.ImageRotate = 0F;
+            this.picLinePhoto7.Location = new System.Drawing.Point(12, 8);
+            this.picLinePhoto7.Name = "picLinePhoto7";
+            this.picLinePhoto7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picLinePhoto7.Size = new System.Drawing.Size(45, 45);
+            this.picLinePhoto7.TabIndex = 16;
+            this.picLinePhoto7.TabStop = false;
+            // 
+            // ButtonLine7Action
+            // 
+            this.ButtonLine7Action.BorderRadius = 8;
+            this.ButtonLine7Action.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine7Action.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ButtonLine7Action.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ButtonLine7Action.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ButtonLine7Action.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ButtonLine7Action.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
+            this.ButtonLine7Action.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ButtonLine7Action.ForeColor = System.Drawing.Color.White;
+            this.ButtonLine7Action.Image = global::Drive_License_System_UI.Properties.Resources._201;
+            this.ButtonLine7Action.ImageSize = new System.Drawing.Size(25, 15);
+            this.ButtonLine7Action.Location = new System.Drawing.Point(640, 8);
+            this.ButtonLine7Action.Name = "ButtonLine7Action";
+            this.ButtonLine7Action.Size = new System.Drawing.Size(40, 37);
+            this.ButtonLine7Action.TabIndex = 6;
+            // 
+            // PanelLine7DaysOverdue
+            // 
+            this.PanelLine7DaysOverdue.BorderRadius = 8;
+            this.PanelLine7DaysOverdue.Controls.Add(this.LabelLine7DaysOverdue);
+            this.PanelLine7DaysOverdue.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(30)))), ((int)(((byte)(50)))));
+            this.PanelLine7DaysOverdue.Location = new System.Drawing.Point(500, 12);
+            this.PanelLine7DaysOverdue.Name = "PanelLine7DaysOverdue";
+            this.PanelLine7DaysOverdue.Size = new System.Drawing.Size(79, 31);
+            this.PanelLine7DaysOverdue.TabIndex = 4;
+            // 
+            // LabelLine7DaysOverdue
+            // 
+            this.LabelLine7DaysOverdue.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LabelLine7DaysOverdue.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine7DaysOverdue.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine7DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.LabelLine7DaysOverdue.Location = new System.Drawing.Point(13, 5);
+            this.LabelLine7DaysOverdue.Name = "LabelLine7DaysOverdue";
+            this.LabelLine7DaysOverdue.Size = new System.Drawing.Size(54, 22);
+            this.LabelLine7DaysOverdue.TabIndex = 9;
+            this.LabelLine7DaysOverdue.Text = "22 deys";
+            this.LabelLine7DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LabelLine7ExpiryDate
+            // 
+            this.LabelLine7ExpiryDate.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine7ExpiryDate.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine7ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine7ExpiryDate.Location = new System.Drawing.Point(371, 18);
+            this.LabelLine7ExpiryDate.Name = "LabelLine7ExpiryDate";
+            this.LabelLine7ExpiryDate.Size = new System.Drawing.Size(91, 25);
+            this.LabelLine7ExpiryDate.TabIndex = 11;
+            this.LabelLine7ExpiryDate.Text = "Jun 10,2025";
+            // 
+            // LabelLine7licenseNo
+            // 
+            this.LabelLine7licenseNo.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine7licenseNo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine7licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
+            this.LabelLine7licenseNo.Location = new System.Drawing.Point(214, 18);
+            this.LabelLine7licenseNo.Name = "LabelLine7licenseNo";
+            this.LabelLine7licenseNo.Size = new System.Drawing.Size(90, 25);
+            this.LabelLine7licenseNo.TabIndex = 10;
+            this.LabelLine7licenseNo.Text = "DL-2012-45";
+            // 
+            // LabelLine7Name
+            // 
+            this.LabelLine7Name.BackColor = System.Drawing.Color.Transparent;
+            this.LabelLine7Name.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLine7Name.ForeColor = System.Drawing.Color.White;
+            this.LabelLine7Name.Location = new System.Drawing.Point(61, 18);
+            this.LabelLine7Name.Name = "LabelLine7Name";
+            this.LabelLine7Name.Size = new System.Drawing.Size(111, 25);
+            this.LabelLine7Name.TabIndex = 9;
+            this.LabelLine7Name.Text = "Abdelhak Mer";
+            // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2GradientPanel2.AutoSize = true;
+            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.White;
+            this.guna2GradientPanel2.BorderRadius = 14;
+            this.guna2GradientPanel2.BorderThickness = 1;
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(21)))), ((int)(((byte)(53)))));
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(760, 8);
+            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(8, 20, 8, 8);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(358, 580);
+            this.guna2GradientPanel2.TabIndex = 4;
             // 
             // guna2HtmlLabel2
             // 
-            this.guna2HtmlLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(13, 5);
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(63, 12);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(54, 22);
-            this.guna2HtmlLabel2.TabIndex = 9;
-            this.guna2HtmlLabel2.Text = "22 deys";
-            this.guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(371, 18);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(91, 25);
-            this.guna2HtmlLabel4.TabIndex = 11;
-            this.guna2HtmlLabel4.Text = "Jun 10,2025";
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(214, 18);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(90, 25);
-            this.guna2HtmlLabel5.TabIndex = 10;
-            this.guna2HtmlLabel5.Text = "DL-2012-45";
-            // 
-            // guna2HtmlLabel6
-            // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(61, 18);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(111, 25);
-            this.guna2HtmlLabel6.TabIndex = 9;
-            this.guna2HtmlLabel6.Text = "Abdelhak Mer";
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BorderColor = System.Drawing.Color.White;
-            this.guna2Panel3.Controls.Add(this.guna2CirclePictureBox2);
-            this.guna2Panel3.Controls.Add(this.guna2Button2);
-            this.guna2Panel3.Controls.Add(this.guna2Panel4);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel9);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel10);
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel12);
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 417);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(724, 61);
-            this.guna2Panel3.TabIndex = 18;
-            // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(86)))), ((int)(((byte)(214)))));
-            this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(12, 8);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(45, 45);
-            this.guna2CirclePictureBox2.TabIndex = 16;
-            this.guna2CirclePictureBox2.TabStop = false;
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.BorderRadius = 8;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.guna2Button2.ImageSize = new System.Drawing.Size(25, 15);
-            this.guna2Button2.Location = new System.Drawing.Point(640, 8);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(40, 37);
-            this.guna2Button2.TabIndex = 6;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BorderRadius = 8;
-            this.guna2Panel4.Controls.Add(this.guna2HtmlLabel8);
-            this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(30)))), ((int)(((byte)(50)))));
-            this.guna2Panel4.Location = new System.Drawing.Point(500, 12);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(79, 31);
-            this.guna2Panel4.TabIndex = 4;
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(13, 5);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(54, 22);
-            this.guna2HtmlLabel8.TabIndex = 9;
-            this.guna2HtmlLabel8.Text = "22 deys";
-            this.guna2HtmlLabel8.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(371, 18);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(91, 25);
-            this.guna2HtmlLabel9.TabIndex = 11;
-            this.guna2HtmlLabel9.Text = "Jun 10,2025";
-            // 
-            // guna2HtmlLabel10
-            // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(214, 18);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(90, 25);
-            this.guna2HtmlLabel10.TabIndex = 10;
-            this.guna2HtmlLabel10.Text = "DL-2012-45";
-            // 
-            // guna2HtmlLabel12
-            // 
-            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(61, 18);
-            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(111, 25);
-            this.guna2HtmlLabel12.TabIndex = 9;
-            this.guna2HtmlLabel12.Text = "Abdelhak Mer";
-            // 
-            // guna2Panel5
-            // 
-            this.guna2Panel5.BorderColor = System.Drawing.Color.White;
-            this.guna2Panel5.Controls.Add(this.guna2CirclePictureBox3);
-            this.guna2Panel5.Controls.Add(this.guna2Button3);
-            this.guna2Panel5.Controls.Add(this.guna2Panel6);
-            this.guna2Panel5.Controls.Add(this.guna2HtmlLabel14);
-            this.guna2Panel5.Controls.Add(this.guna2HtmlLabel15);
-            this.guna2Panel5.Controls.Add(this.guna2HtmlLabel16);
-            this.guna2Panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel5.Location = new System.Drawing.Point(0, 478);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(724, 61);
-            this.guna2Panel5.TabIndex = 19;
-            // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(86)))), ((int)(((byte)(214)))));
-            this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(12, 8);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(45, 45);
-            this.guna2CirclePictureBox3.TabIndex = 16;
-            this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BorderRadius = 8;
-            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.guna2Button3.ImageSize = new System.Drawing.Size(25, 15);
-            this.guna2Button3.Location = new System.Drawing.Point(640, 8);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(40, 37);
-            this.guna2Button3.TabIndex = 6;
-            // 
-            // guna2Panel6
-            // 
-            this.guna2Panel6.BorderRadius = 8;
-            this.guna2Panel6.Controls.Add(this.guna2HtmlLabel13);
-            this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(30)))), ((int)(((byte)(50)))));
-            this.guna2Panel6.Location = new System.Drawing.Point(500, 12);
-            this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(79, 31);
-            this.guna2Panel6.TabIndex = 4;
-            // 
-            // guna2HtmlLabel13
-            // 
-            this.guna2HtmlLabel13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(13, 5);
-            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(54, 22);
-            this.guna2HtmlLabel13.TabIndex = 9;
-            this.guna2HtmlLabel13.Text = "22 deys";
-            this.guna2HtmlLabel13.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2HtmlLabel14
-            // 
-            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(371, 18);
-            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
-            this.guna2HtmlLabel14.Size = new System.Drawing.Size(91, 25);
-            this.guna2HtmlLabel14.TabIndex = 11;
-            this.guna2HtmlLabel14.Text = "Jun 10,2025";
-            // 
-            // guna2HtmlLabel15
-            // 
-            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel15.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
-            this.guna2HtmlLabel15.Location = new System.Drawing.Point(214, 18);
-            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
-            this.guna2HtmlLabel15.Size = new System.Drawing.Size(90, 25);
-            this.guna2HtmlLabel15.TabIndex = 10;
-            this.guna2HtmlLabel15.Text = "DL-2012-45";
-            // 
-            // guna2HtmlLabel16
-            // 
-            this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel16.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel16.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel16.Location = new System.Drawing.Point(61, 18);
-            this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
-            this.guna2HtmlLabel16.Size = new System.Drawing.Size(111, 25);
-            this.guna2HtmlLabel16.TabIndex = 9;
-            this.guna2HtmlLabel16.Text = "Abdelhak Mer";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(167, 30);
+            this.guna2HtmlLabel2.TabIndex = 13;
+            this.guna2HtmlLabel2.Text = "License Overview";
             // 
             // Us_welcom_s
             // 
@@ -1923,21 +1960,24 @@
             this.lblWelcome.ResumeLayout(false);
             this.flpStats.ResumeLayout(false);
             this.pnltableAndQuick.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel2.PerformLayout();
-            this.guna2Panel3.ResumeLayout(false);
-            this.guna2Panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
-            this.guna2Panel4.ResumeLayout(false);
-            this.guna2Panel4.PerformLayout();
-            this.guna2Panel5.ResumeLayout(false);
-            this.guna2Panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            this.guna2Panel6.ResumeLayout(false);
-            this.guna2Panel6.PerformLayout();
+            this.pnltableAndQuick.PerformLayout();
+            this.pnlLine5.ResumeLayout(false);
+            this.pnlLine5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLinePhoto5)).EndInit();
+            this.PanelLine5DaysOverdue.ResumeLayout(false);
+            this.PanelLine5DaysOverdue.PerformLayout();
+            this.pnlLine6.ResumeLayout(false);
+            this.pnlLine6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLinePhoto6)).EndInit();
+            this.PanelLine6DaysOverdue.ResumeLayout(false);
+            this.PanelLine6DaysOverdue.PerformLayout();
+            this.pnlLine7.ResumeLayout(false);
+            this.pnlLine7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLinePhoto7)).EndInit();
+            this.PanelLine7DaysOverdue.ResumeLayout(false);
+            this.PanelLine7DaysOverdue.PerformLayout();
+            this.guna2GradientPanel2.ResumeLayout(false);
+            this.guna2GradientPanel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2002,21 +2042,21 @@
         private Guna.UI2.WinForms.Guna2Panel PanelLine2DaysOverdue;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine2DaysOverdue;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine2ExpiryDate;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine2licenseNo;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine2Name;
         private Guna.UI2.WinForms.Guna2Panel pnlLine4;
         private Guna.UI2.WinForms.Guna2Button ButtonLine4Action;
         private Guna.UI2.WinForms.Guna2Panel PanelLine4DaysOverdue;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine4DaysOverdue;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine4ExpiryDate;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine4licenseNo;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine4Name;
         private Guna.UI2.WinForms.Guna2Panel pnlLine3;
         private Guna.UI2.WinForms.Guna2Button ButtonLine3Action;
         private Guna.UI2.WinForms.Guna2Panel PanelLine3DaysOverdue;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine3DaysOverdue;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine3ExpiryDate;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine3licenseNo;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine3Name;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picLinePhoto4;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picLinePhoto3;
@@ -2049,29 +2089,31 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel go1;
         private System.Windows.Forms.FlowLayoutPanel flpStats;
         private Guna.UI2.WinForms.Guna2Panel pnltableAndQuick;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel pnlLine5;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picLinePhoto5;
+        private Guna.UI2.WinForms.Guna2Button ButtonLine5Action;
+        private Guna.UI2.WinForms.Guna2Panel PanelLine5DaysOverdue;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine5DaysOverdue;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine5ExpiryDate;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine5licenseNo;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine5Name;
+        private Guna.UI2.WinForms.Guna2Panel pnlLine6;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picLinePhoto6;
+        private Guna.UI2.WinForms.Guna2Button ButtonLine6Action;
+        private Guna.UI2.WinForms.Guna2Panel PanelLine6DaysOverdue;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine6DaysOverdue;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine6ExpiryDate;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine6licenseNo;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine6Name;
+        private Guna.UI2.WinForms.Guna2Panel pnlLine7;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picLinePhoto7;
+        private Guna.UI2.WinForms.Guna2Button ButtonLine7Action;
+        private Guna.UI2.WinForms.Guna2Panel PanelLine7DaysOverdue;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine7DaysOverdue;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine7ExpiryDate;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine7licenseNo;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelLine7Name;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
     }
 }
