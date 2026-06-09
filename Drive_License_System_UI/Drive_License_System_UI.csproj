@@ -69,17 +69,17 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Drive_License_App_Start.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Drive_License_App_Start.Designer.cs">
+      <DependentUpon>Drive_License_App_Start.cs</DependentUpon>
     </Compile>
-    <Compile Include="Start_App.cs">
+    <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Start_App.Designer.cs">
-      <DependentUpon>Start_App.cs</DependentUpon>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginScreen.cs">
       <SubType>Form</SubType>
@@ -89,8 +89,95 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Us_Applications.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Applications.Designer.cs">
+      <DependentUpon>Us_Applications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Offices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Offices.Designer.cs">
+      <DependentUpon>Us_Offices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Audit_Logs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Audit_Logs.Designer.cs">
+      <DependentUpon>Us_Audit_Logs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Settings.Designer.cs">
+      <DependentUpon>Us_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Licenses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Licenses.Designer.cs">
+      <DependentUpon>Us_Licenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Renewals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Renewals.Designer.cs">
+      <DependentUpon>Us_Renewals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Examinations.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Examinations.Designer.cs">
+      <DependentUpon>Us_Examinations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Payments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Payments.Designer.cs">
+      <DependentUpon>Us_Payments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Print_Delivery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Print_Delivery.Designer.cs">
+      <DependentUpon>Us_Print_Delivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Roles_Permissions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Roles_Permissions.Designer.cs">
+      <DependentUpon>Us_Roles_Permissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_Drivers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_Drivers.Designer.cs">
+      <DependentUpon>Us_Drivers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_License_Categories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_License_Categories.Designer.cs">
+      <DependentUpon>Us_License_Categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_HomeScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_HomeScreen.Designer.cs">
+      <DependentUpon>us_HomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Us_UsersScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Us_UsersScreen.Designer.cs">
+      <DependentUpon>Us_UsersScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Drive_License_App_Start.resx">
+      <DependentUpon>Drive_License_App_Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.cs</DependentUpon>
@@ -105,8 +192,47 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Start_App.resx">
-      <DependentUpon>Start_App.cs</DependentUpon>
+    <EmbeddedResource Include="Us_Applications.resx">
+      <DependentUpon>Us_Applications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Audit_Logs.resx">
+      <DependentUpon>Us_Audit_Logs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Drivers.resx">
+      <DependentUpon>Us_Drivers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Examinations.resx">
+      <DependentUpon>Us_Examinations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_HomeScreen.resx">
+      <DependentUpon>us_HomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Licenses.resx">
+      <DependentUpon>Us_Licenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_License_Categories.resx">
+      <DependentUpon>Us_License_Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Offices.resx">
+      <DependentUpon>Us_Offices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Payments.resx">
+      <DependentUpon>Us_Payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Print_Delivery.resx">
+      <DependentUpon>Us_Print_Delivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Renewals.resx">
+      <DependentUpon>Us_Renewals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Roles_Permissions.resx">
+      <DependentUpon>Us_Roles_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_Settings.resx">
+      <DependentUpon>Us_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Us_UsersScreen.resx">
+      <DependentUpon>Us_UsersScreen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -235,6 +361,96 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\302.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\402.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-02_02-55-42-8092.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

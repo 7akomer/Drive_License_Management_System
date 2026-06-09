@@ -79,9 +79,10 @@
             this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(48)))), ((int)(((byte)(255)))));
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(439, 358);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(585, 441);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(373, 51);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(497, 63);
             this.guna2GradientButton1.TabIndex = 3;
             this.guna2GradientButton1.Text = "Login";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
@@ -100,11 +101,12 @@
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(439, 270);
+            this.guna2TextBox2.Location = new System.Drawing.Point(585, 332);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PlaceholderText = "Enter your password";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(373, 41);
+            this.guna2TextBox2.Size = new System.Drawing.Size(497, 50);
             this.guna2TextBox2.TabIndex = 5;
             this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
@@ -122,11 +124,12 @@
             this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox3.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(439, 195);
+            this.guna2TextBox3.Location = new System.Drawing.Point(585, 240);
+            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PlaceholderText = "Enter your username";
             this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(373, 41);
+            this.guna2TextBox3.Size = new System.Drawing.Size(497, 50);
             this.guna2TextBox3.TabIndex = 6;
             this.guna2TextBox3.TextChanged += new System.EventHandler(this.guna2TextBox3_TextChanged);
             // 
@@ -139,9 +142,10 @@
             this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2CustomCheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(10)))), ((int)(((byte)(26)))));
             this.guna2CustomCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CustomCheckBox1.Location = new System.Drawing.Point(439, 326);
+            this.guna2CustomCheckBox1.Location = new System.Drawing.Point(585, 401);
+            this.guna2CustomCheckBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
-            this.guna2CustomCheckBox1.Size = new System.Drawing.Size(15, 15);
+            this.guna2CustomCheckBox1.Size = new System.Drawing.Size(20, 18);
             this.guna2CustomCheckBox1.TabIndex = 8;
             this.guna2CustomCheckBox1.Text = "guna2CustomCheckBox1";
             this.guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -158,9 +162,10 @@
             this.linkLabel1.ForeColor = System.Drawing.Color.BlueViolet;
             this.linkLabel1.Image = global::Drive_License_System_UI.Properties.Resources.Screenshot__379_;
             this.linkLabel1.LinkColor = System.Drawing.Color.BlueViolet;
-            this.linkLabel1.Location = new System.Drawing.Point(689, 449);
+            this.linkLabel1.Location = new System.Drawing.Point(919, 553);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(38, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(50, 22);
             this.linkLabel1.TabIndex = 9;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "more";
@@ -173,8 +178,9 @@
             this.guna2PictureBox1.Image = global::Drive_License_System_UI.Properties.Resources.ا;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(720, 400);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(1500, 769);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -182,10 +188,10 @@
             // 
             // LoginScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(16)))), ((int)(((byte)(37)))));
-            this.ClientSize = new System.Drawing.Size(720, 400);
+            this.ClientSize = new System.Drawing.Size(1500, 769);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.guna2CustomCheckBox1);
             this.Controls.Add(this.guna2TextBox3);
@@ -194,8 +200,9 @@
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(900, 500);
-            this.MinimumSize = new System.Drawing.Size(900, 500);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1200, 615);
+            this.MinimumSize = new System.Drawing.Size(1200, 615);
             this.Name = "LoginScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);

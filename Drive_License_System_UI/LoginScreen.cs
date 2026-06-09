@@ -100,7 +100,7 @@ namespace Drive_License_System_UI
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            Form start = new Start_App();
+            Form start = new Drive_License_App_Start();
             this.Hide();
             start.ShowDialog();
         }

@@ -1,0 +1,127 @@
+﻿using LiveCharts;
+using LiveCharts.Defaults;
+using LiveCharts.WinForms;
+using LiveCharts.Wpf;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Windows.Forms.Integration;
+using System.Windows.Media;
+using WpfCharts = LiveCharts.Wpf;
+
+
+namespace Drive_License_System_UI
+{
+    public partial class Us_welcom_s : UserControl
+    {
+        public Us_welcom_s()
+        {
+            InitializeComponent();
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PiclTitleApplications_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlWelcome_s_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Us_welcom_s_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2GradientPanel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblChangeApplications__Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void piclTitleLicenses_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel2_MouseEnter(object sender, EventArgs e)
+        {
+            pnlQuickActionApp.FillColor = System.Drawing.Color.FromArgb(18, 42, 111);
+        }
+
+        private void pnlQuickActionApp_MouseLeave(object sender, EventArgs e)
+        {
+            pnlQuickActionApp.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+        }
+
+        private void pnlQuickActionIssueL_MouseEnter(object sender, EventArgs e)
+        {
+            pnlQuickActionIssueL.FillColor = System.Drawing.Color.FromArgb(90, 70, 180);
+
+        }
+
+        private void pnlQuickActionIssueL_MouseLeave(object sender, EventArgs e)
+        {
+            pnlQuickActionIssueL.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+        }
+
+        private void pnlQuickActionScheduleEx_MouseEnter(object sender, EventArgs e)
+        {
+            pnlQuickActionScheduleEx.FillColor = System.Drawing.Color.FromArgb(180, 80, 200);
+
+        }
+
+        private void pnlQuickActionScheduleEx_MouseLeave(object sender, EventArgs e)
+        {
+            pnlQuickActionScheduleEx.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+        }
+
+        private void pnlQuickActionCollectP_MouseEnter(object sender, EventArgs e)
+        {
+            pnlQuickActionCollectP.FillColor = System.Drawing.Color.FromArgb(20, 140, 140);
+
+        }
+
+        private void pnlQuickActionCollectP_MouseLeave(object sender, EventArgs e)
+        {
+            pnlQuickActionCollectP.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+
+        }
+    }
+}
