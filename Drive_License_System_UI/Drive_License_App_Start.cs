@@ -38,11 +38,11 @@ namespace Drive_License_System_UI
             Licenses,
             Renewals,
             Examinations,
-            Payments,
+            Detain_license,
             PrintDelivery,
-            Roles,
-            Offices,
-            AuditLogs,
+            People,
+            Service_Exam,
+            OrderHistory,
             Settings
 
 
@@ -174,15 +174,15 @@ namespace Drive_License_System_UI
             }
         }
 
-        private void btnPayments_Click(object sender, EventArgs e)
+        private void btnDetain_Click(object sender, EventArgs e)
         {
-            if (CerrentPage != enPageName.Payments)
+            if (CerrentPage != enPageName.Detain_license)
             {
                 Us_Payments Screen = new Us_Payments();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
-                CerrentPage = enPageName.Payments;
+                CerrentPage = enPageName.Detain_license;
             }
         }
 
@@ -198,39 +198,39 @@ namespace Drive_License_System_UI
             }
         }
 
-        private void btnRoles_Click(object sender, EventArgs e)
+        private void btnPersons_Click(object sender, EventArgs e)
         {
-            if (CerrentPage != enPageName.Roles)
+            if (CerrentPage != enPageName.People)
             {
                 Us_Roles_Permissions Screen = new Us_Roles_Permissions();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
-                CerrentPage = enPageName.Roles;
+                CerrentPage = enPageName.People;
             }
         }
 
-        private void btnOffices_Click(object sender, EventArgs e)
+        private void btnServiceandExam_Click(object sender, EventArgs e)
         {
-            if (CerrentPage != enPageName.Offices)
+            if (CerrentPage != enPageName.Service_Exam)
             {
                 Us_Offices Screen = new Us_Offices();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
-                CerrentPage = enPageName.Offices;
+                CerrentPage = enPageName.Service_Exam;
             }
         }
 
-        private void btnAuditLogs_Click(object sender, EventArgs e)
+        private void btnHistory_Click(object sender, EventArgs e)
         {
-            if (CerrentPage != enPageName.AuditLogs)
+            if (CerrentPage != enPageName.OrderHistory)
             {
                 Us_Audit_Logs Screen = new Us_Audit_Logs();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
-                CerrentPage = enPageName.AuditLogs;
+                CerrentPage = enPageName.OrderHistory;
             }
         }
 

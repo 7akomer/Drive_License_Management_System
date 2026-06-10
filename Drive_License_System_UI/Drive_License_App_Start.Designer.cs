@@ -37,15 +37,15 @@
             this.btnLicenses = new Guna.UI2.WinForms.Guna2Button();
             this.btnRenewals = new Guna.UI2.WinForms.Guna2Button();
             this.btnExaminations = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPayments = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDetain = new Guna.UI2.WinForms.Guna2Button();
             this.btnPrintDelivery = new Guna.UI2.WinForms.Guna2Button();
             this.lblManage = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnUsers = new Guna.UI2.WinForms.Guna2Button();
-            this.btnRoles = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPersons = new Guna.UI2.WinForms.Guna2Button();
             this.btnDrivers = new Guna.UI2.WinForms.Guna2Button();
             this.btnLicenseCategories = new Guna.UI2.WinForms.Guna2Button();
-            this.btnOffices = new Guna.UI2.WinForms.Guna2Button();
-            this.btnAuditLogs = new Guna.UI2.WinForms.Guna2Button();
+            this.btnServiceandExam = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHistory = new Guna.UI2.WinForms.Guna2Button();
             this.lblSettings = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.btnHelp = new Guna.UI2.WinForms.Guna2Button();
@@ -95,15 +95,15 @@
             this.pnlNavLinks.Controls.Add(this.btnLicenses);
             this.pnlNavLinks.Controls.Add(this.btnRenewals);
             this.pnlNavLinks.Controls.Add(this.btnExaminations);
-            this.pnlNavLinks.Controls.Add(this.btnPayments);
+            this.pnlNavLinks.Controls.Add(this.btnDetain);
             this.pnlNavLinks.Controls.Add(this.btnPrintDelivery);
             this.pnlNavLinks.Controls.Add(this.lblManage);
             this.pnlNavLinks.Controls.Add(this.btnUsers);
-            this.pnlNavLinks.Controls.Add(this.btnRoles);
+            this.pnlNavLinks.Controls.Add(this.btnPersons);
             this.pnlNavLinks.Controls.Add(this.btnDrivers);
             this.pnlNavLinks.Controls.Add(this.btnLicenseCategories);
-            this.pnlNavLinks.Controls.Add(this.btnOffices);
-            this.pnlNavLinks.Controls.Add(this.btnAuditLogs);
+            this.pnlNavLinks.Controls.Add(this.btnServiceandExam);
+            this.pnlNavLinks.Controls.Add(this.btnHistory);
             this.pnlNavLinks.Controls.Add(this.lblSettings);
             this.pnlNavLinks.Controls.Add(this.btnSettings);
             this.pnlNavLinks.Controls.Add(this.btnHelp);
@@ -124,7 +124,7 @@
             this.lblMain.Location = new System.Drawing.Point(11, 12);
             this.lblMain.Margin = new System.Windows.Forms.Padding(3, 2, 2, 2);
             this.lblMain.Name = "lblMain";
-            this.lblMain.Size = new System.Drawing.Size(34, 15);
+            this.lblMain.Size = new System.Drawing.Size(41, 21);
             this.lblMain.TabIndex = 3;
             this.lblMain.Text = "MAIN";
             this.lblMain.Click += new System.EventHandler(this.lblMain_Click);
@@ -146,7 +146,7 @@
             this.btnHome.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnHome.Location = new System.Drawing.Point(8, 31);
+            this.btnHome.Location = new System.Drawing.Point(8, 37);
             this.btnHome.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(250, 48);
@@ -172,7 +172,7 @@
             this.btnApplications.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApplications.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnApplications.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnApplications.Location = new System.Drawing.Point(8, 83);
+            this.btnApplications.Location = new System.Drawing.Point(8, 89);
             this.btnApplications.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnApplications.Name = "btnApplications";
             this.btnApplications.Size = new System.Drawing.Size(250, 48);
@@ -198,7 +198,7 @@
             this.btnLicenses.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLicenses.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnLicenses.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLicenses.Location = new System.Drawing.Point(8, 135);
+            this.btnLicenses.Location = new System.Drawing.Point(8, 141);
             this.btnLicenses.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnLicenses.Name = "btnLicenses";
             this.btnLicenses.Size = new System.Drawing.Size(250, 48);
@@ -223,7 +223,7 @@
             this.btnRenewals.FillColor = System.Drawing.Color.Transparent;
             this.btnRenewals.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRenewals.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnRenewals.Location = new System.Drawing.Point(8, 187);
+            this.btnRenewals.Location = new System.Drawing.Point(8, 193);
             this.btnRenewals.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnRenewals.Name = "btnRenewals";
             this.btnRenewals.Size = new System.Drawing.Size(250, 48);
@@ -248,7 +248,7 @@
             this.btnExaminations.FillColor = System.Drawing.Color.Transparent;
             this.btnExaminations.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExaminations.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnExaminations.Location = new System.Drawing.Point(8, 239);
+            this.btnExaminations.Location = new System.Drawing.Point(8, 245);
             this.btnExaminations.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnExaminations.Name = "btnExaminations";
             this.btnExaminations.Size = new System.Drawing.Size(250, 48);
@@ -257,30 +257,30 @@
             this.btnExaminations.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnExaminations.Click += new System.EventHandler(this.btnExaminations_Click);
             // 
-            // btnPayments
+            // btnDetain
             // 
-            this.btnPayments.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
-            this.btnPayments.Animated = true;
-            this.btnPayments.BorderColor = System.Drawing.Color.Transparent;
-            this.btnPayments.BorderRadius = 8;
-            this.btnPayments.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnPayments.CheckedState.FillColor = System.Drawing.Color.DarkBlue;
-            this.btnPayments.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPayments.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPayments.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPayments.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPayments.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPayments.FillColor = System.Drawing.Color.Transparent;
-            this.btnPayments.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPayments.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnPayments.Location = new System.Drawing.Point(8, 291);
-            this.btnPayments.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.btnPayments.Name = "btnPayments";
-            this.btnPayments.Size = new System.Drawing.Size(250, 48);
-            this.btnPayments.TabIndex = 7;
-            this.btnPayments.Text = "💳  Payments                            >";
-            this.btnPayments.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnPayments.Click += new System.EventHandler(this.btnPayments_Click);
+            this.btnDetain.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
+            this.btnDetain.Animated = true;
+            this.btnDetain.BorderColor = System.Drawing.Color.Transparent;
+            this.btnDetain.BorderRadius = 8;
+            this.btnDetain.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnDetain.CheckedState.FillColor = System.Drawing.Color.DarkBlue;
+            this.btnDetain.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDetain.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDetain.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDetain.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDetain.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDetain.FillColor = System.Drawing.Color.Transparent;
+            this.btnDetain.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetain.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnDetain.Location = new System.Drawing.Point(8, 297);
+            this.btnDetain.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.btnDetain.Name = "btnDetain";
+            this.btnDetain.Size = new System.Drawing.Size(250, 48);
+            this.btnDetain.TabIndex = 7;
+            this.btnDetain.Text = "🔑  License Detain                    >";
+            this.btnDetain.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDetain.Click += new System.EventHandler(this.btnDetain_Click);
             // 
             // btnPrintDelivery
             // 
@@ -298,7 +298,7 @@
             this.btnPrintDelivery.FillColor = System.Drawing.Color.Transparent;
             this.btnPrintDelivery.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrintDelivery.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnPrintDelivery.Location = new System.Drawing.Point(8, 343);
+            this.btnPrintDelivery.Location = new System.Drawing.Point(8, 349);
             this.btnPrintDelivery.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnPrintDelivery.Name = "btnPrintDelivery";
             this.btnPrintDelivery.Size = new System.Drawing.Size(250, 48);
@@ -312,10 +312,10 @@
             this.lblManage.BackColor = System.Drawing.Color.Transparent;
             this.lblManage.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblManage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(96)))), ((int)(((byte)(122)))));
-            this.lblManage.Location = new System.Drawing.Point(11, 395);
+            this.lblManage.Location = new System.Drawing.Point(11, 401);
             this.lblManage.Margin = new System.Windows.Forms.Padding(3, 2, 0, 2);
             this.lblManage.Name = "lblManage";
-            this.lblManage.Size = new System.Drawing.Size(53, 15);
+            this.lblManage.Size = new System.Drawing.Size(64, 21);
             this.lblManage.TabIndex = 9;
             this.lblManage.Text = "MANAGE";
             // 
@@ -335,7 +335,7 @@
             this.btnUsers.FillColor = System.Drawing.Color.Transparent;
             this.btnUsers.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsers.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnUsers.Location = new System.Drawing.Point(8, 414);
+            this.btnUsers.Location = new System.Drawing.Point(8, 426);
             this.btnUsers.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Size = new System.Drawing.Size(250, 48);
@@ -344,30 +344,30 @@
             this.btnUsers.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
-            // btnRoles
+            // btnPersons
             // 
-            this.btnRoles.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
-            this.btnRoles.Animated = true;
-            this.btnRoles.BorderColor = System.Drawing.Color.Transparent;
-            this.btnRoles.BorderRadius = 8;
-            this.btnRoles.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnRoles.CheckedState.FillColor = System.Drawing.Color.DarkBlue;
-            this.btnRoles.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRoles.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnRoles.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnRoles.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnRoles.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRoles.FillColor = System.Drawing.Color.Transparent;
-            this.btnRoles.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRoles.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnRoles.Location = new System.Drawing.Point(8, 466);
-            this.btnRoles.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.btnRoles.Name = "btnRoles";
-            this.btnRoles.Size = new System.Drawing.Size(250, 48);
-            this.btnRoles.TabIndex = 14;
-            this.btnRoles.Text = "🔑  Roles & Permissions              >";
-            this.btnRoles.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnRoles.Click += new System.EventHandler(this.btnRoles_Click);
+            this.btnPersons.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
+            this.btnPersons.Animated = true;
+            this.btnPersons.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPersons.BorderRadius = 8;
+            this.btnPersons.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnPersons.CheckedState.FillColor = System.Drawing.Color.DarkBlue;
+            this.btnPersons.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPersons.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPersons.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPersons.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPersons.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPersons.FillColor = System.Drawing.Color.Transparent;
+            this.btnPersons.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPersons.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPersons.Location = new System.Drawing.Point(8, 478);
+            this.btnPersons.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.btnPersons.Name = "btnPersons";
+            this.btnPersons.Size = new System.Drawing.Size(250, 48);
+            this.btnPersons.TabIndex = 14;
+            this.btnPersons.Text = "🚶  Persons                                >";
+            this.btnPersons.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnPersons.Click += new System.EventHandler(this.btnPersons_Click);
             // 
             // btnDrivers
             // 
@@ -385,7 +385,7 @@
             this.btnDrivers.FillColor = System.Drawing.Color.Transparent;
             this.btnDrivers.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDrivers.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnDrivers.Location = new System.Drawing.Point(8, 518);
+            this.btnDrivers.Location = new System.Drawing.Point(8, 530);
             this.btnDrivers.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnDrivers.Name = "btnDrivers";
             this.btnDrivers.Size = new System.Drawing.Size(250, 48);
@@ -410,7 +410,7 @@
             this.btnLicenseCategories.FillColor = System.Drawing.Color.Transparent;
             this.btnLicenseCategories.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLicenseCategories.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLicenseCategories.Location = new System.Drawing.Point(8, 570);
+            this.btnLicenseCategories.Location = new System.Drawing.Point(8, 582);
             this.btnLicenseCategories.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnLicenseCategories.Name = "btnLicenseCategories";
             this.btnLicenseCategories.Size = new System.Drawing.Size(250, 48);
@@ -419,65 +419,65 @@
             this.btnLicenseCategories.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLicenseCategories.Click += new System.EventHandler(this.btnLicenseCategories_Click);
             // 
-            // btnOffices
+            // btnServiceandExam
             // 
-            this.btnOffices.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
-            this.btnOffices.Animated = true;
-            this.btnOffices.BorderColor = System.Drawing.Color.Transparent;
-            this.btnOffices.BorderRadius = 8;
-            this.btnOffices.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnOffices.CheckedState.FillColor = System.Drawing.Color.DarkBlue;
-            this.btnOffices.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOffices.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnOffices.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnOffices.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnOffices.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnOffices.FillColor = System.Drawing.Color.Transparent;
-            this.btnOffices.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOffices.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnOffices.Location = new System.Drawing.Point(8, 622);
-            this.btnOffices.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.btnOffices.Name = "btnOffices";
-            this.btnOffices.Size = new System.Drawing.Size(250, 48);
-            this.btnOffices.TabIndex = 11;
-            this.btnOffices.Text = "🏢  Offices                                 >";
-            this.btnOffices.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnOffices.Click += new System.EventHandler(this.btnOffices_Click);
+            this.btnServiceandExam.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
+            this.btnServiceandExam.Animated = true;
+            this.btnServiceandExam.BorderColor = System.Drawing.Color.Transparent;
+            this.btnServiceandExam.BorderRadius = 8;
+            this.btnServiceandExam.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnServiceandExam.CheckedState.FillColor = System.Drawing.Color.DarkBlue;
+            this.btnServiceandExam.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnServiceandExam.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnServiceandExam.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnServiceandExam.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnServiceandExam.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnServiceandExam.FillColor = System.Drawing.Color.Transparent;
+            this.btnServiceandExam.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnServiceandExam.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnServiceandExam.Location = new System.Drawing.Point(8, 634);
+            this.btnServiceandExam.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.btnServiceandExam.Name = "btnServiceandExam";
+            this.btnServiceandExam.Size = new System.Drawing.Size(250, 48);
+            this.btnServiceandExam.TabIndex = 11;
+            this.btnServiceandExam.Text = "🛠️  Service_Exam                      >";
+            this.btnServiceandExam.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnServiceandExam.Click += new System.EventHandler(this.btnServiceandExam_Click);
             // 
-            // btnAuditLogs
+            // btnHistory
             // 
-            this.btnAuditLogs.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
-            this.btnAuditLogs.Animated = true;
-            this.btnAuditLogs.BorderColor = System.Drawing.Color.Transparent;
-            this.btnAuditLogs.BorderRadius = 8;
-            this.btnAuditLogs.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnAuditLogs.CheckedState.FillColor = System.Drawing.Color.DarkBlue;
-            this.btnAuditLogs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAuditLogs.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAuditLogs.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAuditLogs.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAuditLogs.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAuditLogs.FillColor = System.Drawing.Color.Transparent;
-            this.btnAuditLogs.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAuditLogs.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAuditLogs.Location = new System.Drawing.Point(8, 674);
-            this.btnAuditLogs.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.btnAuditLogs.Name = "btnAuditLogs";
-            this.btnAuditLogs.Size = new System.Drawing.Size(250, 48);
-            this.btnAuditLogs.TabIndex = 10;
-            this.btnAuditLogs.Text = "📊  Audit Logs                           >";
-            this.btnAuditLogs.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnAuditLogs.Click += new System.EventHandler(this.btnAuditLogs_Click);
+            this.btnHistory.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
+            this.btnHistory.Animated = true;
+            this.btnHistory.BorderColor = System.Drawing.Color.Transparent;
+            this.btnHistory.BorderRadius = 8;
+            this.btnHistory.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnHistory.CheckedState.FillColor = System.Drawing.Color.DarkBlue;
+            this.btnHistory.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHistory.FillColor = System.Drawing.Color.Transparent;
+            this.btnHistory.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnHistory.Location = new System.Drawing.Point(8, 686);
+            this.btnHistory.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.btnHistory.Name = "btnHistory";
+            this.btnHistory.Size = new System.Drawing.Size(250, 48);
+            this.btnHistory.TabIndex = 10;
+            this.btnHistory.Text = "📊  History                                >";
+            this.btnHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
             // 
             // lblSettings
             // 
             this.lblSettings.BackColor = System.Drawing.Color.Transparent;
             this.lblSettings.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(96)))), ((int)(((byte)(122)))));
-            this.lblSettings.Location = new System.Drawing.Point(11, 726);
+            this.lblSettings.Location = new System.Drawing.Point(11, 738);
             this.lblSettings.Margin = new System.Windows.Forms.Padding(3, 2, 0, 2);
             this.lblSettings.Name = "lblSettings";
-            this.lblSettings.Size = new System.Drawing.Size(53, 15);
+            this.lblSettings.Size = new System.Drawing.Size(67, 21);
             this.lblSettings.TabIndex = 16;
             this.lblSettings.Text = "SETTINGS";
             // 
@@ -497,7 +497,7 @@
             this.btnSettings.FillColor = System.Drawing.Color.Transparent;
             this.btnSettings.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSettings.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSettings.Location = new System.Drawing.Point(8, 745);
+            this.btnSettings.Location = new System.Drawing.Point(8, 763);
             this.btnSettings.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(250, 48);
@@ -522,7 +522,7 @@
             this.btnHelp.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(62)))));
             this.btnHelp.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(139)))), ((int)(((byte)(250)))));
-            this.btnHelp.Location = new System.Drawing.Point(8, 815);
+            this.btnHelp.Location = new System.Drawing.Point(8, 833);
             this.btnHelp.Margin = new System.Windows.Forms.Padding(0, 20, 0, 2);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(250, 48);
@@ -559,7 +559,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(3, 35);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(125, 19);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(150, 23);
             this.guna2HtmlLabel2.TabIndex = 4;
             this.guna2HtmlLabel2.Text = "Management System";
             // 
@@ -570,7 +570,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(1, 7);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 23);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(148, 30);
             this.guna2HtmlLabel1.TabIndex = 3;
             this.guna2HtmlLabel1.Text = "Driving License";
             this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
@@ -649,7 +649,7 @@
             this.lblUserName.ForeColor = System.Drawing.Color.White;
             this.lblUserName.Location = new System.Drawing.Point(77, 15);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(68, 17);
+            this.lblUserName.Size = new System.Drawing.Size(86, 22);
             this.lblUserName.TabIndex = 5;
             this.lblUserName.Text = "Admin User";
             this.lblUserName.Click += new System.EventHandler(this.lblUserName_Click);
@@ -661,7 +661,7 @@
             this.lblUserRole.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lblUserRole.Location = new System.Drawing.Point(77, 35);
             this.lblUserRole.Name = "lblUserRole";
-            this.lblUserRole.Size = new System.Drawing.Size(105, 15);
+            this.lblUserRole.Size = new System.Drawing.Size(129, 21);
             this.lblUserRole.TabIndex = 6;
             this.lblUserRole.Text = "Super Administrator";
             this.lblUserRole.Click += new System.EventHandler(this.lblUserRole_Click);
@@ -718,14 +718,14 @@
         private Guna.UI2.WinForms.Guna2Button btnSettings;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblSettings;
         private Guna.UI2.WinForms.Guna2Button btnUsers;
-        private Guna.UI2.WinForms.Guna2Button btnRoles;
+        private Guna.UI2.WinForms.Guna2Button btnPersons;
         private Guna.UI2.WinForms.Guna2Button btnDrivers;
         private Guna.UI2.WinForms.Guna2Button btnLicenseCategories;
-        private Guna.UI2.WinForms.Guna2Button btnOffices;
-        private Guna.UI2.WinForms.Guna2Button btnAuditLogs;
+        private Guna.UI2.WinForms.Guna2Button btnServiceandExam;
+        private Guna.UI2.WinForms.Guna2Button btnHistory;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblManage;
         private Guna.UI2.WinForms.Guna2Button btnPrintDelivery;
-        private Guna.UI2.WinForms.Guna2Button btnPayments;
+        private Guna.UI2.WinForms.Guna2Button btnDetain;
         private Guna.UI2.WinForms.Guna2Button btnExaminations;
         private Guna.UI2.WinForms.Guna2Button btnRenewals;
         private Guna.UI2.WinForms.Guna2Button btnLicenses;
