@@ -31,11 +31,22 @@
             this.pnlWelcome_s = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnltableAndQuick = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlLicenseOverview = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.ExpiredWord = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pendingWord = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.Active_word = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pointPending = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pointExpired = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pointActive = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblDonutLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblDonutTotal = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ehDonut = new System.Windows.Forms.Integration.ElementHost();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.pnlquickAction = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlQuickActionCollectP = new Guna.UI2.WinForms.Guna2Panel();
             this.go4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lbldescQuickActionCollectP = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -162,21 +173,12 @@
             this.lblWelcome = new Guna.UI2.WinForms.Guna2Panel();
             this.welcomLable2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.welcomLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pointActive = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pointExpired = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pointPending = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.Active_word = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pendingWord = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.ExpiredWord = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlWelcome_s.SuspendLayout();
             this.pnltableAndQuick.SuspendLayout();
             this.pnlLicenseOverview.SuspendLayout();
-            this.guna2GradientPanel1.SuspendLayout();
+            this.pnlquickAction.SuspendLayout();
+            this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.pnlQuickActionCollectP.SuspendLayout();
             this.pnliconQuickActionCollectP.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -228,8 +230,6 @@
             this.pnlIconCash.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIconTotalCash)).BeginInit();
             this.lblWelcome.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlWelcome_s
@@ -251,17 +251,18 @@
             // pnltableAndQuick
             // 
             this.pnltableAndQuick.Controls.Add(this.pnlLicenseOverview);
-            this.pnltableAndQuick.Controls.Add(this.guna2GradientPanel1);
+            this.pnltableAndQuick.Controls.Add(this.pnlquickAction);
             this.pnltableAndQuick.Controls.Add(this.pnlExpiredLicenses);
             this.pnltableAndQuick.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnltableAndQuick.Location = new System.Drawing.Point(0, 283);
             this.pnltableAndQuick.Name = "pnltableAndQuick";
+            this.pnltableAndQuick.Padding = new System.Windows.Forms.Padding(10);
             this.pnltableAndQuick.Size = new System.Drawing.Size(1561, 599);
             this.pnltableAndQuick.TabIndex = 5;
             // 
             // pnlLicenseOverview
             // 
-            this.pnlLicenseOverview.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pnlLicenseOverview.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.pnlLicenseOverview.AutoSize = true;
             this.pnlLicenseOverview.BorderColor = System.Drawing.Color.DarkViolet;
             this.pnlLicenseOverview.BorderRadius = 14;
@@ -284,6 +285,76 @@
             this.pnlLicenseOverview.Size = new System.Drawing.Size(358, 580);
             this.pnlLicenseOverview.TabIndex = 4;
             // 
+            // ExpiredWord
+            // 
+            this.ExpiredWord.BackColor = System.Drawing.Color.Transparent;
+            this.ExpiredWord.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExpiredWord.ForeColor = System.Drawing.Color.White;
+            this.ExpiredWord.Location = new System.Drawing.Point(147, 479);
+            this.ExpiredWord.Name = "ExpiredWord";
+            this.ExpiredWord.Size = new System.Drawing.Size(70, 30);
+            this.ExpiredWord.TabIndex = 22;
+            this.ExpiredWord.Text = "Expired";
+            // 
+            // pendingWord
+            // 
+            this.pendingWord.BackColor = System.Drawing.Color.Transparent;
+            this.pendingWord.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pendingWord.ForeColor = System.Drawing.Color.White;
+            this.pendingWord.Location = new System.Drawing.Point(147, 437);
+            this.pendingWord.Name = "pendingWord";
+            this.pendingWord.Size = new System.Drawing.Size(79, 30);
+            this.pendingWord.TabIndex = 21;
+            this.pendingWord.Text = "Pending";
+            // 
+            // Active_word
+            // 
+            this.Active_word.BackColor = System.Drawing.Color.Transparent;
+            this.Active_word.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Active_word.ForeColor = System.Drawing.Color.White;
+            this.Active_word.Location = new System.Drawing.Point(147, 398);
+            this.Active_word.Name = "Active_word";
+            this.Active_word.Size = new System.Drawing.Size(58, 30);
+            this.Active_word.TabIndex = 20;
+            this.Active_word.Text = "Active";
+            // 
+            // pointPending
+            // 
+            this.pointPending.BackColor = System.Drawing.Color.Transparent;
+            this.pointPending.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pointPending.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(85)))), ((int)(((byte)(247)))));
+            this.pointPending.Location = new System.Drawing.Point(125, 432);
+            this.pointPending.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
+            this.pointPending.Name = "pointPending";
+            this.pointPending.Size = new System.Drawing.Size(19, 38);
+            this.pointPending.TabIndex = 19;
+            this.pointPending.Text = "●";
+            // 
+            // pointExpired
+            // 
+            this.pointExpired.BackColor = System.Drawing.Color.Transparent;
+            this.pointExpired.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pointExpired.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(211)))), ((int)(((byte)(238)))));
+            this.pointExpired.Location = new System.Drawing.Point(125, 473);
+            this.pointExpired.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
+            this.pointExpired.Name = "pointExpired";
+            this.pointExpired.Size = new System.Drawing.Size(19, 38);
+            this.pointExpired.TabIndex = 18;
+            this.pointExpired.Text = "●";
+            // 
+            // pointActive
+            // 
+            this.pointActive.BackColor = System.Drawing.Color.Transparent;
+            this.pointActive.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pointActive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(86)))), ((int)(((byte)(214)))));
+            this.pointActive.Location = new System.Drawing.Point(125, 391);
+            this.pointActive.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
+            this.pointActive.Name = "pointActive";
+            this.pointActive.Size = new System.Drawing.Size(19, 38);
+            this.pointActive.TabIndex = 17;
+            this.pointActive.Text = "●";
+            this.pointActive.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
+            // 
             // lblDonutLabel
             // 
             this.lblDonutLabel.BackColor = System.Drawing.Color.Transparent;
@@ -292,7 +363,7 @@
             this.lblDonutLabel.Location = new System.Drawing.Point(152, 145);
             this.lblDonutLabel.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.lblDonutLabel.Name = "lblDonutLabel";
-            this.lblDonutLabel.Size = new System.Drawing.Size(95, 21);
+            this.lblDonutLabel.Size = new System.Drawing.Size(113, 25);
             this.lblDonutLabel.TabIndex = 16;
             this.lblDonutLabel.Text = "Total Licenses";
             // 
@@ -303,7 +374,7 @@
             this.lblDonutTotal.ForeColor = System.Drawing.Color.White;
             this.lblDonutTotal.Location = new System.Drawing.Point(140, 192);
             this.lblDonutTotal.Name = "lblDonutTotal";
-            this.lblDonutTotal.Size = new System.Drawing.Size(53, 27);
+            this.lblDonutTotal.Size = new System.Drawing.Size(68, 33);
             this.lblDonutTotal.TabIndex = 15;
             this.lblDonutTotal.Text = "21045";
             // 
@@ -323,33 +394,94 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(23, 12);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(135, 23);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(167, 30);
             this.guna2HtmlLabel2.TabIndex = 13;
             this.guna2HtmlLabel2.Text = "License Overview";
             // 
-            // guna2GradientPanel1
+            // pnlquickAction
             // 
-            this.guna2GradientPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.DarkViolet;
-            this.guna2GradientPanel1.BorderRadius = 14;
-            this.guna2GradientPanel1.BorderThickness = 1;
-            this.guna2GradientPanel1.Controls.Add(this.guna2Panel1);
-            this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionCollectP);
-            this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionScheduleEx);
-            this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionIssueL);
-            this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionApp);
-            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
-            this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(1131, 8);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(20, 20, 20, 8);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.ShadowDecoration.Depth = 2;
-            this.guna2GradientPanel1.ShadowDecoration.Enabled = true;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(409, 580);
-            this.guna2GradientPanel1.TabIndex = 3;
+            this.pnlquickAction.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlquickAction.BackColor = System.Drawing.Color.Transparent;
+            this.pnlquickAction.BorderColor = System.Drawing.Color.DarkViolet;
+            this.pnlquickAction.BorderRadius = 14;
+            this.pnlquickAction.BorderThickness = 1;
+            this.pnlquickAction.Controls.Add(this.guna2Panel1);
+            this.pnlquickAction.Controls.Add(this.pnlQuickActionCollectP);
+            this.pnlquickAction.Controls.Add(this.pnlQuickActionScheduleEx);
+            this.pnlquickAction.Controls.Add(this.pnlQuickActionIssueL);
+            this.pnlquickAction.Controls.Add(this.pnlQuickActionApp);
+            this.pnlquickAction.Controls.Add(this.guna2HtmlLabel1);
+            this.pnlquickAction.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
+            this.pnlquickAction.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
+            this.pnlquickAction.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.pnlquickAction.Location = new System.Drawing.Point(1125, 8);
+            this.pnlquickAction.Margin = new System.Windows.Forms.Padding(20, 20, 20, 100);
+            this.pnlquickAction.Name = "pnlquickAction";
+            this.pnlquickAction.ShadowDecoration.Depth = 2;
+            this.pnlquickAction.ShadowDecoration.Enabled = true;
+            this.pnlquickAction.Size = new System.Drawing.Size(409, 580);
+            this.pnlquickAction.TabIndex = 3;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.AutoSize = true;
+            this.guna2Panel1.BorderRadius = 14;
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox3);
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
+            this.guna2Panel1.Location = new System.Drawing.Point(16, 391);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(378, 156);
+            this.guna2Panel1.TabIndex = 14;
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(41, 74);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(174, 22);
+            this.guna2HtmlLabel5.TabIndex = 21;
+            this.guna2HtmlLabel5.Text = "before issung any license";
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(41, 54);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(251, 22);
+            this.guna2HtmlLabel4.TabIndex = 14;
+            this.guna2HtmlLabel4.Text = "Please verify all documents  carefully  ";
+            this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._99;
+            this.guna2PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(29, 8);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(26, 44);
+            this.guna2PictureBox3.TabIndex = 20;
+            this.guna2PictureBox3.TabStop = false;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(64, 19);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(167, 30);
+            this.guna2HtmlLabel3.TabIndex = 15;
+            this.guna2HtmlLabel3.Text = "Importent Notice";
             // 
             // pnlQuickActionCollectP
             // 
@@ -375,7 +507,7 @@
             this.go4.ForeColor = System.Drawing.Color.White;
             this.go4.Location = new System.Drawing.Point(351, 17);
             this.go4.Name = "go4";
-            this.go4.Size = new System.Drawing.Size(13, 21);
+            this.go4.Size = new System.Drawing.Size(15, 25);
             this.go4.TabIndex = 16;
             this.go4.Text = ">";
             // 
@@ -386,7 +518,7 @@
             this.lbldescQuickActionCollectP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lbldescQuickActionCollectP.Location = new System.Drawing.Point(78, 28);
             this.lbldescQuickActionCollectP.Name = "lbldescQuickActionCollectP";
-            this.lbldescQuickActionCollectP.Size = new System.Drawing.Size(99, 17);
+            this.lbldescQuickActionCollectP.Size = new System.Drawing.Size(127, 22);
             this.lbldescQuickActionCollectP.TabIndex = 15;
             this.lbldescQuickActionCollectP.Text = "Record a payment";
             // 
@@ -397,7 +529,7 @@
             this.lblTextQuickActionCollectP.ForeColor = System.Drawing.Color.White;
             this.lblTextQuickActionCollectP.Location = new System.Drawing.Point(78, 6);
             this.lblTextQuickActionCollectP.Name = "lblTextQuickActionCollectP";
-            this.lblTextQuickActionCollectP.Size = new System.Drawing.Size(105, 21);
+            this.lblTextQuickActionCollectP.Size = new System.Drawing.Size(128, 25);
             this.lblTextQuickActionCollectP.TabIndex = 15;
             this.lblTextQuickActionCollectP.Text = "Collect Payment";
             // 
@@ -448,7 +580,7 @@
             this.go3.ForeColor = System.Drawing.Color.White;
             this.go3.Location = new System.Drawing.Point(351, 18);
             this.go3.Name = "go3";
-            this.go3.Size = new System.Drawing.Size(13, 21);
+            this.go3.Size = new System.Drawing.Size(15, 25);
             this.go3.TabIndex = 15;
             this.go3.Text = ">";
             // 
@@ -459,7 +591,7 @@
             this.lbldescQuickActionScheduleEx.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lbldescQuickActionScheduleEx.Location = new System.Drawing.Point(78, 28);
             this.lbldescQuickActionScheduleEx.Name = "lbldescQuickActionScheduleEx";
-            this.lbldescQuickActionScheduleEx.Size = new System.Drawing.Size(123, 17);
+            this.lbldescQuickActionScheduleEx.Size = new System.Drawing.Size(158, 22);
             this.lbldescQuickActionScheduleEx.TabIndex = 14;
             this.lbldescQuickActionScheduleEx.Text = "Schedule a driving test";
             // 
@@ -470,7 +602,7 @@
             this.lblTextQuickActionScheduleEx.ForeColor = System.Drawing.Color.White;
             this.lblTextQuickActionScheduleEx.Location = new System.Drawing.Point(78, 6);
             this.lblTextQuickActionScheduleEx.Name = "lblTextQuickActionScheduleEx";
-            this.lblTextQuickActionScheduleEx.Size = new System.Drawing.Size(97, 21);
+            this.lblTextQuickActionScheduleEx.Size = new System.Drawing.Size(119, 25);
             this.lblTextQuickActionScheduleEx.TabIndex = 14;
             this.lblTextQuickActionScheduleEx.Text = "Schedule Exam";
             // 
@@ -521,7 +653,7 @@
             this.go2.ForeColor = System.Drawing.Color.White;
             this.go2.Location = new System.Drawing.Point(351, 19);
             this.go2.Name = "go2";
-            this.go2.Size = new System.Drawing.Size(13, 21);
+            this.go2.Size = new System.Drawing.Size(15, 25);
             this.go2.TabIndex = 14;
             this.go2.Text = ">";
             // 
@@ -532,7 +664,7 @@
             this.lbldescQuickActionIssueL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lbldescQuickActionIssueL.Location = new System.Drawing.Point(78, 29);
             this.lbldescQuickActionIssueL.Name = "lbldescQuickActionIssueL";
-            this.lbldescQuickActionIssueL.Size = new System.Drawing.Size(118, 17);
+            this.lbldescQuickActionIssueL.Size = new System.Drawing.Size(151, 22);
             this.lbldescQuickActionIssueL.TabIndex = 13;
             this.lbldescQuickActionIssueL.Text = "Issue a driving license";
             // 
@@ -543,7 +675,7 @@
             this.lblTextQuickActionIssueL.ForeColor = System.Drawing.Color.White;
             this.lblTextQuickActionIssueL.Location = new System.Drawing.Point(78, 6);
             this.lblTextQuickActionIssueL.Name = "lblTextQuickActionIssueL";
-            this.lblTextQuickActionIssueL.Size = new System.Drawing.Size(84, 21);
+            this.lblTextQuickActionIssueL.Size = new System.Drawing.Size(101, 25);
             this.lblTextQuickActionIssueL.TabIndex = 13;
             this.lblTextQuickActionIssueL.Text = "Issue License";
             // 
@@ -595,7 +727,7 @@
             this.go1.ForeColor = System.Drawing.Color.White;
             this.go1.Location = new System.Drawing.Point(351, 19);
             this.go1.Name = "go1";
-            this.go1.Size = new System.Drawing.Size(13, 21);
+            this.go1.Size = new System.Drawing.Size(15, 25);
             this.go1.TabIndex = 13;
             this.go1.Text = ">";
             // 
@@ -606,7 +738,7 @@
             this.lbldescQuickActionApp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lbldescQuickActionApp.Location = new System.Drawing.Point(78, 29);
             this.lbldescQuickActionApp.Name = "lbldescQuickActionApp";
-            this.lbldescQuickActionApp.Size = new System.Drawing.Size(171, 17);
+            this.lbldescQuickActionApp.Size = new System.Drawing.Size(221, 22);
             this.lbldescQuickActionApp.TabIndex = 10;
             this.lbldescQuickActionApp.Text = "Create a new license application";
             // 
@@ -617,7 +749,7 @@
             this.lblTextQuickActionApp.ForeColor = System.Drawing.Color.White;
             this.lblTextQuickActionApp.Location = new System.Drawing.Point(78, 7);
             this.lblTextQuickActionApp.Name = "lblTextQuickActionApp";
-            this.lblTextQuickActionApp.Size = new System.Drawing.Size(108, 21);
+            this.lblTextQuickActionApp.Size = new System.Drawing.Size(129, 25);
             this.lblTextQuickActionApp.TabIndex = 12;
             this.lblTextQuickActionApp.Text = "New Application";
             // 
@@ -654,12 +786,13 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(22, 12);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(108, 23);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(134, 30);
             this.guna2HtmlLabel1.TabIndex = 10;
             this.guna2HtmlLabel1.Text = "Quick Actions";
             // 
             // pnlExpiredLicenses
             // 
+            this.pnlExpiredLicenses.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlExpiredLicenses.BackColor = System.Drawing.Color.Transparent;
             this.pnlExpiredLicenses.BorderColor = System.Drawing.Color.Black;
             this.pnlExpiredLicenses.BorderRadius = 14;
@@ -696,7 +829,7 @@
             this.pnlLine7.Controls.Add(this.LabelLine7licenseNo);
             this.pnlLine7.Controls.Add(this.LabelLine7Name);
             this.pnlLine7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine7.Location = new System.Drawing.Point(0, 478);
+            this.pnlLine7.Location = new System.Drawing.Point(0, 403);
             this.pnlLine7.Name = "pnlLine7";
             this.pnlLine7.Size = new System.Drawing.Size(724, 61);
             this.pnlLine7.TabIndex = 19;
@@ -748,7 +881,7 @@
             this.LabelLine7DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.LabelLine7DaysOverdue.Location = new System.Drawing.Point(13, 5);
             this.LabelLine7DaysOverdue.Name = "LabelLine7DaysOverdue";
-            this.LabelLine7DaysOverdue.Size = new System.Drawing.Size(44, 17);
+            this.LabelLine7DaysOverdue.Size = new System.Drawing.Size(54, 22);
             this.LabelLine7DaysOverdue.TabIndex = 9;
             this.LabelLine7DaysOverdue.Text = "22 deys";
             this.LabelLine7DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -760,7 +893,7 @@
             this.LabelLine7ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine7ExpiryDate.Location = new System.Drawing.Point(371, 18);
             this.LabelLine7ExpiryDate.Name = "LabelLine7ExpiryDate";
-            this.LabelLine7ExpiryDate.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine7ExpiryDate.Size = new System.Drawing.Size(91, 25);
             this.LabelLine7ExpiryDate.TabIndex = 11;
             this.LabelLine7ExpiryDate.Text = "Jun 10,2025";
             // 
@@ -771,7 +904,7 @@
             this.LabelLine7licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine7licenseNo.Location = new System.Drawing.Point(214, 18);
             this.LabelLine7licenseNo.Name = "LabelLine7licenseNo";
-            this.LabelLine7licenseNo.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine7licenseNo.Size = new System.Drawing.Size(90, 25);
             this.LabelLine7licenseNo.TabIndex = 10;
             this.LabelLine7licenseNo.Text = "DL-2012-45";
             // 
@@ -782,7 +915,7 @@
             this.LabelLine7Name.ForeColor = System.Drawing.Color.White;
             this.LabelLine7Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine7Name.Name = "LabelLine7Name";
-            this.LabelLine7Name.Size = new System.Drawing.Size(90, 21);
+            this.LabelLine7Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine7Name.TabIndex = 9;
             this.LabelLine7Name.Text = "Abdelhak Mer";
             // 
@@ -796,7 +929,7 @@
             this.pnlLine6.Controls.Add(this.LabelLine6licenseNo);
             this.pnlLine6.Controls.Add(this.LabelLine6Name);
             this.pnlLine6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine6.Location = new System.Drawing.Point(0, 417);
+            this.pnlLine6.Location = new System.Drawing.Point(0, 342);
             this.pnlLine6.Name = "pnlLine6";
             this.pnlLine6.Size = new System.Drawing.Size(724, 61);
             this.pnlLine6.TabIndex = 18;
@@ -848,7 +981,7 @@
             this.LabelLine6DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.LabelLine6DaysOverdue.Location = new System.Drawing.Point(13, 5);
             this.LabelLine6DaysOverdue.Name = "LabelLine6DaysOverdue";
-            this.LabelLine6DaysOverdue.Size = new System.Drawing.Size(44, 17);
+            this.LabelLine6DaysOverdue.Size = new System.Drawing.Size(54, 22);
             this.LabelLine6DaysOverdue.TabIndex = 9;
             this.LabelLine6DaysOverdue.Text = "22 deys";
             this.LabelLine6DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -860,7 +993,7 @@
             this.LabelLine6ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine6ExpiryDate.Location = new System.Drawing.Point(371, 18);
             this.LabelLine6ExpiryDate.Name = "LabelLine6ExpiryDate";
-            this.LabelLine6ExpiryDate.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine6ExpiryDate.Size = new System.Drawing.Size(91, 25);
             this.LabelLine6ExpiryDate.TabIndex = 11;
             this.LabelLine6ExpiryDate.Text = "Jun 10,2025";
             // 
@@ -871,7 +1004,7 @@
             this.LabelLine6licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine6licenseNo.Location = new System.Drawing.Point(214, 18);
             this.LabelLine6licenseNo.Name = "LabelLine6licenseNo";
-            this.LabelLine6licenseNo.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine6licenseNo.Size = new System.Drawing.Size(90, 25);
             this.LabelLine6licenseNo.TabIndex = 10;
             this.LabelLine6licenseNo.Text = "DL-2012-45";
             // 
@@ -882,7 +1015,7 @@
             this.LabelLine6Name.ForeColor = System.Drawing.Color.White;
             this.LabelLine6Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine6Name.Name = "LabelLine6Name";
-            this.LabelLine6Name.Size = new System.Drawing.Size(90, 21);
+            this.LabelLine6Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine6Name.TabIndex = 9;
             this.LabelLine6Name.Text = "Abdelhak Mer";
             // 
@@ -896,7 +1029,7 @@
             this.pnlLine5.Controls.Add(this.LabelLine5licenseNo);
             this.pnlLine5.Controls.Add(this.LabelLine5Name);
             this.pnlLine5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine5.Location = new System.Drawing.Point(0, 356);
+            this.pnlLine5.Location = new System.Drawing.Point(0, 281);
             this.pnlLine5.Name = "pnlLine5";
             this.pnlLine5.Size = new System.Drawing.Size(724, 61);
             this.pnlLine5.TabIndex = 17;
@@ -948,7 +1081,7 @@
             this.LabelLine5DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.LabelLine5DaysOverdue.Location = new System.Drawing.Point(13, 5);
             this.LabelLine5DaysOverdue.Name = "LabelLine5DaysOverdue";
-            this.LabelLine5DaysOverdue.Size = new System.Drawing.Size(44, 17);
+            this.LabelLine5DaysOverdue.Size = new System.Drawing.Size(54, 22);
             this.LabelLine5DaysOverdue.TabIndex = 9;
             this.LabelLine5DaysOverdue.Text = "22 deys";
             this.LabelLine5DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -960,7 +1093,7 @@
             this.LabelLine5ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine5ExpiryDate.Location = new System.Drawing.Point(371, 18);
             this.LabelLine5ExpiryDate.Name = "LabelLine5ExpiryDate";
-            this.LabelLine5ExpiryDate.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine5ExpiryDate.Size = new System.Drawing.Size(91, 25);
             this.LabelLine5ExpiryDate.TabIndex = 11;
             this.LabelLine5ExpiryDate.Text = "Jun 10,2025";
             // 
@@ -971,7 +1104,7 @@
             this.LabelLine5licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine5licenseNo.Location = new System.Drawing.Point(214, 18);
             this.LabelLine5licenseNo.Name = "LabelLine5licenseNo";
-            this.LabelLine5licenseNo.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine5licenseNo.Size = new System.Drawing.Size(90, 25);
             this.LabelLine5licenseNo.TabIndex = 10;
             this.LabelLine5licenseNo.Text = "DL-2012-45";
             // 
@@ -982,7 +1115,7 @@
             this.LabelLine5Name.ForeColor = System.Drawing.Color.White;
             this.LabelLine5Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine5Name.Name = "LabelLine5Name";
-            this.LabelLine5Name.Size = new System.Drawing.Size(90, 21);
+            this.LabelLine5Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine5Name.TabIndex = 9;
             this.LabelLine5Name.Text = "Abdelhak Mer";
             // 
@@ -1017,7 +1150,7 @@
             this.pnlLine4.Controls.Add(this.LabelLine4licenseNo);
             this.pnlLine4.Controls.Add(this.LabelLine4Name);
             this.pnlLine4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine4.Location = new System.Drawing.Point(0, 295);
+            this.pnlLine4.Location = new System.Drawing.Point(0, 220);
             this.pnlLine4.Name = "pnlLine4";
             this.pnlLine4.Size = new System.Drawing.Size(724, 61);
             this.pnlLine4.TabIndex = 13;
@@ -1069,7 +1202,7 @@
             this.LabelLine4DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.LabelLine4DaysOverdue.Location = new System.Drawing.Point(12, 5);
             this.LabelLine4DaysOverdue.Name = "LabelLine4DaysOverdue";
-            this.LabelLine4DaysOverdue.Size = new System.Drawing.Size(44, 17);
+            this.LabelLine4DaysOverdue.Size = new System.Drawing.Size(54, 22);
             this.LabelLine4DaysOverdue.TabIndex = 9;
             this.LabelLine4DaysOverdue.Text = "22 deys";
             this.LabelLine4DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1081,7 +1214,7 @@
             this.LabelLine4ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine4ExpiryDate.Location = new System.Drawing.Point(371, 18);
             this.LabelLine4ExpiryDate.Name = "LabelLine4ExpiryDate";
-            this.LabelLine4ExpiryDate.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine4ExpiryDate.Size = new System.Drawing.Size(91, 25);
             this.LabelLine4ExpiryDate.TabIndex = 11;
             this.LabelLine4ExpiryDate.Text = "Jun 10,2025";
             // 
@@ -1092,7 +1225,7 @@
             this.LabelLine4licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine4licenseNo.Location = new System.Drawing.Point(214, 18);
             this.LabelLine4licenseNo.Name = "LabelLine4licenseNo";
-            this.LabelLine4licenseNo.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine4licenseNo.Size = new System.Drawing.Size(90, 25);
             this.LabelLine4licenseNo.TabIndex = 10;
             this.LabelLine4licenseNo.Text = "DL-2012-45";
             // 
@@ -1103,7 +1236,7 @@
             this.LabelLine4Name.ForeColor = System.Drawing.Color.White;
             this.LabelLine4Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine4Name.Name = "LabelLine4Name";
-            this.LabelLine4Name.Size = new System.Drawing.Size(90, 21);
+            this.LabelLine4Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine4Name.TabIndex = 9;
             this.LabelLine4Name.Text = "Abdelhak Mer";
             // 
@@ -1116,7 +1249,7 @@
             this.pnlLine3.Controls.Add(this.LabelLine3licenseNo);
             this.pnlLine3.Controls.Add(this.LabelLine3Name);
             this.pnlLine3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine3.Location = new System.Drawing.Point(0, 237);
+            this.pnlLine3.Location = new System.Drawing.Point(0, 162);
             this.pnlLine3.Name = "pnlLine3";
             this.pnlLine3.Size = new System.Drawing.Size(724, 58);
             this.pnlLine3.TabIndex = 5;
@@ -1168,7 +1301,7 @@
             this.LabelLine3DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.LabelLine3DaysOverdue.Location = new System.Drawing.Point(13, 5);
             this.LabelLine3DaysOverdue.Name = "LabelLine3DaysOverdue";
-            this.LabelLine3DaysOverdue.Size = new System.Drawing.Size(44, 17);
+            this.LabelLine3DaysOverdue.Size = new System.Drawing.Size(54, 22);
             this.LabelLine3DaysOverdue.TabIndex = 9;
             this.LabelLine3DaysOverdue.Text = "22 deys";
             this.LabelLine3DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1180,7 +1313,7 @@
             this.LabelLine3ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine3ExpiryDate.Location = new System.Drawing.Point(371, 18);
             this.LabelLine3ExpiryDate.Name = "LabelLine3ExpiryDate";
-            this.LabelLine3ExpiryDate.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine3ExpiryDate.Size = new System.Drawing.Size(91, 25);
             this.LabelLine3ExpiryDate.TabIndex = 11;
             this.LabelLine3ExpiryDate.Text = "Jun 10,2025";
             // 
@@ -1191,7 +1324,7 @@
             this.LabelLine3licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine3licenseNo.Location = new System.Drawing.Point(214, 18);
             this.LabelLine3licenseNo.Name = "LabelLine3licenseNo";
-            this.LabelLine3licenseNo.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine3licenseNo.Size = new System.Drawing.Size(90, 25);
             this.LabelLine3licenseNo.TabIndex = 10;
             this.LabelLine3licenseNo.Text = "DL-2012-45";
             // 
@@ -1202,7 +1335,7 @@
             this.LabelLine3Name.ForeColor = System.Drawing.Color.White;
             this.LabelLine3Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine3Name.Name = "LabelLine3Name";
-            this.LabelLine3Name.Size = new System.Drawing.Size(90, 21);
+            this.LabelLine3Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine3Name.TabIndex = 9;
             this.LabelLine3Name.Text = "Abdelhak Mer";
             this.LabelLine3Name.Click += new System.EventHandler(this.guna2HtmlLabel8_Click);
@@ -1216,7 +1349,7 @@
             this.pnlLine2.Controls.Add(this.LabelLine2licenseNo);
             this.pnlLine2.Controls.Add(this.LabelLine2Name);
             this.pnlLine2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine2.Location = new System.Drawing.Point(0, 180);
+            this.pnlLine2.Location = new System.Drawing.Point(0, 105);
             this.pnlLine2.Name = "pnlLine2";
             this.pnlLine2.Size = new System.Drawing.Size(724, 57);
             this.pnlLine2.TabIndex = 12;
@@ -1268,7 +1401,7 @@
             this.LabelLine2DaysOverdue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
             this.LabelLine2DaysOverdue.Location = new System.Drawing.Point(12, 5);
             this.LabelLine2DaysOverdue.Name = "LabelLine2DaysOverdue";
-            this.LabelLine2DaysOverdue.Size = new System.Drawing.Size(44, 17);
+            this.LabelLine2DaysOverdue.Size = new System.Drawing.Size(54, 22);
             this.LabelLine2DaysOverdue.TabIndex = 9;
             this.LabelLine2DaysOverdue.Text = "22 deys";
             this.LabelLine2DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1280,7 +1413,7 @@
             this.LabelLine2ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine2ExpiryDate.Location = new System.Drawing.Point(371, 18);
             this.LabelLine2ExpiryDate.Name = "LabelLine2ExpiryDate";
-            this.LabelLine2ExpiryDate.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine2ExpiryDate.Size = new System.Drawing.Size(91, 25);
             this.LabelLine2ExpiryDate.TabIndex = 11;
             this.LabelLine2ExpiryDate.Text = "Jun 10,2025";
             // 
@@ -1291,7 +1424,7 @@
             this.LabelLine2licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine2licenseNo.Location = new System.Drawing.Point(214, 18);
             this.LabelLine2licenseNo.Name = "LabelLine2licenseNo";
-            this.LabelLine2licenseNo.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine2licenseNo.Size = new System.Drawing.Size(90, 25);
             this.LabelLine2licenseNo.TabIndex = 10;
             this.LabelLine2licenseNo.Text = "DL-2012-45";
             // 
@@ -1302,7 +1435,7 @@
             this.LabelLine2Name.ForeColor = System.Drawing.Color.White;
             this.LabelLine2Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine2Name.Name = "LabelLine2Name";
-            this.LabelLine2Name.Size = new System.Drawing.Size(90, 21);
+            this.LabelLine2Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine2Name.TabIndex = 9;
             this.LabelLine2Name.Text = "Abdelhak Mer";
             // 
@@ -1325,7 +1458,7 @@
             this.pnlLine1.Controls.Add(this.LabelLine1licenseNo);
             this.pnlLine1.Controls.Add(this.LabelLine1Name);
             this.pnlLine1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine1.Location = new System.Drawing.Point(0, 119);
+            this.pnlLine1.Location = new System.Drawing.Point(0, 44);
             this.pnlLine1.Name = "pnlLine1";
             this.pnlLine1.Size = new System.Drawing.Size(724, 61);
             this.pnlLine1.TabIndex = 4;
@@ -1367,7 +1500,7 @@
             this.LabelLine1DaysOverdue.Location = new System.Drawing.Point(12, 5);
             this.LabelLine1DaysOverdue.Margin = new System.Windows.Forms.Padding(5);
             this.LabelLine1DaysOverdue.Name = "LabelLine1DaysOverdue";
-            this.LabelLine1DaysOverdue.Size = new System.Drawing.Size(44, 17);
+            this.LabelLine1DaysOverdue.Size = new System.Drawing.Size(54, 22);
             this.LabelLine1DaysOverdue.TabIndex = 9;
             this.LabelLine1DaysOverdue.Text = "22 deys";
             this.LabelLine1DaysOverdue.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1379,7 +1512,7 @@
             this.LabelLine1ExpiryDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine1ExpiryDate.Location = new System.Drawing.Point(371, 18);
             this.LabelLine1ExpiryDate.Name = "LabelLine1ExpiryDate";
-            this.LabelLine1ExpiryDate.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine1ExpiryDate.Size = new System.Drawing.Size(91, 25);
             this.LabelLine1ExpiryDate.TabIndex = 11;
             this.LabelLine1ExpiryDate.Text = "Jun 10,2025";
             // 
@@ -1390,7 +1523,7 @@
             this.LabelLine1licenseNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLine1licenseNo.Location = new System.Drawing.Point(214, 18);
             this.LabelLine1licenseNo.Name = "LabelLine1licenseNo";
-            this.LabelLine1licenseNo.Size = new System.Drawing.Size(78, 21);
+            this.LabelLine1licenseNo.Size = new System.Drawing.Size(90, 25);
             this.LabelLine1licenseNo.TabIndex = 10;
             this.LabelLine1licenseNo.Text = "DL-2012-45";
             // 
@@ -1401,7 +1534,7 @@
             this.LabelLine1Name.ForeColor = System.Drawing.Color.White;
             this.LabelLine1Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine1Name.Name = "LabelLine1Name";
-            this.LabelLine1Name.Size = new System.Drawing.Size(90, 21);
+            this.LabelLine1Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine1Name.TabIndex = 9;
             this.LabelLine1Name.Text = "Abdelhak Mer";
             // 
@@ -1414,7 +1547,7 @@
             this.lplTitleEntity.Controls.Add(this.LabelLicenseNoRow);
             this.lplTitleEntity.Controls.Add(this.LabelLicenseRow);
             this.lplTitleEntity.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lplTitleEntity.Location = new System.Drawing.Point(0, 75);
+            this.lplTitleEntity.Location = new System.Drawing.Point(0, 0);
             this.lplTitleEntity.Name = "lplTitleEntity";
             this.lplTitleEntity.Size = new System.Drawing.Size(724, 44);
             this.lplTitleEntity.TabIndex = 5;
@@ -1426,7 +1559,7 @@
             this.LabelActionRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelActionRow.Location = new System.Drawing.Point(633, 11);
             this.LabelActionRow.Name = "LabelActionRow";
-            this.LabelActionRow.Size = new System.Drawing.Size(47, 17);
+            this.LabelActionRow.Size = new System.Drawing.Size(57, 22);
             this.LabelActionRow.TabIndex = 13;
             this.LabelActionRow.Text = "ACTION";
             // 
@@ -1437,7 +1570,7 @@
             this.LabelDaysOverdueRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelDaysOverdueRow.Location = new System.Drawing.Point(500, 11);
             this.LabelDaysOverdueRow.Name = "LabelDaysOverdueRow";
-            this.LabelDaysOverdueRow.Size = new System.Drawing.Size(90, 17);
+            this.LabelDaysOverdueRow.Size = new System.Drawing.Size(113, 22);
             this.LabelDaysOverdueRow.TabIndex = 12;
             this.LabelDaysOverdueRow.Text = "DAYS OVERDUE";
             // 
@@ -1448,7 +1581,7 @@
             this.LabelExpiryDateRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelExpiryDateRow.Location = new System.Drawing.Point(371, 11);
             this.LabelExpiryDateRow.Name = "LabelExpiryDateRow";
-            this.LabelExpiryDateRow.Size = new System.Drawing.Size(74, 17);
+            this.LabelExpiryDateRow.Size = new System.Drawing.Size(92, 22);
             this.LabelExpiryDateRow.TabIndex = 11;
             this.LabelExpiryDateRow.Text = "EXPIRY DATE";
             // 
@@ -1459,7 +1592,7 @@
             this.LabelLicenseNoRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLicenseNoRow.Location = new System.Drawing.Point(214, 11);
             this.LabelLicenseNoRow.Name = "LabelLicenseNoRow";
-            this.LabelLicenseNoRow.Size = new System.Drawing.Size(69, 17);
+            this.LabelLicenseNoRow.Size = new System.Drawing.Size(86, 22);
             this.LabelLicenseNoRow.TabIndex = 10;
             this.LabelLicenseNoRow.Text = "LICENSE NO";
             // 
@@ -1470,7 +1603,7 @@
             this.LabelLicenseRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(185)))), ((int)(((byte)(210)))));
             this.LabelLicenseRow.Location = new System.Drawing.Point(14, 11);
             this.LabelLicenseRow.Name = "LabelLicenseRow";
-            this.LabelLicenseRow.Size = new System.Drawing.Size(54, 17);
+            this.LabelLicenseRow.Size = new System.Drawing.Size(67, 22);
             this.LabelLicenseRow.TabIndex = 9;
             this.LabelLicenseRow.Text = "LICENSEE";
             // 
@@ -1488,10 +1621,11 @@
             // 
             // pnlExpiredHeader
             // 
+            this.pnlExpiredHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlExpiredHeader.Controls.Add(this.btnViewAllExpired);
             this.pnlExpiredHeader.Controls.Add(this.lblExpiredSubtitle);
             this.pnlExpiredHeader.Controls.Add(this.lblExpiredTitle);
-            this.pnlExpiredHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlExpiredHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlExpiredHeader.Name = "pnlExpiredHeader";
             this.pnlExpiredHeader.Size = new System.Drawing.Size(724, 75);
@@ -1525,7 +1659,7 @@
             this.lblExpiredSubtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lblExpiredSubtitle.Location = new System.Drawing.Point(62, 38);
             this.lblExpiredSubtitle.Name = "lblExpiredSubtitle";
-            this.lblExpiredSubtitle.Size = new System.Drawing.Size(284, 17);
+            this.lblExpiredSubtitle.Size = new System.Drawing.Size(369, 22);
             this.lblExpiredSubtitle.TabIndex = 9;
             this.lblExpiredSubtitle.Text = "Licenses that have expired and may require attention.";
             // 
@@ -1536,7 +1670,7 @@
             this.lblExpiredTitle.ForeColor = System.Drawing.Color.White;
             this.lblExpiredTitle.Location = new System.Drawing.Point(60, 10);
             this.lblExpiredTitle.Name = "lblExpiredTitle";
-            this.lblExpiredTitle.Size = new System.Drawing.Size(128, 23);
+            this.lblExpiredTitle.Size = new System.Drawing.Size(158, 30);
             this.lblExpiredTitle.TabIndex = 9;
             this.lblExpiredTitle.Text = "Expired Licenses";
             // 
@@ -1584,7 +1718,7 @@
             this.from_last_month_text1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.from_last_month_text1.Location = new System.Drawing.Point(129, 87);
             this.from_last_month_text1.Name = "from_last_month_text1";
-            this.from_last_month_text1.Size = new System.Drawing.Size(89, 17);
+            this.from_last_month_text1.Size = new System.Drawing.Size(112, 22);
             this.from_last_month_text1.TabIndex = 8;
             this.from_last_month_text1.Text = "from last month";
             this.from_last_month_text1.UseWaitCursor = true;
@@ -1597,7 +1731,7 @@
             this.lblChangeApplications.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(211)))), ((int)(((byte)(153)))));
             this.lblChangeApplications.Location = new System.Drawing.Point(86, 88);
             this.lblChangeApplications.Name = "lblChangeApplications";
-            this.lblChangeApplications.Size = new System.Drawing.Size(37, 14);
+            this.lblChangeApplications.Size = new System.Drawing.Size(46, 19);
             this.lblChangeApplications.TabIndex = 7;
             this.lblChangeApplications.Text = "↑ 12.5%";
             this.lblChangeApplications.UseWaitCursor = true;
@@ -1609,7 +1743,7 @@
             this.lblValueApplications.ForeColor = System.Drawing.Color.White;
             this.lblValueApplications.Location = new System.Drawing.Point(85, 49);
             this.lblValueApplications.Name = "lblValueApplications";
-            this.lblValueApplications.Size = new System.Drawing.Size(74, 32);
+            this.lblValueApplications.Size = new System.Drawing.Size(90, 39);
             this.lblValueApplications.TabIndex = 6;
             this.lblValueApplications.Text = "12,458";
             this.lblValueApplications.UseWaitCursor = true;
@@ -1621,7 +1755,7 @@
             this.lblTitleApplications.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lblTitleApplications.Location = new System.Drawing.Point(87, 29);
             this.lblTitleApplications.Name = "lblTitleApplications";
-            this.lblTitleApplications.Size = new System.Drawing.Size(99, 17);
+            this.lblTitleApplications.Size = new System.Drawing.Size(125, 22);
             this.lblTitleApplications.TabIndex = 5;
             this.lblTitleApplications.Text = "Total Applications";
             this.lblTitleApplications.UseWaitCursor = true;
@@ -1683,7 +1817,7 @@
             this.from_last_month_text2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.from_last_month_text2.Location = new System.Drawing.Point(136, 87);
             this.from_last_month_text2.Name = "from_last_month_text2";
-            this.from_last_month_text2.Size = new System.Drawing.Size(89, 17);
+            this.from_last_month_text2.Size = new System.Drawing.Size(112, 22);
             this.from_last_month_text2.TabIndex = 9;
             this.from_last_month_text2.Text = "from last month";
             this.from_last_month_text2.UseWaitCursor = true;
@@ -1695,7 +1829,7 @@
             this.lblChangeLicenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(211)))), ((int)(((byte)(153)))));
             this.lblChangeLicenses.Location = new System.Drawing.Point(93, 88);
             this.lblChangeLicenses.Name = "lblChangeLicenses";
-            this.lblChangeLicenses.Size = new System.Drawing.Size(37, 14);
+            this.lblChangeLicenses.Size = new System.Drawing.Size(46, 19);
             this.lblChangeLicenses.TabIndex = 9;
             this.lblChangeLicenses.Text = "↑ 15.3%";
             this.lblChangeLicenses.UseWaitCursor = true;
@@ -1707,7 +1841,7 @@
             this.lblValueLicenses.ForeColor = System.Drawing.Color.White;
             this.lblValueLicenses.Location = new System.Drawing.Point(93, 49);
             this.lblValueLicenses.Name = "lblValueLicenses";
-            this.lblValueLicenses.Size = new System.Drawing.Size(61, 32);
+            this.lblValueLicenses.Size = new System.Drawing.Size(74, 39);
             this.lblValueLicenses.TabIndex = 9;
             this.lblValueLicenses.Text = "8,763";
             this.lblValueLicenses.UseWaitCursor = true;
@@ -1719,7 +1853,7 @@
             this.lblTitleLicenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lblTitleLicenses.Location = new System.Drawing.Point(93, 29);
             this.lblTitleLicenses.Name = "lblTitleLicenses";
-            this.lblTitleLicenses.Size = new System.Drawing.Size(84, 17);
+            this.lblTitleLicenses.Size = new System.Drawing.Size(104, 22);
             this.lblTitleLicenses.TabIndex = 9;
             this.lblTitleLicenses.Text = "Licenses Issued";
             this.lblTitleLicenses.UseWaitCursor = true;
@@ -1779,7 +1913,7 @@
             this.from_last_month_text3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.from_last_month_text3.Location = new System.Drawing.Point(132, 87);
             this.from_last_month_text3.Name = "from_last_month_text3";
-            this.from_last_month_text3.Size = new System.Drawing.Size(89, 17);
+            this.from_last_month_text3.Size = new System.Drawing.Size(112, 22);
             this.from_last_month_text3.TabIndex = 10;
             this.from_last_month_text3.Text = "from last month";
             this.from_last_month_text3.UseWaitCursor = true;
@@ -1791,7 +1925,7 @@
             this.lblChangePending.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(113)))), ((int)(((byte)(113)))));
             this.lblChangePending.Location = new System.Drawing.Point(94, 88);
             this.lblChangePending.Name = "lblChangePending";
-            this.lblChangePending.Size = new System.Drawing.Size(32, 14);
+            this.lblChangePending.Size = new System.Drawing.Size(41, 19);
             this.lblChangePending.TabIndex = 10;
             this.lblChangePending.Text = "↓ 8.7%";
             this.lblChangePending.UseWaitCursor = true;
@@ -1803,7 +1937,7 @@
             this.lblValuePending.ForeColor = System.Drawing.Color.White;
             this.lblValuePending.Location = new System.Drawing.Point(94, 49);
             this.lblValuePending.Name = "lblValuePending";
-            this.lblValuePending.Size = new System.Drawing.Size(61, 32);
+            this.lblValuePending.Size = new System.Drawing.Size(74, 39);
             this.lblValuePending.TabIndex = 10;
             this.lblValuePending.Text = "2,195";
             this.lblValuePending.UseWaitCursor = true;
@@ -1815,7 +1949,7 @@
             this.lblTitlePending.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lblTitlePending.Location = new System.Drawing.Point(94, 29);
             this.lblTitlePending.Name = "lblTitlePending";
-            this.lblTitlePending.Size = new System.Drawing.Size(116, 17);
+            this.lblTitlePending.Size = new System.Drawing.Size(148, 22);
             this.lblTitlePending.TabIndex = 10;
             this.lblTitlePending.Text = "Pending Applications";
             this.lblTitlePending.UseWaitCursor = true;
@@ -1872,7 +2006,7 @@
             this.from_last_month_text4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.from_last_month_text4.Location = new System.Drawing.Point(138, 88);
             this.from_last_month_text4.Name = "from_last_month_text4";
-            this.from_last_month_text4.Size = new System.Drawing.Size(89, 17);
+            this.from_last_month_text4.Size = new System.Drawing.Size(112, 22);
             this.from_last_month_text4.TabIndex = 11;
             this.from_last_month_text4.Text = "from last month";
             this.from_last_month_text4.UseWaitCursor = true;
@@ -1884,7 +2018,7 @@
             this.lblChangeTodayRevenue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(211)))), ((int)(((byte)(153)))));
             this.lblChangeTodayRevenue.Location = new System.Drawing.Point(95, 89);
             this.lblChangeTodayRevenue.Name = "lblChangeTodayRevenue";
-            this.lblChangeTodayRevenue.Size = new System.Drawing.Size(37, 14);
+            this.lblChangeTodayRevenue.Size = new System.Drawing.Size(46, 19);
             this.lblChangeTodayRevenue.TabIndex = 11;
             this.lblChangeTodayRevenue.Text = "↑ 12.2%";
             this.lblChangeTodayRevenue.UseWaitCursor = true;
@@ -1896,7 +2030,7 @@
             this.lblTodayRevenue_Value.ForeColor = System.Drawing.Color.White;
             this.lblTodayRevenue_Value.Location = new System.Drawing.Point(95, 51);
             this.lblTodayRevenue_Value.Name = "lblTodayRevenue_Value";
-            this.lblTodayRevenue_Value.Size = new System.Drawing.Size(87, 32);
+            this.lblTodayRevenue_Value.Size = new System.Drawing.Size(106, 39);
             this.lblTodayRevenue_Value.TabIndex = 11;
             this.lblTodayRevenue_Value.Text = "$24,420";
             this.lblTodayRevenue_Value.UseWaitCursor = true;
@@ -1908,7 +2042,7 @@
             this.lblTodayRevenue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lblTodayRevenue.Location = new System.Drawing.Point(95, 31);
             this.lblTodayRevenue.Name = "lblTodayRevenue";
-            this.lblTodayRevenue.Size = new System.Drawing.Size(84, 17);
+            this.lblTodayRevenue.Size = new System.Drawing.Size(108, 22);
             this.lblTodayRevenue.TabIndex = 11;
             this.lblTodayRevenue.Text = "Today Revenue";
             this.lblTodayRevenue.UseWaitCursor = true;
@@ -1973,135 +2107,6 @@
             this.welcomLabel1.TabIndex = 2;
             this.welcomLabel1.Text = "Welcome back, Admin..";
             // 
-            // pointActive
-            // 
-            this.pointActive.BackColor = System.Drawing.Color.Transparent;
-            this.pointActive.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pointActive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(86)))), ((int)(((byte)(214)))));
-            this.pointActive.Location = new System.Drawing.Point(125, 391);
-            this.pointActive.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
-            this.pointActive.Name = "pointActive";
-            this.pointActive.Size = new System.Drawing.Size(16, 32);
-            this.pointActive.TabIndex = 17;
-            this.pointActive.Text = "●";
-            this.pointActive.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
-            // 
-            // pointExpired
-            // 
-            this.pointExpired.BackColor = System.Drawing.Color.Transparent;
-            this.pointExpired.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pointExpired.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(211)))), ((int)(((byte)(238)))));
-            this.pointExpired.Location = new System.Drawing.Point(125, 473);
-            this.pointExpired.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
-            this.pointExpired.Name = "pointExpired";
-            this.pointExpired.Size = new System.Drawing.Size(16, 32);
-            this.pointExpired.TabIndex = 18;
-            this.pointExpired.Text = "●";
-            // 
-            // pointPending
-            // 
-            this.pointPending.BackColor = System.Drawing.Color.Transparent;
-            this.pointPending.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pointPending.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(85)))), ((int)(((byte)(247)))));
-            this.pointPending.Location = new System.Drawing.Point(125, 432);
-            this.pointPending.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
-            this.pointPending.Name = "pointPending";
-            this.pointPending.Size = new System.Drawing.Size(16, 32);
-            this.pointPending.TabIndex = 19;
-            this.pointPending.Text = "●";
-            // 
-            // Active_word
-            // 
-            this.Active_word.BackColor = System.Drawing.Color.Transparent;
-            this.Active_word.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Active_word.ForeColor = System.Drawing.Color.White;
-            this.Active_word.Location = new System.Drawing.Point(147, 398);
-            this.Active_word.Name = "Active_word";
-            this.Active_word.Size = new System.Drawing.Size(49, 23);
-            this.Active_word.TabIndex = 20;
-            this.Active_word.Text = "Active";
-            // 
-            // pendingWord
-            // 
-            this.pendingWord.BackColor = System.Drawing.Color.Transparent;
-            this.pendingWord.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pendingWord.ForeColor = System.Drawing.Color.White;
-            this.pendingWord.Location = new System.Drawing.Point(147, 437);
-            this.pendingWord.Name = "pendingWord";
-            this.pendingWord.Size = new System.Drawing.Size(63, 23);
-            this.pendingWord.TabIndex = 21;
-            this.pendingWord.Text = "Pending";
-            // 
-            // ExpiredWord
-            // 
-            this.ExpiredWord.BackColor = System.Drawing.Color.Transparent;
-            this.ExpiredWord.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExpiredWord.ForeColor = System.Drawing.Color.White;
-            this.ExpiredWord.Location = new System.Drawing.Point(147, 479);
-            this.ExpiredWord.Name = "ExpiredWord";
-            this.ExpiredWord.Size = new System.Drawing.Size(58, 23);
-            this.ExpiredWord.TabIndex = 22;
-            this.ExpiredWord.Text = "Expired";
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BorderRadius = 14;
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel5);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox3);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(16, 391);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(378, 156);
-            this.guna2Panel1.TabIndex = 14;
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(64, 19);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(135, 23);
-            this.guna2HtmlLabel3.TabIndex = 15;
-            this.guna2HtmlLabel3.Text = "Importent Notice";
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._99;
-            this.guna2PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(29, 8);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(26, 44);
-            this.guna2PictureBox3.TabIndex = 20;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(41, 54);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(194, 17);
-            this.guna2HtmlLabel4.TabIndex = 14;
-            this.guna2HtmlLabel4.Text = "Please verify all documents  carefully  ";
-            this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(41, 74);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(135, 17);
-            this.guna2HtmlLabel5.TabIndex = 21;
-            this.guna2HtmlLabel5.Text = "before issung any license";
-            // 
             // Us_welcom_s
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
@@ -2117,8 +2122,11 @@
             this.pnltableAndQuick.PerformLayout();
             this.pnlLicenseOverview.ResumeLayout(false);
             this.pnlLicenseOverview.PerformLayout();
-            this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2GradientPanel1.PerformLayout();
+            this.pnlquickAction.ResumeLayout(false);
+            this.pnlquickAction.PerformLayout();
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.pnlQuickActionCollectP.ResumeLayout(false);
             this.pnlQuickActionCollectP.PerformLayout();
             this.pnliconQuickActionCollectP.ResumeLayout(false);
@@ -2194,9 +2202,6 @@
             this.pnlIconCash.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picIconTotalCash)).EndInit();
             this.lblWelcome.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2236,7 +2241,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel welcomLable2;
         private Guna.UI2.WinForms.Guna2HtmlLabel welcomLabel1;
         private Guna.UI2.WinForms.Guna2GradientPanel pnlExpiredLicenses;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2GradientPanel pnlquickAction;
         private Guna.UI2.WinForms.Guna2Panel pnlExpiredHeader;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblExpiredTitle;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblExpiredSubtitle;
