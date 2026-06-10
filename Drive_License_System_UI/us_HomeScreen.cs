@@ -197,5 +197,15 @@ namespace Drive_License_System_UI
         {
             ArrangeStatCards();
         }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

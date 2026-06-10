@@ -108,6 +108,9 @@ namespace Drive_License_System_UI
 
         }
 
+
+
+
         private void btnHome_Click(object sender, EventArgs e)
         {
             if (CerrentPage != enPageName.Home)
@@ -116,6 +119,7 @@ namespace Drive_License_System_UI
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
+
                 CerrentPage = enPageName.Home;
             }
                
