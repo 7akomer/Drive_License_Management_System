@@ -77,6 +77,7 @@
             // 
             this.pnlSiderbar.AutoScroll = true;
             this.pnlSiderbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(42)))));
+            this.pnlSiderbar.BorderColor = System.Drawing.Color.Transparent;
             this.pnlSiderbar.BorderRadius = 25;
             this.pnlSiderbar.Controls.Add(this.pnlNavLinks);
             this.pnlSiderbar.Controls.Add(this.pnlLogo);
@@ -533,6 +534,8 @@
             // 
             this.pnlLogo.AutoScroll = true;
             this.pnlLogo.AutoScrollMinSize = new System.Drawing.Size(0, 70);
+            this.pnlLogo.BorderColor = System.Drawing.Color.Transparent;
+            this.pnlLogo.BorderThickness = 1;
             this.pnlLogo.Controls.Add(this.lblAppName);
             this.pnlLogo.Controls.Add(this.pnlLogoIcon);
             this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
@@ -600,7 +603,7 @@
             // pnltop
             // 
             this.pnltop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(20)))), ((int)(((byte)(42)))));
-            this.pnltop.BorderColor = System.Drawing.Color.Navy;
+            this.pnltop.BorderColor = System.Drawing.Color.Transparent;
             this.pnltop.Controls.Add(this.pnluserInfo);
             this.pnltop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnltop.Location = new System.Drawing.Point(275, 0);
@@ -610,6 +613,7 @@
             // 
             // pnluserInfo
             // 
+            this.pnluserInfo.BorderColor = System.Drawing.Color.Transparent;
             this.pnluserInfo.Controls.Add(this.guna2CirclePictureBox1);
             this.pnluserInfo.Controls.Add(this.pnlLine);
             this.pnluserInfo.Controls.Add(this.lblUserName);
@@ -669,6 +673,7 @@
             // pnlMainContent
             // 
             this.pnlMainContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
+            this.pnlMainContent.BorderColor = System.Drawing.Color.Silver;
             this.pnlMainContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMainContent.Location = new System.Drawing.Point(275, 67);
             this.pnlMainContent.Margin = new System.Windows.Forms.Padding(0);
@@ -680,7 +685,8 @@
             // 
             // Drive_License_App_Start
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1836, 881);
             this.Controls.Add(this.pnlMainContent);

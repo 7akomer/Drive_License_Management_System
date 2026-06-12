@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -108,9 +109,7 @@ namespace Drive_License_System_UI
 
         }
 
-
-
-
+       
         private void btnHome_Click(object sender, EventArgs e)
         {
             if (CerrentPage != enPageName.Home)
@@ -125,6 +124,10 @@ namespace Drive_License_System_UI
                
             
         }
+
+
+
+
 
         private void btnApplications_Click(object sender, EventArgs e)
         {
