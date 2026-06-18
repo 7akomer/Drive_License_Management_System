@@ -73,5 +73,59 @@ namespace Drive_License_System_UI
         {
          //   CenterTitle();
         }
+
+        private void lblService_List_MouseEnter(object sender, EventArgs e)
+        {
+            lblService_List.FillColor = System.Drawing.Color.FromArgb(18, 42, 111);
+
+        }
+
+        private void lblService_List_MouseLeave(object sender, EventArgs e)
+        {
+            lblService_List.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+        }
+
+        private void lblManage_Application_MouseEnter(object sender, EventArgs e)
+        {
+            lblManage_Application.FillColor = System.Drawing.Color.FromArgb(90, 70, 180);
+
+        }
+
+     
+
+        private void lblManage_Application_MouseLeave_1(object sender, EventArgs e)
+        {
+            lblManage_Application.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+
+        }
+
+        private void lblRelease_License_MouseEnter(object sender, EventArgs e)
+        {
+            lblRelease_License.FillColor = System.Drawing.Color.FromArgb(20, 140, 140);
+
+        }
+
+        private void lblRelease_License_MouseLeave(object sender, EventArgs e)
+        {
+            lblRelease_License.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+
+        }
+
+        private void lblList_Of_Held_MouseEnter(object sender, EventArgs e)
+        {
+            lblList_Of_Held.FillColor = System.Drawing.Color.Olive;
+
+        }
+
+        private void lblList_Of_Held_MouseLeave(object sender, EventArgs e)
+        {
+            lblList_Of_Held.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

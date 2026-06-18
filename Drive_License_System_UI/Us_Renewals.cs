@@ -16,5 +16,24 @@ namespace Drive_License_System_UI
         {
             InitializeComponent();
         }
+
+        private void pnlscreen_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Us_Renewals_Load(object sender, EventArgs e)
+        {
+          
+            us_Optimised_Table ExpiredLicenses = new us_Optimised_Table();
+            us_LicenseInformationCard ExpiredLicenseCard = new us_LicenseInformationCard();
+
+           
+          
+            ExpiredLicenseCard.Dock = DockStyle.Left;
+            ExpiredLicenses.Dock = DockStyle.Right;
+            pnlscreen.Controls.Add(ExpiredLicenseCard);
+            pnlscreen.Controls.Add(ExpiredLicenses);
+        }
     }
 }

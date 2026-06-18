@@ -89,6 +89,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="us_TakeTast.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_TakeTast.Designer.cs">
+      <DependentUpon>us_TakeTast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_LicenseInformationCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_LicenseInformationCard.Designer.cs">
+      <DependentUpon>us_LicenseInformationCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_PersonInformationCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_PersonInformationCard.Designer.cs">
+      <DependentUpon>us_PersonInformationCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_Optimised_Table.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_Optimised_Table.Designer.cs">
+      <DependentUpon>us_Optimised_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_LocalLicenses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_LocalLicenses.Designer.cs">
+      <DependentUpon>us_LocalLicenses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Us_Applications.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -192,6 +222,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="us_TakeTast.resx">
+      <DependentUpon>us_TakeTast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_LicenseInformationCard.resx">
+      <DependentUpon>us_LicenseInformationCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_PersonInformationCard.resx">
+      <DependentUpon>us_PersonInformationCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_Optimised_Table.resx">
+      <DependentUpon>us_Optimised_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_LocalLicenses.resx">
+      <DependentUpon>us_LocalLicenses.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Us_Applications.resx">
       <DependentUpon>Us_Applications.cs</DependentUpon>
     </EmbeddedResource>
@@ -475,6 +520,138 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-619.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-6191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-619x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f3c071f4930ef94aa0c0bb41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f3c071f4930ef94aa0c0bb411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f3c071f4930ef94aa0c0bb412.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f3c071f4930ef94aa0c0bb4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000ca5c71f4bfd042b73f682b95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-02_02-08-46-3511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-619g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_19-03-27-981.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_19-25-29-825.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2026-06-02_00-27-27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\521.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f00471f48ddd0d70bf8bafba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000406871f4a8297107077afca9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-619g1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-18_00-55-53-289.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-18_00-55-53-2891.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
