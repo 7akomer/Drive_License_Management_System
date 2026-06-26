@@ -21,5 +21,10 @@ namespace Drive_License_System_UI
         {
 
         }
+
+        private void Row1OptimiseTable_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -34,5 +34,10 @@ namespace Drive_License_System_UI
             btnFill.Checked = false;
 
         }
+
+        private void us_TakeTast_Load(object sender, EventArgs e)
+        {
+            ProgressTest.Value   = 84;
+        }
     }
 }

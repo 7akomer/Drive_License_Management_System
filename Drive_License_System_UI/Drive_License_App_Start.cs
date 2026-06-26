@@ -18,12 +18,30 @@ namespace Drive_License_System_UI
             this.AutoScaleDimensions = new System.Drawing.SizeF(1F, 1F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             InitializeComponent();
-          
+
         }
+
+        public void OverirGestionPermisClickBtnRenew()
+        {
+            btnRenewals.PerformClick();
+        }
+
+        public void OverirGestionPermisClickBtnDetainLicense()
+        {
+            btnDetain.PerformClick();
+        }
+
+        public void OverirGestionPermisClickBtnExamination()
+        {
+            btnExaminations.PerformClick();
+        }
+
+    
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+
 
             //MessageBox.Show(pnlMainContent.Size.ToString());
             //MessageBox.Show(dashboard.Size.ToString());
@@ -44,12 +62,14 @@ namespace Drive_License_System_UI
             People,
             Service_Exam,
             OrderHistory,
-            Settings
+            Settings,
+            Help,
+            None
 
 
-        }   
+        }
 
-        private enPageName CerrentPage = enPageName.Drivers;
+        private enPageName CerrentPage = enPageName.None;
 
 
         private void lblAppName_Paint(object sender, PaintEventArgs e)
@@ -65,7 +85,7 @@ namespace Drive_License_System_UI
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
-                CerrentPage = enPageName.LicenseCategories  ;
+                CerrentPage = enPageName.LicenseCategories;
             }
         }
 
@@ -95,7 +115,7 @@ namespace Drive_License_System_UI
         {
             if (CerrentPage != enPageName.Users)
             {
-                test_us Screen = new test_us();
+                Us_Users Screen = new Us_Users();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
@@ -109,7 +129,7 @@ namespace Drive_License_System_UI
 
         }
 
-       
+
         private void btnHome_Click(object sender, EventArgs e)
         {
             if (CerrentPage != enPageName.Home)
@@ -121,12 +141,17 @@ namespace Drive_License_System_UI
 
                 CerrentPage = enPageName.Home;
             }
-               
-            
+
+
         }
 
+        public static Us_Applications Cerrentapplications = null;
 
+        public Us_Applications ReturnUsApplications()
+        {
 
+            return Cerrentapplications;
+        }
 
 
         private void btnApplications_Click(object sender, EventArgs e)
@@ -134,6 +159,8 @@ namespace Drive_License_System_UI
             if (CerrentPage != enPageName.Applications)
             {
                 Us_Applications Screen = new Us_Applications();
+                Cerrentapplications = Screen;
+
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
@@ -181,7 +208,7 @@ namespace Drive_License_System_UI
         {
             if (CerrentPage != enPageName.Detain_license)
             {
-                Us_Payments Screen = new Us_Payments();
+                Us_LicenseDetain Screen = new Us_LicenseDetain();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
@@ -205,7 +232,7 @@ namespace Drive_License_System_UI
         {
             if (CerrentPage != enPageName.People)
             {
-                Us_Roles_Permissions Screen = new Us_Roles_Permissions();
+                Us_Persens Screen = new Us_Persens();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
@@ -217,7 +244,7 @@ namespace Drive_License_System_UI
         {
             if (CerrentPage != enPageName.Service_Exam)
             {
-                Us_Offices Screen = new Us_Offices();
+                Us_Services_Exam Screen = new Us_Services_Exam();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
@@ -229,7 +256,7 @@ namespace Drive_License_System_UI
         {
             if (CerrentPage != enPageName.OrderHistory)
             {
-                Us_Audit_Logs Screen = new Us_Audit_Logs();
+                Us_History Screen = new Us_History();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
@@ -270,6 +297,53 @@ namespace Drive_License_System_UI
         }
 
         private void pnlTopBar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            if (CerrentPage != enPageName.Help)
+            {
+                us_Help Screen = new us_Help();
+                pnlMainContent.Controls.Clear();
+                Screen.Dock = DockStyle.Fill;
+                pnlMainContent.Controls.Add(Screen);
+                CerrentPage = enPageName.Help;
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (pnlFullUserInformation.Visible)
+            {
+                pnlFullUserInformation.Visible = false;
+                pnlFullUserInformation.BringToFront();
+
+
+            }
+            else
+            {
+                pnlFullUserInformation.Visible = true;
+                pnlFullUserInformation.BringToFront();
+
+            }
+        }
+
+        public void AddInMainContent(UserControl userControl)
+        {
+            pnlMainContent.Controls.Clear();
+            userControl.Dock = DockStyle.Fill;
+            pnlMainContent.Controls.Add(userControl);
+        }
+        private void pnluserInfo_Click(object sender, EventArgs e)
+        {
+            pnlFullUserInformation.Visible = false;
+            pnlFullUserInformation.BringToFront();
+
+        }
+
+        private void pnlMainContent_Paint_1(object sender, PaintEventArgs e)
         {
 
         }

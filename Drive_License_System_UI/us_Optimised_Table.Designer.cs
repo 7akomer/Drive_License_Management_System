@@ -107,46 +107,46 @@
             this.cxbOptimiseTableFilter = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lineOptimiseTable = new Guna.UI2.WinForms.Guna2Panel();
             this.lblOptimiseTableTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.ButtonLine10ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine10ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
             this.personalPhoto10OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.ButtonLine9ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto9OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine9ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
+            this.ButtonLine8ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow8 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox8 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto8OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine8ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
+            this.ButtonLine7ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto7OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine7ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
+            this.ButtonLine6ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto6OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine6ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
+            this.ButtonLine5ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto5OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine5ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
+            this.ButtonLine4ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto4OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine4ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
+            this.ButtonLine3ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto3OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine3ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
+            this.ButtonLine2ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto2OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine2ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
+            this.ButtonLine1ActionOptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.DeleteRow1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.EditRow1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalPhoto1OptimiseTable = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.ButtonLine1ActionOptimiseTable = new Guna.UI2.WinForms.Guna2Button();
             this.picOptimiseTableIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlTableOptimiseTable.SuspendLayout();
             this.pnlRowsOptimiseTable.SuspendLayout();
@@ -174,33 +174,43 @@
             this.pnlShowListCountOptimiseTable.SuspendLayout();
             this.lplTitleEntityOptimiseTable.SuspendLayout();
             this.pnlOptimiseTableHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine10ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto10OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine9ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto9OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine8ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto8OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine7ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto7OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine6ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto6OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine5ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto5OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine4ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto4OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine3ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto3OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine2ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto2OptimiseTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine1ActionOptimiseTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EditRow1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto1OptimiseTable)).BeginInit();
@@ -249,9 +259,9 @@
             // 
             // Row10OptimiseTable
             // 
+            this.Row10OptimiseTable.Controls.Add(this.ButtonLine10ActionOptimiseTable);
             this.Row10OptimiseTable.Controls.Add(this.DeleteRow10);
             this.Row10OptimiseTable.Controls.Add(this.guna2CirclePictureBox10);
-            this.Row10OptimiseTable.Controls.Add(this.ButtonLine10ActionOptimiseTable);
             this.Row10OptimiseTable.Controls.Add(this.personalPhoto10OptimiseTable);
             this.Row10OptimiseTable.Controls.Add(this.StatePnl10OptimiseTable);
             this.Row10OptimiseTable.Controls.Add(this.releasedate10OptimiseTable);
@@ -323,10 +333,10 @@
             // Row9OptimiseTable
             // 
             this.Row9OptimiseTable.BorderColor = System.Drawing.Color.White;
+            this.Row9OptimiseTable.Controls.Add(this.ButtonLine9ActionOptimiseTable);
             this.Row9OptimiseTable.Controls.Add(this.DeleteRow9);
             this.Row9OptimiseTable.Controls.Add(this.guna2CirclePictureBox9);
             this.Row9OptimiseTable.Controls.Add(this.personalPhoto9OptimiseTable);
-            this.Row9OptimiseTable.Controls.Add(this.ButtonLine9ActionOptimiseTable);
             this.Row9OptimiseTable.Controls.Add(this.StatePnl9OptimiseTable);
             this.Row9OptimiseTable.Controls.Add(this.releasedate9OptimiseTable);
             this.Row9OptimiseTable.Controls.Add(this.LicenseNo9OptimiseTable);
@@ -396,10 +406,10 @@
             // Row8OptimiseTable
             // 
             this.Row8OptimiseTable.BorderColor = System.Drawing.Color.White;
+            this.Row8OptimiseTable.Controls.Add(this.ButtonLine8ActionOptimiseTable);
             this.Row8OptimiseTable.Controls.Add(this.DeleteRow8);
             this.Row8OptimiseTable.Controls.Add(this.guna2CirclePictureBox8);
             this.Row8OptimiseTable.Controls.Add(this.personalPhoto8OptimiseTable);
-            this.Row8OptimiseTable.Controls.Add(this.ButtonLine8ActionOptimiseTable);
             this.Row8OptimiseTable.Controls.Add(this.StatePnl8OptimiseTable);
             this.Row8OptimiseTable.Controls.Add(this.releasedate8OptimiseTable);
             this.Row8OptimiseTable.Controls.Add(this.LicenseNo8OptimiseTable);
@@ -469,10 +479,10 @@
             // Row7OptimiseTable
             // 
             this.Row7OptimiseTable.BorderColor = System.Drawing.Color.White;
+            this.Row7OptimiseTable.Controls.Add(this.ButtonLine7ActionOptimiseTable);
             this.Row7OptimiseTable.Controls.Add(this.DeleteRow7);
             this.Row7OptimiseTable.Controls.Add(this.guna2CirclePictureBox7);
             this.Row7OptimiseTable.Controls.Add(this.personalPhoto7OptimiseTable);
-            this.Row7OptimiseTable.Controls.Add(this.ButtonLine7ActionOptimiseTable);
             this.Row7OptimiseTable.Controls.Add(this.StatePnl7OptimiseTable);
             this.Row7OptimiseTable.Controls.Add(this.releasedate7OptimiseTable);
             this.Row7OptimiseTable.Controls.Add(this.LicenseNo7OptimiseTable);
@@ -541,10 +551,10 @@
             // 
             // Row6OptimiseTable
             // 
+            this.Row6OptimiseTable.Controls.Add(this.ButtonLine6ActionOptimiseTable);
             this.Row6OptimiseTable.Controls.Add(this.DeleteRow6);
             this.Row6OptimiseTable.Controls.Add(this.guna2CirclePictureBox6);
             this.Row6OptimiseTable.Controls.Add(this.personalPhoto6OptimiseTable);
-            this.Row6OptimiseTable.Controls.Add(this.ButtonLine6ActionOptimiseTable);
             this.Row6OptimiseTable.Controls.Add(this.StatePnl6OptimiseTable);
             this.Row6OptimiseTable.Controls.Add(this.releasedate6OptimiseTable);
             this.Row6OptimiseTable.Controls.Add(this.LicenseNo6OptimiseTable);
@@ -614,10 +624,10 @@
             // Row5OptimiseTable
             // 
             this.Row5OptimiseTable.BorderColor = System.Drawing.Color.White;
+            this.Row5OptimiseTable.Controls.Add(this.ButtonLine5ActionOptimiseTable);
             this.Row5OptimiseTable.Controls.Add(this.DeleteRow5);
             this.Row5OptimiseTable.Controls.Add(this.guna2CirclePictureBox5);
             this.Row5OptimiseTable.Controls.Add(this.personalPhoto5OptimiseTable);
-            this.Row5OptimiseTable.Controls.Add(this.ButtonLine5ActionOptimiseTable);
             this.Row5OptimiseTable.Controls.Add(this.StatePnl5OptimiseTable);
             this.Row5OptimiseTable.Controls.Add(this.releasedate5OptimiseTable);
             this.Row5OptimiseTable.Controls.Add(this.LicenseNo5OptimiseTable);
@@ -687,10 +697,10 @@
             // Row4OptimiseTable
             // 
             this.Row4OptimiseTable.BorderColor = System.Drawing.Color.White;
+            this.Row4OptimiseTable.Controls.Add(this.ButtonLine4ActionOptimiseTable);
             this.Row4OptimiseTable.Controls.Add(this.DeleteRow4);
             this.Row4OptimiseTable.Controls.Add(this.guna2CirclePictureBox4);
             this.Row4OptimiseTable.Controls.Add(this.personalPhoto4OptimiseTable);
-            this.Row4OptimiseTable.Controls.Add(this.ButtonLine4ActionOptimiseTable);
             this.Row4OptimiseTable.Controls.Add(this.StatePnl4OptimiseTable);
             this.Row4OptimiseTable.Controls.Add(this.releasedate4OptimiseTable);
             this.Row4OptimiseTable.Controls.Add(this.LicenseNo4OptimiseTable);
@@ -760,10 +770,10 @@
             // Row3OptimiseTable
             // 
             this.Row3OptimiseTable.BorderColor = System.Drawing.Color.White;
+            this.Row3OptimiseTable.Controls.Add(this.ButtonLine3ActionOptimiseTable);
             this.Row3OptimiseTable.Controls.Add(this.DeleteRow3);
             this.Row3OptimiseTable.Controls.Add(this.guna2CirclePictureBox3);
             this.Row3OptimiseTable.Controls.Add(this.personalPhoto3OptimiseTable);
-            this.Row3OptimiseTable.Controls.Add(this.ButtonLine3ActionOptimiseTable);
             this.Row3OptimiseTable.Controls.Add(this.StatePnl3OptimiseTable);
             this.Row3OptimiseTable.Controls.Add(this.releasedate3OptimiseTable);
             this.Row3OptimiseTable.Controls.Add(this.LicenseNo3OptimiseTable);
@@ -832,10 +842,10 @@
             // 
             // Row2OptimiseTable
             // 
+            this.Row2OptimiseTable.Controls.Add(this.ButtonLine2ActionOptimiseTable);
             this.Row2OptimiseTable.Controls.Add(this.guna2CirclePictureBox2);
             this.Row2OptimiseTable.Controls.Add(this.DeleteRow2);
             this.Row2OptimiseTable.Controls.Add(this.personalPhoto2OptimiseTable);
-            this.Row2OptimiseTable.Controls.Add(this.ButtonLine2ActionOptimiseTable);
             this.Row2OptimiseTable.Controls.Add(this.StatePnl2OptimiseTable);
             this.Row2OptimiseTable.Controls.Add(this.releasedate2OptimiseTable);
             this.Row2OptimiseTable.Controls.Add(this.LicenseNo2OptimiseTable);
@@ -905,10 +915,10 @@
             // Row1OptimiseTable
             // 
             this.Row1OptimiseTable.BorderColor = System.Drawing.Color.White;
+            this.Row1OptimiseTable.Controls.Add(this.ButtonLine1ActionOptimiseTable);
             this.Row1OptimiseTable.Controls.Add(this.DeleteRow1);
             this.Row1OptimiseTable.Controls.Add(this.EditRow1);
             this.Row1OptimiseTable.Controls.Add(this.personalPhoto1OptimiseTable);
-            this.Row1OptimiseTable.Controls.Add(this.ButtonLine1ActionOptimiseTable);
             this.Row1OptimiseTable.Controls.Add(this.StatePnl1OptimiseTable);
             this.Row1OptimiseTable.Controls.Add(this.releasedate1OptimiseTable);
             this.Row1OptimiseTable.Controls.Add(this.LicenseNo1OptimiseTable);
@@ -918,6 +928,7 @@
             this.Row1OptimiseTable.Name = "Row1OptimiseTable";
             this.Row1OptimiseTable.Size = new System.Drawing.Size(724, 61);
             this.Row1OptimiseTable.TabIndex = 18;
+            this.Row1OptimiseTable.Paint += new System.Windows.Forms.PaintEventHandler(this.Row1OptimiseTable_Paint);
             // 
             // StatePnl1OptimiseTable
             // 
@@ -1210,6 +1221,20 @@
             this.lblOptimiseTableTitle.TabIndex = 9;
             this.lblOptimiseTableTitle.Text = "International Licenses";
             // 
+            // ButtonLine10ActionOptimiseTable
+            // 
+            this.ButtonLine10ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine10ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine10ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine10ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine10ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine10ActionOptimiseTable.Location = new System.Drawing.Point(651, 16);
+            this.ButtonLine10ActionOptimiseTable.Name = "ButtonLine10ActionOptimiseTable";
+            this.ButtonLine10ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine10ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine10ActionOptimiseTable.TabIndex = 36;
+            this.ButtonLine10ActionOptimiseTable.TabStop = false;
+            // 
             // DeleteRow10
             // 
             this.DeleteRow10.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.q;
@@ -1217,10 +1242,10 @@
             this.DeleteRow10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow10.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow10.ImageRotate = 0F;
-            this.DeleteRow10.Location = new System.Drawing.Point(686, 5);
+            this.DeleteRow10.Location = new System.Drawing.Point(686, 14);
             this.DeleteRow10.Name = "DeleteRow10";
             this.DeleteRow10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow10.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow10.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow10.TabIndex = 35;
             this.DeleteRow10.TabStop = false;
             // 
@@ -1231,30 +1256,12 @@
             this.guna2CirclePictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox10.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox10.ImageRotate = 0F;
-            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(604, 8);
+            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(618, 16);
             this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
             this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox10.TabIndex = 33;
             this.guna2CirclePictureBox10.TabStop = false;
-            // 
-            // ButtonLine10ActionOptimiseTable
-            // 
-            this.ButtonLine10ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine10ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine10ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine10ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine10ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine10ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine10ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine10ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine10ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine10ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine10ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine10ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine10ActionOptimiseTable.Name = "ButtonLine10ActionOptimiseTable";
-            this.ButtonLine10ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine10ActionOptimiseTable.TabIndex = 6;
             // 
             // personalPhoto10OptimiseTable
             // 
@@ -1267,6 +1274,20 @@
             this.personalPhoto10OptimiseTable.TabIndex = 0;
             this.personalPhoto10OptimiseTable.TabStop = false;
             // 
+            // ButtonLine9ActionOptimiseTable
+            // 
+            this.ButtonLine9ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine9ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine9ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine9ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine9ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine9ActionOptimiseTable.Location = new System.Drawing.Point(651, 16);
+            this.ButtonLine9ActionOptimiseTable.Name = "ButtonLine9ActionOptimiseTable";
+            this.ButtonLine9ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine9ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine9ActionOptimiseTable.TabIndex = 36;
+            this.ButtonLine9ActionOptimiseTable.TabStop = false;
+            // 
             // DeleteRow9
             // 
             this.DeleteRow9.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.q;
@@ -1274,10 +1295,10 @@
             this.DeleteRow9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow9.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow9.ImageRotate = 0F;
-            this.DeleteRow9.Location = new System.Drawing.Point(686, 6);
+            this.DeleteRow9.Location = new System.Drawing.Point(684, 16);
             this.DeleteRow9.Name = "DeleteRow9";
             this.DeleteRow9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow9.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow9.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow9.TabIndex = 35;
             this.DeleteRow9.TabStop = false;
             // 
@@ -1288,10 +1309,10 @@
             this.guna2CirclePictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox9.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox9.ImageRotate = 0F;
-            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(604, 9);
+            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(618, 18);
             this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
             this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox9.TabIndex = 33;
             this.guna2CirclePictureBox9.TabStop = false;
             // 
@@ -1306,23 +1327,19 @@
             this.personalPhoto9OptimiseTable.TabIndex = 16;
             this.personalPhoto9OptimiseTable.TabStop = false;
             // 
-            // ButtonLine9ActionOptimiseTable
+            // ButtonLine8ActionOptimiseTable
             // 
-            this.ButtonLine9ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine9ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine9ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine9ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine9ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine9ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine9ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine9ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine9ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine9ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine9ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine9ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine9ActionOptimiseTable.Name = "ButtonLine9ActionOptimiseTable";
-            this.ButtonLine9ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine9ActionOptimiseTable.TabIndex = 6;
+            this.ButtonLine8ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine8ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine8ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine8ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine8ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine8ActionOptimiseTable.Location = new System.Drawing.Point(651, 16);
+            this.ButtonLine8ActionOptimiseTable.Name = "ButtonLine8ActionOptimiseTable";
+            this.ButtonLine8ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine8ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine8ActionOptimiseTable.TabIndex = 36;
+            this.ButtonLine8ActionOptimiseTable.TabStop = false;
             // 
             // DeleteRow8
             // 
@@ -1331,10 +1348,10 @@
             this.DeleteRow8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow8.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow8.ImageRotate = 0F;
-            this.DeleteRow8.Location = new System.Drawing.Point(686, 4);
+            this.DeleteRow8.Location = new System.Drawing.Point(684, 17);
             this.DeleteRow8.Name = "DeleteRow8";
             this.DeleteRow8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow8.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow8.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow8.TabIndex = 35;
             this.DeleteRow8.TabStop = false;
             // 
@@ -1345,10 +1362,10 @@
             this.guna2CirclePictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox8.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox8.ImageRotate = 0F;
-            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(604, 6);
+            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(618, 17);
             this.guna2CirclePictureBox8.Name = "guna2CirclePictureBox8";
             this.guna2CirclePictureBox8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox8.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox8.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox8.TabIndex = 33;
             this.guna2CirclePictureBox8.TabStop = false;
             // 
@@ -1363,23 +1380,19 @@
             this.personalPhoto8OptimiseTable.TabIndex = 16;
             this.personalPhoto8OptimiseTable.TabStop = false;
             // 
-            // ButtonLine8ActionOptimiseTable
+            // ButtonLine7ActionOptimiseTable
             // 
-            this.ButtonLine8ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine8ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine8ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine8ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine8ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine8ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine8ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine8ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine8ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine8ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine8ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine8ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine8ActionOptimiseTable.Name = "ButtonLine8ActionOptimiseTable";
-            this.ButtonLine8ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine8ActionOptimiseTable.TabIndex = 6;
+            this.ButtonLine7ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine7ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine7ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine7ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine7ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine7ActionOptimiseTable.Location = new System.Drawing.Point(651, 17);
+            this.ButtonLine7ActionOptimiseTable.Name = "ButtonLine7ActionOptimiseTable";
+            this.ButtonLine7ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine7ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine7ActionOptimiseTable.TabIndex = 36;
+            this.ButtonLine7ActionOptimiseTable.TabStop = false;
             // 
             // DeleteRow7
             // 
@@ -1388,10 +1401,10 @@
             this.DeleteRow7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow7.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow7.ImageRotate = 0F;
-            this.DeleteRow7.Location = new System.Drawing.Point(686, 6);
+            this.DeleteRow7.Location = new System.Drawing.Point(686, 16);
             this.DeleteRow7.Name = "DeleteRow7";
             this.DeleteRow7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow7.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow7.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow7.TabIndex = 35;
             this.DeleteRow7.TabStop = false;
             // 
@@ -1402,10 +1415,10 @@
             this.guna2CirclePictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox7.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox7.ImageRotate = 0F;
-            this.guna2CirclePictureBox7.Location = new System.Drawing.Point(604, 9);
+            this.guna2CirclePictureBox7.Location = new System.Drawing.Point(618, 18);
             this.guna2CirclePictureBox7.Name = "guna2CirclePictureBox7";
             this.guna2CirclePictureBox7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox7.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox7.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox7.TabIndex = 33;
             this.guna2CirclePictureBox7.TabStop = false;
             // 
@@ -1420,23 +1433,19 @@
             this.personalPhoto7OptimiseTable.TabIndex = 16;
             this.personalPhoto7OptimiseTable.TabStop = false;
             // 
-            // ButtonLine7ActionOptimiseTable
+            // ButtonLine6ActionOptimiseTable
             // 
-            this.ButtonLine7ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine7ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine7ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine7ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine7ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine7ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine7ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine7ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine7ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine7ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine7ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine7ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine7ActionOptimiseTable.Name = "ButtonLine7ActionOptimiseTable";
-            this.ButtonLine7ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine7ActionOptimiseTable.TabIndex = 6;
+            this.ButtonLine6ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine6ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine6ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine6ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine6ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine6ActionOptimiseTable.Location = new System.Drawing.Point(651, 15);
+            this.ButtonLine6ActionOptimiseTable.Name = "ButtonLine6ActionOptimiseTable";
+            this.ButtonLine6ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine6ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine6ActionOptimiseTable.TabIndex = 36;
+            this.ButtonLine6ActionOptimiseTable.TabStop = false;
             // 
             // DeleteRow6
             // 
@@ -1445,10 +1454,10 @@
             this.DeleteRow6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow6.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow6.ImageRotate = 0F;
-            this.DeleteRow6.Location = new System.Drawing.Point(686, 6);
+            this.DeleteRow6.Location = new System.Drawing.Point(686, 12);
             this.DeleteRow6.Name = "DeleteRow6";
             this.DeleteRow6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow6.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow6.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow6.TabIndex = 35;
             this.DeleteRow6.TabStop = false;
             // 
@@ -1459,10 +1468,10 @@
             this.guna2CirclePictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox6.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox6.ImageRotate = 0F;
-            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(604, 6);
+            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(618, 12);
             this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
             this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox6.TabIndex = 33;
             this.guna2CirclePictureBox6.TabStop = false;
             // 
@@ -1477,23 +1486,19 @@
             this.personalPhoto6OptimiseTable.TabIndex = 14;
             this.personalPhoto6OptimiseTable.TabStop = false;
             // 
-            // ButtonLine6ActionOptimiseTable
+            // ButtonLine5ActionOptimiseTable
             // 
-            this.ButtonLine6ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine6ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine6ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine6ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine6ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine6ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine6ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine6ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine6ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine6ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine6ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine6ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine6ActionOptimiseTable.Name = "ButtonLine6ActionOptimiseTable";
-            this.ButtonLine6ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine6ActionOptimiseTable.TabIndex = 6;
+            this.ButtonLine5ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine5ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine5ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine5ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine5ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine5ActionOptimiseTable.Location = new System.Drawing.Point(651, 15);
+            this.ButtonLine5ActionOptimiseTable.Name = "ButtonLine5ActionOptimiseTable";
+            this.ButtonLine5ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine5ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine5ActionOptimiseTable.TabIndex = 36;
+            this.ButtonLine5ActionOptimiseTable.TabStop = false;
             // 
             // DeleteRow5
             // 
@@ -1502,10 +1507,10 @@
             this.DeleteRow5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow5.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow5.ImageRotate = 0F;
-            this.DeleteRow5.Location = new System.Drawing.Point(686, 8);
+            this.DeleteRow5.Location = new System.Drawing.Point(684, 12);
             this.DeleteRow5.Name = "DeleteRow5";
             this.DeleteRow5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow5.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow5.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow5.TabIndex = 35;
             this.DeleteRow5.TabStop = false;
             // 
@@ -1516,10 +1521,10 @@
             this.guna2CirclePictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox5.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox5.ImageRotate = 0F;
-            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(604, 6);
+            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(618, 15);
             this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
             this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox5.TabIndex = 33;
             this.guna2CirclePictureBox5.TabStop = false;
             // 
@@ -1534,23 +1539,19 @@
             this.personalPhoto5OptimiseTable.TabIndex = 16;
             this.personalPhoto5OptimiseTable.TabStop = false;
             // 
-            // ButtonLine5ActionOptimiseTable
+            // ButtonLine4ActionOptimiseTable
             // 
-            this.ButtonLine5ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine5ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine5ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine5ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine5ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine5ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine5ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine5ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine5ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine5ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine5ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine5ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine5ActionOptimiseTable.Name = "ButtonLine5ActionOptimiseTable";
-            this.ButtonLine5ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine5ActionOptimiseTable.TabIndex = 6;
+            this.ButtonLine4ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine4ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine4ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine4ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine4ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine4ActionOptimiseTable.Location = new System.Drawing.Point(651, 16);
+            this.ButtonLine4ActionOptimiseTable.Name = "ButtonLine4ActionOptimiseTable";
+            this.ButtonLine4ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine4ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine4ActionOptimiseTable.TabIndex = 36;
+            this.ButtonLine4ActionOptimiseTable.TabStop = false;
             // 
             // DeleteRow4
             // 
@@ -1559,10 +1560,10 @@
             this.DeleteRow4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow4.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow4.ImageRotate = 0F;
-            this.DeleteRow4.Location = new System.Drawing.Point(686, 6);
+            this.DeleteRow4.Location = new System.Drawing.Point(684, 15);
             this.DeleteRow4.Name = "DeleteRow4";
             this.DeleteRow4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow4.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow4.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow4.TabIndex = 35;
             this.DeleteRow4.TabStop = false;
             // 
@@ -1573,10 +1574,10 @@
             this.guna2CirclePictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox4.ImageRotate = 0F;
-            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(604, 9);
+            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(618, 16);
             this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
             this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox4.TabIndex = 33;
             this.guna2CirclePictureBox4.TabStop = false;
             // 
@@ -1591,23 +1592,19 @@
             this.personalPhoto4OptimiseTable.TabIndex = 16;
             this.personalPhoto4OptimiseTable.TabStop = false;
             // 
-            // ButtonLine4ActionOptimiseTable
+            // ButtonLine3ActionOptimiseTable
             // 
-            this.ButtonLine4ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine4ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine4ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine4ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine4ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine4ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine4ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine4ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine4ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine4ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine4ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine4ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine4ActionOptimiseTable.Name = "ButtonLine4ActionOptimiseTable";
-            this.ButtonLine4ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine4ActionOptimiseTable.TabIndex = 6;
+            this.ButtonLine3ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine3ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine3ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine3ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine3ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine3ActionOptimiseTable.Location = new System.Drawing.Point(651, 16);
+            this.ButtonLine3ActionOptimiseTable.Name = "ButtonLine3ActionOptimiseTable";
+            this.ButtonLine3ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine3ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine3ActionOptimiseTable.TabIndex = 36;
+            this.ButtonLine3ActionOptimiseTable.TabStop = false;
             // 
             // DeleteRow3
             // 
@@ -1616,10 +1613,10 @@
             this.DeleteRow3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow3.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow3.ImageRotate = 0F;
-            this.DeleteRow3.Location = new System.Drawing.Point(686, 6);
+            this.DeleteRow3.Location = new System.Drawing.Point(686, 18);
             this.DeleteRow3.Name = "DeleteRow3";
             this.DeleteRow3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow3.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow3.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow3.TabIndex = 35;
             this.DeleteRow3.TabStop = false;
             // 
@@ -1630,10 +1627,10 @@
             this.guna2CirclePictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(604, 9);
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(618, 18);
             this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
             this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox3.TabIndex = 33;
             this.guna2CirclePictureBox3.TabStop = false;
             // 
@@ -1648,23 +1645,19 @@
             this.personalPhoto3OptimiseTable.TabIndex = 16;
             this.personalPhoto3OptimiseTable.TabStop = false;
             // 
-            // ButtonLine3ActionOptimiseTable
+            // ButtonLine2ActionOptimiseTable
             // 
-            this.ButtonLine3ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine3ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine3ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine3ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine3ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine3ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine3ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine3ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine3ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine3ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine3ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine3ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine3ActionOptimiseTable.Name = "ButtonLine3ActionOptimiseTable";
-            this.ButtonLine3ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine3ActionOptimiseTable.TabIndex = 6;
+            this.ButtonLine2ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine2ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine2ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine2ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine2ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine2ActionOptimiseTable.Location = new System.Drawing.Point(651, 16);
+            this.ButtonLine2ActionOptimiseTable.Name = "ButtonLine2ActionOptimiseTable";
+            this.ButtonLine2ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine2ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine2ActionOptimiseTable.TabIndex = 35;
+            this.ButtonLine2ActionOptimiseTable.TabStop = false;
             // 
             // guna2CirclePictureBox2
             // 
@@ -1673,10 +1666,10 @@
             this.guna2CirclePictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(604, 7);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(618, 17);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(33, 36);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(27, 27);
             this.guna2CirclePictureBox2.TabIndex = 34;
             this.guna2CirclePictureBox2.TabStop = false;
             // 
@@ -1687,10 +1680,10 @@
             this.DeleteRow2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow2.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow2.ImageRotate = 0F;
-            this.DeleteRow2.Location = new System.Drawing.Point(686, 7);
+            this.DeleteRow2.Location = new System.Drawing.Point(684, 15);
             this.DeleteRow2.Name = "DeleteRow2";
             this.DeleteRow2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow2.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow2.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow2.TabIndex = 34;
             this.DeleteRow2.TabStop = false;
             // 
@@ -1705,23 +1698,19 @@
             this.personalPhoto2OptimiseTable.TabIndex = 15;
             this.personalPhoto2OptimiseTable.TabStop = false;
             // 
-            // ButtonLine2ActionOptimiseTable
+            // ButtonLine1ActionOptimiseTable
             // 
-            this.ButtonLine2ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine2ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine2ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine2ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine2ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine2ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine2ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine2ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine2ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine2ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine2ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine2ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine2ActionOptimiseTable.Name = "ButtonLine2ActionOptimiseTable";
-            this.ButtonLine2ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine2ActionOptimiseTable.TabIndex = 6;
+            this.ButtonLine1ActionOptimiseTable.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._2001;
+            this.ButtonLine1ActionOptimiseTable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ButtonLine1ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonLine1ActionOptimiseTable.FillColor = System.Drawing.Color.Transparent;
+            this.ButtonLine1ActionOptimiseTable.ImageRotate = 0F;
+            this.ButtonLine1ActionOptimiseTable.Location = new System.Drawing.Point(651, 13);
+            this.ButtonLine1ActionOptimiseTable.Name = "ButtonLine1ActionOptimiseTable";
+            this.ButtonLine1ActionOptimiseTable.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ButtonLine1ActionOptimiseTable.Size = new System.Drawing.Size(27, 27);
+            this.ButtonLine1ActionOptimiseTable.TabIndex = 34;
+            this.ButtonLine1ActionOptimiseTable.TabStop = false;
             // 
             // DeleteRow1
             // 
@@ -1730,10 +1719,10 @@
             this.DeleteRow1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DeleteRow1.FillColor = System.Drawing.Color.Transparent;
             this.DeleteRow1.ImageRotate = 0F;
-            this.DeleteRow1.Location = new System.Drawing.Point(686, 6);
+            this.DeleteRow1.Location = new System.Drawing.Point(686, 12);
             this.DeleteRow1.Name = "DeleteRow1";
             this.DeleteRow1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.DeleteRow1.Size = new System.Drawing.Size(30, 39);
+            this.DeleteRow1.Size = new System.Drawing.Size(27, 27);
             this.DeleteRow1.TabIndex = 33;
             this.DeleteRow1.TabStop = false;
             // 
@@ -1744,10 +1733,10 @@
             this.EditRow1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EditRow1.FillColor = System.Drawing.Color.Transparent;
             this.EditRow1.ImageRotate = 0F;
-            this.EditRow1.Location = new System.Drawing.Point(604, 7);
+            this.EditRow1.Location = new System.Drawing.Point(618, 13);
             this.EditRow1.Name = "EditRow1";
             this.EditRow1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.EditRow1.Size = new System.Drawing.Size(33, 36);
+            this.EditRow1.Size = new System.Drawing.Size(27, 27);
             this.EditRow1.TabIndex = 32;
             this.EditRow1.TabStop = false;
             // 
@@ -1761,24 +1750,6 @@
             this.personalPhoto1OptimiseTable.Size = new System.Drawing.Size(45, 45);
             this.personalPhoto1OptimiseTable.TabIndex = 16;
             this.personalPhoto1OptimiseTable.TabStop = false;
-            // 
-            // ButtonLine1ActionOptimiseTable
-            // 
-            this.ButtonLine1ActionOptimiseTable.BorderRadius = 8;
-            this.ButtonLine1ActionOptimiseTable.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ButtonLine1ActionOptimiseTable.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine1ActionOptimiseTable.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ButtonLine1ActionOptimiseTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ButtonLine1ActionOptimiseTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ButtonLine1ActionOptimiseTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.ButtonLine1ActionOptimiseTable.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ButtonLine1ActionOptimiseTable.ForeColor = System.Drawing.Color.White;
-            this.ButtonLine1ActionOptimiseTable.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.ButtonLine1ActionOptimiseTable.ImageSize = new System.Drawing.Size(25, 15);
-            this.ButtonLine1ActionOptimiseTable.Location = new System.Drawing.Point(640, 8);
-            this.ButtonLine1ActionOptimiseTable.Name = "ButtonLine1ActionOptimiseTable";
-            this.ButtonLine1ActionOptimiseTable.Size = new System.Drawing.Size(40, 37);
-            this.ButtonLine1ActionOptimiseTable.TabIndex = 6;
             // 
             // picOptimiseTableIcon
             // 
@@ -1850,33 +1821,43 @@
             this.lplTitleEntityOptimiseTable.PerformLayout();
             this.pnlOptimiseTableHeader.ResumeLayout(false);
             this.pnlOptimiseTableHeader.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine10ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto10OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine9ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto9OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine8ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto8OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine7ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto7OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine6ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto6OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine5ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto5OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine4ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto4OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine3ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto3OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine2ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto2OptimiseTable)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonLine1ActionOptimiseTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteRow1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EditRow1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto1OptimiseTable)).EndInit();
@@ -1890,7 +1871,6 @@
         private Guna.UI2.WinForms.Guna2GradientPanel pnlTableOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel pnlRowsOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row10OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine10ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto10OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl10OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state10textOptimiseTable;
@@ -1899,7 +1879,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name10OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row9OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto9OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine9ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl9OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state9textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate9OptimiseTable;
@@ -1907,7 +1886,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name9OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row8OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto8OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine8ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl8OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state8textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate8OptimiseTable;
@@ -1915,7 +1893,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name8IOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row7OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto7OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine7ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl7OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state7textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate7OptimiseTable;
@@ -1923,7 +1900,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name7OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row6OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto6OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine6ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl6OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state6textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate6OptimiseTable;
@@ -1931,7 +1907,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name6OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row5OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto5OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine5ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl5OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state5textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate5OptimiseTable;
@@ -1939,7 +1914,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name5OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row4OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto4OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine4ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl4OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state4textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate4OptimiseTable;
@@ -1947,7 +1921,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name4OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row3OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto3OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine3ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl3OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state3textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate3OptimiseTable;
@@ -1955,7 +1928,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name3OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row2OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto2OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine2ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl2OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state2textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate2OptimiseTable;
@@ -1963,7 +1935,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel Name2OptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel Row1OptimiseTable;
         private Guna.UI2.WinForms.Guna2CirclePictureBox personalPhoto1OptimiseTable;
-        private Guna.UI2.WinForms.Guna2Button ButtonLine1ActionOptimiseTable;
         private Guna.UI2.WinForms.Guna2Panel StatePnl1OptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel state1textOptimiseTable;
         private Guna.UI2.WinForms.Guna2HtmlLabel releasedate1OptimiseTable;
@@ -2007,5 +1978,15 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox DeleteRow2;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine1ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine9ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine8ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine7ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine6ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine5ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine4ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine3ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine2ActionOptimiseTable;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ButtonLine10ActionOptimiseTable;
     }
 }

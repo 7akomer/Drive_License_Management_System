@@ -33,8 +33,8 @@
             this.pnltop = new Guna.UI2.WinForms.Guna2Panel();
             this.subtitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblIconLicenses = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.piclTitleLicenses = new Guna.UI2.WinForms.Guna2PictureBox();
             this.title = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.piclTitleLicenses = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlFull.SuspendLayout();
             this.pnltop.SuspendLayout();
             this.lblIconLicenses.SuspendLayout();
@@ -104,6 +104,17 @@
             this.lblIconLicenses.TabIndex = 13;
             this.lblIconLicenses.UseWaitCursor = true;
             // 
+            // title
+            // 
+            this.title.BackColor = System.Drawing.Color.Transparent;
+            this.title.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.ForeColor = System.Drawing.Color.White;
+            this.title.Location = new System.Drawing.Point(89, 19);
+            this.title.Name = "title";
+            this.title.Size = new System.Drawing.Size(184, 30);
+            this.title.TabIndex = 11;
+            this.title.Text = "Licenses Over View";
+            // 
             // piclTitleLicenses
             // 
             this.piclTitleLicenses.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._31;
@@ -117,17 +128,6 @@
             this.piclTitleLicenses.TabIndex = 2;
             this.piclTitleLicenses.TabStop = false;
             this.piclTitleLicenses.UseWaitCursor = true;
-            // 
-            // title
-            // 
-            this.title.BackColor = System.Drawing.Color.Transparent;
-            this.title.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title.ForeColor = System.Drawing.Color.White;
-            this.title.Location = new System.Drawing.Point(89, 19);
-            this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(184, 30);
-            this.title.TabIndex = 11;
-            this.title.Text = "Licenses Over View";
             // 
             // Us_Licenses
             // 

@@ -16,5 +16,10 @@ namespace Drive_License_System_UI
         {
             InitializeComponent();
         }
+
+        private void guna2Panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

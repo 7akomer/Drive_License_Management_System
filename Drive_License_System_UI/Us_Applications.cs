@@ -24,6 +24,19 @@ namespace Drive_License_System_UI
 
         }
 
+       //static public void pnlAppClear()
+       // {
+       //     Us_Applications.pnlApplicationCenter.Controls.Clear();
+       // }
+       // public static  void SetRetakTest()
+       // {
+       //    // pnlApplicationCenter.Controls.Clear();
+       //   Us_Applications.pnlAppClear();
+       //     us_RetakTest newRetakTest = new us_RetakTest();
+       //     newRetakTest.Dock = DockStyle.Fill;
+       //     pnlApplicationCenter.Controls.Add(newRetakTest);
+       // }
+
         private void picApplication_Click(object sender, EventArgs e)
         {
 
@@ -76,18 +89,18 @@ namespace Drive_License_System_UI
 
         private void lblService_List_MouseEnter(object sender, EventArgs e)
         {
-            lblService_List.FillColor = System.Drawing.Color.FromArgb(18, 42, 111);
+            pnlService_List.FillColor = System.Drawing.Color.FromArgb(18, 42, 111);
 
         }
 
         private void lblService_List_MouseLeave(object sender, EventArgs e)
         {
-            lblService_List.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+            pnlService_List.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
         }
 
         private void lblManage_Application_MouseEnter(object sender, EventArgs e)
         {
-            lblManage_Application.FillColor = System.Drawing.Color.FromArgb(90, 70, 180);
+            pnlManage_Application.FillColor = System.Drawing.Color.FromArgb(90, 70, 180);
 
         }
 
@@ -95,35 +108,119 @@ namespace Drive_License_System_UI
 
         private void lblManage_Application_MouseLeave_1(object sender, EventArgs e)
         {
-            lblManage_Application.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+            pnlManage_Application.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
 
         }
 
         private void lblRelease_License_MouseEnter(object sender, EventArgs e)
         {
-            lblRelease_License.FillColor = System.Drawing.Color.FromArgb(20, 140, 140);
+            pnlRelease_License.FillColor = System.Drawing.Color.FromArgb(20, 140, 140);
 
         }
 
         private void lblRelease_License_MouseLeave(object sender, EventArgs e)
         {
-            lblRelease_License.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+            pnlRelease_License.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
 
         }
 
         private void lblList_Of_Held_MouseEnter(object sender, EventArgs e)
         {
-            lblList_Of_Held.FillColor = System.Drawing.Color.Olive;
+            pnlList_Of_Held.FillColor = System.Drawing.Color.Olive;
 
         }
 
         private void lblList_Of_Held_MouseLeave(object sender, EventArgs e)
         {
-            lblList_Of_Held.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
+            pnlList_Of_Held.FillColor = System.Drawing.Color.FromArgb(10, 27, 77);
 
         }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblRelease_License_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblRelease_License_Click(object sender, EventArgs e)
+        {
+            Drive_License_App_Start drive_License_App_Start = (Drive_License_App_Start)this.FindForm();
+            drive_License_App_Start.OverirGestionPermisClickBtnRenew();
+        }
+
+        private void lblList_Of_Held_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void lblList_Of_Held_Click(object sender, EventArgs e)
+        {
+            Drive_License_App_Start drive_License_App_Start = (Drive_License_App_Start)this.FindForm();
+            drive_License_App_Start.OverirGestionPermisClickBtnDetainLicense();
+        }
+
+        private void lblManage_Application_Click(object sender, EventArgs e)
+        {
+            pnlApplicationCenter.Controls.Clear();
+            us_ManageAppInApplicationSenter manageAppInApplicationSenter = new us_ManageAppInApplicationSenter(); 
+            manageAppInApplicationSenter.Dock = DockStyle.Fill;
+            pnlApplicationCenter.Controls.Add(manageAppInApplicationSenter);
+
+        }
+
+        private void lblService_List_Click(object sender, EventArgs e)
+        {
+            pnlApplicationCenterChoise.Controls.Clear();
+            us_ServiceList ServiceLicet = new us_ServiceList();
+            ServiceLicet.Dock = DockStyle.Fill;
+            pnlApplicationCenterChoise.Controls.Add(ServiceLicet);
+            btnGoBack.Visible = true;
+
+
+        }
+
+        private void lblService_List_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnGoBack_Click(object sender, EventArgs e)
+        {
+            pnlApplicationCenterChoise.Controls.Clear();
+            pnlApplicationCenterChoise.Controls.Add(pnlService_List);
+            pnlApplicationCenterChoise.Controls.Add(pnlManage_Application);
+            pnlApplicationCenterChoise.Controls.Add(pnlRelease_License);
+            pnlApplicationCenterChoise.Controls.Add(pnlList_Of_Held);
+
+            btnGoBack.Visible = false;
+        }
+
+       
+        public static void GoBackToApplicaionCenter()
+        {
+            Us_Applications us_Applications = Drive_License_App_Start.Cerrentapplications;
+            us_Applications.pnlApplicationCenter.Controls.Clear();
+            Us_Applications NewApp = new Us_Applications();
+
+            NewApp.Dock = DockStyle.Fill;
+
+            us_Applications.pnlApplicationCenter.Controls.Add(NewApp);
+        }
+        public static void ShowRetakTest()
+        {
+            Us_Applications us_Applications = Drive_License_App_Start.Cerrentapplications;
+            us_RetakTest newRetakTest = new us_RetakTest();
+            newRetakTest.Dock = DockStyle.Fill;
+
+            us_Applications.pnlApplicationCenter.Controls.Clear();
+            us_Applications.pnlApplicationCenter.Controls.Add(newRetakTest);
+        }
+
+        private void pnlManage_Application_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -207,5 +207,10 @@ namespace Drive_License_System_UI
         {
 
         }
+
+        private void flpStats_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

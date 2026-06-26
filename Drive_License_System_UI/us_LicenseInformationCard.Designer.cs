@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(us_LicenseInformationCard));
             this.pnlfull = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Delete = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
@@ -41,60 +43,58 @@
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlDetentionstatus = new Guna.UI2.WinForms.Guna2Panel();
             this.lblDetentionstatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.Detentionstatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblGender = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.IssuanceDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblissuance = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.categoryName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.AgePesonalCard = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lbCategory = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.DriverID = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picnationalno = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblDriverID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.FullName = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picPersonalName = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblFullName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnPersonDetele = new Guna.UI2.WinForms.Guna2Button();
+            this.personalPhoto = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pnlDriveLicenseCardStute = new Guna.UI2.WinForms.Guna2Panel();
             this.lblDriveLicenseCardStute = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.personalName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblCardPersonTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.Delete = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.picnationalno = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.picPersonalName = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.btnPersonDetele = new Guna.UI2.WinForms.Guna2Button();
-            this.personalPhoto = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.picPersonalPotoCard = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.lblCardPersonTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlfull.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Delete)).BeginInit();
             this.guna2Panel7.SuspendLayout();
             this.pnlpersoninforow.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
             this.pnlDetentionstatus.SuspendLayout();
-            this.guna2Panel6.SuspendLayout();
-            this.guna2Panel5.SuspendLayout();
-            this.guna2Panel4.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
-            this.pnlDriveLicenseCardStute.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Delete)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
+            this.guna2Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.guna2Panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picnationalno)).BeginInit();
+            this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPersonalName)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.personalPhoto)).BeginInit();
+            this.pnlDriveLicenseCardStute.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPersonalPotoCard)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,6 +122,34 @@
             this.pnlfull.Size = new System.Drawing.Size(571, 770);
             this.pnlfull.TabIndex = 1;
             this.pnlfull.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlfull_Paint);
+            // 
+            // guna2CirclePictureBox5
+            // 
+            this.guna2CirclePictureBox5.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_19_03_27_981;
+            this.guna2CirclePictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2CirclePictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2CirclePictureBox5.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox5.ImageRotate = 0F;
+            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(513, 23);
+            this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
+            this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(28, 23);
+            this.guna2CirclePictureBox5.TabIndex = 31;
+            this.guna2CirclePictureBox5.TabStop = false;
+            // 
+            // Delete
+            // 
+            this.Delete.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.q;
+            this.Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Delete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Delete.FillColor = System.Drawing.Color.Transparent;
+            this.Delete.ImageRotate = 0F;
+            this.Delete.Location = new System.Drawing.Point(479, 16);
+            this.Delete.Name = "Delete";
+            this.Delete.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Delete.Size = new System.Drawing.Size(25, 34);
+            this.Delete.TabIndex = 30;
+            this.Delete.TabStop = false;
             // 
             // guna2Panel12
             // 
@@ -242,6 +270,19 @@
             this.lblDetentionstatus.Text = "NO";
             this.lblDetentionstatus.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // guna2CirclePictureBox4
+            // 
+            this.guna2CirclePictureBox4.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.n;
+            this.guna2CirclePictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2CirclePictureBox4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox4.ImageRotate = 0F;
+            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(13, 8);
+            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
+            this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(30, 30);
+            this.guna2CirclePictureBox4.TabIndex = 28;
+            this.guna2CirclePictureBox4.TabStop = false;
+            // 
             // Detentionstatus
             // 
             this.Detentionstatus.BackColor = System.Drawing.Color.Transparent;
@@ -263,6 +304,19 @@
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(513, 49);
             this.guna2Panel6.TabIndex = 4;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._991;
+            this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(13, 8);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.guna2CirclePictureBox1.TabIndex = 28;
+            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // ExpiryDate
             // 
@@ -310,6 +364,19 @@
             this.IssuanceDate.Text = "12/04/2015";
             this.IssuanceDate.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_619g;
+            this.guna2CirclePictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox3.ImageRotate = 0F;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(13, 11);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.guna2CirclePictureBox3.TabIndex = 26;
+            this.guna2CirclePictureBox3.TabStop = false;
+            // 
             // lblissuance
             // 
             this.lblissuance.BackColor = System.Drawing.Color.Transparent;
@@ -356,6 +423,19 @@
             this.AgePesonalCard.TabIndex = 25;
             this.AgePesonalCard.Text = "(29 years)";
             // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_02_02_08_46_3511;
+            this.guna2CirclePictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(13, 11);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.guna2CirclePictureBox2.TabIndex = 26;
+            this.guna2CirclePictureBox2.TabStop = false;
+            // 
             // lbCategory
             // 
             this.lbCategory.BackColor = System.Drawing.Color.Transparent;
@@ -389,6 +469,19 @@
             this.DriverID.TabIndex = 27;
             this.DriverID.Text = "14452645448877445";
             this.DriverID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // picnationalno
+            // 
+            this.picnationalno.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.d1;
+            this.picnationalno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picnationalno.FillColor = System.Drawing.Color.Transparent;
+            this.picnationalno.ImageRotate = 0F;
+            this.picnationalno.Location = new System.Drawing.Point(13, 11);
+            this.picnationalno.Name = "picnationalno";
+            this.picnationalno.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picnationalno.Size = new System.Drawing.Size(30, 30);
+            this.picnationalno.TabIndex = 26;
+            this.picnationalno.TabStop = false;
             // 
             // lblDriverID
             // 
@@ -424,6 +517,19 @@
             this.FullName.Text = "mohammed alali";
             this.FullName.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // picPersonalName
+            // 
+            this.picPersonalName.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_6191;
+            this.picPersonalName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picPersonalName.FillColor = System.Drawing.Color.Transparent;
+            this.picPersonalName.ImageRotate = 0F;
+            this.picPersonalName.Location = new System.Drawing.Point(13, 11);
+            this.picPersonalName.Name = "picPersonalName";
+            this.picPersonalName.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picPersonalName.Size = new System.Drawing.Size(30, 30);
+            this.picPersonalName.TabIndex = 26;
+            this.picPersonalName.TabStop = false;
+            // 
             // lblFullName
             // 
             this.lblFullName.BackColor = System.Drawing.Color.Transparent;
@@ -453,6 +559,37 @@
             this.guna2Panel1.ShadowDecoration.Enabled = true;
             this.guna2Panel1.Size = new System.Drawing.Size(513, 94);
             this.guna2Panel1.TabIndex = 18;
+            // 
+            // btnPersonDetele
+            // 
+            this.btnPersonDetele.BorderRadius = 8;
+            this.btnPersonDetele.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPersonDetele.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPersonDetele.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPersonDetele.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPersonDetele.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPersonDetele.FillColor = System.Drawing.Color.SlateBlue;
+            this.btnPersonDetele.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPersonDetele.ForeColor = System.Drawing.Color.White;
+            this.btnPersonDetele.Image = global::Drive_License_System_UI.Properties.Resources._201;
+            this.btnPersonDetele.ImageSize = new System.Drawing.Size(25, 15);
+            this.btnPersonDetele.Location = new System.Drawing.Point(460, 31);
+            this.btnPersonDetele.Name = "btnPersonDetele";
+            this.btnPersonDetele.Size = new System.Drawing.Size(40, 37);
+            this.btnPersonDetele.TabIndex = 30;
+            // 
+            // personalPhoto
+            // 
+            this.personalPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.personalPhoto.Image = ((System.Drawing.Image)(resources.GetObject("personalPhoto.Image")));
+            this.personalPhoto.ImageRotate = 0F;
+            this.personalPhoto.Location = new System.Drawing.Point(13, 13);
+            this.personalPhoto.Name = "personalPhoto";
+            this.personalPhoto.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.personalPhoto.Size = new System.Drawing.Size(70, 70);
+            this.personalPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.personalPhoto.TabIndex = 29;
+            this.personalPhoto.TabStop = false;
             // 
             // pnlDriveLicenseCardStute
             // 
@@ -488,154 +625,6 @@
             this.personalName.TabIndex = 19;
             this.personalName.Text = "mohammed alali";
             // 
-            // lblCardPersonTitle
-            // 
-            this.lblCardPersonTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblCardPersonTitle.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCardPersonTitle.ForeColor = System.Drawing.Color.White;
-            this.lblCardPersonTitle.Location = new System.Drawing.Point(90, 23);
-            this.lblCardPersonTitle.Name = "lblCardPersonTitle";
-            this.lblCardPersonTitle.Size = new System.Drawing.Size(199, 33);
-            this.lblCardPersonTitle.TabIndex = 10;
-            this.lblCardPersonTitle.Text = "Drive License Card";
-            // 
-            // guna2CirclePictureBox5
-            // 
-            this.guna2CirclePictureBox5.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_19_03_27_981;
-            this.guna2CirclePictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox5.ImageRotate = 0F;
-            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(513, 12);
-            this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
-            this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(28, 49);
-            this.guna2CirclePictureBox5.TabIndex = 31;
-            this.guna2CirclePictureBox5.TabStop = false;
-            // 
-            // Delete
-            // 
-            this.Delete.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.q;
-            this.Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Delete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Delete.FillColor = System.Drawing.Color.Transparent;
-            this.Delete.ImageRotate = 0F;
-            this.Delete.Location = new System.Drawing.Point(469, 12);
-            this.Delete.Name = "Delete";
-            this.Delete.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.Delete.Size = new System.Drawing.Size(28, 49);
-            this.Delete.TabIndex = 30;
-            this.Delete.TabStop = false;
-            // 
-            // guna2CirclePictureBox4
-            // 
-            this.guna2CirclePictureBox4.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.n;
-            this.guna2CirclePictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox4.ImageRotate = 0F;
-            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(13, 8);
-            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
-            this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(30, 30);
-            this.guna2CirclePictureBox4.TabIndex = 28;
-            this.guna2CirclePictureBox4.TabStop = false;
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._991;
-            this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(13, 8);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.guna2CirclePictureBox1.TabIndex = 28;
-            this.guna2CirclePictureBox1.TabStop = false;
-            // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_619g;
-            this.guna2CirclePictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(13, 11);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.guna2CirclePictureBox3.TabIndex = 26;
-            this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_02_02_08_46_3511;
-            this.guna2CirclePictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(13, 11);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(30, 30);
-            this.guna2CirclePictureBox2.TabIndex = 26;
-            this.guna2CirclePictureBox2.TabStop = false;
-            // 
-            // picnationalno
-            // 
-            this.picnationalno.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.d1;
-            this.picnationalno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picnationalno.FillColor = System.Drawing.Color.Transparent;
-            this.picnationalno.ImageRotate = 0F;
-            this.picnationalno.Location = new System.Drawing.Point(13, 11);
-            this.picnationalno.Name = "picnationalno";
-            this.picnationalno.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picnationalno.Size = new System.Drawing.Size(30, 30);
-            this.picnationalno.TabIndex = 26;
-            this.picnationalno.TabStop = false;
-            // 
-            // picPersonalName
-            // 
-            this.picPersonalName.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_6191;
-            this.picPersonalName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picPersonalName.FillColor = System.Drawing.Color.Transparent;
-            this.picPersonalName.ImageRotate = 0F;
-            this.picPersonalName.Location = new System.Drawing.Point(13, 11);
-            this.picPersonalName.Name = "picPersonalName";
-            this.picPersonalName.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picPersonalName.Size = new System.Drawing.Size(30, 30);
-            this.picPersonalName.TabIndex = 26;
-            this.picPersonalName.TabStop = false;
-            // 
-            // btnPersonDetele
-            // 
-            this.btnPersonDetele.BorderRadius = 8;
-            this.btnPersonDetele.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPersonDetele.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPersonDetele.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPersonDetele.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPersonDetele.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPersonDetele.FillColor = System.Drawing.Color.SlateBlue;
-            this.btnPersonDetele.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnPersonDetele.ForeColor = System.Drawing.Color.White;
-            this.btnPersonDetele.Image = global::Drive_License_System_UI.Properties.Resources._201;
-            this.btnPersonDetele.ImageSize = new System.Drawing.Size(25, 15);
-            this.btnPersonDetele.Location = new System.Drawing.Point(460, 31);
-            this.btnPersonDetele.Name = "btnPersonDetele";
-            this.btnPersonDetele.Size = new System.Drawing.Size(40, 37);
-            this.btnPersonDetele.TabIndex = 30;
-            // 
-            // personalPhoto
-            // 
-            this.personalPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.personalPhoto.Image = ((System.Drawing.Image)(resources.GetObject("personalPhoto.Image")));
-            this.personalPhoto.ImageRotate = 0F;
-            this.personalPhoto.Location = new System.Drawing.Point(13, 13);
-            this.personalPhoto.Name = "personalPhoto";
-            this.personalPhoto.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.personalPhoto.Size = new System.Drawing.Size(70, 70);
-            this.personalPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.personalPhoto.TabIndex = 29;
-            this.personalPhoto.TabStop = false;
-            // 
             // picPersonalPotoCard
             // 
             this.picPersonalPotoCard.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._311;
@@ -649,6 +638,17 @@
             this.picPersonalPotoCard.TabIndex = 17;
             this.picPersonalPotoCard.TabStop = false;
             // 
+            // lblCardPersonTitle
+            // 
+            this.lblCardPersonTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblCardPersonTitle.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCardPersonTitle.ForeColor = System.Drawing.Color.White;
+            this.lblCardPersonTitle.Location = new System.Drawing.Point(90, 23);
+            this.lblCardPersonTitle.Name = "lblCardPersonTitle";
+            this.lblCardPersonTitle.Size = new System.Drawing.Size(199, 33);
+            this.lblCardPersonTitle.TabIndex = 10;
+            this.lblCardPersonTitle.Text = "Drive License Card";
+            // 
             // us_LicenseInformationCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -659,35 +659,35 @@
             this.Size = new System.Drawing.Size(571, 770);
             this.pnlfull.ResumeLayout(false);
             this.pnlfull.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Delete)).EndInit();
             this.guna2Panel7.ResumeLayout(false);
             this.pnlpersoninforow.ResumeLayout(false);
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
             this.pnlDetentionstatus.ResumeLayout(false);
             this.pnlDetentionstatus.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picnationalno)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPersonalName)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.personalPhoto)).EndInit();
             this.pnlDriveLicenseCardStute.ResumeLayout(false);
             this.pnlDriveLicenseCardStute.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Delete)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picnationalno)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPersonalName)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.personalPhoto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPersonalPotoCard)).EndInit();
             this.ResumeLayout(false);
 

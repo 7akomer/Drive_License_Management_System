@@ -30,9 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(us_TakeTast));
             this.pnlfull = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Note = new Guna.UI2.WinForms.Guna2TextBox();
             this.save = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -56,9 +58,7 @@
             this.AppointementID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblappid = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.personalName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.Note = new Guna.UI2.WinForms.Guna2TextBox();
             this.picTest = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.Delete = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.picrow4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -66,6 +66,7 @@
             this.picRow2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.picRow1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.PersonPhoto = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.ProgressTest = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.pnlfull.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel7.SuspendLayout();
@@ -112,6 +113,17 @@
             this.pnlfull.TabIndex = 1;
             this.pnlfull.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlfull_Paint);
             // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(84, 21);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(107, 30);
+            this.guna2HtmlLabel2.TabIndex = 31;
+            this.guna2HtmlLabel2.Text = "Vision Test";
+            // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
@@ -141,6 +153,30 @@
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(513, 117);
             this.guna2Panel8.TabIndex = 32;
+            // 
+            // Note
+            // 
+            this.Note.BackColor = System.Drawing.Color.Transparent;
+            this.Note.BorderThickness = 0;
+            this.Note.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Note.DefaultText = "";
+            this.Note.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Note.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Note.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Note.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Note.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(42)))), ((int)(((byte)(94)))));
+            this.Note.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Note.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Note.ForeColor = System.Drawing.Color.White;
+            this.Note.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Note.Location = new System.Drawing.Point(3, 4);
+            this.Note.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Note.Multiline = true;
+            this.Note.Name = "Note";
+            this.Note.PlaceholderText = "";
+            this.Note.SelectedText = "";
+            this.Note.Size = new System.Drawing.Size(499, 109);
+            this.Note.TabIndex = 0;
             // 
             // save
             // 
@@ -225,11 +261,11 @@
             // btnFill
             // 
             this.btnFill.Animated = true;
-            this.btnFill.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnFill.BorderColor = System.Drawing.Color.MediumBlue;
             this.btnFill.BorderRadius = 8;
             this.btnFill.BorderThickness = 2;
             this.btnFill.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnFill.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnFill.CheckedState.FillColor = System.Drawing.Color.Navy;
             this.btnFill.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFill.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnFill.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -247,11 +283,11 @@
             // btnPass
             // 
             this.btnPass.Animated = true;
-            this.btnPass.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnPass.BorderColor = System.Drawing.Color.MediumBlue;
             this.btnPass.BorderRadius = 8;
             this.btnPass.BorderThickness = 2;
             this.btnPass.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnPass.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnPass.CheckedState.FillColor = System.Drawing.Color.Navy;
             this.btnPass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPass.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnPass.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -422,6 +458,7 @@
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.guna2Panel1.BorderRadius = 14;
             this.guna2Panel1.BorderThickness = 1;
+            this.guna2Panel1.Controls.Add(this.ProgressTest);
             this.guna2Panel1.Controls.Add(this.PersonPhoto);
             this.guna2Panel1.Controls.Add(this.personalName);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(42)))), ((int)(((byte)(94)))));
@@ -433,17 +470,6 @@
             this.guna2Panel1.Size = new System.Drawing.Size(513, 91);
             this.guna2Panel1.TabIndex = 18;
             // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(84, 21);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(107, 30);
-            this.guna2HtmlLabel2.TabIndex = 31;
-            this.guna2HtmlLabel2.Text = "Vision Test";
-            // 
             // personalName
             // 
             this.personalName.BackColor = System.Drawing.Color.Transparent;
@@ -454,30 +480,6 @@
             this.personalName.Size = new System.Drawing.Size(161, 30);
             this.personalName.TabIndex = 19;
             this.personalName.Text = "mohammed alali";
-            // 
-            // Note
-            // 
-            this.Note.BackColor = System.Drawing.Color.Transparent;
-            this.Note.BorderThickness = 0;
-            this.Note.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Note.DefaultText = "";
-            this.Note.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Note.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Note.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Note.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Note.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(42)))), ((int)(((byte)(94)))));
-            this.Note.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Note.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Note.ForeColor = System.Drawing.Color.White;
-            this.Note.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Note.Location = new System.Drawing.Point(3, 4);
-            this.Note.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Note.Multiline = true;
-            this.Note.Name = "Note";
-            this.Note.PlaceholderText = "";
-            this.Note.SelectedText = "";
-            this.Note.Size = new System.Drawing.Size(499, 109);
-            this.Note.TabIndex = 0;
             // 
             // picTest
             // 
@@ -494,7 +496,7 @@
             // 
             // Delete
             // 
-            this.Delete.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.q;
+            this.Delete.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_19_03_27_981;
             this.Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Delete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Delete.FillColor = System.Drawing.Color.Transparent;
@@ -571,6 +573,24 @@
             this.PersonPhoto.TabIndex = 29;
             this.PersonPhoto.TabStop = false;
             // 
+            // ProgressTest
+            // 
+            this.ProgressTest.FillColor = System.Drawing.Color.Transparent;
+            this.ProgressTest.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProgressTest.ForeColor = System.Drawing.Color.White;
+            this.ProgressTest.Location = new System.Drawing.Point(442, 15);
+            this.ProgressTest.Minimum = 0;
+            this.ProgressTest.Name = "ProgressTest";
+            this.ProgressTest.ProgressColor = System.Drawing.Color.Navy;
+            this.ProgressTest.ProgressColor2 = System.Drawing.Color.White;
+            this.ProgressTest.ProgressThickness = 12;
+            this.ProgressTest.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ProgressTest.ShowText = true;
+            this.ProgressTest.Size = new System.Drawing.Size(60, 60);
+            this.ProgressTest.TabIndex = 30;
+            this.ProgressTest.Text = "1/3";
+            this.ProgressTest.TextMode = Guna.UI2.WinForms.Enums.ProgressBarTextMode.Custom;
+            // 
             // us_TakeTast
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -579,6 +599,7 @@
             this.Controls.Add(this.pnlfull);
             this.Name = "us_TakeTast";
             this.Size = new System.Drawing.Size(571, 770);
+            this.Load += new System.EventHandler(this.us_TakeTast_Load);
             this.pnlfull.ResumeLayout(false);
             this.pnlfull.PerformLayout();
             this.guna2Panel8.ResumeLayout(false);
@@ -644,5 +665,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
         private Guna.UI2.WinForms.Guna2TextBox Note;
+        private Guna.UI2.WinForms.Guna2CircleProgressBar ProgressTest;
     }
 }
