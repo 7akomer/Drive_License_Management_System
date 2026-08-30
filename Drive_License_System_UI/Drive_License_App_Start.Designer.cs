@@ -133,7 +133,7 @@
             this.lblMain.Location = new System.Drawing.Point(11, 12);
             this.lblMain.Margin = new System.Windows.Forms.Padding(3, 2, 2, 2);
             this.lblMain.Name = "lblMain";
-            this.lblMain.Size = new System.Drawing.Size(41, 21);
+            this.lblMain.Size = new System.Drawing.Size(34, 15);
             this.lblMain.TabIndex = 3;
             this.lblMain.Text = "MAIN";
             this.lblMain.Click += new System.EventHandler(this.lblMain_Click);
@@ -155,7 +155,7 @@
             this.btnHome.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnHome.Location = new System.Drawing.Point(8, 37);
+            this.btnHome.Location = new System.Drawing.Point(8, 31);
             this.btnHome.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(250, 48);
@@ -181,7 +181,7 @@
             this.btnApplications.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApplications.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnApplications.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnApplications.Location = new System.Drawing.Point(8, 89);
+            this.btnApplications.Location = new System.Drawing.Point(8, 83);
             this.btnApplications.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnApplications.Name = "btnApplications";
             this.btnApplications.Size = new System.Drawing.Size(250, 48);
@@ -207,7 +207,7 @@
             this.btnLicenses.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLicenses.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnLicenses.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLicenses.Location = new System.Drawing.Point(8, 141);
+            this.btnLicenses.Location = new System.Drawing.Point(8, 135);
             this.btnLicenses.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnLicenses.Name = "btnLicenses";
             this.btnLicenses.Size = new System.Drawing.Size(250, 48);
@@ -232,7 +232,7 @@
             this.btnRenewals.FillColor = System.Drawing.Color.Transparent;
             this.btnRenewals.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRenewals.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnRenewals.Location = new System.Drawing.Point(8, 193);
+            this.btnRenewals.Location = new System.Drawing.Point(8, 187);
             this.btnRenewals.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnRenewals.Name = "btnRenewals";
             this.btnRenewals.Size = new System.Drawing.Size(250, 48);
@@ -257,7 +257,7 @@
             this.btnExaminations.FillColor = System.Drawing.Color.Transparent;
             this.btnExaminations.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExaminations.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnExaminations.Location = new System.Drawing.Point(8, 245);
+            this.btnExaminations.Location = new System.Drawing.Point(8, 239);
             this.btnExaminations.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnExaminations.Name = "btnExaminations";
             this.btnExaminations.Size = new System.Drawing.Size(250, 48);
@@ -282,7 +282,7 @@
             this.btnDetain.FillColor = System.Drawing.Color.Transparent;
             this.btnDetain.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetain.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnDetain.Location = new System.Drawing.Point(8, 297);
+            this.btnDetain.Location = new System.Drawing.Point(8, 291);
             this.btnDetain.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnDetain.Name = "btnDetain";
             this.btnDetain.Size = new System.Drawing.Size(250, 48);
@@ -307,7 +307,7 @@
             this.btnPrintDelivery.FillColor = System.Drawing.Color.Transparent;
             this.btnPrintDelivery.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrintDelivery.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnPrintDelivery.Location = new System.Drawing.Point(8, 349);
+            this.btnPrintDelivery.Location = new System.Drawing.Point(8, 343);
             this.btnPrintDelivery.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnPrintDelivery.Name = "btnPrintDelivery";
             this.btnPrintDelivery.Size = new System.Drawing.Size(250, 48);
@@ -321,10 +321,10 @@
             this.lblManage.BackColor = System.Drawing.Color.Transparent;
             this.lblManage.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblManage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(96)))), ((int)(((byte)(122)))));
-            this.lblManage.Location = new System.Drawing.Point(11, 401);
+            this.lblManage.Location = new System.Drawing.Point(11, 395);
             this.lblManage.Margin = new System.Windows.Forms.Padding(3, 2, 0, 2);
             this.lblManage.Name = "lblManage";
-            this.lblManage.Size = new System.Drawing.Size(64, 21);
+            this.lblManage.Size = new System.Drawing.Size(53, 15);
             this.lblManage.TabIndex = 9;
             this.lblManage.Text = "MANAGE";
             // 
@@ -344,7 +344,7 @@
             this.btnUsers.FillColor = System.Drawing.Color.Transparent;
             this.btnUsers.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsers.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnUsers.Location = new System.Drawing.Point(8, 426);
+            this.btnUsers.Location = new System.Drawing.Point(8, 414);
             this.btnUsers.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Size = new System.Drawing.Size(250, 48);
@@ -369,7 +369,7 @@
             this.btnPersons.FillColor = System.Drawing.Color.Transparent;
             this.btnPersons.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPersons.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnPersons.Location = new System.Drawing.Point(8, 478);
+            this.btnPersons.Location = new System.Drawing.Point(8, 466);
             this.btnPersons.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnPersons.Name = "btnPersons";
             this.btnPersons.Size = new System.Drawing.Size(250, 48);
@@ -394,7 +394,7 @@
             this.btnDrivers.FillColor = System.Drawing.Color.Transparent;
             this.btnDrivers.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDrivers.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnDrivers.Location = new System.Drawing.Point(8, 530);
+            this.btnDrivers.Location = new System.Drawing.Point(8, 518);
             this.btnDrivers.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnDrivers.Name = "btnDrivers";
             this.btnDrivers.Size = new System.Drawing.Size(250, 48);
@@ -419,7 +419,7 @@
             this.btnLicenseCategories.FillColor = System.Drawing.Color.Transparent;
             this.btnLicenseCategories.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLicenseCategories.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLicenseCategories.Location = new System.Drawing.Point(8, 582);
+            this.btnLicenseCategories.Location = new System.Drawing.Point(8, 570);
             this.btnLicenseCategories.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnLicenseCategories.Name = "btnLicenseCategories";
             this.btnLicenseCategories.Size = new System.Drawing.Size(250, 48);
@@ -444,7 +444,7 @@
             this.btnServiceandExam.FillColor = System.Drawing.Color.Transparent;
             this.btnServiceandExam.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServiceandExam.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnServiceandExam.Location = new System.Drawing.Point(8, 634);
+            this.btnServiceandExam.Location = new System.Drawing.Point(8, 622);
             this.btnServiceandExam.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnServiceandExam.Name = "btnServiceandExam";
             this.btnServiceandExam.Size = new System.Drawing.Size(250, 48);
@@ -469,7 +469,7 @@
             this.btnHistory.FillColor = System.Drawing.Color.Transparent;
             this.btnHistory.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistory.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnHistory.Location = new System.Drawing.Point(8, 686);
+            this.btnHistory.Location = new System.Drawing.Point(8, 674);
             this.btnHistory.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnHistory.Name = "btnHistory";
             this.btnHistory.Size = new System.Drawing.Size(250, 48);
@@ -483,10 +483,10 @@
             this.lblSettings.BackColor = System.Drawing.Color.Transparent;
             this.lblSettings.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(96)))), ((int)(((byte)(122)))));
-            this.lblSettings.Location = new System.Drawing.Point(11, 738);
+            this.lblSettings.Location = new System.Drawing.Point(11, 726);
             this.lblSettings.Margin = new System.Windows.Forms.Padding(3, 2, 0, 2);
             this.lblSettings.Name = "lblSettings";
-            this.lblSettings.Size = new System.Drawing.Size(67, 21);
+            this.lblSettings.Size = new System.Drawing.Size(53, 15);
             this.lblSettings.TabIndex = 16;
             this.lblSettings.Text = "SETTINGS";
             // 
@@ -506,7 +506,7 @@
             this.btnSettings.FillColor = System.Drawing.Color.Transparent;
             this.btnSettings.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSettings.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSettings.Location = new System.Drawing.Point(8, 763);
+            this.btnSettings.Location = new System.Drawing.Point(8, 745);
             this.btnSettings.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(250, 48);
@@ -531,7 +531,7 @@
             this.btnHelp.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(62)))));
             this.btnHelp.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(139)))), ((int)(((byte)(250)))));
-            this.btnHelp.Location = new System.Drawing.Point(8, 833);
+            this.btnHelp.Location = new System.Drawing.Point(8, 815);
             this.btnHelp.Margin = new System.Windows.Forms.Padding(0, 20, 0, 2);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(250, 48);
@@ -571,7 +571,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(3, 35);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(150, 23);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(125, 19);
             this.guna2HtmlLabel2.TabIndex = 4;
             this.guna2HtmlLabel2.Text = "Management System";
             // 
@@ -582,7 +582,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(1, 7);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(148, 30);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 23);
             this.guna2HtmlLabel1.TabIndex = 3;
             this.guna2HtmlLabel1.Text = "Driving License";
             this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
@@ -678,7 +678,7 @@
             this.lblUserName.ForeColor = System.Drawing.Color.White;
             this.lblUserName.Location = new System.Drawing.Point(77, 17);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(9, 22);
+            this.lblUserName.Size = new System.Drawing.Size(8, 17);
             this.lblUserName.TabIndex = 5;
             this.lblUserName.Text = "-";
             this.lblUserName.Click += new System.EventHandler(this.lblUserName_Click);
@@ -690,7 +690,7 @@
             this.lblUserRole.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lblUserRole.Location = new System.Drawing.Point(77, 37);
             this.lblUserRole.Name = "lblUserRole";
-            this.lblUserRole.Size = new System.Drawing.Size(9, 21);
+            this.lblUserRole.Size = new System.Drawing.Size(7, 15);
             this.lblUserRole.TabIndex = 6;
             this.lblUserRole.Text = "-";
             this.lblUserRole.Click += new System.EventHandler(this.lblUserRole_Click);
@@ -821,6 +821,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DVLD - Dashboard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Drive_License_App_Start_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Drive_License_App_Start_Shown);
             this.pnlSiderbar.ResumeLayout(false);

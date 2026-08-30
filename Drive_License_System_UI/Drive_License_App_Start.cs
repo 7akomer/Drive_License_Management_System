@@ -424,5 +424,10 @@ namespace Drive_License_System_UI
             }
 
         public event Action LogoutClick;
+
+        private void Drive_License_App_Start_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
