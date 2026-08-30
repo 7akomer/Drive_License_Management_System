@@ -17,6 +17,10 @@ namespace Drive_License_System_UI
             InitializeComponent();
         }
 
+        public void OverirGestionPermisClickBtnIssueNewLicense()
+        {
+            btnNewLocalLicense.PerformClick();
+        }
         private void btnNewLocalLicense_Click(object sender, EventArgs e)
         {
            pnlServiceList.Controls.Clear();
@@ -58,6 +62,11 @@ namespace Drive_License_System_UI
         }
 
         private void pnlServiceList_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlServiceList_Paint_1(object sender, PaintEventArgs e)
         {
 
         }

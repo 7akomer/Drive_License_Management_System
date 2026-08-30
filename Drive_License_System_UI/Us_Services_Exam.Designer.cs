@@ -32,11 +32,12 @@
             this.pnlscreen = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlExam = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnlShowExam = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save21 = new Guna.UI2.WinForms.Guna2Button();
             this.VisionTestPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit21 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
@@ -45,8 +46,9 @@
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save22 = new Guna.UI2.WinForms.Guna2Button();
             this.TheoryTestPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit22 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
@@ -55,8 +57,9 @@
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel21 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel22 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Save23 = new Guna.UI2.WinForms.Guna2Button();
+            this.PracticalTestPrice = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Edit23 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel25 = new Guna.UI2.WinForms.Guna2Panel();
@@ -68,12 +71,13 @@
             this.picExam = new Guna.UI2.WinForms.Guna2PictureBox();
             this.ExamTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlServices = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlShowServicens = new Guna.UI2.WinForms.Guna2Panel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel43 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel44 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save3 = new Guna.UI2.WinForms.Guna2Button();
             this.RenewalServicePrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox19 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel29 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox20 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel45 = new Guna.UI2.WinForms.Guna2Panel();
@@ -82,8 +86,9 @@
             this.guna2HtmlLabel31 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel47 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel48 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save6 = new Guna.UI2.WinForms.Guna2Button();
             this.LicenseReleasePrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox21 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel32 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox22 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel49 = new Guna.UI2.WinForms.Guna2Panel();
@@ -93,8 +98,9 @@
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel31 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel32 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save2 = new Guna.UI2.WinForms.Guna2Button();
             this.ReexaminationServicePrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox14 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel33 = new Guna.UI2.WinForms.Guna2Panel();
@@ -103,8 +109,9 @@
             this.guna2HtmlLabel22 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel35 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel36 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save5 = new Guna.UI2.WinForms.Guna2Button();
             this.DamagedReplacementPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox15 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel23 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox16 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel37 = new Guna.UI2.WinForms.Guna2Panel();
@@ -113,9 +120,10 @@
             this.guna2HtmlLabel25 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
             this.LicenseIssuancePrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
@@ -124,8 +132,9 @@
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel19 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel20 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save4 = new Guna.UI2.WinForms.Guna2Button();
             this.LicenseReplacementPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox8 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel23 = new Guna.UI2.WinForms.Guna2Panel();
@@ -134,8 +143,9 @@
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel26 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel27 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Save7 = new Guna.UI2.WinForms.Guna2Button();
             this.InternationalLicensePrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.Edit7 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel28 = new Guna.UI2.WinForms.Guna2Panel();
@@ -154,53 +164,53 @@
             this.pnlscreen.SuspendLayout();
             this.pnlExam.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
+            this.pnlShowExam.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.guna2Panel7.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             this.guna2Panel21.SuspendLayout();
             this.guna2Panel22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picExam)).BeginInit();
             this.pnlServices.SuspendLayout();
-            this.guna2Panel14.SuspendLayout();
+            this.pnlShowServicens.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.guna2Panel43.SuspendLayout();
             this.guna2Panel44.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).BeginInit();
             this.guna2Panel47.SuspendLayout();
             this.guna2Panel48.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).BeginInit();
             this.flowLayoutPanel3.SuspendLayout();
             this.guna2Panel31.SuspendLayout();
             this.guna2Panel32.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).BeginInit();
             this.guna2Panel35.SuspendLayout();
             this.guna2Panel36.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.guna2Panel15.SuspendLayout();
             this.guna2Panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
             this.guna2Panel19.SuspendLayout();
             this.guna2Panel20.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).BeginInit();
             this.guna2Panel26.SuspendLayout();
             this.guna2Panel27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
             this.guna2Panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -218,7 +228,7 @@
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(16)))), ((int)(((byte)(70)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(17)))), ((int)(((byte)(79)))));
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1700, 900);
             this.guna2CustomGradientPanel1.TabIndex = 1;
@@ -249,26 +259,28 @@
             // 
             // guna2Panel2
             // 
-            this.guna2Panel2.Controls.Add(this.flowLayoutPanel2);
+            this.guna2Panel2.Controls.Add(this.pnlShowExam);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 85);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(400, 716);
             this.guna2Panel2.TabIndex = 11;
             // 
-            // flowLayoutPanel2
+            // pnlShowExam
             // 
-            this.flowLayoutPanel2.Controls.Add(this.guna2Panel3);
-            this.flowLayoutPanel2.Controls.Add(this.guna2Panel7);
-            this.flowLayoutPanel2.Controls.Add(this.guna2Panel21);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(2, 0, 2, 2);
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(400, 716);
-            this.flowLayoutPanel2.TabIndex = 1;
-            this.flowLayoutPanel2.WrapContents = false;
+            this.pnlShowExam.Controls.Add(this.guna2Panel3);
+            this.pnlShowExam.Controls.Add(this.guna2Panel7);
+            this.pnlShowExam.Controls.Add(this.guna2Panel21);
+            this.pnlShowExam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlShowExam.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.pnlShowExam.Location = new System.Drawing.Point(0, 0);
+            this.pnlShowExam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlShowExam.Name = "pnlShowExam";
+            this.pnlShowExam.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
+            this.pnlShowExam.Size = new System.Drawing.Size(400, 716);
+            this.pnlShowExam.TabIndex = 1;
+            this.pnlShowExam.WrapContents = false;
             // 
             // guna2Panel3
             // 
@@ -276,16 +288,17 @@
             this.guna2Panel3.BorderRadius = 14;
             this.guna2Panel3.Controls.Add(this.guna2Panel4);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(12, 2);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(10, 2, 10, 7);
+            this.guna2Panel3.Location = new System.Drawing.Point(14, 2);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(11, 2, 11, 7);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel3.TabIndex = 3;
             // 
             // guna2Panel4
             // 
+            this.guna2Panel4.Controls.Add(this.Save21);
             this.guna2Panel4.Controls.Add(this.VisionTestPrice);
-            this.guna2Panel4.Controls.Add(this.guna2CirclePictureBox1);
+            this.guna2Panel4.Controls.Add(this.Edit21);
             this.guna2Panel4.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel4.Controls.Add(this.guna2CirclePictureBox2);
             this.guna2Panel4.Controls.Add(this.guna2Panel5);
@@ -299,6 +312,27 @@
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel4.TabIndex = 0;
+            // 
+            // Save21
+            // 
+            this.Save21.Animated = true;
+            this.Save21.BorderRadius = 10;
+            this.Save21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save21.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save21.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save21.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save21.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save21.FillColor = System.Drawing.Color.Navy;
+            this.Save21.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save21.ForeColor = System.Drawing.Color.White;
+            this.Save21.Location = new System.Drawing.Point(157, 90);
+            this.Save21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save21.Name = "Save21";
+            this.Save21.Size = new System.Drawing.Size(71, 21);
+            this.Save21.TabIndex = 43;
+            this.Save21.Text = "save";
+            this.Save21.Visible = false;
+            this.Save21.Click += new System.EventHandler(this.Save21_Click);
             // 
             // VisionTestPrice
             // 
@@ -314,31 +348,32 @@
             this.VisionTestPrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VisionTestPrice.ForeColor = System.Drawing.Color.Silver;
             this.VisionTestPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.VisionTestPrice.Location = new System.Drawing.Point(163, 144);
+            this.VisionTestPrice.Location = new System.Drawing.Point(141, 144);
             this.VisionTestPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.VisionTestPrice.Name = "VisionTestPrice";
             this.VisionTestPrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.VisionTestPrice.PlaceholderText = "";
             this.VisionTestPrice.ReadOnly = true;
             this.VisionTestPrice.SelectedText = "";
-            this.VisionTestPrice.Size = new System.Drawing.Size(37, 25);
+            this.VisionTestPrice.Size = new System.Drawing.Size(96, 25);
             this.VisionTestPrice.TabIndex = 38;
             this.VisionTestPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox1
+            // Edit21
             // 
-            this.guna2CirclePictureBox1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox1.TabIndex = 37;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.Edit21.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit21.FillColor = System.Drawing.Color.Transparent;
+            this.Edit21.ImageRotate = 0F;
+            this.Edit21.Location = new System.Drawing.Point(336, 110);
+            this.Edit21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit21.Name = "Edit21";
+            this.Edit21.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit21.Size = new System.Drawing.Size(29, 34);
+            this.Edit21.TabIndex = 37;
+            this.Edit21.TabStop = false;
+            this.Edit21.Click += new System.EventHandler(this.Edit21_Click);
             // 
             // guna2HtmlLabel1
             // 
@@ -417,16 +452,17 @@
             this.guna2Panel7.BorderRadius = 14;
             this.guna2Panel7.Controls.Add(this.guna2Panel8);
             this.guna2Panel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel7.Location = new System.Drawing.Point(12, 243);
-            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(10, 10, 10, 7);
+            this.guna2Panel7.Location = new System.Drawing.Point(14, 243);
+            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(11, 10, 11, 7);
             this.guna2Panel7.Name = "guna2Panel7";
             this.guna2Panel7.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel7.TabIndex = 4;
             // 
             // guna2Panel8
             // 
+            this.guna2Panel8.Controls.Add(this.Save22);
             this.guna2Panel8.Controls.Add(this.TheoryTestPrice);
-            this.guna2Panel8.Controls.Add(this.guna2CirclePictureBox3);
+            this.guna2Panel8.Controls.Add(this.Edit22);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel4);
             this.guna2Panel8.Controls.Add(this.guna2CirclePictureBox4);
             this.guna2Panel8.Controls.Add(this.guna2Panel9);
@@ -440,6 +476,27 @@
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel8.TabIndex = 0;
+            // 
+            // Save22
+            // 
+            this.Save22.Animated = true;
+            this.Save22.BorderRadius = 10;
+            this.Save22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save22.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save22.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save22.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save22.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save22.FillColor = System.Drawing.Color.Navy;
+            this.Save22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save22.ForeColor = System.Drawing.Color.White;
+            this.Save22.Location = new System.Drawing.Point(157, 90);
+            this.Save22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save22.Name = "Save22";
+            this.Save22.Size = new System.Drawing.Size(71, 21);
+            this.Save22.TabIndex = 43;
+            this.Save22.Text = "save";
+            this.Save22.Visible = false;
+            this.Save22.Click += new System.EventHandler(this.Save22_Click);
             // 
             // TheoryTestPrice
             // 
@@ -455,31 +512,32 @@
             this.TheoryTestPrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TheoryTestPrice.ForeColor = System.Drawing.Color.Silver;
             this.TheoryTestPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TheoryTestPrice.Location = new System.Drawing.Point(163, 144);
+            this.TheoryTestPrice.Location = new System.Drawing.Point(144, 144);
             this.TheoryTestPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TheoryTestPrice.Name = "TheoryTestPrice";
             this.TheoryTestPrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.TheoryTestPrice.PlaceholderText = "";
             this.TheoryTestPrice.ReadOnly = true;
             this.TheoryTestPrice.SelectedText = "";
-            this.TheoryTestPrice.Size = new System.Drawing.Size(37, 25);
+            this.TheoryTestPrice.Size = new System.Drawing.Size(96, 25);
             this.TheoryTestPrice.TabIndex = 38;
             this.TheoryTestPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox3
+            // Edit22
             // 
-            this.guna2CirclePictureBox3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox3.TabIndex = 37;
-            this.guna2CirclePictureBox3.TabStop = false;
+            this.Edit22.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit22.FillColor = System.Drawing.Color.Transparent;
+            this.Edit22.ImageRotate = 0F;
+            this.Edit22.Location = new System.Drawing.Point(336, 110);
+            this.Edit22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit22.Name = "Edit22";
+            this.Edit22.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit22.Size = new System.Drawing.Size(29, 34);
+            this.Edit22.TabIndex = 37;
+            this.Edit22.TabStop = false;
+            this.Edit22.Click += new System.EventHandler(this.Edit22_Click);
             // 
             // guna2HtmlLabel4
             // 
@@ -558,16 +616,17 @@
             this.guna2Panel21.BorderRadius = 14;
             this.guna2Panel21.Controls.Add(this.guna2Panel22);
             this.guna2Panel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel21.Location = new System.Drawing.Point(12, 484);
-            this.guna2Panel21.Margin = new System.Windows.Forms.Padding(10, 10, 10, 2);
+            this.guna2Panel21.Location = new System.Drawing.Point(14, 484);
+            this.guna2Panel21.Margin = new System.Windows.Forms.Padding(11, 10, 11, 2);
             this.guna2Panel21.Name = "guna2Panel21";
             this.guna2Panel21.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel21.TabIndex = 5;
             // 
             // guna2Panel22
             // 
-            this.guna2Panel22.Controls.Add(this.guna2TextBox6);
-            this.guna2Panel22.Controls.Add(this.guna2CirclePictureBox9);
+            this.guna2Panel22.Controls.Add(this.Save23);
+            this.guna2Panel22.Controls.Add(this.PracticalTestPrice);
+            this.guna2Panel22.Controls.Add(this.Edit23);
             this.guna2Panel22.Controls.Add(this.guna2HtmlLabel17);
             this.guna2Panel22.Controls.Add(this.guna2CirclePictureBox12);
             this.guna2Panel22.Controls.Add(this.guna2Panel25);
@@ -582,45 +641,67 @@
             this.guna2Panel22.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel22.TabIndex = 0;
             // 
-            // guna2TextBox6
+            // Save23
             // 
-            this.guna2TextBox6.BorderThickness = 0;
-            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox6.DefaultText = "10";
-            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox6.ForeColor = System.Drawing.Color.Silver;
-            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Location = new System.Drawing.Point(163, 144);
-            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox6.Name = "guna2TextBox6";
-            this.guna2TextBox6.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TextBox6.PlaceholderText = "";
-            this.guna2TextBox6.ReadOnly = true;
-            this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.Size = new System.Drawing.Size(37, 25);
-            this.guna2TextBox6.TabIndex = 38;
-            this.guna2TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Save23.Animated = true;
+            this.Save23.BorderRadius = 10;
+            this.Save23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save23.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save23.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save23.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save23.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save23.FillColor = System.Drawing.Color.Navy;
+            this.Save23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save23.ForeColor = System.Drawing.Color.White;
+            this.Save23.Location = new System.Drawing.Point(157, 90);
+            this.Save23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save23.Name = "Save23";
+            this.Save23.Size = new System.Drawing.Size(71, 21);
+            this.Save23.TabIndex = 43;
+            this.Save23.Text = "save";
+            this.Save23.Visible = false;
+            this.Save23.Click += new System.EventHandler(this.Save23_Click);
             // 
-            // guna2CirclePictureBox9
+            // PracticalTestPrice
             // 
-            this.guna2CirclePictureBox9.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox9.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox9.ImageRotate = 0F;
-            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
-            this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox9.TabIndex = 37;
-            this.guna2CirclePictureBox9.TabStop = false;
+            this.PracticalTestPrice.BorderThickness = 0;
+            this.PracticalTestPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PracticalTestPrice.DefaultText = "10";
+            this.PracticalTestPrice.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PracticalTestPrice.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PracticalTestPrice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PracticalTestPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PracticalTestPrice.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
+            this.PracticalTestPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PracticalTestPrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PracticalTestPrice.ForeColor = System.Drawing.Color.Silver;
+            this.PracticalTestPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PracticalTestPrice.Location = new System.Drawing.Point(144, 144);
+            this.PracticalTestPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.PracticalTestPrice.Name = "PracticalTestPrice";
+            this.PracticalTestPrice.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.PracticalTestPrice.PlaceholderText = "";
+            this.PracticalTestPrice.ReadOnly = true;
+            this.PracticalTestPrice.SelectedText = "";
+            this.PracticalTestPrice.Size = new System.Drawing.Size(96, 25);
+            this.PracticalTestPrice.TabIndex = 38;
+            this.PracticalTestPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Edit23
+            // 
+            this.Edit23.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit23.FillColor = System.Drawing.Color.Transparent;
+            this.Edit23.ImageRotate = 0F;
+            this.Edit23.Location = new System.Drawing.Point(336, 110);
+            this.Edit23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit23.Name = "Edit23";
+            this.Edit23.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit23.Size = new System.Drawing.Size(29, 34);
+            this.Edit23.TabIndex = 37;
+            this.Edit23.TabStop = false;
+            this.Edit23.Click += new System.EventHandler(this.Edit23_Click);
             // 
             // guna2HtmlLabel17
             // 
@@ -744,7 +825,7 @@
             // 
             // pnlServices
             // 
-            this.pnlServices.Controls.Add(this.guna2Panel14);
+            this.pnlServices.Controls.Add(this.pnlShowServicens);
             this.pnlServices.Controls.Add(this.guna2Panel10);
             this.pnlServices.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlServices.Location = new System.Drawing.Point(8, 7);
@@ -753,16 +834,17 @@
             this.pnlServices.Size = new System.Drawing.Size(1265, 801);
             this.pnlServices.TabIndex = 0;
             // 
-            // guna2Panel14
+            // pnlShowServicens
             // 
-            this.guna2Panel14.Controls.Add(this.flowLayoutPanel4);
-            this.guna2Panel14.Controls.Add(this.flowLayoutPanel3);
-            this.guna2Panel14.Controls.Add(this.flowLayoutPanel1);
-            this.guna2Panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel14.Location = new System.Drawing.Point(0, 85);
-            this.guna2Panel14.Name = "guna2Panel14";
-            this.guna2Panel14.Size = new System.Drawing.Size(1265, 716);
-            this.guna2Panel14.TabIndex = 12;
+            this.pnlShowServicens.Controls.Add(this.flowLayoutPanel4);
+            this.pnlShowServicens.Controls.Add(this.flowLayoutPanel3);
+            this.pnlShowServicens.Controls.Add(this.flowLayoutPanel1);
+            this.pnlShowServicens.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlShowServicens.Location = new System.Drawing.Point(0, 85);
+            this.pnlShowServicens.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlShowServicens.Name = "pnlShowServicens";
+            this.pnlShowServicens.Size = new System.Drawing.Size(1265, 716);
+            this.pnlShowServicens.TabIndex = 12;
             // 
             // flowLayoutPanel4
             // 
@@ -770,10 +852,11 @@
             this.flowLayoutPanel4.Controls.Add(this.guna2Panel47);
             this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel4.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(795, 0);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(796, 0);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Padding = new System.Windows.Forms.Padding(1, 0, 1, 2);
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(398, 716);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(397, 716);
             this.flowLayoutPanel4.TabIndex = 2;
             this.flowLayoutPanel4.WrapContents = false;
             // 
@@ -783,16 +866,17 @@
             this.guna2Panel43.BorderRadius = 14;
             this.guna2Panel43.Controls.Add(this.guna2Panel44);
             this.guna2Panel43.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel43.Location = new System.Drawing.Point(11, 2);
-            this.guna2Panel43.Margin = new System.Windows.Forms.Padding(10, 2, 10, 7);
+            this.guna2Panel43.Location = new System.Drawing.Point(12, 2);
+            this.guna2Panel43.Margin = new System.Windows.Forms.Padding(11, 2, 11, 7);
             this.guna2Panel43.Name = "guna2Panel43";
             this.guna2Panel43.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel43.TabIndex = 3;
             // 
             // guna2Panel44
             // 
+            this.guna2Panel44.Controls.Add(this.Save3);
             this.guna2Panel44.Controls.Add(this.RenewalServicePrice);
-            this.guna2Panel44.Controls.Add(this.guna2CirclePictureBox19);
+            this.guna2Panel44.Controls.Add(this.Edit3);
             this.guna2Panel44.Controls.Add(this.guna2HtmlLabel29);
             this.guna2Panel44.Controls.Add(this.guna2CirclePictureBox20);
             this.guna2Panel44.Controls.Add(this.guna2Panel45);
@@ -806,6 +890,27 @@
             this.guna2Panel44.Name = "guna2Panel44";
             this.guna2Panel44.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel44.TabIndex = 0;
+            // 
+            // Save3
+            // 
+            this.Save3.Animated = true;
+            this.Save3.BorderRadius = 10;
+            this.Save3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save3.FillColor = System.Drawing.Color.Navy;
+            this.Save3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save3.ForeColor = System.Drawing.Color.White;
+            this.Save3.Location = new System.Drawing.Point(157, 90);
+            this.Save3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save3.Name = "Save3";
+            this.Save3.Size = new System.Drawing.Size(71, 21);
+            this.Save3.TabIndex = 43;
+            this.Save3.Text = "save";
+            this.Save3.Visible = false;
+            this.Save3.Click += new System.EventHandler(this.Save3_Click);
             // 
             // RenewalServicePrice
             // 
@@ -821,31 +926,32 @@
             this.RenewalServicePrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RenewalServicePrice.ForeColor = System.Drawing.Color.Silver;
             this.RenewalServicePrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RenewalServicePrice.Location = new System.Drawing.Point(163, 144);
+            this.RenewalServicePrice.Location = new System.Drawing.Point(141, 144);
             this.RenewalServicePrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RenewalServicePrice.Name = "RenewalServicePrice";
             this.RenewalServicePrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.RenewalServicePrice.PlaceholderText = "";
             this.RenewalServicePrice.ReadOnly = true;
             this.RenewalServicePrice.SelectedText = "";
-            this.RenewalServicePrice.Size = new System.Drawing.Size(37, 25);
+            this.RenewalServicePrice.Size = new System.Drawing.Size(96, 25);
             this.RenewalServicePrice.TabIndex = 38;
             this.RenewalServicePrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox19
+            // Edit3
             // 
-            this.guna2CirclePictureBox19.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox19.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox19.ImageRotate = 0F;
-            this.guna2CirclePictureBox19.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox19.Name = "guna2CirclePictureBox19";
-            this.guna2CirclePictureBox19.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox19.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox19.TabIndex = 37;
-            this.guna2CirclePictureBox19.TabStop = false;
+            this.Edit3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit3.FillColor = System.Drawing.Color.Transparent;
+            this.Edit3.ImageRotate = 0F;
+            this.Edit3.Location = new System.Drawing.Point(336, 110);
+            this.Edit3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit3.Name = "Edit3";
+            this.Edit3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit3.Size = new System.Drawing.Size(29, 34);
+            this.Edit3.TabIndex = 37;
+            this.Edit3.TabStop = false;
+            this.Edit3.Click += new System.EventHandler(this.Edit3_Click);
             // 
             // guna2HtmlLabel29
             // 
@@ -903,7 +1009,7 @@
             this.guna2HtmlLabel30.Name = "guna2HtmlLabel30";
             this.guna2HtmlLabel30.Size = new System.Drawing.Size(300, 36);
             this.guna2HtmlLabel30.TabIndex = 13;
-            this.guna2HtmlLabel30.Text = "drivers license renewal service";
+            this.guna2HtmlLabel30.Text = "localLicenseTable license renewal service";
             // 
             // guna2HtmlLabel31
             // 
@@ -923,16 +1029,17 @@
             this.guna2Panel47.BorderRadius = 14;
             this.guna2Panel47.Controls.Add(this.guna2Panel48);
             this.guna2Panel47.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel47.Location = new System.Drawing.Point(11, 243);
-            this.guna2Panel47.Margin = new System.Windows.Forms.Padding(10, 10, 10, 7);
+            this.guna2Panel47.Location = new System.Drawing.Point(12, 243);
+            this.guna2Panel47.Margin = new System.Windows.Forms.Padding(11, 10, 11, 7);
             this.guna2Panel47.Name = "guna2Panel47";
             this.guna2Panel47.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel47.TabIndex = 4;
             // 
             // guna2Panel48
             // 
+            this.guna2Panel48.Controls.Add(this.Save6);
             this.guna2Panel48.Controls.Add(this.LicenseReleasePrice);
-            this.guna2Panel48.Controls.Add(this.guna2CirclePictureBox21);
+            this.guna2Panel48.Controls.Add(this.Edit6);
             this.guna2Panel48.Controls.Add(this.guna2HtmlLabel32);
             this.guna2Panel48.Controls.Add(this.guna2CirclePictureBox22);
             this.guna2Panel48.Controls.Add(this.guna2Panel49);
@@ -946,6 +1053,27 @@
             this.guna2Panel48.Name = "guna2Panel48";
             this.guna2Panel48.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel48.TabIndex = 0;
+            // 
+            // Save6
+            // 
+            this.Save6.Animated = true;
+            this.Save6.BorderRadius = 10;
+            this.Save6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save6.FillColor = System.Drawing.Color.Navy;
+            this.Save6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save6.ForeColor = System.Drawing.Color.White;
+            this.Save6.Location = new System.Drawing.Point(157, 90);
+            this.Save6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save6.Name = "Save6";
+            this.Save6.Size = new System.Drawing.Size(71, 21);
+            this.Save6.TabIndex = 43;
+            this.Save6.Text = "save";
+            this.Save6.Visible = false;
+            this.Save6.Click += new System.EventHandler(this.Save6_Click);
             // 
             // LicenseReleasePrice
             // 
@@ -961,31 +1089,32 @@
             this.LicenseReleasePrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LicenseReleasePrice.ForeColor = System.Drawing.Color.Silver;
             this.LicenseReleasePrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.LicenseReleasePrice.Location = new System.Drawing.Point(163, 144);
+            this.LicenseReleasePrice.Location = new System.Drawing.Point(144, 144);
             this.LicenseReleasePrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.LicenseReleasePrice.Name = "LicenseReleasePrice";
             this.LicenseReleasePrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.LicenseReleasePrice.PlaceholderText = "";
             this.LicenseReleasePrice.ReadOnly = true;
             this.LicenseReleasePrice.SelectedText = "";
-            this.LicenseReleasePrice.Size = new System.Drawing.Size(37, 25);
+            this.LicenseReleasePrice.Size = new System.Drawing.Size(96, 25);
             this.LicenseReleasePrice.TabIndex = 38;
             this.LicenseReleasePrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox21
+            // Edit6
             // 
-            this.guna2CirclePictureBox21.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox21.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox21.ImageRotate = 0F;
-            this.guna2CirclePictureBox21.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox21.Name = "guna2CirclePictureBox21";
-            this.guna2CirclePictureBox21.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox21.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox21.TabIndex = 37;
-            this.guna2CirclePictureBox21.TabStop = false;
+            this.Edit6.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit6.FillColor = System.Drawing.Color.Transparent;
+            this.Edit6.ImageRotate = 0F;
+            this.Edit6.Location = new System.Drawing.Point(336, 110);
+            this.Edit6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit6.Name = "Edit6";
+            this.Edit6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit6.Size = new System.Drawing.Size(29, 34);
+            this.Edit6.TabIndex = 37;
+            this.Edit6.TabStop = false;
+            this.Edit6.Click += new System.EventHandler(this.Edit6_Click);
             // 
             // guna2HtmlLabel32
             // 
@@ -1043,7 +1172,7 @@
             this.guna2HtmlLabel33.Name = "guna2HtmlLabel33";
             this.guna2HtmlLabel33.Size = new System.Drawing.Size(300, 36);
             this.guna2HtmlLabel33.TabIndex = 13;
-            this.guna2HtmlLabel33.Text = "drivers license seizure release service";
+            this.guna2HtmlLabel33.Text = "localLicenseTable license seizure release service";
             // 
             // guna2HtmlLabel34
             // 
@@ -1063,12 +1192,14 @@
             this.flowLayoutPanel3.Controls.Add(this.guna2Panel35);
             this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(394, 0);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(395, 0);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Padding = new System.Windows.Forms.Padding(1, 0, 1, 2);
             this.flowLayoutPanel3.Size = new System.Drawing.Size(401, 716);
             this.flowLayoutPanel3.TabIndex = 1;
             this.flowLayoutPanel3.WrapContents = false;
+            this.flowLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
             // 
             // guna2Panel31
             // 
@@ -1076,16 +1207,17 @@
             this.guna2Panel31.BorderRadius = 14;
             this.guna2Panel31.Controls.Add(this.guna2Panel32);
             this.guna2Panel31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel31.Location = new System.Drawing.Point(11, 2);
-            this.guna2Panel31.Margin = new System.Windows.Forms.Padding(10, 2, 10, 7);
+            this.guna2Panel31.Location = new System.Drawing.Point(12, 2);
+            this.guna2Panel31.Margin = new System.Windows.Forms.Padding(11, 2, 11, 7);
             this.guna2Panel31.Name = "guna2Panel31";
             this.guna2Panel31.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel31.TabIndex = 3;
             // 
             // guna2Panel32
             // 
+            this.guna2Panel32.Controls.Add(this.Save2);
             this.guna2Panel32.Controls.Add(this.ReexaminationServicePrice);
-            this.guna2Panel32.Controls.Add(this.guna2CirclePictureBox13);
+            this.guna2Panel32.Controls.Add(this.Edit2);
             this.guna2Panel32.Controls.Add(this.guna2HtmlLabel20);
             this.guna2Panel32.Controls.Add(this.guna2CirclePictureBox14);
             this.guna2Panel32.Controls.Add(this.guna2Panel33);
@@ -1099,6 +1231,27 @@
             this.guna2Panel32.Name = "guna2Panel32";
             this.guna2Panel32.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel32.TabIndex = 0;
+            // 
+            // Save2
+            // 
+            this.Save2.Animated = true;
+            this.Save2.BorderRadius = 10;
+            this.Save2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save2.FillColor = System.Drawing.Color.Navy;
+            this.Save2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save2.ForeColor = System.Drawing.Color.White;
+            this.Save2.Location = new System.Drawing.Point(157, 90);
+            this.Save2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save2.Name = "Save2";
+            this.Save2.Size = new System.Drawing.Size(71, 21);
+            this.Save2.TabIndex = 43;
+            this.Save2.Text = "save";
+            this.Save2.Visible = false;
+            this.Save2.Click += new System.EventHandler(this.Save2_Click);
             // 
             // ReexaminationServicePrice
             // 
@@ -1114,31 +1267,32 @@
             this.ReexaminationServicePrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReexaminationServicePrice.ForeColor = System.Drawing.Color.Silver;
             this.ReexaminationServicePrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ReexaminationServicePrice.Location = new System.Drawing.Point(163, 144);
+            this.ReexaminationServicePrice.Location = new System.Drawing.Point(144, 144);
             this.ReexaminationServicePrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ReexaminationServicePrice.Name = "ReexaminationServicePrice";
             this.ReexaminationServicePrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.ReexaminationServicePrice.PlaceholderText = "";
             this.ReexaminationServicePrice.ReadOnly = true;
             this.ReexaminationServicePrice.SelectedText = "";
-            this.ReexaminationServicePrice.Size = new System.Drawing.Size(37, 25);
+            this.ReexaminationServicePrice.Size = new System.Drawing.Size(96, 25);
             this.ReexaminationServicePrice.TabIndex = 38;
             this.ReexaminationServicePrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox13
+            // Edit2
             // 
-            this.guna2CirclePictureBox13.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox13.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox13.ImageRotate = 0F;
-            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
-            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox13.TabIndex = 37;
-            this.guna2CirclePictureBox13.TabStop = false;
+            this.Edit2.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit2.FillColor = System.Drawing.Color.Transparent;
+            this.Edit2.ImageRotate = 0F;
+            this.Edit2.Location = new System.Drawing.Point(336, 110);
+            this.Edit2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit2.Name = "Edit2";
+            this.Edit2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit2.Size = new System.Drawing.Size(29, 34);
+            this.Edit2.TabIndex = 37;
+            this.Edit2.TabStop = false;
+            this.Edit2.Click += new System.EventHandler(this.Edit2_Click);
             // 
             // guna2HtmlLabel20
             // 
@@ -1216,16 +1370,17 @@
             this.guna2Panel35.BorderRadius = 14;
             this.guna2Panel35.Controls.Add(this.guna2Panel36);
             this.guna2Panel35.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel35.Location = new System.Drawing.Point(11, 243);
-            this.guna2Panel35.Margin = new System.Windows.Forms.Padding(10, 10, 10, 7);
+            this.guna2Panel35.Location = new System.Drawing.Point(12, 243);
+            this.guna2Panel35.Margin = new System.Windows.Forms.Padding(11, 10, 11, 7);
             this.guna2Panel35.Name = "guna2Panel35";
             this.guna2Panel35.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel35.TabIndex = 4;
             // 
             // guna2Panel36
             // 
+            this.guna2Panel36.Controls.Add(this.Save5);
             this.guna2Panel36.Controls.Add(this.DamagedReplacementPrice);
-            this.guna2Panel36.Controls.Add(this.guna2CirclePictureBox15);
+            this.guna2Panel36.Controls.Add(this.Edit5);
             this.guna2Panel36.Controls.Add(this.guna2HtmlLabel23);
             this.guna2Panel36.Controls.Add(this.guna2CirclePictureBox16);
             this.guna2Panel36.Controls.Add(this.guna2Panel37);
@@ -1239,6 +1394,27 @@
             this.guna2Panel36.Name = "guna2Panel36";
             this.guna2Panel36.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel36.TabIndex = 0;
+            // 
+            // Save5
+            // 
+            this.Save5.Animated = true;
+            this.Save5.BorderRadius = 10;
+            this.Save5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save5.FillColor = System.Drawing.Color.Navy;
+            this.Save5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save5.ForeColor = System.Drawing.Color.White;
+            this.Save5.Location = new System.Drawing.Point(157, 90);
+            this.Save5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save5.Name = "Save5";
+            this.Save5.Size = new System.Drawing.Size(71, 21);
+            this.Save5.TabIndex = 43;
+            this.Save5.Text = "save";
+            this.Save5.Visible = false;
+            this.Save5.Click += new System.EventHandler(this.Save5_Click);
             // 
             // DamagedReplacementPrice
             // 
@@ -1254,31 +1430,32 @@
             this.DamagedReplacementPrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DamagedReplacementPrice.ForeColor = System.Drawing.Color.Silver;
             this.DamagedReplacementPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DamagedReplacementPrice.Location = new System.Drawing.Point(163, 144);
+            this.DamagedReplacementPrice.Location = new System.Drawing.Point(144, 144);
             this.DamagedReplacementPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DamagedReplacementPrice.Name = "DamagedReplacementPrice";
             this.DamagedReplacementPrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.DamagedReplacementPrice.PlaceholderText = "";
             this.DamagedReplacementPrice.ReadOnly = true;
             this.DamagedReplacementPrice.SelectedText = "";
-            this.DamagedReplacementPrice.Size = new System.Drawing.Size(37, 25);
+            this.DamagedReplacementPrice.Size = new System.Drawing.Size(96, 25);
             this.DamagedReplacementPrice.TabIndex = 38;
             this.DamagedReplacementPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox15
+            // Edit5
             // 
-            this.guna2CirclePictureBox15.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox15.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox15.ImageRotate = 0F;
-            this.guna2CirclePictureBox15.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox15.Name = "guna2CirclePictureBox15";
-            this.guna2CirclePictureBox15.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox15.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox15.TabIndex = 37;
-            this.guna2CirclePictureBox15.TabStop = false;
+            this.Edit5.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit5.FillColor = System.Drawing.Color.Transparent;
+            this.Edit5.ImageRotate = 0F;
+            this.Edit5.Location = new System.Drawing.Point(336, 110);
+            this.Edit5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit5.Name = "Edit5";
+            this.Edit5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit5.Size = new System.Drawing.Size(29, 34);
+            this.Edit5.TabIndex = 37;
+            this.Edit5.TabStop = false;
+            this.Edit5.Click += new System.EventHandler(this.Edit5_Click);
             // 
             // guna2HtmlLabel23
             // 
@@ -1358,9 +1535,10 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(1, 0, 1, 2);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(394, 716);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(395, 716);
             this.flowLayoutPanel1.TabIndex = 0;
             this.flowLayoutPanel1.WrapContents = false;
             // 
@@ -1368,18 +1546,40 @@
             // 
             this.guna2Panel15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2Panel15.BorderRadius = 14;
+            this.guna2Panel15.Controls.Add(this.Save1);
             this.guna2Panel15.Controls.Add(this.guna2Panel16);
             this.guna2Panel15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel15.Location = new System.Drawing.Point(11, 2);
-            this.guna2Panel15.Margin = new System.Windows.Forms.Padding(10, 2, 10, 7);
+            this.guna2Panel15.Location = new System.Drawing.Point(12, 2);
+            this.guna2Panel15.Margin = new System.Windows.Forms.Padding(11, 2, 11, 7);
             this.guna2Panel15.Name = "guna2Panel15";
             this.guna2Panel15.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel15.TabIndex = 3;
             // 
+            // Save1
+            // 
+            this.Save1.Animated = true;
+            this.Save1.BorderRadius = 10;
+            this.Save1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save1.FillColor = System.Drawing.Color.Navy;
+            this.Save1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save1.ForeColor = System.Drawing.Color.White;
+            this.Save1.Location = new System.Drawing.Point(155, 116);
+            this.Save1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save1.Name = "Save1";
+            this.Save1.Size = new System.Drawing.Size(71, 21);
+            this.Save1.TabIndex = 42;
+            this.Save1.Text = "save";
+            this.Save1.Visible = false;
+            this.Save1.Click += new System.EventHandler(this.Save1_Click);
+            // 
             // guna2Panel16
             // 
             this.guna2Panel16.Controls.Add(this.LicenseIssuancePrice);
-            this.guna2Panel16.Controls.Add(this.guna2CirclePictureBox5);
+            this.guna2Panel16.Controls.Add(this.Edit1);
             this.guna2Panel16.Controls.Add(this.guna2HtmlLabel8);
             this.guna2Panel16.Controls.Add(this.guna2CirclePictureBox6);
             this.guna2Panel16.Controls.Add(this.guna2Panel17);
@@ -1408,31 +1608,32 @@
             this.LicenseIssuancePrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LicenseIssuancePrice.ForeColor = System.Drawing.Color.Silver;
             this.LicenseIssuancePrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.LicenseIssuancePrice.Location = new System.Drawing.Point(163, 144);
+            this.LicenseIssuancePrice.Location = new System.Drawing.Point(143, 144);
             this.LicenseIssuancePrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.LicenseIssuancePrice.Name = "LicenseIssuancePrice";
             this.LicenseIssuancePrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.LicenseIssuancePrice.PlaceholderText = "";
             this.LicenseIssuancePrice.ReadOnly = true;
             this.LicenseIssuancePrice.SelectedText = "";
-            this.LicenseIssuancePrice.Size = new System.Drawing.Size(37, 25);
+            this.LicenseIssuancePrice.Size = new System.Drawing.Size(96, 25);
             this.LicenseIssuancePrice.TabIndex = 38;
             this.LicenseIssuancePrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox5
+            // Edit1
             // 
-            this.guna2CirclePictureBox5.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox5.ImageRotate = 0F;
-            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
-            this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox5.TabIndex = 37;
-            this.guna2CirclePictureBox5.TabStop = false;
+            this.Edit1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit1.FillColor = System.Drawing.Color.Transparent;
+            this.Edit1.ImageRotate = 0F;
+            this.Edit1.Location = new System.Drawing.Point(336, 110);
+            this.Edit1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit1.Name = "Edit1";
+            this.Edit1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit1.Size = new System.Drawing.Size(29, 34);
+            this.Edit1.TabIndex = 37;
+            this.Edit1.TabStop = false;
+            this.Edit1.Click += new System.EventHandler(this.guna2CirclePictureBox5_Click);
             // 
             // guna2HtmlLabel8
             // 
@@ -1490,7 +1691,7 @@
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             this.guna2HtmlLabel9.Size = new System.Drawing.Size(300, 36);
             this.guna2HtmlLabel9.TabIndex = 13;
-            this.guna2HtmlLabel9.Text = "drivers licence issuance service";
+            this.guna2HtmlLabel9.Text = "localLicenseTable licence issuance service";
             // 
             // guna2HtmlLabel10
             // 
@@ -1510,16 +1711,17 @@
             this.guna2Panel19.BorderRadius = 14;
             this.guna2Panel19.Controls.Add(this.guna2Panel20);
             this.guna2Panel19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel19.Location = new System.Drawing.Point(11, 243);
-            this.guna2Panel19.Margin = new System.Windows.Forms.Padding(10, 10, 10, 7);
+            this.guna2Panel19.Location = new System.Drawing.Point(12, 243);
+            this.guna2Panel19.Margin = new System.Windows.Forms.Padding(11, 10, 11, 7);
             this.guna2Panel19.Name = "guna2Panel19";
             this.guna2Panel19.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel19.TabIndex = 4;
             // 
             // guna2Panel20
             // 
+            this.guna2Panel20.Controls.Add(this.Save4);
             this.guna2Panel20.Controls.Add(this.LicenseReplacementPrice);
-            this.guna2Panel20.Controls.Add(this.guna2CirclePictureBox7);
+            this.guna2Panel20.Controls.Add(this.Edit4);
             this.guna2Panel20.Controls.Add(this.guna2HtmlLabel11);
             this.guna2Panel20.Controls.Add(this.guna2CirclePictureBox8);
             this.guna2Panel20.Controls.Add(this.guna2Panel23);
@@ -1533,6 +1735,27 @@
             this.guna2Panel20.Name = "guna2Panel20";
             this.guna2Panel20.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel20.TabIndex = 0;
+            // 
+            // Save4
+            // 
+            this.Save4.Animated = true;
+            this.Save4.BorderRadius = 10;
+            this.Save4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save4.FillColor = System.Drawing.Color.Navy;
+            this.Save4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save4.ForeColor = System.Drawing.Color.White;
+            this.Save4.Location = new System.Drawing.Point(157, 90);
+            this.Save4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save4.Name = "Save4";
+            this.Save4.Size = new System.Drawing.Size(71, 21);
+            this.Save4.TabIndex = 43;
+            this.Save4.Text = "save";
+            this.Save4.Visible = false;
+            this.Save4.Click += new System.EventHandler(this.Save4_Click);
             // 
             // LicenseReplacementPrice
             // 
@@ -1548,31 +1771,32 @@
             this.LicenseReplacementPrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LicenseReplacementPrice.ForeColor = System.Drawing.Color.Silver;
             this.LicenseReplacementPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.LicenseReplacementPrice.Location = new System.Drawing.Point(163, 144);
+            this.LicenseReplacementPrice.Location = new System.Drawing.Point(143, 144);
             this.LicenseReplacementPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.LicenseReplacementPrice.Name = "LicenseReplacementPrice";
             this.LicenseReplacementPrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.LicenseReplacementPrice.PlaceholderText = "";
             this.LicenseReplacementPrice.ReadOnly = true;
             this.LicenseReplacementPrice.SelectedText = "";
-            this.LicenseReplacementPrice.Size = new System.Drawing.Size(37, 25);
+            this.LicenseReplacementPrice.Size = new System.Drawing.Size(96, 25);
             this.LicenseReplacementPrice.TabIndex = 38;
             this.LicenseReplacementPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox7
+            // Edit4
             // 
-            this.guna2CirclePictureBox7.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox7.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox7.ImageRotate = 0F;
-            this.guna2CirclePictureBox7.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox7.Name = "guna2CirclePictureBox7";
-            this.guna2CirclePictureBox7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox7.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox7.TabIndex = 37;
-            this.guna2CirclePictureBox7.TabStop = false;
+            this.Edit4.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit4.FillColor = System.Drawing.Color.Transparent;
+            this.Edit4.ImageRotate = 0F;
+            this.Edit4.Location = new System.Drawing.Point(336, 110);
+            this.Edit4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit4.Name = "Edit4";
+            this.Edit4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit4.Size = new System.Drawing.Size(29, 34);
+            this.Edit4.TabIndex = 37;
+            this.Edit4.TabStop = false;
+            this.Edit4.Click += new System.EventHandler(this.Edit4_Click);
             // 
             // guna2HtmlLabel11
             // 
@@ -1650,16 +1874,17 @@
             this.guna2Panel26.BorderRadius = 14;
             this.guna2Panel26.Controls.Add(this.guna2Panel27);
             this.guna2Panel26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
-            this.guna2Panel26.Location = new System.Drawing.Point(11, 484);
-            this.guna2Panel26.Margin = new System.Windows.Forms.Padding(10, 10, 10, 2);
+            this.guna2Panel26.Location = new System.Drawing.Point(12, 484);
+            this.guna2Panel26.Margin = new System.Windows.Forms.Padding(11, 10, 11, 2);
             this.guna2Panel26.Name = "guna2Panel26";
             this.guna2Panel26.Size = new System.Drawing.Size(384, 224);
             this.guna2Panel26.TabIndex = 5;
             // 
             // guna2Panel27
             // 
+            this.guna2Panel27.Controls.Add(this.Save7);
             this.guna2Panel27.Controls.Add(this.InternationalLicensePrice);
-            this.guna2Panel27.Controls.Add(this.guna2CirclePictureBox10);
+            this.guna2Panel27.Controls.Add(this.Edit7);
             this.guna2Panel27.Controls.Add(this.guna2HtmlLabel14);
             this.guna2Panel27.Controls.Add(this.guna2CirclePictureBox11);
             this.guna2Panel27.Controls.Add(this.guna2Panel28);
@@ -1673,6 +1898,27 @@
             this.guna2Panel27.Name = "guna2Panel27";
             this.guna2Panel27.Size = new System.Drawing.Size(384, 199);
             this.guna2Panel27.TabIndex = 0;
+            // 
+            // Save7
+            // 
+            this.Save7.Animated = true;
+            this.Save7.BorderRadius = 10;
+            this.Save7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Save7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Save7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Save7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Save7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Save7.FillColor = System.Drawing.Color.Navy;
+            this.Save7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.Save7.ForeColor = System.Drawing.Color.White;
+            this.Save7.Location = new System.Drawing.Point(157, 90);
+            this.Save7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Save7.Name = "Save7";
+            this.Save7.Size = new System.Drawing.Size(71, 21);
+            this.Save7.TabIndex = 43;
+            this.Save7.Text = "save";
+            this.Save7.Visible = false;
+            this.Save7.Click += new System.EventHandler(this.Save7_Click);
             // 
             // InternationalLicensePrice
             // 
@@ -1688,31 +1934,32 @@
             this.InternationalLicensePrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InternationalLicensePrice.ForeColor = System.Drawing.Color.Silver;
             this.InternationalLicensePrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.InternationalLicensePrice.Location = new System.Drawing.Point(163, 144);
+            this.InternationalLicensePrice.Location = new System.Drawing.Point(141, 144);
             this.InternationalLicensePrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.InternationalLicensePrice.Name = "InternationalLicensePrice";
             this.InternationalLicensePrice.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.InternationalLicensePrice.PlaceholderText = "";
             this.InternationalLicensePrice.ReadOnly = true;
             this.InternationalLicensePrice.SelectedText = "";
-            this.InternationalLicensePrice.Size = new System.Drawing.Size(37, 25);
+            this.InternationalLicensePrice.Size = new System.Drawing.Size(96, 25);
             this.InternationalLicensePrice.TabIndex = 38;
             this.InternationalLicensePrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2CirclePictureBox10
+            // Edit7
             // 
-            this.guna2CirclePictureBox10.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
-            this.guna2CirclePictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CirclePictureBox10.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox10.ImageRotate = 0F;
-            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(336, 110);
-            this.guna2CirclePictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
-            this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(29, 34);
-            this.guna2CirclePictureBox10.TabIndex = 37;
-            this.guna2CirclePictureBox10.TabStop = false;
+            this.Edit7.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000f3c071f4930ef94aa0c0bb4;
+            this.Edit7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Edit7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Edit7.FillColor = System.Drawing.Color.Transparent;
+            this.Edit7.ImageRotate = 0F;
+            this.Edit7.Location = new System.Drawing.Point(336, 110);
+            this.Edit7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Edit7.Name = "Edit7";
+            this.Edit7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Edit7.Size = new System.Drawing.Size(29, 34);
+            this.Edit7.TabIndex = 37;
+            this.Edit7.TabStop = false;
+            this.Edit7.Click += new System.EventHandler(this.Edit7_Click);
             // 
             // guna2HtmlLabel14
             // 
@@ -1815,10 +2062,10 @@
             // guna2Panel13
             // 
             this.guna2Panel13.FillColor = System.Drawing.Color.Silver;
-            this.guna2Panel13.Location = new System.Drawing.Point(136, 51);
+            this.guna2Panel13.Location = new System.Drawing.Point(136, 50);
             this.guna2Panel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel13.Name = "guna2Panel13";
-            this.guna2Panel13.Size = new System.Drawing.Size(1050, 1);
+            this.guna2Panel13.Size = new System.Drawing.Size(1051, 1);
             this.guna2Panel13.TabIndex = 23;
             // 
             // serviceTitle
@@ -1845,6 +2092,7 @@
             this.pnltop.Name = "pnltop";
             this.pnltop.Size = new System.Drawing.Size(1700, 85);
             this.pnltop.TabIndex = 4;
+            this.pnltop.Paint += new System.Windows.Forms.PaintEventHandler(this.pnltop_Paint);
             // 
             // piclTitle
             // 
@@ -1890,71 +2138,72 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2CustomGradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Us_Services_Exam";
             this.Size = new System.Drawing.Size(1700, 900);
+            this.Load += new System.EventHandler(this.Us_Services_Exam_Load);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.pnlscreen.ResumeLayout(false);
             this.pnlExam.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
+            this.pnlShowExam.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.guna2Panel7.ResumeLayout(false);
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             this.guna2Panel21.ResumeLayout(false);
             this.guna2Panel22.ResumeLayout(false);
             this.guna2Panel22.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picExam)).EndInit();
             this.pnlServices.ResumeLayout(false);
-            this.guna2Panel14.ResumeLayout(false);
+            this.pnlShowServicens.ResumeLayout(false);
             this.flowLayoutPanel4.ResumeLayout(false);
             this.guna2Panel43.ResumeLayout(false);
             this.guna2Panel44.ResumeLayout(false);
             this.guna2Panel44.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox20)).EndInit();
             this.guna2Panel47.ResumeLayout(false);
             this.guna2Panel48.ResumeLayout(false);
             this.guna2Panel48.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox22)).EndInit();
             this.flowLayoutPanel3.ResumeLayout(false);
             this.guna2Panel31.ResumeLayout(false);
             this.guna2Panel32.ResumeLayout(false);
             this.guna2Panel32.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox14)).EndInit();
             this.guna2Panel35.ResumeLayout(false);
             this.guna2Panel36.ResumeLayout(false);
             this.guna2Panel36.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox16)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.guna2Panel15.ResumeLayout(false);
             this.guna2Panel16.ResumeLayout(false);
             this.guna2Panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
             this.guna2Panel19.ResumeLayout(false);
             this.guna2Panel20.ResumeLayout(false);
             this.guna2Panel20.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).EndInit();
             this.guna2Panel26.ResumeLayout(false);
             this.guna2Panel27.ResumeLayout(false);
             this.guna2Panel27.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Edit7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
             this.guna2Panel10.ResumeLayout(false);
             this.guna2Panel10.PerformLayout();
@@ -1980,15 +2229,12 @@
         private Guna.UI2.WinForms.Guna2PictureBox picExam;
         private Guna.UI2.WinForms.Guna2HtmlLabel ExamTitle;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
         private Guna.UI2.WinForms.Guna2HtmlLabel serviceTitle;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel15;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel16;
-        private Guna.UI2.WinForms.Guna2TextBox LicenseIssuancePrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox5;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel17;
@@ -1997,8 +2243,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel19;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel20;
-        private Guna.UI2.WinForms.Guna2TextBox LicenseReplacementPrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox7;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox8;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel23;
@@ -2007,8 +2252,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel26;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel27;
-        private Guna.UI2.WinForms.Guna2TextBox InternationalLicensePrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox10;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit7;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox11;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel28;
@@ -2016,11 +2260,9 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2TextBox VisionTestPrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit21;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
@@ -2029,8 +2271,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
-        private Guna.UI2.WinForms.Guna2TextBox TheoryTestPrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit22;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
@@ -2039,19 +2280,16 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel21;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel22;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox9;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit23;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox12;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel25;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel30;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel19;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel43;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel44;
-        private Guna.UI2.WinForms.Guna2TextBox RenewalServicePrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox19;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel29;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox20;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel45;
@@ -2060,19 +2298,16 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel31;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel47;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel48;
-        private Guna.UI2.WinForms.Guna2TextBox LicenseReleasePrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox21;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel32;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox22;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel49;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel50;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel33;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel34;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel31;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel32;
-        private Guna.UI2.WinForms.Guna2TextBox ReexaminationServicePrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox13;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox14;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel33;
@@ -2081,8 +2316,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel22;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel35;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel36;
-        private Guna.UI2.WinForms.Guna2TextBox DamagedReplacementPrice;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox15;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox Edit5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel23;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox16;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel37;
@@ -2090,5 +2324,30 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel24;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel25;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        public System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        public System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
+        public System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+        public Guna.UI2.WinForms.Guna2TextBox LicenseIssuancePrice;
+        public Guna.UI2.WinForms.Guna2TextBox LicenseReplacementPrice;
+        public Guna.UI2.WinForms.Guna2TextBox InternationalLicensePrice;
+        public Guna.UI2.WinForms.Guna2TextBox RenewalServicePrice;
+        public Guna.UI2.WinForms.Guna2TextBox LicenseReleasePrice;
+        public Guna.UI2.WinForms.Guna2TextBox ReexaminationServicePrice;
+        public Guna.UI2.WinForms.Guna2TextBox DamagedReplacementPrice;
+        public Guna.UI2.WinForms.Guna2Panel pnlShowServicens;
+        public System.Windows.Forms.FlowLayoutPanel pnlShowExam;
+        public Guna.UI2.WinForms.Guna2TextBox VisionTestPrice;
+        public Guna.UI2.WinForms.Guna2TextBox TheoryTestPrice;
+        public Guna.UI2.WinForms.Guna2TextBox PracticalTestPrice;
+        public Guna.UI2.WinForms.Guna2Button Save1;
+        public Guna.UI2.WinForms.Guna2Button Save21;
+        public Guna.UI2.WinForms.Guna2Button Save22;
+        public Guna.UI2.WinForms.Guna2Button Save23;
+        public Guna.UI2.WinForms.Guna2Button Save3;
+        public Guna.UI2.WinForms.Guna2Button Save6;
+        public Guna.UI2.WinForms.Guna2Button Save2;
+        public Guna.UI2.WinForms.Guna2Button Save5;
+        public Guna.UI2.WinForms.Guna2Button Save4;
+        public Guna.UI2.WinForms.Guna2Button Save7;
     }
 }

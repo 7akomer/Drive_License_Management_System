@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(us_Replacement));
-            this.pnlDetentionstatus = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblDetentionstatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.Detentionstatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ExpiryDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -43,15 +40,20 @@
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnIssue = new Guna.UI2.WinForms.Guna2Button();
-            this.AppDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.LicenseID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.txbSearch = new Guna.UI2.WinForms.Guna2TextBox();
-            this.cxbFiler = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.LicenseTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnLost = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDamaged = new Guna.UI2.WinForms.Guna2Button();
+            this.Fees = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pnlPersonInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.PersonalPhoto = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.Email = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlEmail = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.phonenumber = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -66,40 +68,16 @@
             this.lblNationalID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.FullName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblFullName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.LicenseTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnLost = new Guna.UI2.WinForms.Guna2Button();
-            this.btnDamaged = new Guna.UI2.WinForms.Guna2Button();
-            this.Fees = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pnlDetentionstatus.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
+            this.CouldntFindMessage = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txbSearch = new Guna.UI2.WinForms.Guna2TextBox();
+            this.pnlStatus = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblStatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.ErrorMessage = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pnlPersonInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PersonalPhoto)).BeginInit();
+            this.pnlStatus.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pnlDetentionstatus
-            // 
-            this.pnlDetentionstatus.BorderRadius = 17;
-            this.pnlDetentionstatus.Controls.Add(this.lblDetentionstatus);
-            this.pnlDetentionstatus.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pnlDetentionstatus.Location = new System.Drawing.Point(629, 191);
-            this.pnlDetentionstatus.Name = "pnlDetentionstatus";
-            this.pnlDetentionstatus.Size = new System.Drawing.Size(79, 31);
-            this.pnlDetentionstatus.TabIndex = 98;
-            // 
-            // lblDetentionstatus
-            // 
-            this.lblDetentionstatus.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblDetentionstatus.BackColor = System.Drawing.Color.Transparent;
-            this.lblDetentionstatus.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDetentionstatus.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lblDetentionstatus.Location = new System.Drawing.Point(28, 3);
-            this.lblDetentionstatus.Name = "lblDetentionstatus";
-            this.lblDetentionstatus.Size = new System.Drawing.Size(26, 22);
-            this.lblDetentionstatus.TabIndex = 9;
-            this.lblDetentionstatus.Text = "NO";
-            this.lblDetentionstatus.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Detentionstatus
             // 
@@ -119,9 +97,9 @@
             this.ExpiryDate.ForeColor = System.Drawing.Color.White;
             this.ExpiryDate.Location = new System.Drawing.Point(623, 163);
             this.ExpiryDate.Name = "ExpiryDate";
-            this.ExpiryDate.Size = new System.Drawing.Size(78, 22);
+            this.ExpiryDate.Size = new System.Drawing.Size(9, 22);
             this.ExpiryDate.TabIndex = 96;
-            this.ExpiryDate.Text = "12/04/2025";
+            this.ExpiryDate.Text = "-";
             this.ExpiryDate.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // guna2HtmlLabel1
@@ -142,9 +120,9 @@
             this.IssuanceDate.ForeColor = System.Drawing.Color.White;
             this.IssuanceDate.Location = new System.Drawing.Point(623, 135);
             this.IssuanceDate.Name = "IssuanceDate";
-            this.IssuanceDate.Size = new System.Drawing.Size(76, 22);
+            this.IssuanceDate.Size = new System.Drawing.Size(9, 22);
             this.IssuanceDate.TabIndex = 94;
-            this.IssuanceDate.Text = "12/04/2015";
+            this.IssuanceDate.Text = "-";
             this.IssuanceDate.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblissuance
@@ -165,9 +143,9 @@
             this.categoryName.ForeColor = System.Drawing.Color.White;
             this.categoryName.Location = new System.Drawing.Point(623, 77);
             this.categoryName.Name = "categoryName";
-            this.categoryName.Size = new System.Drawing.Size(174, 22);
+            this.categoryName.Size = new System.Drawing.Size(9, 22);
             this.categoryName.TabIndex = 92;
-            this.categoryName.Text = "small motorcycles license";
+            this.categoryName.Text = "-";
             this.categoryName.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblDriverID
@@ -188,9 +166,9 @@
             this.DriverID.ForeColor = System.Drawing.Color.White;
             this.DriverID.Location = new System.Drawing.Point(623, 107);
             this.DriverID.Name = "DriverID";
-            this.DriverID.Size = new System.Drawing.Size(144, 22);
+            this.DriverID.Size = new System.Drawing.Size(9, 22);
             this.DriverID.TabIndex = 90;
-            this.DriverID.Text = "14452645448877445";
+            this.DriverID.Text = "-";
             this.DriverID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // guna2HtmlLabel5
@@ -229,6 +207,7 @@
             this.btnIssue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnIssue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnIssue.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnIssue.Enabled = false;
             this.btnIssue.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnIssue.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIssue.ForeColor = System.Drawing.Color.White;
@@ -237,18 +216,19 @@
             this.btnIssue.Size = new System.Drawing.Size(180, 45);
             this.btnIssue.TabIndex = 87;
             this.btnIssue.Text = "Issue";
+            this.btnIssue.Click += new System.EventHandler(this.btnIssue_Click_1);
             // 
-            // AppDate
+            // LicenseID
             // 
-            this.AppDate.BackColor = System.Drawing.Color.Transparent;
-            this.AppDate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AppDate.ForeColor = System.Drawing.Color.White;
-            this.AppDate.Location = new System.Drawing.Point(623, 51);
-            this.AppDate.Name = "AppDate";
-            this.AppDate.Size = new System.Drawing.Size(85, 22);
-            this.AppDate.TabIndex = 86;
-            this.AppDate.Text = "15 May 1995";
-            this.AppDate.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.LicenseID.BackColor = System.Drawing.Color.Transparent;
+            this.LicenseID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LicenseID.ForeColor = System.Drawing.Color.White;
+            this.LicenseID.Location = new System.Drawing.Point(623, 51);
+            this.LicenseID.Name = "LicenseID";
+            this.LicenseID.Size = new System.Drawing.Size(9, 22);
+            this.LicenseID.TabIndex = 86;
+            this.LicenseID.Text = "-";
+            this.LicenseID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // guna2HtmlLabel4
             // 
@@ -290,253 +270,6 @@
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(170, 1);
             this.guna2Panel4.TabIndex = 81;
-            // 
-            // txbSearch
-            // 
-            this.txbSearch.BorderRadius = 8;
-            this.txbSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbSearch.DefaultText = "";
-            this.txbSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txbSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txbSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbSearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.txbSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txbSearch.ForeColor = System.Drawing.Color.White;
-            this.txbSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
-            this.txbSearch.Location = new System.Drawing.Point(12, 44);
-            this.txbSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txbSearch.Name = "txbSearch";
-            this.txbSearch.PlaceholderText = "⌕ Search";
-            this.txbSearch.SelectedText = "";
-            this.txbSearch.Size = new System.Drawing.Size(274, 36);
-            this.txbSearch.TabIndex = 79;
-            // 
-            // cxbFiler
-            // 
-            this.cxbFiler.BackColor = System.Drawing.Color.Transparent;
-            this.cxbFiler.BorderRadius = 8;
-            this.cxbFiler.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cxbFiler.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cxbFiler.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cxbFiler.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
-            this.cxbFiler.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
-            this.cxbFiler.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
-            this.cxbFiler.FocusedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(92)))), ((int)(((byte)(246)))));
-            this.cxbFiler.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cxbFiler.ForeColor = System.Drawing.Color.White;
-            this.cxbFiler.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(92)))), ((int)(((byte)(246)))));
-            this.cxbFiler.ItemHeight = 30;
-            this.cxbFiler.Items.AddRange(new object[] {
-            "By username",
-            "test",
-            "test",
-            "test"});
-            this.cxbFiler.ItemsAppearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(32)))), ((int)(((byte)(86)))));
-            this.cxbFiler.ItemsAppearance.ForeColor = System.Drawing.Color.White;
-            this.cxbFiler.ItemsAppearance.SelectedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(40)))), ((int)(((byte)(217)))));
-            this.cxbFiler.ItemsAppearance.SelectedForeColor = System.Drawing.Color.White;
-            this.cxbFiler.Location = new System.Drawing.Point(306, 44);
-            this.cxbFiler.Name = "cxbFiler";
-            this.cxbFiler.Size = new System.Drawing.Size(136, 36);
-            this.cxbFiler.TabIndex = 80;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Controls.Add(this.guna2CirclePictureBox11);
-            this.guna2Panel2.Controls.Add(this.Email);
-            this.guna2Panel2.Controls.Add(this.pnlEmail);
-            this.guna2Panel2.Controls.Add(this.phonenumber);
-            this.guna2Panel2.Controls.Add(this.lblcontact);
-            this.guna2Panel2.Controls.Add(this.Gender);
-            this.guna2Panel2.Controls.Add(this.lblGender);
-            this.guna2Panel2.Controls.Add(this.nationality);
-            this.guna2Panel2.Controls.Add(this.lblnationality);
-            this.guna2Panel2.Controls.Add(this.DateofBirth);
-            this.guna2Panel2.Controls.Add(this.lblbirthdate);
-            this.guna2Panel2.Controls.Add(this.NationalID);
-            this.guna2Panel2.Controls.Add(this.lblNationalID);
-            this.guna2Panel2.Controls.Add(this.FullName);
-            this.guna2Panel2.Controls.Add(this.lblFullName);
-            this.guna2Panel2.Location = new System.Drawing.Point(12, 137);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(430, 320);
-            this.guna2Panel2.TabIndex = 78;
-            // 
-            // guna2CirclePictureBox11
-            // 
-            this.guna2CirclePictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox11.Image")));
-            this.guna2CirclePictureBox11.ImageRotate = 0F;
-            this.guna2CirclePictureBox11.Location = new System.Drawing.Point(180, 3);
-            this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
-            this.guna2CirclePictureBox11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox11.Size = new System.Drawing.Size(59, 60);
-            this.guna2CirclePictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox11.TabIndex = 41;
-            this.guna2CirclePictureBox11.TabStop = false;
-            // 
-            // Email
-            // 
-            this.Email.BackColor = System.Drawing.Color.Transparent;
-            this.Email.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Email.ForeColor = System.Drawing.Color.White;
-            this.Email.Location = new System.Drawing.Point(142, 263);
-            this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(154, 22);
-            this.Email.TabIndex = 40;
-            this.Email.Text = "divloper4@gmail.com";
-            this.Email.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // pnlEmail
-            // 
-            this.pnlEmail.BackColor = System.Drawing.Color.Transparent;
-            this.pnlEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
-            this.pnlEmail.Location = new System.Drawing.Point(18, 263);
-            this.pnlEmail.Name = "pnlEmail";
-            this.pnlEmail.Size = new System.Drawing.Size(40, 22);
-            this.pnlEmail.TabIndex = 39;
-            this.pnlEmail.Text = "Email";
-            // 
-            // phonenumber
-            // 
-            this.phonenumber.BackColor = System.Drawing.Color.Transparent;
-            this.phonenumber.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phonenumber.ForeColor = System.Drawing.Color.White;
-            this.phonenumber.Location = new System.Drawing.Point(142, 235);
-            this.phonenumber.Name = "phonenumber";
-            this.phonenumber.Size = new System.Drawing.Size(108, 22);
-            this.phonenumber.TabIndex = 38;
-            this.phonenumber.Text = "+213658923456";
-            this.phonenumber.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblcontact
-            // 
-            this.lblcontact.BackColor = System.Drawing.Color.Transparent;
-            this.lblcontact.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcontact.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
-            this.lblcontact.Location = new System.Drawing.Point(18, 235);
-            this.lblcontact.Name = "lblcontact";
-            this.lblcontact.Size = new System.Drawing.Size(105, 22);
-            this.lblcontact.TabIndex = 37;
-            this.lblcontact.Text = "Phone numner";
-            // 
-            // Gender
-            // 
-            this.Gender.BackColor = System.Drawing.Color.Transparent;
-            this.Gender.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gender.ForeColor = System.Drawing.Color.White;
-            this.Gender.Location = new System.Drawing.Point(144, 185);
-            this.Gender.Name = "Gender";
-            this.Gender.Size = new System.Drawing.Size(37, 22);
-            this.Gender.TabIndex = 36;
-            this.Gender.Text = "Male";
-            this.Gender.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblGender
-            // 
-            this.lblGender.BackColor = System.Drawing.Color.Transparent;
-            this.lblGender.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
-            this.lblGender.Location = new System.Drawing.Point(20, 185);
-            this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(53, 22);
-            this.lblGender.TabIndex = 35;
-            this.lblGender.Text = "Gender";
-            // 
-            // nationality
-            // 
-            this.nationality.BackColor = System.Drawing.Color.Transparent;
-            this.nationality.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nationality.ForeColor = System.Drawing.Color.White;
-            this.nationality.Location = new System.Drawing.Point(144, 157);
-            this.nationality.Name = "nationality";
-            this.nationality.Size = new System.Drawing.Size(52, 22);
-            this.nationality.TabIndex = 34;
-            this.nationality.Text = "Algeria";
-            this.nationality.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblnationality
-            // 
-            this.lblnationality.BackColor = System.Drawing.Color.Transparent;
-            this.lblnationality.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnationality.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
-            this.lblnationality.Location = new System.Drawing.Point(20, 157);
-            this.lblnationality.Name = "lblnationality";
-            this.lblnationality.Size = new System.Drawing.Size(79, 22);
-            this.lblnationality.TabIndex = 33;
-            this.lblnationality.Text = "Nationality";
-            // 
-            // DateofBirth
-            // 
-            this.DateofBirth.BackColor = System.Drawing.Color.Transparent;
-            this.DateofBirth.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DateofBirth.ForeColor = System.Drawing.Color.White;
-            this.DateofBirth.Location = new System.Drawing.Point(144, 129);
-            this.DateofBirth.Name = "DateofBirth";
-            this.DateofBirth.Size = new System.Drawing.Size(85, 22);
-            this.DateofBirth.TabIndex = 32;
-            this.DateofBirth.Text = "15 May 1995";
-            this.DateofBirth.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblbirthdate
-            // 
-            this.lblbirthdate.BackColor = System.Drawing.Color.Transparent;
-            this.lblbirthdate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbirthdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
-            this.lblbirthdate.Location = new System.Drawing.Point(18, 129);
-            this.lblbirthdate.Name = "lblbirthdate";
-            this.lblbirthdate.Size = new System.Drawing.Size(90, 22);
-            this.lblbirthdate.TabIndex = 31;
-            this.lblbirthdate.Text = "Date of Birth";
-            // 
-            // NationalID
-            // 
-            this.NationalID.BackColor = System.Drawing.Color.Transparent;
-            this.NationalID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NationalID.ForeColor = System.Drawing.Color.White;
-            this.NationalID.Location = new System.Drawing.Point(144, 101);
-            this.NationalID.Name = "NationalID";
-            this.NationalID.Size = new System.Drawing.Size(144, 22);
-            this.NationalID.TabIndex = 30;
-            this.NationalID.Text = "14452645448877445";
-            this.NationalID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblNationalID
-            // 
-            this.lblNationalID.BackColor = System.Drawing.Color.Transparent;
-            this.lblNationalID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNationalID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
-            this.lblNationalID.Location = new System.Drawing.Point(18, 101);
-            this.lblNationalID.Name = "lblNationalID";
-            this.lblNationalID.Size = new System.Drawing.Size(81, 22);
-            this.lblNationalID.TabIndex = 29;
-            this.lblNationalID.Text = "National ID";
-            // 
-            // FullName
-            // 
-            this.FullName.BackColor = System.Drawing.Color.Transparent;
-            this.FullName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FullName.ForeColor = System.Drawing.Color.White;
-            this.FullName.Location = new System.Drawing.Point(144, 73);
-            this.FullName.Name = "FullName";
-            this.FullName.Size = new System.Drawing.Size(117, 22);
-            this.FullName.TabIndex = 28;
-            this.FullName.Text = "mohammed alali";
-            this.FullName.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblFullName
-            // 
-            this.lblFullName.BackColor = System.Drawing.Color.Transparent;
-            this.lblFullName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFullName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
-            this.lblFullName.Location = new System.Drawing.Point(18, 73);
-            this.lblFullName.Name = "lblFullName";
-            this.lblFullName.Size = new System.Drawing.Size(73, 22);
-            this.lblFullName.TabIndex = 26;
-            this.lblFullName.Text = "Full Name";
             // 
             // LicenseTitle
             // 
@@ -581,6 +314,7 @@
             this.btnLost.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLost.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLost.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLost.Enabled = false;
             this.btnLost.FillColor = System.Drawing.Color.Transparent;
             this.btnLost.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLost.ForeColor = System.Drawing.Color.White;
@@ -588,7 +322,8 @@
             this.btnLost.Name = "btnLost";
             this.btnLost.Size = new System.Drawing.Size(173, 48);
             this.btnLost.TabIndex = 104;
-            this.btnLost.Text = "Damaged License";
+            this.btnLost.Text = "Lost License";
+            this.btnLost.Click += new System.EventHandler(this.btnLost_Click);
             // 
             // btnDamaged
             // 
@@ -603,6 +338,7 @@
             this.btnDamaged.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnDamaged.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDamaged.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDamaged.Enabled = false;
             this.btnDamaged.FillColor = System.Drawing.Color.Transparent;
             this.btnDamaged.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDamaged.ForeColor = System.Drawing.Color.White;
@@ -610,7 +346,8 @@
             this.btnDamaged.Name = "btnDamaged";
             this.btnDamaged.Size = new System.Drawing.Size(173, 48);
             this.btnDamaged.TabIndex = 103;
-            this.btnDamaged.Text = "Lost License";
+            this.btnDamaged.Text = "Damaged License";
+            this.btnDamaged.Click += new System.EventHandler(this.btnDamaged_Click);
             // 
             // Fees
             // 
@@ -619,9 +356,9 @@
             this.Fees.ForeColor = System.Drawing.Color.White;
             this.Fees.Location = new System.Drawing.Point(645, 269);
             this.Fees.Name = "Fees";
-            this.Fees.Size = new System.Drawing.Size(17, 22);
+            this.Fees.Size = new System.Drawing.Size(9, 22);
             this.Fees.TabIndex = 106;
-            this.Fees.Text = "15";
+            this.Fees.Text = "-";
             this.Fees.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // guna2HtmlLabel6
@@ -635,18 +372,304 @@
             this.guna2HtmlLabel6.TabIndex = 105;
             this.guna2HtmlLabel6.Text = "Application Fees";
             // 
+            // pnlPersonInfo
+            // 
+            this.pnlPersonInfo.Controls.Add(this.PersonalPhoto);
+            this.pnlPersonInfo.Controls.Add(this.Email);
+            this.pnlPersonInfo.Controls.Add(this.pnlEmail);
+            this.pnlPersonInfo.Controls.Add(this.phonenumber);
+            this.pnlPersonInfo.Controls.Add(this.lblcontact);
+            this.pnlPersonInfo.Controls.Add(this.Gender);
+            this.pnlPersonInfo.Controls.Add(this.lblGender);
+            this.pnlPersonInfo.Controls.Add(this.nationality);
+            this.pnlPersonInfo.Controls.Add(this.lblnationality);
+            this.pnlPersonInfo.Controls.Add(this.DateofBirth);
+            this.pnlPersonInfo.Controls.Add(this.lblbirthdate);
+            this.pnlPersonInfo.Controls.Add(this.NationalID);
+            this.pnlPersonInfo.Controls.Add(this.lblNationalID);
+            this.pnlPersonInfo.Controls.Add(this.FullName);
+            this.pnlPersonInfo.Controls.Add(this.lblFullName);
+            this.pnlPersonInfo.Location = new System.Drawing.Point(12, 145);
+            this.pnlPersonInfo.Name = "pnlPersonInfo";
+            this.pnlPersonInfo.Size = new System.Drawing.Size(430, 296);
+            this.pnlPersonInfo.TabIndex = 107;
+            this.pnlPersonInfo.Visible = false;
+            // 
+            // PersonalPhoto
+            // 
+            this.PersonalPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PersonalPhoto.ImageRotate = 0F;
+            this.PersonalPhoto.Location = new System.Drawing.Point(180, 3);
+            this.PersonalPhoto.Name = "PersonalPhoto";
+            this.PersonalPhoto.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.PersonalPhoto.Size = new System.Drawing.Size(59, 60);
+            this.PersonalPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PersonalPhoto.TabIndex = 41;
+            this.PersonalPhoto.TabStop = false;
+            // 
+            // Email
+            // 
+            this.Email.BackColor = System.Drawing.Color.Transparent;
+            this.Email.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Email.ForeColor = System.Drawing.Color.White;
+            this.Email.Location = new System.Drawing.Point(142, 263);
+            this.Email.Name = "Email";
+            this.Email.Size = new System.Drawing.Size(9, 22);
+            this.Email.TabIndex = 40;
+            this.Email.Text = "-";
+            this.Email.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pnlEmail
+            // 
+            this.pnlEmail.BackColor = System.Drawing.Color.Transparent;
+            this.pnlEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
+            this.pnlEmail.Location = new System.Drawing.Point(18, 263);
+            this.pnlEmail.Name = "pnlEmail";
+            this.pnlEmail.Size = new System.Drawing.Size(40, 22);
+            this.pnlEmail.TabIndex = 39;
+            this.pnlEmail.Text = "Email";
+            // 
+            // phonenumber
+            // 
+            this.phonenumber.BackColor = System.Drawing.Color.Transparent;
+            this.phonenumber.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phonenumber.ForeColor = System.Drawing.Color.White;
+            this.phonenumber.Location = new System.Drawing.Point(142, 235);
+            this.phonenumber.Name = "phonenumber";
+            this.phonenumber.Size = new System.Drawing.Size(9, 22);
+            this.phonenumber.TabIndex = 38;
+            this.phonenumber.Text = "-";
+            this.phonenumber.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblcontact
+            // 
+            this.lblcontact.BackColor = System.Drawing.Color.Transparent;
+            this.lblcontact.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcontact.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
+            this.lblcontact.Location = new System.Drawing.Point(18, 235);
+            this.lblcontact.Name = "lblcontact";
+            this.lblcontact.Size = new System.Drawing.Size(105, 22);
+            this.lblcontact.TabIndex = 37;
+            this.lblcontact.Text = "Phone numner";
+            // 
+            // Gender
+            // 
+            this.Gender.BackColor = System.Drawing.Color.Transparent;
+            this.Gender.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gender.ForeColor = System.Drawing.Color.White;
+            this.Gender.Location = new System.Drawing.Point(144, 185);
+            this.Gender.Name = "Gender";
+            this.Gender.Size = new System.Drawing.Size(9, 22);
+            this.Gender.TabIndex = 36;
+            this.Gender.Text = "-";
+            this.Gender.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblGender
+            // 
+            this.lblGender.BackColor = System.Drawing.Color.Transparent;
+            this.lblGender.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
+            this.lblGender.Location = new System.Drawing.Point(20, 185);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(53, 22);
+            this.lblGender.TabIndex = 35;
+            this.lblGender.Text = "Gender";
+            // 
+            // nationality
+            // 
+            this.nationality.BackColor = System.Drawing.Color.Transparent;
+            this.nationality.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nationality.ForeColor = System.Drawing.Color.White;
+            this.nationality.Location = new System.Drawing.Point(144, 157);
+            this.nationality.Name = "nationality";
+            this.nationality.Size = new System.Drawing.Size(9, 22);
+            this.nationality.TabIndex = 34;
+            this.nationality.Text = "-";
+            this.nationality.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblnationality
+            // 
+            this.lblnationality.BackColor = System.Drawing.Color.Transparent;
+            this.lblnationality.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnationality.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
+            this.lblnationality.Location = new System.Drawing.Point(20, 157);
+            this.lblnationality.Name = "lblnationality";
+            this.lblnationality.Size = new System.Drawing.Size(79, 22);
+            this.lblnationality.TabIndex = 33;
+            this.lblnationality.Text = "Nationality";
+            // 
+            // DateofBirth
+            // 
+            this.DateofBirth.BackColor = System.Drawing.Color.Transparent;
+            this.DateofBirth.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DateofBirth.ForeColor = System.Drawing.Color.White;
+            this.DateofBirth.Location = new System.Drawing.Point(144, 129);
+            this.DateofBirth.Name = "DateofBirth";
+            this.DateofBirth.Size = new System.Drawing.Size(9, 22);
+            this.DateofBirth.TabIndex = 32;
+            this.DateofBirth.Text = "-";
+            this.DateofBirth.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblbirthdate
+            // 
+            this.lblbirthdate.BackColor = System.Drawing.Color.Transparent;
+            this.lblbirthdate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblbirthdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
+            this.lblbirthdate.Location = new System.Drawing.Point(18, 129);
+            this.lblbirthdate.Name = "lblbirthdate";
+            this.lblbirthdate.Size = new System.Drawing.Size(90, 22);
+            this.lblbirthdate.TabIndex = 31;
+            this.lblbirthdate.Text = "Date of Birth";
+            // 
+            // NationalID
+            // 
+            this.NationalID.BackColor = System.Drawing.Color.Transparent;
+            this.NationalID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NationalID.ForeColor = System.Drawing.Color.White;
+            this.NationalID.Location = new System.Drawing.Point(144, 101);
+            this.NationalID.Name = "NationalID";
+            this.NationalID.Size = new System.Drawing.Size(9, 22);
+            this.NationalID.TabIndex = 30;
+            this.NationalID.Text = "-";
+            this.NationalID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblNationalID
+            // 
+            this.lblNationalID.BackColor = System.Drawing.Color.Transparent;
+            this.lblNationalID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNationalID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
+            this.lblNationalID.Location = new System.Drawing.Point(18, 101);
+            this.lblNationalID.Name = "lblNationalID";
+            this.lblNationalID.Size = new System.Drawing.Size(81, 22);
+            this.lblNationalID.TabIndex = 29;
+            this.lblNationalID.Text = "National ID";
+            // 
+            // FullName
+            // 
+            this.FullName.BackColor = System.Drawing.Color.Transparent;
+            this.FullName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FullName.ForeColor = System.Drawing.Color.White;
+            this.FullName.Location = new System.Drawing.Point(144, 73);
+            this.FullName.Name = "FullName";
+            this.FullName.Size = new System.Drawing.Size(9, 22);
+            this.FullName.TabIndex = 28;
+            this.FullName.Text = "-";
+            this.FullName.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblFullName
+            // 
+            this.lblFullName.BackColor = System.Drawing.Color.Transparent;
+            this.lblFullName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFullName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
+            this.lblFullName.Location = new System.Drawing.Point(18, 73);
+            this.lblFullName.Name = "lblFullName";
+            this.lblFullName.Size = new System.Drawing.Size(73, 22);
+            this.lblFullName.TabIndex = 26;
+            this.lblFullName.Text = "Full Name";
+            // 
+            // CouldntFindMessage
+            // 
+            this.CouldntFindMessage.BackColor = System.Drawing.Color.Transparent;
+            this.CouldntFindMessage.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CouldntFindMessage.ForeColor = System.Drawing.Color.Silver;
+            this.CouldntFindMessage.Location = new System.Drawing.Point(164, 274);
+            this.CouldntFindMessage.Name = "CouldntFindMessage";
+            this.CouldntFindMessage.Size = new System.Drawing.Size(140, 22);
+            this.CouldntFindMessage.TabIndex = 108;
+            this.CouldntFindMessage.Text = "Couldn\'t find results";
+            this.CouldntFindMessage.Visible = false;
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.Silver;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(9, 57);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(153, 22);
+            this.guna2HtmlLabel8.TabIndex = 110;
+            this.guna2HtmlLabel8.Text = "Enter The License ID :";
+            // 
+            // txbSearch
+            // 
+            this.txbSearch.BorderRadius = 8;
+            this.txbSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbSearch.DefaultText = "";
+            this.txbSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbSearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(26)))), ((int)(((byte)(74)))));
+            this.txbSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txbSearch.ForeColor = System.Drawing.Color.White;
+            this.txbSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(58)))), ((int)(((byte)(237)))));
+            this.txbSearch.Location = new System.Drawing.Point(177, 50);
+            this.txbSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txbSearch.Name = "txbSearch";
+            this.txbSearch.PlaceholderText = "⌕ Search";
+            this.txbSearch.SelectedText = "";
+            this.txbSearch.Size = new System.Drawing.Size(274, 36);
+            this.txbSearch.TabIndex = 109;
+            this.txbSearch.TextChanged += new System.EventHandler(this.txbSearch_TextChanged);
+            // 
+            // pnlStatus
+            // 
+            this.pnlStatus.BorderRadius = 8;
+            this.pnlStatus.Controls.Add(this.lblStatus);
+            this.pnlStatus.FillColor = System.Drawing.Color.Transparent;
+            this.pnlStatus.Location = new System.Drawing.Point(637, 191);
+            this.pnlStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlStatus.Name = "pnlStatus";
+            this.pnlStatus.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlStatus.Size = new System.Drawing.Size(79, 31);
+            this.pnlStatus.TabIndex = 111;
+            this.pnlStatus.Visible = false;
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.ForeColor = System.Drawing.Color.Black;
+            this.lblStatus.Location = new System.Drawing.Point(9, 5);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(5);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(3, 2);
+            this.lblStatus.TabIndex = 9;
+            this.lblStatus.Text = null;
+            this.lblStatus.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ErrorMessage
+            // 
+            this.ErrorMessage.BackColor = System.Drawing.Color.Transparent;
+            this.ErrorMessage.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErrorMessage.ForeColor = System.Drawing.Color.Red;
+            this.ErrorMessage.Location = new System.Drawing.Point(581, 354);
+            this.ErrorMessage.Name = "ErrorMessage";
+            this.ErrorMessage.Size = new System.Drawing.Size(38, 22);
+            this.ErrorMessage.TabIndex = 112;
+            this.ErrorMessage.Text = "Error";
+            this.ErrorMessage.Visible = false;
+            // 
             // us_Replacement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
+            this.Controls.Add(this.ErrorMessage);
+            this.Controls.Add(this.pnlStatus);
+            this.Controls.Add(this.guna2HtmlLabel8);
+            this.Controls.Add(this.txbSearch);
+            this.Controls.Add(this.CouldntFindMessage);
+            this.Controls.Add(this.pnlPersonInfo);
             this.Controls.Add(this.Fees);
             this.Controls.Add(this.guna2HtmlLabel6);
             this.Controls.Add(this.btnLost);
             this.Controls.Add(this.btnDamaged);
             this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.guna2Panel1);
-            this.Controls.Add(this.pnlDetentionstatus);
             this.Controls.Add(this.Detentionstatus);
             this.Controls.Add(this.ExpiryDate);
             this.Controls.Add(this.guna2HtmlLabel1);
@@ -659,71 +682,71 @@
             this.Controls.Add(this.guna2Panel6);
             this.Controls.Add(this.guna2Panel5);
             this.Controls.Add(this.btnIssue);
-            this.Controls.Add(this.AppDate);
+            this.Controls.Add(this.LicenseID);
             this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2Panel4);
-            this.Controls.Add(this.txbSearch);
-            this.Controls.Add(this.cxbFiler);
-            this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.LicenseTitle);
             this.Name = "us_Replacement";
-            this.Size = new System.Drawing.Size(872, 462);
-            this.pnlDetentionstatus.ResumeLayout(false);
-            this.pnlDetentionstatus.PerformLayout();
-            this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
+            this.Size = new System.Drawing.Size(872, 479);
+            this.Load += new System.EventHandler(this.us_Replacement_Load);
+            this.pnlPersonInfo.ResumeLayout(false);
+            this.pnlPersonInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PersonalPhoto)).EndInit();
+            this.pnlStatus.ResumeLayout(false);
+            this.pnlStatus.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Panel pnlDetentionstatus;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblDetentionstatus;
         private Guna.UI2.WinForms.Guna2HtmlLabel Detentionstatus;
-        private Guna.UI2.WinForms.Guna2HtmlLabel ExpiryDate;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel IssuanceDate;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblissuance;
-        private Guna.UI2.WinForms.Guna2HtmlLabel categoryName;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblDriverID;
-        private Guna.UI2.WinForms.Guna2HtmlLabel DriverID;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
-        private Guna.UI2.WinForms.Guna2Button btnIssue;
-        private Guna.UI2.WinForms.Guna2HtmlLabel AppDate;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2TextBox txbSearch;
-        private Guna.UI2.WinForms.Guna2ComboBox cxbFiler;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox11;
-        private Guna.UI2.WinForms.Guna2HtmlLabel Email;
-        private Guna.UI2.WinForms.Guna2HtmlLabel pnlEmail;
-        private Guna.UI2.WinForms.Guna2HtmlLabel phonenumber;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblcontact;
-        private Guna.UI2.WinForms.Guna2HtmlLabel Gender;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblGender;
-        private Guna.UI2.WinForms.Guna2HtmlLabel nationality;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblnationality;
-        private Guna.UI2.WinForms.Guna2HtmlLabel DateofBirth;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblbirthdate;
-        private Guna.UI2.WinForms.Guna2HtmlLabel NationalID;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblNationalID;
-        private Guna.UI2.WinForms.Guna2HtmlLabel FullName;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblFullName;
-        private Guna.UI2.WinForms.Guna2HtmlLabel LicenseTitle;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button btnLost;
-        private Guna.UI2.WinForms.Guna2Button btnDamaged;
-        private Guna.UI2.WinForms.Guna2HtmlLabel Fees;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        public Guna.UI2.WinForms.Guna2Panel pnlPersonInfo;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox PersonalPhoto;
+        public Guna.UI2.WinForms.Guna2HtmlLabel Email;
+        private Guna.UI2.WinForms.Guna2HtmlLabel pnlEmail;
+        public Guna.UI2.WinForms.Guna2HtmlLabel phonenumber;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblcontact;
+        public Guna.UI2.WinForms.Guna2HtmlLabel Gender;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblGender;
+        public Guna.UI2.WinForms.Guna2HtmlLabel nationality;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblnationality;
+        public Guna.UI2.WinForms.Guna2HtmlLabel DateofBirth;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblbirthdate;
+        public Guna.UI2.WinForms.Guna2HtmlLabel NationalID;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblNationalID;
+        public Guna.UI2.WinForms.Guna2HtmlLabel FullName;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblFullName;
+        private Guna.UI2.WinForms.Guna2HtmlLabel CouldntFindMessage;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
+        public Guna.UI2.WinForms.Guna2TextBox txbSearch;
+        public Guna.UI2.WinForms.Guna2HtmlLabel LicenseID;
+        public Guna.UI2.WinForms.Guna2HtmlLabel LicenseTitle;
+        public Guna.UI2.WinForms.Guna2HtmlLabel ExpiryDate;
+        public Guna.UI2.WinForms.Guna2HtmlLabel IssuanceDate;
+        public Guna.UI2.WinForms.Guna2HtmlLabel categoryName;
+        public Guna.UI2.WinForms.Guna2HtmlLabel DriverID;
+        public Guna.UI2.WinForms.Guna2Panel pnlStatus;
+        public Guna.UI2.WinForms.Guna2HtmlLabel lblStatus;
+        public Guna.UI2.WinForms.Guna2Button btnIssue;
+        public Guna.UI2.WinForms.Guna2Button btnLost;
+        public Guna.UI2.WinForms.Guna2Button btnDamaged;
+        public Guna.UI2.WinForms.Guna2HtmlLabel Fees;
+        private Guna.UI2.WinForms.Guna2HtmlLabel ErrorMessage;
     }
 }

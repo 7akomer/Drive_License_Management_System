@@ -954,7 +954,7 @@
             // 
             this.StatePnl3LocalLicens.BorderRadius = 8;
             this.StatePnl3LocalLicens.Controls.Add(this.state3textLocalLicense);
-            this.StatePnl3LocalLicens.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.StatePnl3LocalLicens.FillColor = System.Drawing.Color.DodgerBlue;
             this.StatePnl3LocalLicens.Location = new System.Drawing.Point(500, 12);
             this.StatePnl3LocalLicens.Name = "StatePnl3LocalLicens";
             this.StatePnl3LocalLicens.Size = new System.Drawing.Size(79, 31);
@@ -965,7 +965,7 @@
             this.state3textLocalLicense.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.state3textLocalLicense.BackColor = System.Drawing.Color.Transparent;
             this.state3textLocalLicense.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.state3textLocalLicense.ForeColor = System.Drawing.Color.LimeGreen;
+            this.state3textLocalLicense.ForeColor = System.Drawing.Color.White;
             this.state3textLocalLicense.Location = new System.Drawing.Point(10, 5);
             this.state3textLocalLicense.Name = "state3textLocalLicense";
             this.state3textLocalLicense.Size = new System.Drawing.Size(58, 22);
@@ -1053,7 +1053,7 @@
             // 
             this.StatePnl2LocalLicens.BorderRadius = 8;
             this.StatePnl2LocalLicens.Controls.Add(this.state2textLocalLicense);
-            this.StatePnl2LocalLicens.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.StatePnl2LocalLicens.FillColor = System.Drawing.Color.SkyBlue;
             this.StatePnl2LocalLicens.Location = new System.Drawing.Point(500, 12);
             this.StatePnl2LocalLicens.Name = "StatePnl2LocalLicens";
             this.StatePnl2LocalLicens.Size = new System.Drawing.Size(79, 31);
@@ -1064,7 +1064,7 @@
             this.state2textLocalLicense.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.state2textLocalLicense.BackColor = System.Drawing.Color.Transparent;
             this.state2textLocalLicense.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.state2textLocalLicense.ForeColor = System.Drawing.Color.LimeGreen;
+            this.state2textLocalLicense.ForeColor = System.Drawing.Color.White;
             this.state2textLocalLicense.Location = new System.Drawing.Point(10, 5);
             this.state2textLocalLicense.Name = "state2textLocalLicense";
             this.state2textLocalLicense.Size = new System.Drawing.Size(58, 22);
@@ -1153,7 +1153,7 @@
             // 
             this.StatePnl1LocalLicens.BorderRadius = 8;
             this.StatePnl1LocalLicens.Controls.Add(this.state1textLocalLicense);
-            this.StatePnl1LocalLicens.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.StatePnl1LocalLicens.FillColor = System.Drawing.Color.DimGray;
             this.StatePnl1LocalLicens.Location = new System.Drawing.Point(500, 12);
             this.StatePnl1LocalLicens.Name = "StatePnl1LocalLicens";
             this.StatePnl1LocalLicens.Size = new System.Drawing.Size(79, 31);
@@ -1164,7 +1164,7 @@
             this.state1textLocalLicense.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.state1textLocalLicense.BackColor = System.Drawing.Color.Transparent;
             this.state1textLocalLicense.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.state1textLocalLicense.ForeColor = System.Drawing.Color.LimeGreen;
+            this.state1textLocalLicense.ForeColor = System.Drawing.Color.White;
             this.state1textLocalLicense.Location = new System.Drawing.Point(8, 5);
             this.state1textLocalLicense.Name = "state1textLocalLicense";
             this.state1textLocalLicense.Size = new System.Drawing.Size(58, 22);
@@ -1359,13 +1359,13 @@
             // 
             // picLocalLicenseIcon
             // 
-            this.picLocalLicenseIcon.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._73;
+            this.picLocalLicenseIcon.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.b1;
             this.picLocalLicenseIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picLocalLicenseIcon.FillColor = System.Drawing.Color.Transparent;
             this.picLocalLicenseIcon.ImageRotate = 0F;
-            this.picLocalLicenseIcon.Location = new System.Drawing.Point(13, 11);
+            this.picLocalLicenseIcon.Location = new System.Drawing.Point(13, 10);
             this.picLocalLicenseIcon.Name = "picLocalLicenseIcon";
-            this.picLocalLicenseIcon.Size = new System.Drawing.Size(54, 50);
+            this.picLocalLicenseIcon.Size = new System.Drawing.Size(54, 37);
             this.picLocalLicenseIcon.TabIndex = 4;
             this.picLocalLicenseIcon.TabStop = false;
             // 

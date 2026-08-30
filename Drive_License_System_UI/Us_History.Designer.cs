@@ -31,9 +31,9 @@
             this.pnlfull = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pnlscreen = new Guna.UI2.WinForms.Guna2Panel();
             this.pnltop = new Guna.UI2.WinForms.Guna2Panel();
+            this.piclTitle = new Guna.UI2.WinForms.Guna2PictureBox();
             this.subtitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.title = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.piclTitle = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlfull.SuspendLayout();
             this.pnltop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.piclTitle)).BeginInit();
@@ -60,10 +60,10 @@
             this.pnlscreen.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlscreen.Location = new System.Drawing.Point(0, 85);
             this.pnlscreen.Name = "pnlscreen";
-            this.pnlscreen.Padding = new System.Windows.Forms.Padding(30, 20, 20, 10);
+            this.pnlscreen.Padding = new System.Windows.Forms.Padding(40, 20, 20, 10);
             this.pnlscreen.Size = new System.Drawing.Size(1632, 933);
-            this.pnlscreen.TabIndex = 5;
-            this.pnlscreen.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlscreen_Paint);
+            this.pnlscreen.TabIndex = 6;
+            this.pnlscreen.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlscreen_Paint_1);
             // 
             // pnltop
             // 
@@ -76,6 +76,20 @@
             this.pnltop.Name = "pnltop";
             this.pnltop.Size = new System.Drawing.Size(1632, 85);
             this.pnltop.TabIndex = 4;
+            // 
+            // piclTitle
+            // 
+            this.piclTitle.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_6193;
+            this.piclTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.piclTitle.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.piclTitle.FillColor = System.Drawing.Color.Transparent;
+            this.piclTitle.ImageRotate = 0F;
+            this.piclTitle.Location = new System.Drawing.Point(38, 28);
+            this.piclTitle.Name = "piclTitle";
+            this.piclTitle.Size = new System.Drawing.Size(45, 40);
+            this.piclTitle.TabIndex = 2;
+            this.piclTitle.TabStop = false;
+            this.piclTitle.UseWaitCursor = true;
             // 
             // subtitle
             // 
@@ -98,20 +112,6 @@
             this.title.Size = new System.Drawing.Size(72, 30);
             this.title.TabIndex = 11;
             this.title.Text = "History";
-            // 
-            // piclTitle
-            // 
-            this.piclTitle.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_6193;
-            this.piclTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.piclTitle.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.piclTitle.FillColor = System.Drawing.Color.Transparent;
-            this.piclTitle.ImageRotate = 0F;
-            this.piclTitle.Location = new System.Drawing.Point(38, 28);
-            this.piclTitle.Name = "piclTitle";
-            this.piclTitle.Size = new System.Drawing.Size(45, 40);
-            this.piclTitle.TabIndex = 2;
-            this.piclTitle.TabStop = false;
-            this.piclTitle.UseWaitCursor = true;
             // 
             // Us_History
             // 

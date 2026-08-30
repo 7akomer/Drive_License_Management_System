@@ -280,6 +280,7 @@
             this.btnConfirmChangePassword.Size = new System.Drawing.Size(127, 42);
             this.btnConfirmChangePassword.TabIndex = 36;
             this.btnConfirmChangePassword.Text = "Change";
+            this.btnConfirmChangePassword.Click += new System.EventHandler(this.btnConfirmChangePassword_Click);
             // 
             // us_Security
             // 

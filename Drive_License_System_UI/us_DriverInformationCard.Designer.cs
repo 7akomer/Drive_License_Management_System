@@ -38,32 +38,32 @@
             this.lbl2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.line = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.NemberofLicensesHeld = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.TotalLicenses = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlpersoninforow = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.PersonID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblrow2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.AppointementID = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.DriverID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.picRow1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.PersonPhoto = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.personalName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.TotalLicenses = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.NemberofLicensesHeld = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlfull.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDriverCard)).BeginInit();
             this.guna2Panel7.SuspendLayout();
             this.pnlpersoninforow.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picRow1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PersonPhoto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlfull
@@ -96,7 +96,7 @@
             this.titleDriverCard.ForeColor = System.Drawing.Color.White;
             this.titleDriverCard.Location = new System.Drawing.Point(84, 21);
             this.titleDriverCard.Name = "titleDriverCard";
-            this.titleDriverCard.Size = new System.Drawing.Size(181, 30);
+            this.titleDriverCard.Size = new System.Drawing.Size(146, 23);
             this.titleDriverCard.TabIndex = 31;
             this.titleDriverCard.Text = "Driver Information";
             // 
@@ -128,7 +128,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(37, 237);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(43, 22);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(35, 17);
             this.guna2HtmlLabel1.TabIndex = 29;
             this.guna2HtmlLabel1.Text = "MAIN";
             // 
@@ -147,7 +147,7 @@
             this.lbl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
             this.lbl2.Location = new System.Drawing.Point(37, 425);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(171, 22);
+            this.lbl2.Size = new System.Drawing.Size(138, 17);
             this.lbl2.TabIndex = 28;
             this.lbl2.Text = "lICENSES INFORMATION";
             // 
@@ -173,6 +173,52 @@
             this.guna2Panel7.Size = new System.Drawing.Size(513, 101);
             this.guna2Panel7.TabIndex = 20;
             // 
+            // NemberofLicensesHeld
+            // 
+            this.NemberofLicensesHeld.BackColor = System.Drawing.Color.Transparent;
+            this.NemberofLicensesHeld.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NemberofLicensesHeld.ForeColor = System.Drawing.Color.White;
+            this.NemberofLicensesHeld.Location = new System.Drawing.Point(195, 53);
+            this.NemberofLicensesHeld.Name = "NemberofLicensesHeld";
+            this.NemberofLicensesHeld.Size = new System.Drawing.Size(17, 17);
+            this.NemberofLicensesHeld.TabIndex = 32;
+            this.NemberofLicensesHeld.Text = "32";
+            this.NemberofLicensesHeld.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(13, 53);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(137, 17);
+            this.guna2HtmlLabel3.TabIndex = 31;
+            this.guna2HtmlLabel3.Text = "Number of licenses held :";
+            // 
+            // TotalLicenses
+            // 
+            this.TotalLicenses.BackColor = System.Drawing.Color.Transparent;
+            this.TotalLicenses.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalLicenses.ForeColor = System.Drawing.Color.White;
+            this.TotalLicenses.Location = new System.Drawing.Point(124, 15);
+            this.TotalLicenses.Name = "TotalLicenses";
+            this.TotalLicenses.Size = new System.Drawing.Size(17, 17);
+            this.TotalLicenses.TabIndex = 30;
+            this.TotalLicenses.Text = "32";
+            this.TotalLicenses.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(13, 15);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(83, 17);
+            this.guna2HtmlLabel2.TabIndex = 29;
+            this.guna2HtmlLabel2.Text = "Total Licenses :";
+            // 
             // pnlpersoninforow
             // 
             this.pnlpersoninforow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
@@ -196,6 +242,19 @@
             this.guna2Panel2.Size = new System.Drawing.Size(513, 49);
             this.guna2Panel2.TabIndex = 1;
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.d1;
+            this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(13, 7);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.guna2CirclePictureBox1.TabIndex = 28;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
             // PersonID
             // 
             this.PersonID.BackColor = System.Drawing.Color.Transparent;
@@ -203,7 +262,7 @@
             this.PersonID.ForeColor = System.Drawing.Color.White;
             this.PersonID.Location = new System.Drawing.Point(240, 15);
             this.PersonID.Name = "PersonID";
-            this.PersonID.Size = new System.Drawing.Size(19, 22);
+            this.PersonID.Size = new System.Drawing.Size(17, 17);
             this.PersonID.TabIndex = 27;
             this.PersonID.Text = "32";
             this.PersonID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
@@ -215,13 +274,13 @@
             this.lblrow2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
             this.lblrow2.Location = new System.Drawing.Point(49, 15);
             this.lblrow2.Name = "lblrow2";
-            this.lblrow2.Size = new System.Drawing.Size(69, 22);
+            this.lblrow2.Size = new System.Drawing.Size(55, 17);
             this.lblrow2.TabIndex = 25;
             this.lblrow2.Text = "Person ID";
             // 
             // guna2Panel3
             // 
-            this.guna2Panel3.Controls.Add(this.AppointementID);
+            this.guna2Panel3.Controls.Add(this.DriverID);
             this.guna2Panel3.Controls.Add(this.lblID);
             this.guna2Panel3.Controls.Add(this.picRow1);
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -230,17 +289,17 @@
             this.guna2Panel3.Size = new System.Drawing.Size(513, 49);
             this.guna2Panel3.TabIndex = 0;
             // 
-            // AppointementID
+            // DriverID
             // 
-            this.AppointementID.BackColor = System.Drawing.Color.Transparent;
-            this.AppointementID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AppointementID.ForeColor = System.Drawing.Color.White;
-            this.AppointementID.Location = new System.Drawing.Point(240, 15);
-            this.AppointementID.Name = "AppointementID";
-            this.AppointementID.Size = new System.Drawing.Size(28, 22);
-            this.AppointementID.TabIndex = 27;
-            this.AppointementID.Text = "564";
-            this.AppointementID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.DriverID.BackColor = System.Drawing.Color.Transparent;
+            this.DriverID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DriverID.ForeColor = System.Drawing.Color.White;
+            this.DriverID.Location = new System.Drawing.Point(240, 15);
+            this.DriverID.Name = "DriverID";
+            this.DriverID.Size = new System.Drawing.Size(24, 17);
+            this.DriverID.TabIndex = 27;
+            this.DriverID.Text = "564";
+            this.DriverID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblID
             // 
@@ -249,7 +308,7 @@
             this.lblID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
             this.lblID.Location = new System.Drawing.Point(49, 15);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(65, 22);
+            this.lblID.Size = new System.Drawing.Size(51, 17);
             this.lblID.TabIndex = 25;
             this.lblID.Text = "Driver ID";
             // 
@@ -303,68 +362,9 @@
             this.personalName.ForeColor = System.Drawing.Color.White;
             this.personalName.Location = new System.Drawing.Point(88, 30);
             this.personalName.Name = "personalName";
-            this.personalName.Size = new System.Drawing.Size(161, 30);
+            this.personalName.Size = new System.Drawing.Size(133, 23);
             this.personalName.TabIndex = 19;
             this.personalName.Text = "mohammed alali";
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.d1;
-            this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(13, 7);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.guna2CirclePictureBox1.TabIndex = 28;
-            this.guna2CirclePictureBox1.TabStop = false;
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(13, 15);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(104, 22);
-            this.guna2HtmlLabel2.TabIndex = 29;
-            this.guna2HtmlLabel2.Text = "Total Licenses :";
-            // 
-            // TotalLicenses
-            // 
-            this.TotalLicenses.BackColor = System.Drawing.Color.Transparent;
-            this.TotalLicenses.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalLicenses.ForeColor = System.Drawing.Color.White;
-            this.TotalLicenses.Location = new System.Drawing.Point(124, 15);
-            this.TotalLicenses.Name = "TotalLicenses";
-            this.TotalLicenses.Size = new System.Drawing.Size(19, 22);
-            this.TotalLicenses.TabIndex = 30;
-            this.TotalLicenses.Text = "32";
-            this.TotalLicenses.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(13, 53);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(176, 22);
-            this.guna2HtmlLabel3.TabIndex = 31;
-            this.guna2HtmlLabel3.Text = "Number of licenses held :";
-            // 
-            // NemberofLicensesHeld
-            // 
-            this.NemberofLicensesHeld.BackColor = System.Drawing.Color.Transparent;
-            this.NemberofLicensesHeld.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NemberofLicensesHeld.ForeColor = System.Drawing.Color.White;
-            this.NemberofLicensesHeld.Location = new System.Drawing.Point(195, 53);
-            this.NemberofLicensesHeld.Name = "NemberofLicensesHeld";
-            this.NemberofLicensesHeld.Size = new System.Drawing.Size(19, 22);
-            this.NemberofLicensesHeld.TabIndex = 32;
-            this.NemberofLicensesHeld.Text = "32";
-            this.NemberofLicensesHeld.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // us_DriverInformationCard
             // 
@@ -382,20 +382,18 @@
             this.pnlpersoninforow.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picRow1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PersonPhoto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Panel pnlfull;
         private Guna.UI2.WinForms.Guna2HtmlLabel titleDriverCard;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picDriverCard;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
@@ -406,19 +404,20 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
         private Guna.UI2.WinForms.Guna2Panel pnlpersoninforow;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel PersonID;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblrow2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel AppointementID;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblID;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picRow1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox PersonPhoto;
-        private Guna.UI2.WinForms.Guna2HtmlLabel personalName;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel TotalLicenses;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel NemberofLicensesHeld;
+        public Guna.UI2.WinForms.Guna2HtmlLabel PersonID;
+        public Guna.UI2.WinForms.Guna2HtmlLabel DriverID;
+        public Guna.UI2.WinForms.Guna2CirclePictureBox PersonPhoto;
+        public Guna.UI2.WinForms.Guna2HtmlLabel personalName;
+        public Guna.UI2.WinForms.Guna2HtmlLabel TotalLicenses;
+        public Guna.UI2.WinForms.Guna2HtmlLabel NemberofLicensesHeld;
+        public Guna.UI2.WinForms.Guna2Panel pnlfull;
     }
 }

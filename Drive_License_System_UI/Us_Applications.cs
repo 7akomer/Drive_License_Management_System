@@ -175,9 +175,9 @@ namespace Drive_License_System_UI
         private void lblService_List_Click(object sender, EventArgs e)
         {
             pnlApplicationCenterChoise.Controls.Clear();
-            us_ServiceList ServiceLicet = new us_ServiceList();
-            ServiceLicet.Dock = DockStyle.Fill;
-            pnlApplicationCenterChoise.Controls.Add(ServiceLicet);
+            us_ServiceList ServiceList = new us_ServiceList();
+            ServiceList.Dock = DockStyle.Fill;
+            pnlApplicationCenterChoise.Controls.Add(ServiceList);
             btnGoBack.Visible = true;
 
 

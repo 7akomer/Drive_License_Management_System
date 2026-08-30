@@ -283,6 +283,16 @@ namespace Drive_License_System_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2b9b5b94_bf19_4aea_880b_195c9e6d812a {
+            get {
+                object obj = ResourceManager.GetObject("2b9b5b94-bf19-4aea-880b-195c9e6d812a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3 {
             get {
                 object obj = ResourceManager.GetObject("3", resourceCulture);
@@ -366,6 +376,16 @@ namespace Drive_License_System_UI.Properties {
         internal static System.Drawing.Bitmap _401 {
             get {
                 object obj = ResourceManager.GetObject("401", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4011 {
+            get {
+                object obj = ResourceManager.GetObject("4011", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,6 +693,16 @@ namespace Drive_License_System_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap b1 {
+            get {
+                object obj = ResourceManager.GetObject("b1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap c {
             get {
                 object obj = ResourceManager.GetObject("c", resourceCulture);
@@ -846,6 +876,16 @@ namespace Drive_License_System_UI.Properties {
         internal static System.Drawing.Bitmap file_00000000406871f4a8297107077afca92 {
             get {
                 object obj = ResourceManager.GetObject("file_00000000406871f4a8297107077afca92", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_00000000406871f4a8297107077afca93 {
+            get {
+                object obj = ResourceManager.GetObject("file_00000000406871f4a8297107077afca93", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1343,6 +1383,16 @@ namespace Drive_License_System_UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Picsart_26_06_02_01_55_32_5654 {
+            get {
+                object obj = ResourceManager.GetObject("Picsart_26-06-02_01-55-32-5654", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Picsart_26_06_02_02_08_46_351 {
             get {
                 object obj = ResourceManager.GetObject("Picsart_26-06-02_02-08-46-351", resourceCulture);
@@ -1496,6 +1546,16 @@ namespace Drive_License_System_UI.Properties {
         internal static System.Drawing.Bitmap Picsart_26_06_16_14_07_02_6193 {
             get {
                 object obj = ResourceManager.GetObject("Picsart_26-06-16_14-07-02-6193", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Picsart_26_06_16_14_07_02_6194 {
+            get {
+                object obj = ResourceManager.GetObject("Picsart_26-06-16_14-07-02-6194", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1756,6 +1816,26 @@ namespace Drive_License_System_UI.Properties {
         internal static System.Drawing.Bitmap Screenshot__379_ {
             get {
                 object obj = ResourceManager.GetObject("Screenshot (379)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap t {
+            get {
+                object obj = ResourceManager.GetObject("t", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap v {
+            get {
+                object obj = ResourceManager.GetObject("v", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

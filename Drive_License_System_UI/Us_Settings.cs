@@ -17,6 +17,11 @@ namespace Drive_License_System_UI
             InitializeComponent();
         }
 
+        public void OverirGestionPermisClickBtnChangePassword()
+        {
+            btnSecurity.PerformClick();
+        }
+
         private void pnlSettings_Paint(object sender, PaintEventArgs e)
         {
 

@@ -16,5 +16,21 @@ namespace Drive_License_System_UI
         {
             InitializeComponent();
         }
+
+       public  event Action SchedulingClick;
+        private void guna2HtmlLabel6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlfull_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnScheduling_Click(object sender, EventArgs e)
+        {
+            SchedulingClick.Invoke();
+        }
     }
 }

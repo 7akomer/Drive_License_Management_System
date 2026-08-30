@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.pnlscreen = new Guna.UI2.WinForms.Guna2Panel();
             this.pnlHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.AddPersen = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.picUserIcon = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblSubtitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.picUserIcon = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.pnlscreen = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUserIcon)).BeginInit();
@@ -50,10 +50,21 @@
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(16)))), ((int)(((byte)(70)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(17)))), ((int)(((byte)(79)))));
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1632, 1018);
             this.guna2CustomGradientPanel1.TabIndex = 1;
+            // 
+            // pnlscreen
+            // 
+            this.pnlscreen.BackColor = System.Drawing.Color.Transparent;
+            this.pnlscreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlscreen.Location = new System.Drawing.Point(0, 95);
+            this.pnlscreen.Name = "pnlscreen";
+            this.pnlscreen.Padding = new System.Windows.Forms.Padding(40, 20, 20, 10);
+            this.pnlscreen.Size = new System.Drawing.Size(1632, 923);
+            this.pnlscreen.TabIndex = 6;
+            this.pnlscreen.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlscreen_Paint);
             // 
             // pnlHeader
             // 
@@ -88,6 +99,22 @@
             this.AddPersen.Size = new System.Drawing.Size(180, 45);
             this.AddPersen.TabIndex = 14;
             this.AddPersen.Text = "Add New Persen";
+            this.AddPersen.Click += new System.EventHandler(this.AddPersen_Click);
+            // 
+            // picUserIcon
+            // 
+            this.picUserIcon.BackColor = System.Drawing.Color.Transparent;
+            this.picUserIcon.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_6192;
+            this.picUserIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picUserIcon.FillColor = System.Drawing.Color.Transparent;
+            this.picUserIcon.ImageRotate = 0F;
+            this.picUserIcon.Location = new System.Drawing.Point(24, 20);
+            this.picUserIcon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picUserIcon.Name = "picUserIcon";
+            this.picUserIcon.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picUserIcon.Size = new System.Drawing.Size(45, 46);
+            this.picUserIcon.TabIndex = 1;
+            this.picUserIcon.TabStop = false;
             // 
             // lblSubtitle
             // 
@@ -113,37 +140,12 @@
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "Persens Management";
             // 
-            // picUserIcon
-            // 
-            this.picUserIcon.BackColor = System.Drawing.Color.Transparent;
-            this.picUserIcon.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_6192;
-            this.picUserIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picUserIcon.FillColor = System.Drawing.Color.Transparent;
-            this.picUserIcon.ImageRotate = 0F;
-            this.picUserIcon.Location = new System.Drawing.Point(24, 20);
-            this.picUserIcon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picUserIcon.Name = "picUserIcon";
-            this.picUserIcon.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picUserIcon.Size = new System.Drawing.Size(45, 46);
-            this.picUserIcon.TabIndex = 1;
-            this.picUserIcon.TabStop = false;
-            // 
-            // pnlscreen
-            // 
-            this.pnlscreen.BackColor = System.Drawing.Color.Transparent;
-            this.pnlscreen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlscreen.Location = new System.Drawing.Point(0, 95);
-            this.pnlscreen.Name = "pnlscreen";
-            this.pnlscreen.Padding = new System.Windows.Forms.Padding(40, 20, 20, 10);
-            this.pnlscreen.Size = new System.Drawing.Size(1632, 923);
-            this.pnlscreen.TabIndex = 6;
-            // 
             // Us_Persens
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2CustomGradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Us_Persens";
             this.Size = new System.Drawing.Size(1632, 1018);
             this.Load += new System.EventHandler(this.Us_Persens_Load);
@@ -159,10 +161,10 @@
 
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2Panel pnlHeader;
-        private Guna.UI2.WinForms.Guna2GradientButton AddPersen;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picUserIcon;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblSubtitle;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
         private Guna.UI2.WinForms.Guna2Panel pnlscreen;
+        public Guna.UI2.WinForms.Guna2GradientButton AddPersen;
     }
 }

@@ -61,6 +61,7 @@
             this.pnlscreen.Padding = new System.Windows.Forms.Padding(40, 20, 20, 10);
             this.pnlscreen.Size = new System.Drawing.Size(1632, 933);
             this.pnlscreen.TabIndex = 5;
+            this.pnlscreen.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlscreen_Paint);
             // 
             // pnltop
             // 

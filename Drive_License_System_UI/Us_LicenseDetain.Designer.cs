@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.pnlscreen = new Guna.UI2.WinForms.Guna2Panel();
             this.pnltop = new Guna.UI2.WinForms.Guna2Panel();
+            this.piclTitle = new Guna.UI2.WinForms.Guna2PictureBox();
             this.subtitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.title = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.piclTitle = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.pnlscreen = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.pnltop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.piclTitle)).BeginInit();
@@ -49,10 +49,21 @@
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(16)))), ((int)(((byte)(70)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(17)))), ((int)(((byte)(79)))));
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1632, 1018);
             this.guna2CustomGradientPanel1.TabIndex = 1;
+            // 
+            // pnlscreen
+            // 
+            this.pnlscreen.BackColor = System.Drawing.Color.Transparent;
+            this.pnlscreen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlscreen.Location = new System.Drawing.Point(0, 85);
+            this.pnlscreen.Name = "pnlscreen";
+            this.pnlscreen.Padding = new System.Windows.Forms.Padding(40, 20, 20, 10);
+            this.pnlscreen.Size = new System.Drawing.Size(1632, 933);
+            this.pnlscreen.TabIndex = 4;
+            this.pnlscreen.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlscreen_Paint);
             // 
             // pnltop
             // 
@@ -65,6 +76,20 @@
             this.pnltop.Name = "pnltop";
             this.pnltop.Size = new System.Drawing.Size(1632, 85);
             this.pnltop.TabIndex = 3;
+            // 
+            // piclTitle
+            // 
+            this.piclTitle.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.n;
+            this.piclTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.piclTitle.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.piclTitle.FillColor = System.Drawing.Color.Transparent;
+            this.piclTitle.ImageRotate = 0F;
+            this.piclTitle.Location = new System.Drawing.Point(36, 21);
+            this.piclTitle.Name = "piclTitle";
+            this.piclTitle.Size = new System.Drawing.Size(45, 40);
+            this.piclTitle.TabIndex = 2;
+            this.piclTitle.TabStop = false;
+            this.piclTitle.UseWaitCursor = true;
             // 
             // subtitle
             // 
@@ -88,37 +113,12 @@
             this.title.TabIndex = 11;
             this.title.Text = "License Detain";
             // 
-            // piclTitle
-            // 
-            this.piclTitle.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._992;
-            this.piclTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.piclTitle.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.piclTitle.FillColor = System.Drawing.Color.Transparent;
-            this.piclTitle.ImageRotate = 0F;
-            this.piclTitle.Location = new System.Drawing.Point(36, 21);
-            this.piclTitle.Name = "piclTitle";
-            this.piclTitle.Size = new System.Drawing.Size(45, 40);
-            this.piclTitle.TabIndex = 2;
-            this.piclTitle.TabStop = false;
-            this.piclTitle.UseWaitCursor = true;
-            // 
-            // pnlscreen
-            // 
-            this.pnlscreen.BackColor = System.Drawing.Color.Transparent;
-            this.pnlscreen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlscreen.Location = new System.Drawing.Point(0, 85);
-            this.pnlscreen.Name = "pnlscreen";
-            this.pnlscreen.Padding = new System.Windows.Forms.Padding(40, 20, 20, 10);
-            this.pnlscreen.Size = new System.Drawing.Size(1632, 933);
-            this.pnlscreen.TabIndex = 4;
-            this.pnlscreen.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlscreen_Paint);
-            // 
             // Us_LicenseDetain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2CustomGradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Us_LicenseDetain";
             this.Size = new System.Drawing.Size(1632, 1018);
             this.Load += new System.EventHandler(this.Us_LicenseDetain_Load);

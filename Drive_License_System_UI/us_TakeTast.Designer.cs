@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(us_TakeTast));
             this.pnlfull = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.TestTybe = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picTestType = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.Note = new Guna.UI2.WinForms.Guna2TextBox();
@@ -41,47 +41,44 @@
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.contactslbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.line = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnNon = new Guna.UI2.WinForms.Guna2Panel();
             this.btnFill = new Guna.UI2.WinForms.Guna2Button();
             this.btnPass = new Guna.UI2.WinForms.Guna2Button();
             this.pnlpersoninforow = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.Fees = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.IfGetDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picrow4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblrow4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.Date = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picrow3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblrow3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.Category = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.picRow2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblrow2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.AppointementID = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblappid = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.personalName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.picTest = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.Delete = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.picrow4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.picrow3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.picRow2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.picRow1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.PersonPhoto = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.ProgressTest = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.PersonPhoto = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.personalName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlfull.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTestType)).BeginInit();
             this.guna2Panel8.SuspendLayout();
-            this.guna2Panel7.SuspendLayout();
+            this.btnNon.SuspendLayout();
             this.pnlpersoninforow.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
-            this.guna2Panel4.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picTest)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Delete)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picrow4)).BeginInit();
+            this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picrow3)).BeginInit();
+            this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picRow2)).BeginInit();
+            this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picRow1)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PersonPhoto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,19 +87,18 @@
             this.pnlfull.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.pnlfull.BorderRadius = 14;
             this.pnlfull.BorderThickness = 2;
-            this.pnlfull.Controls.Add(this.guna2HtmlLabel2);
+            this.pnlfull.Controls.Add(this.TestTybe);
             this.pnlfull.Controls.Add(this.guna2HtmlLabel3);
-            this.pnlfull.Controls.Add(this.picTest);
+            this.pnlfull.Controls.Add(this.picTestType);
             this.pnlfull.Controls.Add(this.guna2Panel6);
             this.pnlfull.Controls.Add(this.guna2Panel8);
             this.pnlfull.Controls.Add(this.save);
-            this.pnlfull.Controls.Add(this.Delete);
             this.pnlfull.Controls.Add(this.guna2Panel12);
             this.pnlfull.Controls.Add(this.guna2HtmlLabel1);
             this.pnlfull.Controls.Add(this.guna2Panel11);
             this.pnlfull.Controls.Add(this.contactslbl);
             this.pnlfull.Controls.Add(this.line);
-            this.pnlfull.Controls.Add(this.guna2Panel7);
+            this.pnlfull.Controls.Add(this.btnNon);
             this.pnlfull.Controls.Add(this.pnlpersoninforow);
             this.pnlfull.Controls.Add(this.guna2Panel1);
             this.pnlfull.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -113,16 +109,16 @@
             this.pnlfull.TabIndex = 1;
             this.pnlfull.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlfull_Paint);
             // 
-            // guna2HtmlLabel2
+            // TestTybe
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(84, 21);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(107, 30);
-            this.guna2HtmlLabel2.TabIndex = 31;
-            this.guna2HtmlLabel2.Text = "Vision Test";
+            this.TestTybe.BackColor = System.Drawing.Color.Transparent;
+            this.TestTybe.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TestTybe.ForeColor = System.Drawing.Color.White;
+            this.TestTybe.Location = new System.Drawing.Point(71, 23);
+            this.TestTybe.Name = "TestTybe";
+            this.TestTybe.Size = new System.Drawing.Size(10, 27);
+            this.TestTybe.TabIndex = 31;
+            this.TestTybe.Text = "-";
             // 
             // guna2HtmlLabel3
             // 
@@ -134,6 +130,19 @@
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(42, 22);
             this.guna2HtmlLabel3.TabIndex = 34;
             this.guna2HtmlLabel3.Text = "NOTE";
+            // 
+            // picTestType
+            // 
+            this.picTestType.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picTestType.FillColor = System.Drawing.Color.Transparent;
+            this.picTestType.ImageRotate = 0F;
+            this.picTestType.Location = new System.Drawing.Point(28, 20);
+            this.picTestType.Name = "picTestType";
+            this.picTestType.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picTestType.Size = new System.Drawing.Size(37, 33);
+            this.picTestType.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTestType.TabIndex = 30;
+            this.picTestType.TabStop = false;
             // 
             // guna2Panel6
             // 
@@ -183,7 +192,6 @@
             this.save.Animated = true;
             this.save.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.save.BorderRadius = 8;
-            this.save.BorderThickness = 1;
             this.save.Cursor = System.Windows.Forms.Cursors.Hand;
             this.save.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.save.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -192,11 +200,12 @@
             this.save.FillColor = System.Drawing.Color.Navy;
             this.save.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.ForeColor = System.Drawing.Color.White;
-            this.save.Location = new System.Drawing.Point(413, 18);
+            this.save.Location = new System.Drawing.Point(461, 20);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(80, 31);
             this.save.TabIndex = 31;
             this.save.Text = "Save";
+            this.save.Click += new System.EventHandler(this.save_Click);
             // 
             // guna2Panel12
             // 
@@ -244,19 +253,19 @@
             this.line.Size = new System.Drawing.Size(400, 1);
             this.line.TabIndex = 21;
             // 
-            // guna2Panel7
+            // btnNon
             // 
-            this.guna2Panel7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.guna2Panel7.BorderRadius = 14;
-            this.guna2Panel7.Controls.Add(this.btnFill);
-            this.guna2Panel7.Controls.Add(this.btnPass);
-            this.guna2Panel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(42)))), ((int)(((byte)(94)))));
-            this.guna2Panel7.Location = new System.Drawing.Point(28, 510);
-            this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(513, 84);
-            this.guna2Panel7.TabIndex = 20;
-            this.guna2Panel7.Click += new System.EventHandler(this.guna2Panel7_Click);
-            this.guna2Panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel7_Paint);
+            this.btnNon.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.btnNon.BorderRadius = 14;
+            this.btnNon.Controls.Add(this.btnFill);
+            this.btnNon.Controls.Add(this.btnPass);
+            this.btnNon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(42)))), ((int)(((byte)(94)))));
+            this.btnNon.Location = new System.Drawing.Point(28, 510);
+            this.btnNon.Name = "btnNon";
+            this.btnNon.Size = new System.Drawing.Size(513, 84);
+            this.btnNon.TabIndex = 20;
+            this.btnNon.Click += new System.EventHandler(this.guna2Panel7_Click);
+            this.btnNon.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel7_Paint);
             // 
             // btnFill
             // 
@@ -279,6 +288,7 @@
             this.btnFill.Size = new System.Drawing.Size(109, 48);
             this.btnFill.TabIndex = 33;
             this.btnFill.Text = "Fail";
+            this.btnFill.Click += new System.EventHandler(this.btnFill_Click);
             // 
             // btnPass
             // 
@@ -301,6 +311,7 @@
             this.btnPass.Size = new System.Drawing.Size(109, 48);
             this.btnPass.TabIndex = 32;
             this.btnPass.Text = "Pass";
+            this.btnPass.Click += new System.EventHandler(this.btnPass_Click);
             // 
             // pnlpersoninforow
             // 
@@ -318,7 +329,7 @@
             // 
             // guna2Panel5
             // 
-            this.guna2Panel5.Controls.Add(this.Fees);
+            this.guna2Panel5.Controls.Add(this.IfGetDate);
             this.guna2Panel5.Controls.Add(this.picrow4);
             this.guna2Panel5.Controls.Add(this.lblrow4);
             this.guna2Panel5.Dock = System.Windows.Forms.DockStyle.Top;
@@ -327,17 +338,30 @@
             this.guna2Panel5.Size = new System.Drawing.Size(513, 49);
             this.guna2Panel5.TabIndex = 3;
             // 
-            // Fees
+            // IfGetDate
             // 
-            this.Fees.BackColor = System.Drawing.Color.Transparent;
-            this.Fees.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Fees.ForeColor = System.Drawing.Color.White;
-            this.Fees.Location = new System.Drawing.Point(240, 15);
-            this.Fees.Name = "Fees";
-            this.Fees.Size = new System.Drawing.Size(29, 22);
-            this.Fees.TabIndex = 27;
-            this.Fees.Text = "10 $";
-            this.Fees.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.IfGetDate.BackColor = System.Drawing.Color.Transparent;
+            this.IfGetDate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IfGetDate.ForeColor = System.Drawing.Color.White;
+            this.IfGetDate.Location = new System.Drawing.Point(240, 15);
+            this.IfGetDate.Name = "IfGetDate";
+            this.IfGetDate.Size = new System.Drawing.Size(9, 22);
+            this.IfGetDate.TabIndex = 27;
+            this.IfGetDate.Text = "-";
+            this.IfGetDate.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // picrow4
+            // 
+            this.picrow4.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._3011;
+            this.picrow4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picrow4.FillColor = System.Drawing.Color.Transparent;
+            this.picrow4.ImageRotate = 0F;
+            this.picrow4.Location = new System.Drawing.Point(13, 11);
+            this.picrow4.Name = "picrow4";
+            this.picrow4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picrow4.Size = new System.Drawing.Size(30, 30);
+            this.picrow4.TabIndex = 26;
+            this.picrow4.TabStop = false;
             // 
             // lblrow4
             // 
@@ -346,9 +370,9 @@
             this.lblrow4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(169)))), ((int)(((byte)(216)))));
             this.lblrow4.Location = new System.Drawing.Point(49, 15);
             this.lblrow4.Name = "lblrow4";
-            this.lblrow4.Size = new System.Drawing.Size(33, 22);
+            this.lblrow4.Size = new System.Drawing.Size(105, 22);
             this.lblrow4.TabIndex = 25;
-            this.lblrow4.Text = "Fees";
+            this.lblrow4.Text = "Time Reached?";
             // 
             // guna2Panel4
             // 
@@ -368,10 +392,23 @@
             this.Date.ForeColor = System.Drawing.Color.White;
             this.Date.Location = new System.Drawing.Point(240, 15);
             this.Date.Name = "Date";
-            this.Date.Size = new System.Drawing.Size(85, 22);
+            this.Date.Size = new System.Drawing.Size(9, 22);
             this.Date.TabIndex = 27;
-            this.Date.Text = "15 May 1995";
+            this.Date.Text = "-";
             this.Date.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // picrow3
+            // 
+            this.picrow3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_619g1;
+            this.picrow3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picrow3.FillColor = System.Drawing.Color.Transparent;
+            this.picrow3.ImageRotate = 0F;
+            this.picrow3.Location = new System.Drawing.Point(13, 11);
+            this.picrow3.Name = "picrow3";
+            this.picrow3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picrow3.Size = new System.Drawing.Size(30, 30);
+            this.picrow3.TabIndex = 26;
+            this.picrow3.TabStop = false;
             // 
             // lblrow3
             // 
@@ -402,10 +439,23 @@
             this.Category.ForeColor = System.Drawing.Color.White;
             this.Category.Location = new System.Drawing.Point(240, 15);
             this.Category.Name = "Category";
-            this.Category.Size = new System.Drawing.Size(226, 22);
+            this.Category.Size = new System.Drawing.Size(9, 22);
             this.Category.TabIndex = 27;
-            this.Category.Text = "Class 3 - Ordinary driving license";
+            this.Category.Text = "-";
             this.Category.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // picRow2
+            // 
+            this.picRow2.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000406871f4a8297107077afca9;
+            this.picRow2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picRow2.FillColor = System.Drawing.Color.Transparent;
+            this.picRow2.ImageRotate = 0F;
+            this.picRow2.Location = new System.Drawing.Point(13, 13);
+            this.picRow2.Name = "picRow2";
+            this.picRow2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picRow2.Size = new System.Drawing.Size(30, 30);
+            this.picRow2.TabIndex = 26;
+            this.picRow2.TabStop = false;
             // 
             // lblrow2
             // 
@@ -436,9 +486,9 @@
             this.AppointementID.ForeColor = System.Drawing.Color.White;
             this.AppointementID.Location = new System.Drawing.Point(240, 15);
             this.AppointementID.Name = "AppointementID";
-            this.AppointementID.Size = new System.Drawing.Size(28, 22);
+            this.AppointementID.Size = new System.Drawing.Size(9, 22);
             this.AppointementID.TabIndex = 27;
-            this.AppointementID.Text = "564";
+            this.AppointementID.Text = "-";
             this.AppointementID.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblappid
@@ -451,6 +501,19 @@
             this.lblappid.Size = new System.Drawing.Size(112, 22);
             this.lblappid.TabIndex = 25;
             this.lblappid.Text = "Appointment ID";
+            // 
+            // picRow1
+            // 
+            this.picRow1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.d1;
+            this.picRow1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picRow1.FillColor = System.Drawing.Color.Transparent;
+            this.picRow1.ImageRotate = 0F;
+            this.picRow1.Location = new System.Drawing.Point(13, 10);
+            this.picRow1.Name = "picRow1";
+            this.picRow1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picRow1.Size = new System.Drawing.Size(30, 30);
+            this.picRow1.TabIndex = 26;
+            this.picRow1.TabStop = false;
             // 
             // guna2Panel1
             // 
@@ -470,109 +533,6 @@
             this.guna2Panel1.Size = new System.Drawing.Size(513, 91);
             this.guna2Panel1.TabIndex = 18;
             // 
-            // personalName
-            // 
-            this.personalName.BackColor = System.Drawing.Color.Transparent;
-            this.personalName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.personalName.ForeColor = System.Drawing.Color.White;
-            this.personalName.Location = new System.Drawing.Point(88, 30);
-            this.personalName.Name = "personalName";
-            this.personalName.Size = new System.Drawing.Size(161, 30);
-            this.personalName.TabIndex = 19;
-            this.personalName.Text = "mohammed alali";
-            // 
-            // picTest
-            // 
-            this.picTest.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picTest.Image = global::Drive_License_System_UI.Properties.Resources._200;
-            this.picTest.ImageRotate = 0F;
-            this.picTest.Location = new System.Drawing.Point(28, 10);
-            this.picTest.Name = "picTest";
-            this.picTest.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picTest.Size = new System.Drawing.Size(50, 50);
-            this.picTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picTest.TabIndex = 30;
-            this.picTest.TabStop = false;
-            // 
-            // Delete
-            // 
-            this.Delete.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_19_03_27_981;
-            this.Delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Delete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Delete.FillColor = System.Drawing.Color.Transparent;
-            this.Delete.ImageRotate = 0F;
-            this.Delete.Location = new System.Drawing.Point(511, 12);
-            this.Delete.Name = "Delete";
-            this.Delete.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.Delete.Size = new System.Drawing.Size(30, 39);
-            this.Delete.TabIndex = 30;
-            this.Delete.TabStop = false;
-            // 
-            // picrow4
-            // 
-            this.picrow4.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._401;
-            this.picrow4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picrow4.FillColor = System.Drawing.Color.Transparent;
-            this.picrow4.ImageRotate = 0F;
-            this.picrow4.Location = new System.Drawing.Point(13, 11);
-            this.picrow4.Name = "picrow4";
-            this.picrow4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picrow4.Size = new System.Drawing.Size(30, 30);
-            this.picrow4.TabIndex = 26;
-            this.picrow4.TabStop = false;
-            // 
-            // picrow3
-            // 
-            this.picrow3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_16_14_07_02_619g1;
-            this.picrow3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picrow3.FillColor = System.Drawing.Color.Transparent;
-            this.picrow3.ImageRotate = 0F;
-            this.picrow3.Location = new System.Drawing.Point(13, 11);
-            this.picrow3.Name = "picrow3";
-            this.picrow3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picrow3.Size = new System.Drawing.Size(30, 30);
-            this.picrow3.TabIndex = 26;
-            this.picrow3.TabStop = false;
-            // 
-            // picRow2
-            // 
-            this.picRow2.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.file_00000000406871f4a8297107077afca9;
-            this.picRow2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picRow2.FillColor = System.Drawing.Color.Transparent;
-            this.picRow2.ImageRotate = 0F;
-            this.picRow2.Location = new System.Drawing.Point(13, 13);
-            this.picRow2.Name = "picRow2";
-            this.picRow2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picRow2.Size = new System.Drawing.Size(30, 30);
-            this.picRow2.TabIndex = 26;
-            this.picRow2.TabStop = false;
-            // 
-            // picRow1
-            // 
-            this.picRow1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.d1;
-            this.picRow1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picRow1.FillColor = System.Drawing.Color.Transparent;
-            this.picRow1.ImageRotate = 0F;
-            this.picRow1.Location = new System.Drawing.Point(13, 10);
-            this.picRow1.Name = "picRow1";
-            this.picRow1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picRow1.Size = new System.Drawing.Size(30, 30);
-            this.picRow1.TabIndex = 26;
-            this.picRow1.TabStop = false;
-            // 
-            // PersonPhoto
-            // 
-            this.PersonPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PersonPhoto.Image = ((System.Drawing.Image)(resources.GetObject("PersonPhoto.Image")));
-            this.PersonPhoto.ImageRotate = 0F;
-            this.PersonPhoto.Location = new System.Drawing.Point(22, 15);
-            this.PersonPhoto.Name = "PersonPhoto";
-            this.PersonPhoto.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.PersonPhoto.Size = new System.Drawing.Size(60, 60);
-            this.PersonPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PersonPhoto.TabIndex = 29;
-            this.PersonPhoto.TabStop = false;
-            // 
             // ProgressTest
             // 
             this.ProgressTest.FillColor = System.Drawing.Color.Transparent;
@@ -591,6 +551,29 @@
             this.ProgressTest.Text = "1/3";
             this.ProgressTest.TextMode = Guna.UI2.WinForms.Enums.ProgressBarTextMode.Custom;
             // 
+            // PersonPhoto
+            // 
+            this.PersonPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PersonPhoto.ImageRotate = 0F;
+            this.PersonPhoto.Location = new System.Drawing.Point(22, 15);
+            this.PersonPhoto.Name = "PersonPhoto";
+            this.PersonPhoto.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.PersonPhoto.Size = new System.Drawing.Size(60, 60);
+            this.PersonPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PersonPhoto.TabIndex = 29;
+            this.PersonPhoto.TabStop = false;
+            // 
+            // personalName
+            // 
+            this.personalName.BackColor = System.Drawing.Color.Transparent;
+            this.personalName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.personalName.ForeColor = System.Drawing.Color.White;
+            this.personalName.Location = new System.Drawing.Point(88, 30);
+            this.personalName.Name = "personalName";
+            this.personalName.Size = new System.Drawing.Size(11, 30);
+            this.personalName.TabIndex = 19;
+            this.personalName.Text = "-";
+            // 
             // us_TakeTast
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -602,69 +585,66 @@
             this.Load += new System.EventHandler(this.us_TakeTast_Load);
             this.pnlfull.ResumeLayout(false);
             this.pnlfull.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTestType)).EndInit();
             this.guna2Panel8.ResumeLayout(false);
-            this.guna2Panel7.ResumeLayout(false);
+            this.btnNon.ResumeLayout(false);
             this.pnlpersoninforow.ResumeLayout(false);
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picrow4)).EndInit();
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picrow3)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picRow2)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picRow1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picTest)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Delete)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picrow4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picrow3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRow2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRow1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PersonPhoto)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Panel pnlfull;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox Delete;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
         private Guna.UI2.WinForms.Guna2HtmlLabel contactslbl;
         private Guna.UI2.WinForms.Guna2Panel line;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
+        private Guna.UI2.WinForms.Guna2Panel btnNon;
         private Guna.UI2.WinForms.Guna2Panel pnlpersoninforow;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel Fees;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picrow4;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblrow4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel Date;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picrow3;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblrow3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel Category;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picRow1;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblrow2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel AppointementID;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picRow2;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblappid;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox picTest;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox PersonPhoto;
-        private Guna.UI2.WinForms.Guna2HtmlLabel personalName;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2Button save;
-        private Guna.UI2.WinForms.Guna2Button btnFill;
-        private Guna.UI2.WinForms.Guna2Button btnPass;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
-        private Guna.UI2.WinForms.Guna2TextBox Note;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar ProgressTest;
+        public Guna.UI2.WinForms.Guna2HtmlLabel Category;
+        public Guna.UI2.WinForms.Guna2HtmlLabel AppointementID;
+        public Guna.UI2.WinForms.Guna2CirclePictureBox PersonPhoto;
+        public Guna.UI2.WinForms.Guna2HtmlLabel personalName;
+        public Guna.UI2.WinForms.Guna2HtmlLabel IfGetDate;
+        public Guna.UI2.WinForms.Guna2HtmlLabel Date;
+        public Guna.UI2.WinForms.Guna2HtmlLabel TestTybe;
+        public Guna.UI2.WinForms.Guna2CirclePictureBox picTestType;
+        public Guna.UI2.WinForms.Guna2Panel pnlfull;
+        public Guna.UI2.WinForms.Guna2CircleProgressBar ProgressTest;
+        public Guna.UI2.WinForms.Guna2TextBox Note;
+        public Guna.UI2.WinForms.Guna2Button btnFill;
+        public Guna.UI2.WinForms.Guna2Button btnPass;
     }
 }

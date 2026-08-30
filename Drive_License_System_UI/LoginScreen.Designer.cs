@@ -108,6 +108,7 @@
             this.passwordtextbox.SelectedText = "";
             this.passwordtextbox.Size = new System.Drawing.Size(497, 50);
             this.passwordtextbox.TabIndex = 5;
+            this.passwordtextbox.UseSystemPasswordChar = true;
             this.passwordtextbox.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
             // usernametextbox
@@ -152,6 +153,7 @@
             this.rememberMe_cheack.UncheckedState.BorderRadius = 2;
             this.rememberMe_cheack.UncheckedState.BorderThickness = 0;
             this.rememberMe_cheack.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.rememberMe_cheack.Click += new System.EventHandler(this.rememberMe_cheack_Click);
             // 
             // moretext
             // 
@@ -169,6 +171,7 @@
             this.moretext.TabIndex = 9;
             this.moretext.TabStop = true;
             this.moretext.Text = "more";
+            this.moretext.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.moretext_LinkClicked);
             // 
             // picLoginPhoto
             // 
@@ -219,10 +222,10 @@
         private Guna.UI2.WinForms.Guna2PictureBox picLoginPhoto;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm2;
         private Guna.UI2.WinForms.Guna2GradientButton btnLogin;
-        private Guna.UI2.WinForms.Guna2TextBox passwordtextbox;
-        private Guna.UI2.WinForms.Guna2TextBox usernametextbox;
         private Guna.UI2.WinForms.Guna2CustomCheckBox rememberMe_cheack;
         private System.Windows.Forms.LinkLabel moretext;
+        public Guna.UI2.WinForms.Guna2TextBox passwordtextbox;
+        public Guna.UI2.WinForms.Guna2TextBox usernametextbox;
     }
 }
 

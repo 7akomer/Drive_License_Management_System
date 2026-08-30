@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Driver_License_System__Models;
+using Driver_License_System_BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,9 +19,36 @@ namespace Drive_License_System_UI
             InitializeComponent();
         }
 
+        public Action ExitLicenseInformationCard;
+        public Action HeldLicense;
+        public Action RenewalLicense;
+
         private void pnlfull_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+
+
+
+        private void us_LicenseInformationCard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CirclePictureBox5_Click(object sender, EventArgs e)
+        {
+            ExitLicenseInformationCard.Invoke();
+        }
+
+        private void btnHeld_Click(object sender, EventArgs e)
+        {
+            HeldLicense.Invoke();
+        }
+
+        private void btnRenewal_Click(object sender, EventArgs e)
+        {
+            RenewalLicense.Invoke();
         }
     }
 }

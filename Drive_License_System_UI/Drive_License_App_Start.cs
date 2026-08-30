@@ -1,4 +1,6 @@
-﻿using Guna.UI2.WinForms;
+﻿using Driver_License_System__Models;
+using Driver_License_System_BLL;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,6 +28,25 @@ namespace Drive_License_System_UI
             btnRenewals.PerformClick();
         }
 
+        public void OverirGestionPermisClickBtnApplication()
+        {
+            btnApplications.PerformClick();
+        }
+
+
+        public void OverirGestionPermisClickBtnExam()
+        {
+            btnExaminations.PerformClick();
+        }
+
+        public void OverirGestionPermisClickBtnServices_Exam()
+        {
+            btnServiceandExam.PerformClick();
+        }
+
+
+
+
         public void OverirGestionPermisClickBtnDetainLicense()
         {
             btnDetain.PerformClick();
@@ -41,6 +62,21 @@ namespace Drive_License_System_UI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            UserPhoto.Image = Image.FromFile(CurrentUserLogin.CurrentUserPhoto);
+            lblUserName.Text = CurrentUserLogin.CurrentUserName;
+            if (CurrentUserLogin.IsSuperAdmin)
+            {
+                lblUserRole.Text = "Super Admin";
+
+                    }
+            else
+            {
+                lblUserRole.Text = "Standard User";
+
+            }
+
+            
+
 
 
             //MessageBox.Show(pnlMainContent.Size.ToString());
@@ -264,17 +300,22 @@ namespace Drive_License_System_UI
             }
         }
 
+
+        Us_Settings Screen;
+
         private void btnSettings_Click(object sender, EventArgs e)
         {
             if (CerrentPage != enPageName.Settings)
             {
-                Us_Settings Screen = new Us_Settings();
+                 Screen = new Us_Settings();
                 pnlMainContent.Controls.Clear();
                 Screen.Dock = DockStyle.Fill;
                 pnlMainContent.Controls.Add(Screen);
                 CerrentPage = enPageName.Settings;
+                
             }
         }
+
 
         private void pnlLogo_Paint(object sender, PaintEventArgs e)
         {
@@ -347,5 +388,41 @@ namespace Drive_License_System_UI
         {
 
         }
+
+        private void Drive_License_App_Start_Shown(object sender, EventArgs e)
+        {
+
+         
+
+
+                notifyIcon1.ShowBalloonTip(7000, "Data Updated", "The latest data has been successfully loaded and is now up to date.", ToolTipIcon.Info);
+         
+        }
+
+        private void btnMoreInformation_Click(object sender, EventArgs e)
+        {
+            btnUsers.PerformClick();
+        }
+
+        private void btnChangepassword_Click(object sender, EventArgs e)
+        {
+            btnSettings.PerformClick();
+
+            Screen.OverirGestionPermisClickBtnChangePassword();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+
+            DialogResult result = MessageBox.Show("Are you sure you want to log out ?", "Confirmation logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+
+            }
+
+        public event Action LogoutClick;
     }
 }

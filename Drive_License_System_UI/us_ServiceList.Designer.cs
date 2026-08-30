@@ -49,6 +49,7 @@
             this.pnlServiceList.Padding = new System.Windows.Forms.Padding(8);
             this.pnlServiceList.Size = new System.Drawing.Size(872, 462);
             this.pnlServiceList.TabIndex = 9;
+            this.pnlServiceList.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlServiceList_Paint_1);
             // 
             // btnRetakeTest
             // 
@@ -138,13 +139,13 @@
             this.btnNewLocalLicense.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnNewLocalLicense.Click += new System.EventHandler(this.btnNewLocalLicense_Click);
             // 
-            // us_ServiceLicet
+            // us_ServiceList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.pnlServiceList);
-            this.Name = "us_ServiceLicet";
+            this.Name = "us_ServiceList";
             this.Size = new System.Drawing.Size(872, 462);
             this.pnlServiceList.ResumeLayout(false);
             this.ResumeLayout(false);

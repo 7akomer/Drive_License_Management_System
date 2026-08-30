@@ -34,40 +34,41 @@
             this.pnlList_Of_Held = new Guna.UI2.WinForms.Guna2Panel();
             this.lblListofHeldLicenses = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlManage_Application = new Guna.UI2.WinForms.Guna2Panel();
             this.lblApplicationManagement = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlIconLicenseIssued = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.picIconLicenseIssued = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlRelease_License = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblReleaselicense = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblRenewalsLicense = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnliconQuickActionCollectP = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pnlService_List = new Guna.UI2.WinForms.Guna2Panel();
             this.lblServiceList = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlIconQuickNewA = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.pnlHeader = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblSubtitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picIconLicenseIssued = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.picIconQuickNewA = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pnlHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.btnGoBack = new Guna.UI2.WinForms.Guna2Button();
+            this.lblSubtitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.picApplication = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pnlApplicationCenter.SuspendLayout();
             this.pnlOrderCard.SuspendLayout();
             this.pnlApplicationCenterChoise.SuspendLayout();
             this.pnlList_Of_Held.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.pnlManage_Application.SuspendLayout();
             this.pnlIconLicenseIssued.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picIconLicenseIssued)).BeginInit();
             this.pnlRelease_License.SuspendLayout();
             this.pnliconQuickActionCollectP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.pnlService_List.SuspendLayout();
             this.pnlIconQuickNewA.SuspendLayout();
-            this.pnlHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picIconLicenseIssued)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picIconQuickNewA)).BeginInit();
+            this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picApplication)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,15 +93,16 @@
             // 
             this.pnlOrderCard.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlOrderCard.BackColor = System.Drawing.Color.Transparent;
-            this.pnlOrderCard.BorderColor = System.Drawing.Color.Navy;
+            this.pnlOrderCard.BorderColor = System.Drawing.Color.AliceBlue;
             this.pnlOrderCard.BorderRadius = 14;
             this.pnlOrderCard.BorderThickness = 2;
+            this.pnlOrderCard.Controls.Add(this.guna2GradientPanel2);
             this.pnlOrderCard.Controls.Add(this.pnlApplicationCenterChoise);
             this.pnlOrderCard.Controls.Add(this.pnlHeader);
-            this.pnlOrderCard.Location = new System.Drawing.Point(123, 117);
+            this.pnlOrderCard.Location = new System.Drawing.Point(154, 146);
             this.pnlOrderCard.Margin = new System.Windows.Forms.Padding(4);
             this.pnlOrderCard.Name = "pnlOrderCard";
-            this.pnlOrderCard.Size = new System.Drawing.Size(872, 582);
+            this.pnlOrderCard.Size = new System.Drawing.Size(929, 728);
             this.pnlOrderCard.TabIndex = 7;
             this.pnlOrderCard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlOrderCard_Paint);
             // 
@@ -111,7 +113,7 @@
             this.pnlApplicationCenterChoise.Controls.Add(this.pnlManage_Application);
             this.pnlApplicationCenterChoise.Controls.Add(this.pnlRelease_License);
             this.pnlApplicationCenterChoise.Controls.Add(this.pnlService_List);
-            this.pnlApplicationCenterChoise.Location = new System.Drawing.Point(0, 121);
+            this.pnlApplicationCenterChoise.Location = new System.Drawing.Point(23, 162);
             this.pnlApplicationCenterChoise.Margin = new System.Windows.Forms.Padding(4);
             this.pnlApplicationCenterChoise.Name = "pnlApplicationCenterChoise";
             this.pnlApplicationCenterChoise.Padding = new System.Windows.Forms.Padding(8);
@@ -162,6 +164,19 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(53, 51);
             this.guna2GradientPanel1.TabIndex = 9;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.m;
+            this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(53, 51);
+            this.guna2PictureBox1.TabIndex = 4;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // pnlManage_Application
             // 
             this.pnlManage_Application.BorderColor = System.Drawing.Color.Indigo;
@@ -205,12 +220,24 @@
             this.pnlIconLicenseIssued.Size = new System.Drawing.Size(54, 51);
             this.pnlIconLicenseIssued.TabIndex = 8;
             // 
+            // picIconLicenseIssued
+            // 
+            this.picIconLicenseIssued.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.c;
+            this.picIconLicenseIssued.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picIconLicenseIssued.FillColor = System.Drawing.Color.Transparent;
+            this.picIconLicenseIssued.ImageRotate = 0F;
+            this.picIconLicenseIssued.Location = new System.Drawing.Point(1, 5);
+            this.picIconLicenseIssued.Name = "picIconLicenseIssued";
+            this.picIconLicenseIssued.Size = new System.Drawing.Size(50, 42);
+            this.picIconLicenseIssued.TabIndex = 3;
+            this.picIconLicenseIssued.TabStop = false;
+            // 
             // pnlRelease_License
             // 
             this.pnlRelease_License.BorderColor = System.Drawing.Color.Green;
             this.pnlRelease_License.BorderRadius = 14;
             this.pnlRelease_License.BorderThickness = 1;
-            this.pnlRelease_License.Controls.Add(this.lblReleaselicense);
+            this.pnlRelease_License.Controls.Add(this.lblRenewalsLicense);
             this.pnlRelease_License.Controls.Add(this.pnliconQuickActionCollectP);
             this.pnlRelease_License.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pnlRelease_License.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
@@ -224,18 +251,18 @@
             this.pnlRelease_License.MouseEnter += new System.EventHandler(this.lblRelease_License_MouseEnter);
             this.pnlRelease_License.MouseLeave += new System.EventHandler(this.lblRelease_License_MouseLeave);
             // 
-            // lblReleaselicense
+            // lblRenewalsLicense
             // 
-            this.lblReleaselicense.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblReleaselicense.BackColor = System.Drawing.Color.Transparent;
-            this.lblReleaselicense.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReleaselicense.ForeColor = System.Drawing.Color.White;
-            this.lblReleaselicense.Location = new System.Drawing.Point(88, 66);
-            this.lblReleaselicense.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lblReleaselicense.Name = "lblReleaselicense";
-            this.lblReleaselicense.Size = new System.Drawing.Size(182, 38);
-            this.lblReleaselicense.TabIndex = 9;
-            this.lblReleaselicense.Text = "Release license";
+            this.lblRenewalsLicense.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRenewalsLicense.BackColor = System.Drawing.Color.Transparent;
+            this.lblRenewalsLicense.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRenewalsLicense.ForeColor = System.Drawing.Color.White;
+            this.lblRenewalsLicense.Location = new System.Drawing.Point(88, 66);
+            this.lblRenewalsLicense.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblRenewalsLicense.Name = "lblRenewalsLicense";
+            this.lblRenewalsLicense.Size = new System.Drawing.Size(117, 38);
+            this.lblRenewalsLicense.TabIndex = 9;
+            this.lblRenewalsLicense.Text = "Renewals";
             // 
             // pnliconQuickActionCollectP
             // 
@@ -247,6 +274,19 @@
             this.pnliconQuickActionCollectP.Name = "pnliconQuickActionCollectP";
             this.pnliconQuickActionCollectP.Size = new System.Drawing.Size(53, 51);
             this.pnliconQuickActionCollectP.TabIndex = 9;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.Picsart_26_06_02_01_55_32_5654;
+            this.guna2PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(53, 51);
+            this.guna2PictureBox2.TabIndex = 4;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // pnlService_List
             // 
@@ -291,86 +331,6 @@
             this.pnlIconQuickNewA.Size = new System.Drawing.Size(47, 47);
             this.pnlIconQuickNewA.TabIndex = 7;
             // 
-            // pnlHeader
-            // 
-            this.pnlHeader.BackColor = System.Drawing.Color.Transparent;
-            this.pnlHeader.Controls.Add(this.btnGoBack);
-            this.pnlHeader.Controls.Add(this.lblSubtitle);
-            this.pnlHeader.Controls.Add(this.picApplication);
-            this.pnlHeader.Controls.Add(this.lblTitle);
-            this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
-            this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(872, 125);
-            this.pnlHeader.TabIndex = 6;
-            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
-            this.pnlHeader.Resize += new System.EventHandler(this.pnlHeader_Resize);
-            // 
-            // lblSubtitle
-            // 
-            this.lblSubtitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblSubtitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblSubtitle.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
-            this.lblSubtitle.Location = new System.Drawing.Point(292, 89);
-            this.lblSubtitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lblSubtitle.Name = "lblSubtitle";
-            this.lblSubtitle.Size = new System.Drawing.Size(295, 22);
-            this.lblSubtitle.TabIndex = 2;
-            this.lblSubtitle.Text = "View,process,and track license applications";
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(325, 50);
-            this.lblTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(240, 38);
-            this.lblTitle.TabIndex = 1;
-            this.lblTitle.Text = "Applications Center";
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.m;
-            this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(53, 51);
-            this.guna2PictureBox1.TabIndex = 4;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // picIconLicenseIssued
-            // 
-            this.picIconLicenseIssued.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.c;
-            this.picIconLicenseIssued.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picIconLicenseIssued.FillColor = System.Drawing.Color.Transparent;
-            this.picIconLicenseIssued.ImageRotate = 0F;
-            this.picIconLicenseIssued.Location = new System.Drawing.Point(1, 5);
-            this.picIconLicenseIssued.Name = "picIconLicenseIssued";
-            this.picIconLicenseIssued.Size = new System.Drawing.Size(50, 42);
-            this.picIconLicenseIssued.TabIndex = 3;
-            this.picIconLicenseIssued.TabStop = false;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackgroundImage = global::Drive_License_System_UI.Properties.Resources.b;
-            this.guna2PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(53, 51);
-            this.guna2PictureBox2.TabIndex = 4;
-            this.guna2PictureBox2.TabStop = false;
-            // 
             // picIconQuickNewA
             // 
             this.picIconQuickNewA.BackColor = System.Drawing.Color.Transparent;
@@ -385,6 +345,22 @@
             this.picIconQuickNewA.Size = new System.Drawing.Size(47, 47);
             this.picIconQuickNewA.TabIndex = 4;
             this.picIconQuickNewA.TabStop = false;
+            // 
+            // pnlHeader
+            // 
+            this.pnlHeader.BackColor = System.Drawing.Color.Transparent;
+            this.pnlHeader.Controls.Add(this.btnGoBack);
+            this.pnlHeader.Controls.Add(this.lblSubtitle);
+            this.pnlHeader.Controls.Add(this.picApplication);
+            this.pnlHeader.Controls.Add(this.lblTitle);
+            this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(929, 156);
+            this.pnlHeader.TabIndex = 6;
+            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
+            this.pnlHeader.Resize += new System.EventHandler(this.pnlHeader_Resize);
             // 
             // btnGoBack
             // 
@@ -405,6 +381,19 @@
             this.btnGoBack.Visible = false;
             this.btnGoBack.Click += new System.EventHandler(this.btnGoBack_Click);
             // 
+            // lblSubtitle
+            // 
+            this.lblSubtitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblSubtitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblSubtitle.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
+            this.lblSubtitle.Location = new System.Drawing.Point(311, 105);
+            this.lblSubtitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblSubtitle.Name = "lblSubtitle";
+            this.lblSubtitle.Size = new System.Drawing.Size(295, 22);
+            this.lblSubtitle.TabIndex = 2;
+            this.lblSubtitle.Text = "View,process,and track license applications";
+            // 
             // picApplication
             // 
             this.picApplication.BackColor = System.Drawing.Color.Transparent;
@@ -413,7 +402,7 @@
             this.picApplication.BorderRadius = 11;
             this.picApplication.FillColor = System.Drawing.Color.Transparent;
             this.picApplication.ImageRotate = 0F;
-            this.picApplication.Location = new System.Drawing.Point(405, 14);
+            this.picApplication.Location = new System.Drawing.Point(426, 14);
             this.picApplication.Margin = new System.Windows.Forms.Padding(4);
             this.picApplication.Name = "picApplication";
             this.picApplication.Size = new System.Drawing.Size(65, 47);
@@ -421,6 +410,29 @@
             this.picApplication.TabStop = false;
             this.picApplication.UseWaitCursor = true;
             this.picApplication.Click += new System.EventHandler(this.picApplication_Click);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(344, 66);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(240, 38);
+            this.lblTitle.TabIndex = 1;
+            this.lblTitle.Text = "Applications Center";
+            // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BorderRadius = 2;
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(148, 697);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(630, 4);
+            this.guna2GradientPanel2.TabIndex = 9;
             // 
             // Us_Applications
             // 
@@ -437,21 +449,21 @@
             this.pnlList_Of_Held.ResumeLayout(false);
             this.pnlList_Of_Held.PerformLayout();
             this.guna2GradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.pnlManage_Application.ResumeLayout(false);
             this.pnlManage_Application.PerformLayout();
             this.pnlIconLicenseIssued.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picIconLicenseIssued)).EndInit();
             this.pnlRelease_License.ResumeLayout(false);
             this.pnlRelease_License.PerformLayout();
             this.pnliconQuickActionCollectP.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.pnlService_List.ResumeLayout(false);
             this.pnlService_List.PerformLayout();
             this.pnlIconQuickNewA.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picIconQuickNewA)).EndInit();
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picIconLicenseIssued)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picIconQuickNewA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picApplication)).EndInit();
             this.ResumeLayout(false);
 
@@ -481,7 +493,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblServiceList;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblApplicationManagement;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblListofHeldLicenses;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblReleaselicense;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblRenewalsLicense;
         private Guna.UI2.WinForms.Guna2Button btnGoBack;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
     }
 }

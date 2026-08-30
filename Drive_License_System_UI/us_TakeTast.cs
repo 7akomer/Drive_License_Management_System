@@ -17,6 +17,7 @@ namespace Drive_License_System_UI
             InitializeComponent();
         }
 
+        public event Action BtnSaveClick;
         private void pnlfull_Paint(object sender, PaintEventArgs e)
         {
 
@@ -38,6 +39,24 @@ namespace Drive_License_System_UI
         private void us_TakeTast_Load(object sender, EventArgs e)
         {
             ProgressTest.Value   = 84;
+        }
+
+
+
+
+        private void btnPass_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFill_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+            BtnSaveClick.Invoke();
         }
     }
 }

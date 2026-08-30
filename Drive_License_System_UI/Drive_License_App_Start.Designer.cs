@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Drive_License_App_Start));
             this.pnlSiderbar = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pnlNavLinks = new System.Windows.Forms.FlowLayoutPanel();
@@ -58,7 +59,7 @@
             this.pnltop = new Guna.UI2.WinForms.Guna2Panel();
             this.pnluserInfo = new Guna.UI2.WinForms.Guna2Panel();
             this.btnFullUserInformation = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.UserPhoto = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblUserName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblUserRole = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlLine = new Guna.UI2.WinForms.Guna2Panel();
@@ -67,6 +68,7 @@
             this.btnChangepassword = new Guna.UI2.WinForms.Guna2Button();
             this.btnMoreInformation = new Guna.UI2.WinForms.Guna2Button();
             this.pnlMainContent = new Guna.UI2.WinForms.Guna2Panel();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.pnlSiderbar.SuspendLayout();
             this.pnlNavLinks.SuspendLayout();
             this.pnlLogo.SuspendLayout();
@@ -75,7 +77,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.pnltop.SuspendLayout();
             this.pnluserInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UserPhoto)).BeginInit();
             this.pnlFullUserInformation.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -623,7 +625,7 @@
             // 
             this.pnluserInfo.BorderColor = System.Drawing.Color.Transparent;
             this.pnluserInfo.Controls.Add(this.btnFullUserInformation);
-            this.pnluserInfo.Controls.Add(this.guna2CirclePictureBox1);
+            this.pnluserInfo.Controls.Add(this.UserPhoto);
             this.pnluserInfo.Controls.Add(this.lblUserName);
             this.pnluserInfo.Controls.Add(this.lblUserRole);
             this.pnluserInfo.Controls.Add(this.pnlLine);
@@ -657,18 +659,17 @@
             this.btnFullUserInformation.TabIndex = 0;
             this.btnFullUserInformation.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2CirclePictureBox1
+            // UserPhoto
             // 
-            this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(14, 13);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(57, 47);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 4;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.UserPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.UserPhoto.ImageRotate = 0F;
+            this.UserPhoto.Location = new System.Drawing.Point(14, 13);
+            this.UserPhoto.Name = "UserPhoto";
+            this.UserPhoto.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.UserPhoto.Size = new System.Drawing.Size(45, 46);
+            this.UserPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.UserPhoto.TabIndex = 4;
+            this.UserPhoto.TabStop = false;
             // 
             // lblUserName
             // 
@@ -677,9 +678,9 @@
             this.lblUserName.ForeColor = System.Drawing.Color.White;
             this.lblUserName.Location = new System.Drawing.Point(77, 17);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(86, 22);
+            this.lblUserName.Size = new System.Drawing.Size(9, 22);
             this.lblUserName.TabIndex = 5;
-            this.lblUserName.Text = "Admin User";
+            this.lblUserName.Text = "-";
             this.lblUserName.Click += new System.EventHandler(this.lblUserName_Click);
             // 
             // lblUserRole
@@ -689,9 +690,9 @@
             this.lblUserRole.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
             this.lblUserRole.Location = new System.Drawing.Point(77, 37);
             this.lblUserRole.Name = "lblUserRole";
-            this.lblUserRole.Size = new System.Drawing.Size(129, 21);
+            this.lblUserRole.Size = new System.Drawing.Size(9, 21);
             this.lblUserRole.TabIndex = 6;
-            this.lblUserRole.Text = "Super Administrator";
+            this.lblUserRole.Text = "-";
             this.lblUserRole.Click += new System.EventHandler(this.lblUserRole_Click);
             // 
             // pnlLine
@@ -737,6 +738,7 @@
             this.btnLogout.TabIndex = 2;
             this.btnLogout.Text = "Log out";
             this.btnLogout.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnChangepassword
             // 
@@ -758,6 +760,7 @@
             this.btnChangepassword.TabIndex = 1;
             this.btnChangepassword.Text = "Change password";
             this.btnChangepassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnChangepassword.Click += new System.EventHandler(this.btnChangepassword_Click);
             // 
             // btnMoreInformation
             // 
@@ -779,6 +782,7 @@
             this.btnMoreInformation.TabIndex = 0;
             this.btnMoreInformation.Text = "More information";
             this.btnMoreInformation.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnMoreInformation.Click += new System.EventHandler(this.btnMoreInformation_Click);
             // 
             // pnlMainContent
             // 
@@ -793,6 +797,12 @@
             this.pnlMainContent.Size = new System.Drawing.Size(1561, 885);
             this.pnlMainContent.TabIndex = 29;
             this.pnlMainContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMainContent_Paint_1);
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
             // 
             // Drive_License_App_Start
             // 
@@ -812,6 +822,7 @@
             this.Text = "DVLD - Dashboard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.Drive_License_App_Start_Shown);
             this.pnlSiderbar.ResumeLayout(false);
             this.pnlNavLinks.ResumeLayout(false);
             this.pnlNavLinks.PerformLayout();
@@ -823,7 +834,7 @@
             this.pnltop.ResumeLayout(false);
             this.pnluserInfo.ResumeLayout(false);
             this.pnluserInfo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UserPhoto)).EndInit();
             this.pnlFullUserInformation.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -856,9 +867,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel pnltop;
         private Guna.UI2.WinForms.Guna2Panel pnlLine;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblUserRole;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblUserName;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2Panel pnluserInfo;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private System.Windows.Forms.FlowLayoutPanel pnlNavLinks;
@@ -869,5 +877,9 @@
         private Guna.UI2.WinForms.Guna2Button btnMoreInformation;
         private Guna.UI2.WinForms.Guna2Button btnLogout;
         private Guna.UI2.WinForms.Guna2Button btnChangepassword;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        public Guna.UI2.WinForms.Guna2HtmlLabel lblUserRole;
+        public Guna.UI2.WinForms.Guna2HtmlLabel lblUserName;
+        public Guna.UI2.WinForms.Guna2CirclePictureBox UserPhoto;
     }
 }

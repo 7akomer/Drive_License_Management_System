@@ -85,6 +85,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="us_LicenseDetainCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_LicenseDetainCard.Designer.cs">
+      <DependentUpon>us_LicenseDetainCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="us__EditPersonalInformation.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -305,6 +311,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="us_LicenseDetainCard.resx">
+      <DependentUpon>us_LicenseDetainCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="us_RetakTest.resx">
       <DependentUpon>us_RetakTest.cs</DependentUpon>
     </EmbeddedResource>
@@ -951,6 +960,40 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Driver_License_System_BLL\Driver_License_System_BLL.csproj">
+      <Project>{6e98df81-7260-4751-ae05-d5e5471e97b1}</Project>
+      <Name>Driver_License_System_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Driver_License_System__Models\Driver_License_System__Models.csproj">
+      <Project>{8ddfd9e2-c5fd-4b2e-b498-97141f90a6d3}</Project>
+      <Name>Driver_License_System__Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2b9b5b94-bf19-4aea-880b-195c9e6d812a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-6194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-02_01-55-32-5654.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000406871f4a8297107077afca93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
