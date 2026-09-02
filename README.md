@@ -67,6 +67,11 @@ The demo above walks through the sign-in screen, the live dashboard, license rec
 2. Copy the `PersonPhotos` folder into the build output directory (next to the compiled `.exe`) so person photos resolve correctly
 3. Update the connection string in `DAL.Shared`
 4. Build and run `Drive_License_System_UI` in Visual Studio
+5. Sign in with a full-access account to explore every module:
+
+   ```
+   Username: Tashi_Wa
+   Password: TashiTashi1999
 
 ## Author
 
