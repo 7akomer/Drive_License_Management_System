@@ -367,12 +367,12 @@ where users.userName = @userName";
             }
 
             finally { connection.Close(); }
-
+                
             return user;
 
         }
 
-
+        //
 
         public bool Authenticate_user(string userName, string password)
         {
