@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
@@ -50,7 +53,9 @@
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
@@ -75,12 +80,6 @@
     <Compile Include="Drive_License_App_Start.Designer.cs">
       <DependentUpon>Drive_License_App_Start.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,23 +88,149 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="us_LicenseDetainCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_LicenseDetainCard.Designer.cs">
+      <DependentUpon>us_LicenseDetainCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us__EditPersonalInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us__EditPersonalInformation.Designer.cs">
+      <DependentUpon>us__EditPersonalInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_RetakTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_RetakTest.Designer.cs">
+      <DependentUpon>us_RetakTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_Replacement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_Replacement.Designer.cs">
+      <DependentUpon>us_Replacement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_NewInternationalLicense.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_NewInternationalLicense.Designer.cs">
+      <DependentUpon>us_NewInternationalLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_NewLocalLicense.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_NewLocalLicense.Designer.cs">
+      <DependentUpon>us_NewLocalLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_ServiceList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_ServiceList.Designer.cs">
+      <DependentUpon>us_ServiceList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_ManageAppInApplicationSenter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_ManageAppInApplicationSenter.Designer.cs">
+      <DependentUpon>us_ManageAppInApplicationSenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_Help.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_Help.Designer.cs">
+      <DependentUpon>us_Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_Notification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_Notification.Designer.cs">
+      <DependentUpon>us_Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_AboutSystem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_AboutSystem.Designer.cs">
+      <DependentUpon>us_AboutSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_Security.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_Security.Designer.cs">
+      <DependentUpon>us_Security.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_Update.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_Update.Designer.cs">
+      <DependentUpon>us_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_DevloperInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_DevloperInfo.Designer.cs">
+      <DependentUpon>us_DevloperInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_HistoryCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_HistoryCard.Designer.cs">
+      <DependentUpon>us_HistoryCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_DriverInformationCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_DriverInformationCard.Designer.cs">
+      <DependentUpon>us_DriverInformationCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_TakeTast.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_TakeTast.Designer.cs">
+      <DependentUpon>us_TakeTast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_LicenseInformationCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_LicenseInformationCard.Designer.cs">
+      <DependentUpon>us_LicenseInformationCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_PersonInformationCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_PersonInformationCard.Designer.cs">
+      <DependentUpon>us_PersonInformationCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_Optimised_Table.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_Optimised_Table.Designer.cs">
+      <DependentUpon>us_Optimised_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="us_LocalLicenses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="us_LocalLicenses.Designer.cs">
+      <DependentUpon>us_LocalLicenses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Us_Applications.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Us_Applications.Designer.cs">
       <DependentUpon>Us_Applications.cs</DependentUpon>
     </Compile>
-    <Compile Include="Us_Offices.cs">
+    <Compile Include="Us_Services_Exam.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Us_Offices.Designer.cs">
-      <DependentUpon>Us_Offices.cs</DependentUpon>
+    <Compile Include="Us_Services_Exam.Designer.cs">
+      <DependentUpon>Us_Services_Exam.cs</DependentUpon>
     </Compile>
-    <Compile Include="Us_Audit_Logs.cs">
+    <Compile Include="Us_History.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Us_Audit_Logs.Designer.cs">
-      <DependentUpon>Us_Audit_Logs.cs</DependentUpon>
+    <Compile Include="Us_History.Designer.cs">
+      <DependentUpon>Us_History.cs</DependentUpon>
     </Compile>
     <Compile Include="Us_Settings.cs">
       <SubType>UserControl</SubType>
@@ -131,11 +256,11 @@
     <Compile Include="Us_Examinations.Designer.cs">
       <DependentUpon>Us_Examinations.cs</DependentUpon>
     </Compile>
-    <Compile Include="Us_Payments.cs">
+    <Compile Include="Us_LicenseDetain.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Us_Payments.Designer.cs">
-      <DependentUpon>Us_Payments.cs</DependentUpon>
+    <Compile Include="Us_LicenseDetain.Designer.cs">
+      <DependentUpon>Us_LicenseDetain.cs</DependentUpon>
     </Compile>
     <Compile Include="Us_Print_Delivery.cs">
       <SubType>UserControl</SubType>
@@ -143,11 +268,11 @@
     <Compile Include="Us_Print_Delivery.Designer.cs">
       <DependentUpon>Us_Print_Delivery.cs</DependentUpon>
     </Compile>
-    <Compile Include="Us_Roles_Permissions.cs">
+    <Compile Include="Us_Persens.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Us_Roles_Permissions.Designer.cs">
-      <DependentUpon>Us_Roles_Permissions.cs</DependentUpon>
+    <Compile Include="Us_Persens.Designer.cs">
+      <DependentUpon>Us_Persens.cs</DependentUpon>
     </Compile>
     <Compile Include="Us_Drivers.cs">
       <SubType>UserControl</SubType>
@@ -176,9 +301,6 @@
     <EmbeddedResource Include="Drive_License_App_Start.resx">
       <DependentUpon>Drive_License_App_Start.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,11 +314,71 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="us_LicenseDetainCard.resx">
+      <DependentUpon>us_LicenseDetainCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_RetakTest.resx">
+      <DependentUpon>us_RetakTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_Replacement.resx">
+      <DependentUpon>us_Replacement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_NewInternationalLicense.resx">
+      <DependentUpon>us_NewInternationalLicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_NewLocalLicense.resx">
+      <DependentUpon>us_NewLocalLicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_ServiceList.resx">
+      <DependentUpon>us_ServiceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_ManageAppInApplicationSenter.resx">
+      <DependentUpon>us_ManageAppInApplicationSenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_Help.resx">
+      <DependentUpon>us_Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_Notification.resx">
+      <DependentUpon>us_Notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_AboutSystem.resx">
+      <DependentUpon>us_AboutSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_Security.resx">
+      <DependentUpon>us_Security.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_Update.resx">
+      <DependentUpon>us_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_DevloperInfo.resx">
+      <DependentUpon>us_DevloperInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_HistoryCard.resx">
+      <DependentUpon>us_HistoryCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_DriverInformationCard.resx">
+      <DependentUpon>us_DriverInformationCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_TakeTast.resx">
+      <DependentUpon>us_TakeTast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_LicenseInformationCard.resx">
+      <DependentUpon>us_LicenseInformationCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_PersonInformationCard.resx">
+      <DependentUpon>us_PersonInformationCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_Optimised_Table.resx">
+      <DependentUpon>us_Optimised_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="us_LocalLicenses.resx">
+      <DependentUpon>us_LocalLicenses.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Us_Applications.resx">
       <DependentUpon>Us_Applications.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Us_Audit_Logs.resx">
-      <DependentUpon>Us_Audit_Logs.cs</DependentUpon>
+    <EmbeddedResource Include="Us_History.resx">
+      <DependentUpon>Us_History.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Us_Drivers.resx">
       <DependentUpon>Us_Drivers.cs</DependentUpon>
@@ -213,11 +395,11 @@
     <EmbeddedResource Include="Us_License_Categories.resx">
       <DependentUpon>Us_License_Categories.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Us_Offices.resx">
-      <DependentUpon>Us_Offices.cs</DependentUpon>
+    <EmbeddedResource Include="Us_Services_Exam.resx">
+      <DependentUpon>Us_Services_Exam.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Us_Payments.resx">
-      <DependentUpon>Us_Payments.cs</DependentUpon>
+    <EmbeddedResource Include="Us_LicenseDetain.resx">
+      <DependentUpon>Us_LicenseDetain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Us_Print_Delivery.resx">
       <DependentUpon>Us_Print_Delivery.cs</DependentUpon>
@@ -225,8 +407,8 @@
     <EmbeddedResource Include="Us_Renewals.resx">
       <DependentUpon>Us_Renewals.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Us_Roles_Permissions.resx">
-      <DependentUpon>Us_Roles_Permissions.cs</DependentUpon>
+    <EmbeddedResource Include="Us_Persens.resx">
+      <DependentUpon>Us_Persens.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Us_Settings.resx">
       <DependentUpon>Us_Settings.cs</DependentUpon>
@@ -234,6 +416,10 @@
     <EmbeddedResource Include="Us_UsersScreen.resx">
       <DependentUpon>Us_UsersScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="us__EditPersonalInformation.resx">
+      <DependentUpon>us__EditPersonalInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -451,6 +637,367 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-619.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-6191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-619x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f3c071f4930ef94aa0c0bb41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f3c071f4930ef94aa0c0bb411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f3c071f4930ef94aa0c0bb412.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f3c071f4930ef94aa0c0bb4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000ca5c71f4bfd042b73f682b95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-02_02-08-46-3511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-619g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_19-03-27-981.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_19-25-29-825.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2026-06-02_00-27-27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\521.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f00471f48ddd0d70bf8bafba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000406871f4a8297107077afca9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-619g1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-18_00-55-53-289.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-18_00-55-53-2891.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\992.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-6192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000406871f4a8297107077afca91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000406871f4a8297107077afca92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\457.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\455.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000c2947243bed490862aad565f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000290071f4bacec129d979cd99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000b07871f4ad90257e613fce1b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000482871f4bc158b05cae3211f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000482871f4bc158b05cae3211f1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000687c7246b0a435c2239e91a6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000db2c71f4a009e62a3238eb13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000052471f4b1f477c909e5039a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_0000000052b471f490ac6298706fb810.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_0000000092d07243b091479b78000a7a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000cf4871f49c814ef06c9b7d97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_000000000dfc7243b6853e59fa4db7ee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\522.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-6193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-02_02-08-46-3512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-02_01-55-32-5653.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000ff0c7243bdc356994d645d8f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-22_10-15-52-425.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ض.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\س.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ظ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-22_11-52-0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-22_11-52-07-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ج.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-22_14-18-51-728.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-22_14-30-07-851.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Jun 23, 2026, 12_24_37 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Jun 23, 2026, 12_24_37 PM1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\الاسفل.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\er.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ظ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000f00471f48ddd0d70bf8bafba1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Driver_License_System_BLL\Driver_License_System_BLL.csproj">
+      <Project>{6e98df81-7260-4751-ae05-d5e5471e97b1}</Project>
+      <Name>Driver_License_System_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Driver_License_System__Models\Driver_License_System__Models.csproj">
+      <Project>{8ddfd9e2-c5fd-4b2e-b498-97141f90a6d3}</Project>
+      <Name>Driver_License_System__Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2b9b5b94-bf19-4aea-880b-195c9e6d812a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-16_14-07-02-6194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picsart_26-06-02_01-55-32-5654.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000406871f4a8297107077afca93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,3 +1,12 @@
 <Solution>
+  <Folder Name="/Driver_License_System.BLL/">
+    <Project Path="Driver_License_System_BLL/Driver_License_System_BLL.csproj" Id="6e98df81-7260-4751-ae05-d5e5471e97b1" />
+  </Folder>
+  <Folder Name="/Driver_License_System.Models/">
+    <Project Path="Driver_License_System__Models/Driver_License_System__Models.csproj" Id="8ddfd9e2-c5fd-4b2e-b498-97141f90a6d3" />
+  </Folder>
+  <Folder Name="/Drive_License_System_DAL/">
+    <Project Path="Driver_License_System_DAL/Driver_License_System_DAL.csproj" Id="4cd996a2-4eec-4dda-8f24-6de9fe243cd5" />
+  </Folder>
   <Project Path="Drive_License_System_UI/Drive_License_System_UI.csproj" Id="4b91bd3e-a9a1-4c7a-a689-0242a08e5851" />
 </Solution>
