@@ -41,7 +41,6 @@
             this.lblConutTotal = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ehDonut = new System.Windows.Forms.Integration.ElementHost();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pnlquickAction = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -177,7 +176,6 @@
             this.pnlWelcome_s.SuspendLayout();
             this.pnltableAndQuick.SuspendLayout();
             this.pnlLicenseOverview.SuspendLayout();
-            this.guna2GradientPanel1.SuspendLayout();
             this.pnlquickAction.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -379,14 +377,7 @@
             this.lblConutTotal.Size = new System.Drawing.Size(68, 33);
             this.lblConutTotal.TabIndex = 15;
             this.lblConutTotal.Text = "21045";
-            this.lblDonutTotal.BackColor = System.Drawing.Color.Transparent;
-            this.lblDonutTotal.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDonutTotal.ForeColor = System.Drawing.Color.White;
-            this.lblDonutTotal.Location = new System.Drawing.Point(140, 192);
-            this.lblDonutTotal.Name = "lblDonutTotal";
-            this.lblDonutTotal.Size = new System.Drawing.Size(68, 33);
-            this.lblDonutTotal.TabIndex = 15;
-            this.lblDonutTotal.Text = "21045";
+          
             // 
             // ehDonut
             // 
@@ -2237,8 +2228,6 @@
             this.pnltableAndQuick.PerformLayout();
             this.pnlLicenseOverview.ResumeLayout(false);
             this.pnlLicenseOverview.PerformLayout();
-            this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2GradientPanel1.PerformLayout();
             this.pnlquickAction.ResumeLayout(false);
             this.pnlquickAction.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
