@@ -580,5 +580,10 @@ namespace Drive_License_System_UI
             Drive_License_App_Start drive_License_App_Start = (Drive_License_App_Start)this.FindForm();
             drive_License_App_Start.OverirGestionPermisClickBtnRenew();
         }
+
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

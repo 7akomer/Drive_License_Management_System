@@ -420,6 +420,7 @@
             this.guna2GradientPanel1.ShadowDecoration.Enabled = true;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(409, 580);
             this.guna2GradientPanel1.TabIndex = 3;
+            this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
             // 
             // guna2Panel1
             // 
