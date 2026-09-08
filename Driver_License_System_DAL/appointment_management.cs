@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Driver_License_System__Models;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Driver_License_System__Models;
-
+            
 
 namespace Driver_License_System_DAL
 {
@@ -89,8 +90,13 @@ testes ON appointments.test_ID = testes.test_ID where appointments.result_ID = 3
 
                 }
 
-             
-                finally { connection.Close(); }
+            catch(Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
+
+            }
+
+            finally { connection.Close(); }
 
 
 
@@ -169,7 +175,11 @@ testes ON appointments.test_ID = testes.test_ID where appointments.result_ID = @
                 }
 
             }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -334,7 +344,11 @@ testes ON appointments.test_ID = testes.test_ID where appointments.result_ID = 3
 
             }
 
-           
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -418,7 +432,11 @@ testes ON appointments.test_ID = testes.test_ID where appointments.result_ID = @
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -501,7 +519,11 @@ testes ON appointments.test_ID = testes.test_ID where appointments.result_ID = 3
             }
 
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
 
+            }
             finally { connection.Close(); }
 
 
@@ -586,9 +608,13 @@ testes ON appointments.test_ID = testes.test_ID where appointments.result_ID = 3
 
 
                 }
-            
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
 
-                finally { connection.Close(); }
+            }
+
+            finally { connection.Close(); }
 
 
                 return is_valid;
@@ -629,9 +655,13 @@ result_ID = @Result_ID,
 
 
                 }
-              
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
 
-                finally { connection.Close(); }
+            }
+
+            finally { connection.Close(); }
 
                 return is_valid;
             }
@@ -674,7 +704,11 @@ result_ID = @Result_ID,
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
 
+            }
             finally { connection.Close(); }
 
             return is_valid;
@@ -716,8 +750,12 @@ result_ID = @Result_ID
 
 
             }
-          
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
+
+            }
             finally { connection.Close(); }
 
             return is_valid;
@@ -758,7 +796,11 @@ result_ID = @Result_ID
 
 
             }
-           
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -800,7 +842,11 @@ result_ID = @Result_ID
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
 
+            }
             finally { connection.Close(); }
 
             return is_valid;
@@ -827,12 +873,13 @@ result_ID = @Result_ID
                     }
 
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.ToString());
-                }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Appointements: " + ex.Message, EventLogEntryType.Error);
 
-                finally { connection.Close(); }
+            }
+
+            finally { connection.Close(); }
 
                 return is_valid;
 

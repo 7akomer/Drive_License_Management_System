@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,15 +57,9 @@ namespace Driver_License_System_DAL
             }
 
 
-
             catch (Exception ex)
             {
-
-                is_valid = false;
-
-                // Console.WriteLine(ex.ToString());
-
-
+                EventLog.WriteEntry(Application_Name.Name, "From Driver Management: " + ex.Message, EventLogEntryType.Error);
 
             }
 
@@ -113,12 +108,7 @@ namespace Driver_License_System_DAL
 
             catch (Exception ex)
             {
-
-                is_valid = false;
-
-                // Console.WriteLine(ex.ToString());
-
-
+                EventLog.WriteEntry(Application_Name.Name, "From Driver Management: " + ex.Message, EventLogEntryType.Error);
 
             }
 
@@ -158,7 +148,11 @@ namespace Driver_License_System_DAL
                 }
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Driver Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -190,6 +184,12 @@ namespace Driver_License_System_DAL
                 }
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Driver Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
+
             finally { connection.Close(); }
 
             return IsDriver;
@@ -213,6 +213,12 @@ namespace Driver_License_System_DAL
                 connection.Open();
 
                 DriverID = Convert.ToInt32(command.ExecuteScalar());
+
+            }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Driver Management: " + ex.Message, EventLogEntryType.Error);
 
             }
 
@@ -240,8 +246,8 @@ namespace Driver_License_System_DAL
             }
             catch (Exception ex)
             {
-                is_valid = false;
-                //  Console.WriteLine(ex.ToString());
+                EventLog.WriteEntry(Application_Name.Name, "From Driver Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally { connection.Close(); }
             return is_valid;

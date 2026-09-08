@@ -618,7 +618,7 @@
             this.pnltop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnltop.Location = new System.Drawing.Point(275, 0);
             this.pnltop.Name = "pnltop";
-            this.pnltop.Size = new System.Drawing.Size(1561, 67);
+            this.pnltop.Size = new System.Drawing.Size(1169, 67);
             this.pnltop.TabIndex = 5;
             // 
             // pnluserInfo
@@ -630,7 +630,7 @@
             this.pnluserInfo.Controls.Add(this.lblUserRole);
             this.pnluserInfo.Controls.Add(this.pnlLine);
             this.pnluserInfo.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnluserInfo.Location = new System.Drawing.Point(1272, 0);
+            this.pnluserInfo.Location = new System.Drawing.Point(880, 0);
             this.pnluserInfo.Name = "pnluserInfo";
             this.pnluserInfo.Size = new System.Drawing.Size(289, 67);
             this.pnluserInfo.TabIndex = 6;
@@ -808,7 +808,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1836, 881);
+            this.ClientSize = new System.Drawing.Size(1444, 881);
             this.Controls.Add(this.pnlFullUserInformation);
             this.Controls.Add(this.pnlMainContent);
             this.Controls.Add(this.pnltop);

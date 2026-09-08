@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="appointment_Information_Class.cs" />
     <Compile Include="category_Information_Class.cs" />
+    <Compile Include="Application_Name.cs" />
     <Compile Include="home_Information_Class.cs" />
     <Compile Include="CurrentUserLogin.cs" />
     <Compile Include="user_Information_Class.cs" />

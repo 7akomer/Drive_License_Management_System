@@ -1,9 +1,11 @@
-﻿using Driver_License_System_BLL;
+﻿using Driver_License_System__Models;
+using Driver_License_System_BLL;
 using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,18 @@ namespace Drive_License_System_UI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // Create the event source if it does not exist
+            try
+            {
+                if (!EventLog.SourceExists(Application_Name.Name))
+                {
+                    EventLog.CreateEventSource(Application_Name.Name, "Application");
+                }
+            }
+            catch
+            {
+
+            }
         }
 
 

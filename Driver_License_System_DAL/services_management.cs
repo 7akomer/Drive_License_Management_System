@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,8 +54,8 @@ namespace Driver_License_System_DAL
 
             catch (Exception ex)
             {
-                is_Valid = false;
-                // Console.WriteLine(ex);
+                EventLog.WriteEntry(Application_Name.Name, "From Services Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -107,8 +108,8 @@ namespace Driver_License_System_DAL
 
             catch (Exception ex)
             {
-                is_Valid = false;
-                // Console.WriteLine(ex);
+                EventLog.WriteEntry(Application_Name.Name, "From Services Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -203,7 +204,8 @@ namespace Driver_License_System_DAL
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                EventLog.WriteEntry(Application_Name.Name, "From Services Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }

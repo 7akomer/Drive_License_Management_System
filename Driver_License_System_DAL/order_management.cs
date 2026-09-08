@@ -65,9 +65,13 @@ namespace Driver_License_System_DAL
 
                 }
 
-               
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
-                finally { connection.Close(); }
+            }
+
+            finally { connection.Close(); }
 
 
 
@@ -112,7 +116,11 @@ namespace Driver_License_System_DAL
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -162,7 +170,11 @@ namespace Driver_License_System_DAL
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -211,7 +223,11 @@ namespace Driver_License_System_DAL
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -277,7 +293,11 @@ namespace Driver_License_System_DAL
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -337,9 +357,13 @@ namespace Driver_License_System_DAL
                     }
 
                 }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
-               
-                finally { connection.Close(); }
+            }
+
+            finally { connection.Close(); }
 
 
 
@@ -399,7 +423,11 @@ namespace Driver_License_System_DAL
 
             }
 
-           
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -427,6 +455,12 @@ namespace Driver_License_System_DAL
 
                 count = (int)command.ExecuteScalar();
             }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
             finally
             {
                 connection.Close();
@@ -453,6 +487,12 @@ namespace Driver_License_System_DAL
 
                 count = (int)command.ExecuteScalar();
             }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
             finally
             {
                 connection.Close();
@@ -478,6 +518,12 @@ namespace Driver_License_System_DAL
                 connection.Open();
 
                 count = (int)command.ExecuteScalar();
+            }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally
             {
@@ -528,12 +574,13 @@ namespace Driver_License_System_DAL
                 }
 
 
-            catch
+            catch (Exception ex)
             {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
             }
 
-                finally { connection.Close(); }
+            finally { connection.Close(); }
 
 
                 return is_valid;
@@ -567,7 +614,11 @@ values (@order_date,@Application_fee_paid,@people_ID,@service_ID,@order_status_I
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
             finally { connection.Close(); }
 
 
@@ -607,9 +658,13 @@ values (@order_date,@Application_fee_paid,@people_ID,@service_ID,@order_status_I
 
 
                 }
-              
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
-                finally { connection.Close(); }
+            }
+
+            finally { connection.Close(); }
 
                 return is_valid;
             }
@@ -642,8 +697,14 @@ values (@order_date,@Application_fee_paid,@people_ID,@service_ID,@order_status_I
 
                 }
 
-              
-                finally { connection.Close(); }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
+
+
+            finally { connection.Close(); }
 
                 return is_valid;
             }
@@ -675,7 +736,13 @@ values (@order_date,@Application_fee_paid,@people_ID,@service_ID,@order_status_I
                     is_Exist = false;
                 }
             }
-           
+
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
             finally { connection.Close(); }
 
             return is_Exist;
@@ -708,6 +775,12 @@ values (@order_date,@Application_fee_paid,@people_ID,@service_ID,@order_status_I
                 {
                     is_Exist = false;
                 }
+            }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -745,7 +818,11 @@ values (@order_date,@Application_fee_paid,@people_ID,@service_ID,@order_status_I
 
 
             }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Driver_License_System__Models;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Driver_License_System__Models;
 
 namespace Driver_License_System_DAL
 {
@@ -68,7 +69,11 @@ namespace Driver_License_System_DAL
 
 
             }
-           
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From People Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -125,7 +130,8 @@ namespace Driver_License_System_DAL
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                EventLog.WriteEntry(Application_Name.Name, "From People Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -151,7 +157,11 @@ namespace Driver_License_System_DAL
                     is_valid = true;
                 }
             }
-           
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From People Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -207,7 +217,11 @@ namespace Driver_License_System_DAL
 
 
             }
-           
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From People Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -309,7 +323,12 @@ namespace Driver_License_System_DAL
                     is_valid = true;
                 }
             }
-           
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From People Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
             finally
             {
                 connection.Close();
@@ -420,8 +439,8 @@ namespace Driver_License_System_DAL
             }
             catch (Exception ex)
             {
-                is_valid = false;
-                Console.WriteLine(ex.ToString());
+                EventLog.WriteEntry(Application_Name.Name, "From People Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
 
@@ -465,6 +484,12 @@ namespace Driver_License_System_DAL
                     person.Gender = (string)reader["Gender"];
 
                 }
+            }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From People Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally

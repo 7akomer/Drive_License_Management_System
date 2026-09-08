@@ -62,13 +62,7 @@ namespace Driver_License_System_DAL
                 is_valid = true;
 
             }
-            catch (Exception ex)
-            {
-
-                is_valid = false;
-                //Console.WriteLine(ex.ToString());
-            }
-
+           
             finally
             {
                 connection.Close();
@@ -113,10 +107,7 @@ namespace Driver_License_System_DAL
 
 
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
+            
 
             finally { connection.Close(); }
 
@@ -154,10 +145,7 @@ namespace Driver_License_System_DAL
 
 
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
+        
 
             finally { connection.Close(); }
 
@@ -185,11 +173,7 @@ namespace Driver_License_System_DAL
                     is_valid = true;
                 }
             }
-            catch (Exception ex)
-            {
-                // Console.WriteLine(ex.ToString());
-                is_valid = false;
-            }
+        
 
             finally { connection.Close(); }
 
@@ -391,11 +375,7 @@ where users.userName = @userName";
                     is_valid = VerifyPassword(password, storedHash);
                 }
             }
-            catch (Exception ex)
-            {
-                is_valid = false;
-                // Console.WriteLine(ex.ToString());
-            }
+          
             finally { connection.Close(); }
             return is_valid;
         }
@@ -443,13 +423,7 @@ where users.userName = @userName";
 
 
             }
-            catch (Exception ex)
-            {
-
-                Console.WriteLine(ex);
-                //Console.WriteLine("error logic")
-
-            }
+          
 
 
 

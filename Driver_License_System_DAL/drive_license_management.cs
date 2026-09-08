@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,8 +66,8 @@ namespace Driver_License_System_DAL
 
             catch (Exception ex)
             {
-                is_Valid = false;
-                Console.WriteLine(ex);
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -93,6 +94,12 @@ namespace Driver_License_System_DAL
 
                 count = (int)command.ExecuteScalar();
             }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
             finally
             {
                 connection.Close();
@@ -117,6 +124,11 @@ namespace Driver_License_System_DAL
                 connection.Open();
 
                 count = (int)command.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally
             {
@@ -144,6 +156,12 @@ namespace Driver_License_System_DAL
 
                 count = (int)command.ExecuteScalar();
             }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
             finally
             {
                 connection.Close();
@@ -167,6 +185,12 @@ namespace Driver_License_System_DAL
                 connection.Open();
 
                 count = (int)command.ExecuteScalar();
+            }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally
             {
@@ -192,6 +216,12 @@ namespace Driver_License_System_DAL
                 connection.Open();
 
                 count = (int)command.ExecuteScalar();
+            }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally
             {
@@ -256,8 +286,8 @@ namespace Driver_License_System_DAL
 
             catch (Exception ex)
             {
-                is_Valid = false;
-                Console.WriteLine(ex);
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -319,10 +349,9 @@ namespace Driver_License_System_DAL
 
             catch (Exception ex)
             {
-                is_Valid = false;
-                Console.WriteLine(ex);
-            }
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
             finally { connection.Close(); }
 
 
@@ -380,7 +409,11 @@ namespace Driver_License_System_DAL
 
             }
 
-          
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -441,7 +474,11 @@ namespace Driver_License_System_DAL
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -504,10 +541,9 @@ namespace Driver_License_System_DAL
 
             catch (Exception ex)
             {
-                is_Valid = false;
-                Console.WriteLine(ex);
-            }
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
             finally { connection.Close(); }
 
 
@@ -566,11 +602,10 @@ namespace Driver_License_System_DAL
             }
 
 
-
             catch (Exception ex)
             {
-                is_Valid = false;
-                Console.WriteLine(ex);
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -622,7 +657,11 @@ select cast(@@IDENTITY AS INT);";
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
             finally { connection.Close(); }
 
@@ -657,7 +696,8 @@ select cast(@@IDENTITY AS INT);";
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -687,10 +727,10 @@ select cast(@@IDENTITY AS INT);";
                     is_valid = false;
                 }
             }
-            catch (SqlException ex)
+            catch (Exception ex)
             {
-                is_valid = false;
-                Console.WriteLine(ex.ToString());
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally { connection.Close(); }
             return is_valid;
@@ -719,7 +759,13 @@ select cast(@@IDENTITY AS INT);";
                 }
 
             }
-           
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
+
             finally { connection.Close(); }
 
             return WeHaveExpiryLicense;
@@ -736,6 +782,12 @@ select cast(@@IDENTITY AS INT);";
             {
                 connection.Open();
                 int rowAffected = command.ExecuteNonQuery();
+
+            }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
 
             }
 
@@ -764,10 +816,10 @@ select cast(@@IDENTITY AS INT);";
                     is_valid = false;
                 }
             }
-            catch (SqlException ex)
+            catch (Exception ex)
             {
-                is_valid = false;
-                Console.WriteLine(ex.ToString());
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally { connection.Close(); }
             return is_valid;
@@ -800,8 +852,8 @@ select cast(@@IDENTITY AS INT);";
             }
             catch (Exception ex)
             {
-                is_Valid = false;
-                Console.WriteLine(ex.ToString());
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally { connection.Close(); }
 
@@ -862,8 +914,8 @@ select cast(@@IDENTITY AS INT);";
 
             catch (Exception ex)
             {
-                is_Valid = false;
-                Console.WriteLine(ex);
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -944,6 +996,11 @@ select cast(@@IDENTITY AS INT);";
 
             }
 
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Drive License Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 

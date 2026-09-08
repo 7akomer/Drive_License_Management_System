@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,9 +64,13 @@ namespace Driver_License_System_DAL
 
                 }
 
-               
 
-                finally { connection.Close(); }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Reservation Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
+            finally { connection.Close(); }
 
 
 
@@ -124,7 +129,11 @@ namespace Driver_License_System_DAL
 
             }
 
-           
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Reservation Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -188,8 +197,8 @@ namespace Driver_License_System_DAL
 
             catch (Exception ex)
             {
-                is_Valid = false;
-                Console.WriteLine(ex);
+                EventLog.WriteEntry(Application_Name.Name, "From Reservation Management: " + ex.Message, EventLogEntryType.Error);
+
             }
 
             finally { connection.Close(); }
@@ -240,9 +249,13 @@ namespace Driver_License_System_DAL
 
 
                 }
-               
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Reservation Management: " + ex.Message, EventLogEntryType.Error);
 
-                finally { connection.Close(); }
+            }
+
+            finally { connection.Close(); }
 
 
                 return is_valid;
@@ -273,12 +286,12 @@ namespace Driver_License_System_DAL
                     }
 
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.ToString());
-                }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Reservation Management: " + ex.Message, EventLogEntryType.Error);
 
-                finally { connection.Close(); }
+            }
+            finally { connection.Close(); }
 
                 return is_valid;
 
@@ -305,8 +318,12 @@ namespace Driver_License_System_DAL
                         is_reserved = false;
                     }
                 }
-               
-                finally { connection.Close(); }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Reservation Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
+            finally { connection.Close(); }
 
                 return is_reserved;
             }
@@ -329,6 +346,12 @@ namespace Driver_License_System_DAL
                 connection.Open();
 
                 count = (int)command.ExecuteScalar();
+            }
+
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Reservation Management: " + ex.Message, EventLogEntryType.Error);
+
             }
             finally
             {

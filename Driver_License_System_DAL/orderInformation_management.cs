@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,8 +54,12 @@ namespace Driver_License_System_DAL
                 }
 
             }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Information Management: " + ex.Message, EventLogEntryType.Error);
 
-         
+            }
+
             finally { connection.Close(); }
 
 
@@ -99,7 +104,11 @@ namespace Driver_License_System_DAL
 
 
             }
-          
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Information Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
 
             finally { connection.Close(); }
 
@@ -123,7 +132,11 @@ namespace Driver_License_System_DAL
                     is_valid = true;
                 }
             }
-            
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Information Management: " + ex.Message, EventLogEntryType.Error);
+
+            }
             finally { connection.Close(); }
             return is_valid;
         }
@@ -157,7 +170,11 @@ namespace Driver_License_System_DAL
                 }
 
             }
+            catch (Exception ex)
+            {
+                EventLog.WriteEntry(Application_Name.Name, "From Order Information Management: " + ex.Message, EventLogEntryType.Error);
 
+            }
 
 
             finally { connection.Close(); }
