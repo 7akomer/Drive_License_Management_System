@@ -42,6 +42,7 @@
             this.ehDonut = new System.Windows.Forms.Integration.ElementHost();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.pnlquickAction = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -177,6 +178,7 @@
             this.pnltableAndQuick.SuspendLayout();
             this.pnlLicenseOverview.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
+            this.pnlquickAction.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.pnlQuickActionCollectP.SuspendLayout();
@@ -251,17 +253,18 @@
             // pnltableAndQuick
             // 
             this.pnltableAndQuick.Controls.Add(this.pnlLicenseOverview);
-            this.pnltableAndQuick.Controls.Add(this.guna2GradientPanel1);
+            this.pnltableAndQuick.Controls.Add(this.pnlquickAction);
             this.pnltableAndQuick.Controls.Add(this.pnlExpiredLicenses);
             this.pnltableAndQuick.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnltableAndQuick.Location = new System.Drawing.Point(0, 283);
             this.pnltableAndQuick.Name = "pnltableAndQuick";
+            this.pnltableAndQuick.Padding = new System.Windows.Forms.Padding(10);
             this.pnltableAndQuick.Size = new System.Drawing.Size(1561, 599);
             this.pnltableAndQuick.TabIndex = 5;
             // 
             // pnlLicenseOverview
             // 
-            this.pnlLicenseOverview.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pnlLicenseOverview.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.pnlLicenseOverview.AutoSize = true;
             this.pnlLicenseOverview.BorderColor = System.Drawing.Color.DarkViolet;
             this.pnlLicenseOverview.BorderRadius = 14;
@@ -376,6 +379,14 @@
             this.lblConutTotal.Size = new System.Drawing.Size(68, 33);
             this.lblConutTotal.TabIndex = 15;
             this.lblConutTotal.Text = "21045";
+            this.lblDonutTotal.BackColor = System.Drawing.Color.Transparent;
+            this.lblDonutTotal.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDonutTotal.ForeColor = System.Drawing.Color.White;
+            this.lblDonutTotal.Location = new System.Drawing.Point(140, 192);
+            this.lblDonutTotal.Name = "lblDonutTotal";
+            this.lblDonutTotal.Size = new System.Drawing.Size(68, 33);
+            this.lblDonutTotal.TabIndex = 15;
+            this.lblDonutTotal.Text = "21045";
             // 
             // ehDonut
             // 
@@ -397,29 +408,90 @@
             this.guna2HtmlLabel2.TabIndex = 13;
             this.guna2HtmlLabel2.Text = "License Overview";
             // 
-            // guna2GradientPanel1
+            // pnlquickAction
             // 
-            this.guna2GradientPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.DarkViolet;
-            this.guna2GradientPanel1.BorderRadius = 14;
-            this.guna2GradientPanel1.BorderThickness = 1;
-            this.guna2GradientPanel1.Controls.Add(this.guna2Panel1);
-            this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionCollectP);
-            this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionScheduleEx);
-            this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionIssueL);
-            this.guna2GradientPanel1.Controls.Add(this.pnlQuickActionApp);
-            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
-            this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(1131, 8);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(20, 20, 20, 8);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.ShadowDecoration.Depth = 2;
-            this.guna2GradientPanel1.ShadowDecoration.Enabled = true;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(409, 580);
-            this.guna2GradientPanel1.TabIndex = 3;
+            this.pnlquickAction.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlquickAction.BackColor = System.Drawing.Color.Transparent;
+            this.pnlquickAction.BorderColor = System.Drawing.Color.DarkViolet;
+            this.pnlquickAction.BorderRadius = 14;
+            this.pnlquickAction.BorderThickness = 1;
+            this.pnlquickAction.Controls.Add(this.guna2Panel1);
+            this.pnlquickAction.Controls.Add(this.pnlQuickActionCollectP);
+            this.pnlquickAction.Controls.Add(this.pnlQuickActionScheduleEx);
+            this.pnlquickAction.Controls.Add(this.pnlQuickActionIssueL);
+            this.pnlquickAction.Controls.Add(this.pnlQuickActionApp);
+            this.pnlquickAction.Controls.Add(this.guna2HtmlLabel1);
+            this.pnlquickAction.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
+            this.pnlquickAction.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(20)))), ((int)(((byte)(63)))));
+            this.pnlquickAction.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.pnlquickAction.Location = new System.Drawing.Point(1125, 8);
+            this.pnlquickAction.Margin = new System.Windows.Forms.Padding(20, 20, 20, 100);
+            this.pnlquickAction.Name = "pnlquickAction";
+            this.pnlquickAction.ShadowDecoration.Depth = 2;
+            this.pnlquickAction.ShadowDecoration.Enabled = true;
+            this.pnlquickAction.Size = new System.Drawing.Size(409, 580);
+            this.pnlquickAction.TabIndex = 3;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.AutoSize = true;
+            this.guna2Panel1.BorderRadius = 14;
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox3);
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(27)))), ((int)(((byte)(77)))));
+            this.guna2Panel1.Location = new System.Drawing.Point(16, 391);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(378, 156);
+            this.guna2Panel1.TabIndex = 14;
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(41, 74);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(174, 22);
+            this.guna2HtmlLabel5.TabIndex = 21;
+            this.guna2HtmlLabel5.Text = "before issung any license";
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(148)))), ((int)(((byte)(178)))));
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(41, 54);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(251, 22);
+            this.guna2HtmlLabel4.TabIndex = 14;
+            this.guna2HtmlLabel4.Text = "Please verify all documents  carefully  ";
+            this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackgroundImage = global::Drive_License_System_UI.Properties.Resources._99;
+            this.guna2PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(29, 8);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(26, 44);
+            this.guna2PictureBox3.TabIndex = 20;
+            this.guna2PictureBox3.TabStop = false;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(64, 19);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(167, 30);
+            this.guna2HtmlLabel3.TabIndex = 15;
+            this.guna2HtmlLabel3.Text = "Importent Notice";
             // 
             // guna2Panel1
             // 
@@ -517,6 +589,7 @@
             this.lbldescQuickActionCollectP.Location = new System.Drawing.Point(78, 28);
             this.lbldescQuickActionCollectP.Name = "lbldescQuickActionCollectP";
             this.lbldescQuickActionCollectP.Size = new System.Drawing.Size(261, 22);
+            this.lbldescQuickActionCollectP.Size = new System.Drawing.Size(127, 22);
             this.lbldescQuickActionCollectP.TabIndex = 15;
             this.lbldescQuickActionCollectP.Text = "Adjustment of service and testing fees";
             // 
@@ -528,6 +601,7 @@
             this.lblTextQuickActionCollectP.Location = new System.Drawing.Point(78, 6);
             this.lblTextQuickActionCollectP.Name = "lblTextQuickActionCollectP";
             this.lblTextQuickActionCollectP.Size = new System.Drawing.Size(131, 25);
+            this.lblTextQuickActionCollectP.Size = new System.Drawing.Size(128, 25);
             this.lblTextQuickActionCollectP.TabIndex = 15;
             this.lblTextQuickActionCollectP.Text = "Price adjustment";
             // 
@@ -591,6 +665,7 @@
             this.lbldescQuickActionScheduleEx.Location = new System.Drawing.Point(78, 28);
             this.lbldescQuickActionScheduleEx.Name = "lbldescQuickActionScheduleEx";
             this.lbldescQuickActionScheduleEx.Size = new System.Drawing.Size(183, 22);
+            this.lbldescQuickActionScheduleEx.Size = new System.Drawing.Size(158, 22);
             this.lbldescQuickActionScheduleEx.TabIndex = 14;
             this.lbldescQuickActionScheduleEx.Text = "Processing scheduled tests";
             // 
@@ -602,6 +677,7 @@
             this.lblTextQuickActionScheduleEx.Location = new System.Drawing.Point(78, 6);
             this.lblTextQuickActionScheduleEx.Name = "lblTextQuickActionScheduleEx";
             this.lblTextQuickActionScheduleEx.Size = new System.Drawing.Size(45, 25);
+            this.lblTextQuickActionScheduleEx.Size = new System.Drawing.Size(119, 25);
             this.lblTextQuickActionScheduleEx.TabIndex = 14;
             this.lblTextQuickActionScheduleEx.Text = "Exam";
             // 
@@ -665,6 +741,7 @@
             this.lbldescQuickActionIssueL.Location = new System.Drawing.Point(78, 29);
             this.lbldescQuickActionIssueL.Name = "lbldescQuickActionIssueL";
             this.lbldescQuickActionIssueL.Size = new System.Drawing.Size(233, 22);
+            this.lbldescQuickActionIssueL.Size = new System.Drawing.Size(151, 22);
             this.lbldescQuickActionIssueL.TabIndex = 13;
             this.lbldescQuickActionIssueL.Text = "Issue a driving license Application";
             // 
@@ -676,6 +753,7 @@
             this.lblTextQuickActionIssueL.Location = new System.Drawing.Point(78, 6);
             this.lblTextQuickActionIssueL.Name = "lblTextQuickActionIssueL";
             this.lblTextQuickActionIssueL.Size = new System.Drawing.Size(150, 25);
+            this.lblTextQuickActionIssueL.Size = new System.Drawing.Size(101, 25);
             this.lblTextQuickActionIssueL.TabIndex = 13;
             this.lblTextQuickActionIssueL.Text = "Issue License Order";
             // 
@@ -793,6 +871,7 @@
             // 
             // pnlExpiredLicenses
             // 
+            this.pnlExpiredLicenses.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlExpiredLicenses.BackColor = System.Drawing.Color.Transparent;
             this.pnlExpiredLicenses.BorderColor = System.Drawing.Color.Black;
             this.pnlExpiredLicenses.BorderRadius = 14;
@@ -829,7 +908,7 @@
             this.pnlLine7.Controls.Add(this.LabelLine7licenseNo);
             this.pnlLine7.Controls.Add(this.LabelLine7Name);
             this.pnlLine7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine7.Location = new System.Drawing.Point(0, 478);
+            this.pnlLine7.Location = new System.Drawing.Point(0, 403);
             this.pnlLine7.Name = "pnlLine7";
             this.pnlLine7.Size = new System.Drawing.Size(724, 61);
             this.pnlLine7.TabIndex = 19;
@@ -919,6 +998,7 @@
             this.LabelLine7Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine7Name.Name = "LabelLine7Name";
             this.LabelLine7Name.Size = new System.Drawing.Size(10, 25);
+            this.LabelLine7Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine7Name.TabIndex = 9;
             this.LabelLine7Name.Text = "-";
             // 
@@ -932,7 +1012,7 @@
             this.pnlLine6.Controls.Add(this.LabelLine6licenseNo);
             this.pnlLine6.Controls.Add(this.LabelLine6Name);
             this.pnlLine6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine6.Location = new System.Drawing.Point(0, 417);
+            this.pnlLine6.Location = new System.Drawing.Point(0, 342);
             this.pnlLine6.Name = "pnlLine6";
             this.pnlLine6.Size = new System.Drawing.Size(724, 61);
             this.pnlLine6.TabIndex = 18;
@@ -1022,6 +1102,7 @@
             this.LabelLine6Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine6Name.Name = "LabelLine6Name";
             this.LabelLine6Name.Size = new System.Drawing.Size(10, 25);
+            this.LabelLine6Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine6Name.TabIndex = 9;
             this.LabelLine6Name.Text = "-";
             // 
@@ -1035,7 +1116,7 @@
             this.pnlLine5.Controls.Add(this.LabelLine5licenseNo);
             this.pnlLine5.Controls.Add(this.LabelLine5Name);
             this.pnlLine5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine5.Location = new System.Drawing.Point(0, 356);
+            this.pnlLine5.Location = new System.Drawing.Point(0, 281);
             this.pnlLine5.Name = "pnlLine5";
             this.pnlLine5.Size = new System.Drawing.Size(724, 61);
             this.pnlLine5.TabIndex = 17;
@@ -1125,6 +1206,7 @@
             this.LabelLine5Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine5Name.Name = "LabelLine5Name";
             this.LabelLine5Name.Size = new System.Drawing.Size(10, 25);
+            this.LabelLine5Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine5Name.TabIndex = 9;
             this.LabelLine5Name.Text = "-";
             // 
@@ -1160,7 +1242,7 @@
             this.pnlLine4.Controls.Add(this.LabelLine4Name);
             this.pnlLine4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.pnlLine4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine4.Location = new System.Drawing.Point(0, 295);
+            this.pnlLine4.Location = new System.Drawing.Point(0, 220);
             this.pnlLine4.Name = "pnlLine4";
             this.pnlLine4.Size = new System.Drawing.Size(724, 61);
             this.pnlLine4.TabIndex = 13;
@@ -1250,6 +1332,7 @@
             this.LabelLine4Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine4Name.Name = "LabelLine4Name";
             this.LabelLine4Name.Size = new System.Drawing.Size(10, 25);
+            this.LabelLine4Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine4Name.TabIndex = 9;
             this.LabelLine4Name.Text = "-";
             // 
@@ -1262,7 +1345,7 @@
             this.pnlLine3.Controls.Add(this.LabelLine3licenseNo);
             this.pnlLine3.Controls.Add(this.LabelLine3Name);
             this.pnlLine3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine3.Location = new System.Drawing.Point(0, 237);
+            this.pnlLine3.Location = new System.Drawing.Point(0, 162);
             this.pnlLine3.Name = "pnlLine3";
             this.pnlLine3.Size = new System.Drawing.Size(724, 58);
             this.pnlLine3.TabIndex = 5;
@@ -1352,6 +1435,7 @@
             this.LabelLine3Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine3Name.Name = "LabelLine3Name";
             this.LabelLine3Name.Size = new System.Drawing.Size(10, 25);
+            this.LabelLine3Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine3Name.TabIndex = 9;
             this.LabelLine3Name.Text = "-";
             this.LabelLine3Name.Click += new System.EventHandler(this.guna2HtmlLabel8_Click);
@@ -1365,7 +1449,7 @@
             this.pnlLine2.Controls.Add(this.LabelLine2licenseNo);
             this.pnlLine2.Controls.Add(this.LabelLine2Name);
             this.pnlLine2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine2.Location = new System.Drawing.Point(0, 180);
+            this.pnlLine2.Location = new System.Drawing.Point(0, 105);
             this.pnlLine2.Name = "pnlLine2";
             this.pnlLine2.Size = new System.Drawing.Size(724, 57);
             this.pnlLine2.TabIndex = 12;
@@ -1455,6 +1539,7 @@
             this.LabelLine2Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine2Name.Name = "LabelLine2Name";
             this.LabelLine2Name.Size = new System.Drawing.Size(10, 25);
+            this.LabelLine2Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine2Name.TabIndex = 9;
             this.LabelLine2Name.Text = "-";
             // 
@@ -1478,7 +1563,7 @@
             this.pnlLine1.Controls.Add(this.LabelLine1licenseNo);
             this.pnlLine1.Controls.Add(this.LabelLine1Name);
             this.pnlLine1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlLine1.Location = new System.Drawing.Point(0, 119);
+            this.pnlLine1.Location = new System.Drawing.Point(0, 44);
             this.pnlLine1.Name = "pnlLine1";
             this.pnlLine1.Size = new System.Drawing.Size(724, 61);
             this.pnlLine1.TabIndex = 4;
@@ -1557,6 +1642,7 @@
             this.LabelLine1Name.Location = new System.Drawing.Point(61, 18);
             this.LabelLine1Name.Name = "LabelLine1Name";
             this.LabelLine1Name.Size = new System.Drawing.Size(10, 25);
+            this.LabelLine1Name.Size = new System.Drawing.Size(111, 25);
             this.LabelLine1Name.TabIndex = 9;
             this.LabelLine1Name.Text = "-";
             // 
@@ -1569,7 +1655,7 @@
             this.lplTitleEntity.Controls.Add(this.LabelLicenseNoRow);
             this.lplTitleEntity.Controls.Add(this.LabelLicenseRow);
             this.lplTitleEntity.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lplTitleEntity.Location = new System.Drawing.Point(0, 75);
+            this.lplTitleEntity.Location = new System.Drawing.Point(0, 0);
             this.lplTitleEntity.Name = "lplTitleEntity";
             this.lplTitleEntity.Size = new System.Drawing.Size(724, 44);
             this.lplTitleEntity.TabIndex = 5;
@@ -1643,10 +1729,11 @@
             // 
             // pnlExpiredHeader
             // 
+            this.pnlExpiredHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlExpiredHeader.Controls.Add(this.btnViewAllExpired);
             this.pnlExpiredHeader.Controls.Add(this.lblExpiredSubtitle);
             this.pnlExpiredHeader.Controls.Add(this.lblExpiredTitle);
-            this.pnlExpiredHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlExpiredHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlExpiredHeader.Name = "pnlExpiredHeader";
             this.pnlExpiredHeader.Size = new System.Drawing.Size(724, 75);
@@ -1742,6 +1829,7 @@
             this.from_last_month_text1.Location = new System.Drawing.Point(129, 87);
             this.from_last_month_text1.Name = "from_last_month_text1";
             this.from_last_month_text1.Size = new System.Drawing.Size(92, 22);
+            this.from_last_month_text1.Size = new System.Drawing.Size(112, 22);
             this.from_last_month_text1.TabIndex = 8;
             this.from_last_month_text1.Text = "from last day";
             this.from_last_month_text1.UseWaitCursor = true;
@@ -1841,6 +1929,7 @@
             this.from_last_month_text2.Location = new System.Drawing.Point(136, 87);
             this.from_last_month_text2.Name = "from_last_month_text2";
             this.from_last_month_text2.Size = new System.Drawing.Size(92, 22);
+            this.from_last_month_text2.Size = new System.Drawing.Size(112, 22);
             this.from_last_month_text2.TabIndex = 9;
             this.from_last_month_text2.Text = "from last day";
             this.from_last_month_text2.UseWaitCursor = true;
@@ -1937,6 +2026,7 @@
             this.from_last_month_text3.Location = new System.Drawing.Point(132, 87);
             this.from_last_month_text3.Name = "from_last_month_text3";
             this.from_last_month_text3.Size = new System.Drawing.Size(92, 22);
+            this.from_last_month_text3.Size = new System.Drawing.Size(112, 22);
             this.from_last_month_text3.TabIndex = 10;
             this.from_last_month_text3.Text = "from last day";
             this.from_last_month_text3.UseWaitCursor = true;
@@ -2030,6 +2120,7 @@
             this.from_last_month_text4.Location = new System.Drawing.Point(138, 88);
             this.from_last_month_text4.Name = "from_last_month_text4";
             this.from_last_month_text4.Size = new System.Drawing.Size(92, 22);
+            this.from_last_month_text4.Size = new System.Drawing.Size(112, 22);
             this.from_last_month_text4.TabIndex = 11;
             this.from_last_month_text4.Text = "from last day";
             this.from_last_month_text4.UseWaitCursor = true;
@@ -2066,6 +2157,7 @@
             this.lblTodayRevenue.Location = new System.Drawing.Point(95, 31);
             this.lblTodayRevenue.Name = "lblTodayRevenue";
             this.lblTodayRevenue.Size = new System.Drawing.Size(150, 22);
+            this.lblTodayRevenue.Size = new System.Drawing.Size(108, 22);
             this.lblTodayRevenue.TabIndex = 11;
             this.lblTodayRevenue.Text = "Applications Revenue";
             this.lblTodayRevenue.UseWaitCursor = true;
@@ -2147,6 +2239,8 @@
             this.pnlLicenseOverview.PerformLayout();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
+            this.pnlquickAction.ResumeLayout(false);
+            this.pnlquickAction.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
@@ -2255,7 +2349,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel from_last_month_text4;
         private Guna.UI2.WinForms.Guna2HtmlLabel welcomLable2;
         private Guna.UI2.WinForms.Guna2GradientPanel pnlExpiredLicenses;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2GradientPanel pnlquickAction;
         private Guna.UI2.WinForms.Guna2Panel pnlExpiredHeader;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblExpiredTitle;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblExpiredSubtitle;
