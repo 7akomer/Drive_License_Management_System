@@ -65,7 +65,7 @@ The demo above walks through the sign-in screen, the live dashboard, license rec
 
 1. Run `script.sql` on your SQL Server instance to create the database, schema, and sample data
 2. Copy the `PersonPhotos` folder into the build output directory (next to the compiled `.exe`) so person photos resolve correctly
-3. Update the connection string in `DAL.Shared`
+3. Update the connection string in Drive_License_System_UI > App.config
 4. Build and run `Drive_License_System_UI` in Visual Studio
 5. Sign in with a full-access account to explore every module:
 
